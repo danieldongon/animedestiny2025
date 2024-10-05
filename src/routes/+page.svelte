@@ -36,58 +36,102 @@
     <img src="{desktopImage}" alt="Anime Destiny Event" class="desktop" />
     
     <div class="overlay">
-      <h1 class="event-title">Anime Destiny</h1>
-      <p class="event-date">November 9, 2024</p>
+      <h1 class="event-title">Anime Destiny 2024</h1>
+      <p class="event-date">Saturday, November 9</p>
       <a href="https://example.com/purchase-tickets" class="purchase-button" target="_blank" rel="noopener noreferrer">Purchase Tickets</a>
     </div>
   </div>
 
   <div class="event-info">
 
+    <!-- "What is Anime Destiny" Box -->
     <div class="info-box">
-      <img src="{aboutUsImage}" alt="About Us" class="info-image left" />
-      <div class="info-description">
+      <div class="info-image">
+        <img src="path-to-what-is-anime-destiny-image.jpg" alt="What is Anime Destiny?">
+      </div>
+      <div class="info-content">
         <h2>What is Anime Destiny?</h2>
-        <p>Anime Destiny is the annual anime convention hosted by Cal Animage Alpha. lorem ipsum dolor sit amet peepee poopoo</p>
-        <a href="/about" class="info-button">More About Us</a>
+        <p>Anime Destiny is a celebration of anime, manga, and Japanese culture hosted at UC Berkeley. Learn more about our event and what makes it unique.</p>
+        <a href="/about" class="info-button">About Us</a>
       </div>
     </div>
 
-    
+    <!-- Location Box -->
     <div class="info-box">
-      <div class="info-description">
+      <div class="info-map">
+        <!-- Google Map Embed for UC Berkeley Location -->
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3158.758826798221!2d-122.2594233846757!3d37.8684338797419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80857c3f3b87e1d5%3A0x138c6740b4409d55!2s2495%20Bancroft%20Way%2C%20Berkeley%2C%20CA%2094720%2C%20USA!5e0!3m2!1sen!2sus!4v1696439621724!5m2!1sen!2sus" 
+          width="100%" 
+          height="300" 
+          style="border:0;" 
+          allowfullscreen="" 
+          loading="lazy" 
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+      <div class="info-content">
+        <h2>Location</h2>
+        <p>Anime Destiny takes place at the UC Berkeley campus. Join us for a day full of events and fun in a beautiful location!</p>
+        <a href="/location" class="info-button">Find Location</a>
+      </div>
+    </div>
+
+    <!-- Exhibitors Box -->
+    <div class="info-box">
+      <div class="info-image">
+        <img src="path-to-exhibitors-image.jpg" alt="Exhibitors">
+      </div>
+      <div class="info-content">
+        <h2>Exhibitors</h2>
+        <p>Discover amazing artists and exhibitors at Anime Destiny! Explore their work and find something special to take home.</p>
+        <a href="/artists" class="info-button">Meet the Artists</a>
+      </div>
+    </div>
+
+    <!-- Schedule Box -->
+    <div class="info-box">
+      <div class="info-image">
+        <img src="path-to-schedule-image.jpg" alt="Schedule">
+      </div>
+      <div class="info-content">
         <h2>Schedule</h2>
-        <p>Check out the event schedule.</p>
+        <p>Check out our exciting schedule filled with panels, performances, workshops, and more!</p>
         <a href="/schedule" class="info-button">View Schedule</a>
       </div>
-      <img src="{scheduleImage}" alt="Schedule" class="info-image right" />
     </div>
 
+    <!-- Gaming Hall Box (No button) -->
     <div class="info-box">
-      <img src="{locationImage}" alt="Location" class="info-image left" />
-      <div class="info-description">
-        <h2>Location</h2>
-        <p>UC Berkeley</p>
-        <a href="/location" class="info-button">More Info</a>
+      <div class="info-image">
+        <img src="path-to-gaming-hall-image.jpg" alt="Gaming Hall">
+      </div>
+      <div class="info-content">
+        <h2>Gaming Hall</h2>
+        <p>Our gaming hall is the place to be for video games, tabletop games, and competitions! Come show off your skills.</p>
       </div>
     </div>
-    
 
+    <!-- Rules Box -->
     <div class="info-box">
-      <div class="info-description">
-        <h2>Exhibitors</h2>
-        <p>Meet your favorite artists and creators.</p>
-        <a href="/artists" class="info-button">View Artists</a>
+      <div class="info-image">
+        <img src="path-to-rules-image.jpg" alt="Rules">
       </div>
-      <img src="{exhibitorsImage}" alt="Exhibitors" class="info-image right" />
-    </div>
-
-    <div class="info-box">
-      <img src="{rulesImage}" alt="Rules" class="info-image left" />
-      <div class="info-description">
+      <div class="info-content">
         <h2>Rules</h2>
-        <p>Understand the event rules and regulations.</p>
+        <p>Please make sure to review our event rules to ensure a safe and fun experience for everyone.</p>
         <a href="/rules" class="info-button">Read Rules</a>
+      </div>
+    </div>
+
+    <!-- Buy Tickets Now Box -->
+    <div class="info-box">
+      <div class="info-image">
+        <img src="path-to-tickets-image.jpg" alt="Buy Tickets">
+      </div>
+      <div class="info-content">
+        <h2>Buy Tickets Now</h2>
+        <a href="https://example.com/purchase-tickets" target="_blank" rel="noopener noreferrer" class="info-button">Purchase Tickets</a>
       </div>
     </div>
 
@@ -162,12 +206,84 @@
     background-color: #0056b3; /* Darker blue on hover */
   }
 
-  .event-info {
+  /* .event-info {
     padding: 2rem;
     text-align: center;
+  } */
+
+
+  .event-info {
+    padding-top:2em;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    justify-content: center;
+    gap: 2rem; /* Space between the boxes */
+    width: 100%;
+    max-width: 70rem; /* Constrain the total width */
+    margin: 0 auto;
   }
 
   .info-box {
+    flex: 1 1 40rem; /* Flex-grow, flex-shrink, flex-basis */
+    min-width: 20rem; /* Minimum width before they start stacking */
+    max-width: 35rem; /* Maximum box width */
+    text-align: left;
+    padding: 1em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+
+  .info-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  .info-map iframe {
+    width: 100%;
+    height: 300px;
+    border-radius: 8px;
+  }
+
+  .info-content {
+    margin-top: 1rem;
+  }
+
+  .info-content h2 {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+  }
+
+  .info-content p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: #ff4081;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+
+  /* Mobile View (Single box per row, images above content) */
+  @media(max-width: 768px) {
+    .event-info {
+      grid-template-columns: 1fr;
+      width: 100%;
+      padding: 0 1rem;
+    }
+
+    .info-box {
+      flex-direction: column;
+    }
+  }
+
+
+  /* .info-box {
     display: flex;
     align-items: center;
     margin: 1rem 0;
@@ -177,16 +293,16 @@
   }
 
   .info-image {
-    width: 40%; /* Adjust the width of images */
+    width: 40%;
     height: auto;
     border-radius: 8px;
   }
 
   .info-description {
-    width: 60%; /* Width for the description area */
-    text-align: left; /* Left align text */
-    padding: 0 1rem; /* Padding around description */
-  }
+    width: 60%;
+    text-align: left;
+    padding: 0 1rem;
+  } */
 
   .info-button {
     display: inline-block;

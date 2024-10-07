@@ -39,11 +39,11 @@
       <a href="#" class="dropdown-toggle" on:click={toggleHomeDropdown} in:fade={{ duration: 500 }}>Home ▾</a>
       {#if isHomeOpen}
         <div class="dropdown-menu">
-          <a href="/">Homepage</a>
-          <a href="/#about">About AD</a>
-          <a href="/artists">Artist Alley</a>
-          <a href="/#schedule-section">Schedule and Map</a>
-          <a href="/#rules">Rules</a>
+          <a href="/" on:click={toggleHomeDropdown}>Homepage</a>
+          <a href="/#about" on:click={toggleHomeDropdown}>About AD</a>
+          <a href="/artists" on:click={toggleHomeDropdown}>Artist Alley</a>
+          <a href="/#schedule-section" on:click={toggleHomeDropdown}>Schedule and Map</a>
+          <a href="/#rules" on:click={toggleHomeDropdown}>Rules</a>
         </div>
       {/if}
     </div>
@@ -57,8 +57,10 @@
           - cosplay contest
           - gaming area
           - move artists here? -->
+          <!-- NOTE: add on:click={toggleProgrammingDropdown} to each link 
+           and DON'T forget to add to mobiole menu when adding links! -->
           <!-- Add programming items later -->
-          <a href="/programming">Progamzz</a>
+          <a href="/programming" on:click={toggleProgrammingDropdown}>Progamzz</a>
         </div>
       {/if}
     </div>

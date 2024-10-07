@@ -4,7 +4,9 @@
   let isHomeOpen = false;
   let isProgrammingOpen = false;
   let ticketLink = 'https://example.com/purchase-tickets';
-
+  let discord = 'https://discord.com/invite/Xp4MUjG';
+  let instagram = 'https://www.instagram.com/calanimagealpha/';
+  
   const toggleMenu = () => {
     isOpen = !isOpen;
   };
@@ -69,10 +71,10 @@
     <a href={ticketLink} target="_blank" rel="noopener noreferrer" in:fade={{ duration: 500 }}>Buy a Ticket</a>
 
     <!-- Discord and Instagram -->
-    <a href="https://discord.com" target="_blank" rel="noopener noreferrer" in:fade={{ duration: 500 }}>
+    <a href={discord} target="_blank" rel="noopener noreferrer" in:fade={{ duration: 500 }}>
       <img src="icons/discord.svg" alt="Discord" class="icon"/>
     </a>
-    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" in:fade={{ duration: 500 }}>
+    <a href={instagram} target="_blank" rel="noopener noreferrer" in:fade={{ duration: 500 }}>
       <img src="icons/instagram.svg" alt="Instagram" class="icon"/>
     </a>
   </div>
@@ -109,10 +111,10 @@
       <a href={ticketLink} target="_blank" rel="noopener noreferrer" on:click={closeMenu} in:fade={{ duration: 500 }}>Buy a Ticket</a>
 
       <!-- Discord and Instagram Icons -->
-      <a href="https://discord.com/invite/Xp4MUjG" target="_blank" rel="noopener noreferrer" in:fade={{ duration: 500 }}>
+      <a href={discord} target="_blank" rel="noopener noreferrer" in:fade={{ duration: 500 }}>
          Join our Discord!
       </a>
-      <a href="https://www.instagram.com/calanimagealpha/" target="_blank" rel="noopener noreferrer" in:fade={{ duration: 500 }}>
+      <a href={instagram} target="_blank" rel="noopener noreferrer" in:fade={{ duration: 500 }}>
         Follow our Instagram!
       </a>
     </div>

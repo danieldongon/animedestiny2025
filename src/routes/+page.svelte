@@ -178,8 +178,8 @@
   }
 
   .event-title {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 4rem; /* Large font size for the title */
+    font-family: 'Protest Strike', sans-serif;
+    font-size: 8rem; /* Large font size for the title */
     margin: 0;
   }
 

@@ -1,14 +1,6 @@
 <script>
   import Navbar from '$lib/components/Navbar.svelte';
-
-  let artists = [
-    { name: 'Artist 1', socials: 'twitter.com/artist1', description: 'Digital artist specializing in 3D models.', location: 'Hall A, Booth 1' },
-    { name: 'Artist 2', socials: '@artist2', description: 'Watercolor artist focusing on landscapes.', location: 'Hall B, Booth 2' },
-    { name: 'Artist 3', socials: 'instagram.com/artist3', description: 'Painter and illustrator.', location: 'Hall C, Booth 3' },
-    { name: 'Artist 4', socials: 'artist4_handle', description: 'Mixed media artist.', location: 'Hall D, Booth 4' },
-    { name: 'Artist 5', socials: 'soundcloud.com/artist5', description: 'Musician and sound designer.', location: 'Main Stage, Zone 5' }
-  ];
-
+  import { artists } from './artists.js';
   // Utility function to determine if the socials field is a URL
   function isUrl(socials) {
     return socials.startsWith('http://') || socials.startsWith('https://') || socials.includes('.co');

@@ -38,10 +38,10 @@
       <a href="#" class="dropdown-toggle" on:click={toggleHomeDropdown} in:fade={{ duration: 500 }}>Home ▾</a>
       {#if isHomeOpen}
         <div class="dropdown-menu">
-          <a href="/about">About</a>
+          <a href="#about">About</a>
           <a href="/artists">Artists</a>
-          <a href="/schedule">Schedule</a>
-          <a href="/rules">Rules</a>
+          <a href="#schedule">Schedule</a>
+          <a href="#rules">Rules</a>
         </div>
       {/if}
     </div>
@@ -94,7 +94,7 @@
 
       <!-- Discord and Instagram Icons -->
       <a href="https://discord.com/invite/Xp4MUjG" target="_blank" rel="noopener noreferrer" in:fade={{ duration: 500 }}>
-        Join our Discord!
+         Join our Discord!
       </a>
       <a href="https://www.instagram.com/calanimagealpha/" target="_blank" rel="noopener noreferrer" in:fade={{ duration: 500 }}>
         Follow our Instagram!

@@ -53,15 +53,16 @@
     <section id="about">
       <h2>What is Anime Destiny?</h2>
       <p>Anime Destiny is a celebration of anime, manga, and Japanese culture hosted at UC Berkeley. Learn more about our event and what makes it unique.</p>
-      <div class="content-container">
-        <h2>Here is some content from last year's AD</h2>
-        <div class="embed-wrapper">      
-          <!-- YouTube Embed -->
-          <div id="embed youtube-embed">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/06DdqfWonN4?feature=shared" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-          </div>
+      <div class="embed-wrapper">
+        <!-- Instagram Embed -->
+        <div class="embed instagram-embed">
+          <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/CzX02GELl0r/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" data-instgrm-version="14">
+            <div>
+              <a href="https://www.instagram.com/p/CzX02GELl0r/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank">View this post on Instagram</a>
+            </div>
+          </blockquote>
+          <script async src="//www.instagram.com/embed.js"></script>
         </div>
-      </div>
     </section>
     <hr />
 
@@ -85,7 +86,17 @@
     <section>
       <h2>Exhibitors</h2>
       <p>Discover amazing artists and exhibitors at Anime Destiny! Explore their work and find something special to take home.</p>
-      <a href="/artists" class="section-link">Meet the Artists</a>
+      <div class="content-container">
+        <h2>Here is the Artist Alley from AD 2023</h2>
+        <div class="embed-wrapper">      
+          <!-- YouTube Embed -->
+          <div id="embed youtube-embed">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/06DdqfWonN4?feature=shared" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+        </div>
+        <a href="/artists" class="section-link">View the list of artists in AD 2024 here!</a>
+      </div>
+      
     </section>
     <hr />
 

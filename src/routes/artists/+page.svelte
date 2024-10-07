@@ -1,6 +1,8 @@
 <script>
-  import Navbar from '$lib/components/Navbar.svelte';
-  import { artists } from './artists.js';
+import Footer from '$lib/components/Footer.svelte';
+import Navbar from '$lib/components/Navbar.svelte';
+import { artists } from './artists.js';
+
   // Utility function to determine if the socials field is a URL
   function isUrl(socials) {
     return socials.startsWith('http://') || socials.startsWith('https://') || socials.includes('.co');
@@ -99,3 +101,5 @@
     color: #555;
   }
 </style>
+
+<Footer />

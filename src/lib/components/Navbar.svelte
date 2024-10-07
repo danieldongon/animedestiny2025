@@ -38,10 +38,10 @@
       <a href="#" class="dropdown-toggle" on:click={toggleHomeDropdown} in:fade={{ duration: 500 }}>Home ▾</a>
       {#if isHomeOpen}
         <div class="dropdown-menu">
-          <a href="#about">About</a>
+          <a href="/#about">About</a>
           <a href="/artists">Artists</a>
-          <a href="#schedule">Schedule</a>
-          <a href="#rules">Rules</a>
+          <a href="/#schedule">Schedule</a>
+          <a href="/#rules">Rules</a>
         </div>
       {/if}
     </div>
@@ -52,6 +52,7 @@
       {#if isProgrammingOpen}
         <div class="dropdown-menu">
           <!-- Add programming items later -->
+          <a href="/programming">Progamzz</a>
         </div>
       {/if}
     </div>

@@ -96,15 +96,6 @@
         </div>
         <a href="/artists" class="section-link">View the list of artists in AD 2024 here!</a>
       </div>
-      
-    </section>
-    <hr />
-
-    <!-- Schedule Section -->
-    <section id="schedule">
-      <h2>Schedule</h2>
-      <p>Check out our exciting schedule filled with panels, performances, workshops, and more!</p>
-      <img src={scheduleImage} alt="Event Schedule" id="schedule"/>
     </section>
     <hr />
 
@@ -112,6 +103,14 @@
     <section>
       <h2>Gaming Hall</h2>
       <p>Our gaming hall is the place to be for video games, tabletop games, and competitions! Come show off your skills.</p>
+    </section>
+    <hr />
+    
+    <!-- Schedule Section -->
+    <section id="schedule">
+      <h2>Schedule</h2>
+      <p>Check out our exciting schedule filled with panels, performances, workshops, and more!</p>
+      <img src={scheduleImage} alt="Event Schedule" id="schedule"/>
     </section>
     <hr />
 

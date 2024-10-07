@@ -193,7 +193,7 @@
     display: inline-block;
     padding: 0.75rem 1.5rem;
     margin-top: 1.5rem;
-    background-color: #0070f3; /* Button color */
+    background-color: #485077; /* Button color */
     color: white;
     border: none;
     border-radius: 5px;
@@ -203,7 +203,7 @@
   }
 
   .purchase-button:hover {
-    background-color: #0056b3; /* Darker blue on hover */
+    background-color: #b85f59; /* Darker blue on hover */
   }
 
   /* .event-info {
@@ -308,7 +308,7 @@
     display: inline-block;
     margin-top: 1rem;
     padding: 0.5rem 1rem;
-    background-color: #0070f3; /* Button color */
+    background-color: #485077; /* Button color */
     color: white;
     border: none;
     border-radius: 5px;
@@ -317,7 +317,7 @@
   }
 
   .info-button:hover {
-    background-color: #0056b3; /* Darker blue on hover */
+    background-color: #b85f59; /* Darker blue on hover */
   }
 
   .bottom-button {

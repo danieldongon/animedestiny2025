@@ -71,6 +71,11 @@
     color: white;
     text-decoration: none;
     font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+
+  .menu-items a:hover {
+    color: #fed893;
   }
 
   .desktop-only {

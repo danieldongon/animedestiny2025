@@ -12,6 +12,7 @@
   let scheduleImage = 'debug/test-schedule.png';
   let aboutUsImage = 'https://i.redd.it/tyvpt1fy7b601.jpg';
   let purchaseLink = 'https://example.com/purchase-tickets';
+  let mapImage = 'https://example.com/map-image.jpg';
 
   let scrollY = 0;
 
@@ -53,16 +54,6 @@
     <section id="about">
       <h2>What is Anime Destiny?</h2>
       <p>Anime Destiny is a celebration of anime, manga, and Japanese culture hosted at UC Berkeley. Learn more about our event and what makes it unique.</p>
-      <div class="embed-wrapper">
-        <!-- Instagram Embed -->
-        <div class="embed instagram-embed">
-          <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/CzX02GELl0r/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" data-instgrm-version="14">
-            <div>
-              <a href="https://www.instagram.com/p/CzX02GELl0r/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank">View this post on Instagram</a>
-            </div>
-          </blockquote>
-          <script async src="//www.instagram.com/embed.js"></script>
-        </div>
     </section>
     <hr />
 
@@ -105,12 +96,13 @@
       <p>Our gaming hall is the place to be for video games, tabletop games, and competitions! Come show off your skills.</p>
     </section>
     <hr />
-    
+
     <!-- Schedule Section -->
-    <section id="schedule">
-      <h2>Schedule</h2>
+    <section id="schedule-section">
+      <h2>Schedule and Map</h2>
       <p>Check out our exciting schedule filled with panels, performances, workshops, and more!</p>
-      <img src={scheduleImage} alt="Event Schedule" id="schedule"/>
+      <img src={scheduleImage} alt="Event Schedule" id="schedule-graphic"/>
+      <img src={mapImage} alt="Event Map" id="schedule-graphic"/>
     </section>
     <hr />
 
@@ -166,7 +158,7 @@
   }
 
   .event-title {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Protest Strike', sans-serif;
     font-size: 5rem;
     margin: 0;
   }
@@ -282,7 +274,7 @@
     }
   }
 
-  #schedule {
+  #schedule-graphic {
     width: 60%;
     max-width: 60%;
     height: auto;

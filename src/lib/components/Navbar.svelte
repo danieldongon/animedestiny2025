@@ -3,6 +3,7 @@
   let isOpen = false;
   let isHomeOpen = false;
   let isProgrammingOpen = false;
+  let ticketLink = 'https://example.com/purchase-tickets';
 
   const toggleMenu = () => {
     isOpen = !isOpen;
@@ -38,9 +39,10 @@
       <a href="#" class="dropdown-toggle" on:click={toggleHomeDropdown} in:fade={{ duration: 500 }}>Home ▾</a>
       {#if isHomeOpen}
         <div class="dropdown-menu">
-          <a href="/#about">About</a>
-          <a href="/artists">Artists</a>
-          <a href="/#schedule">Schedule</a>
+          <a href="/">Homepage</a>
+          <a href="/#about">About AD</a>
+          <a href="/artists">Artist Alley</a>
+          <a href="/#schedule-section">Schedule and Map</a>
           <a href="/#rules">Rules</a>
         </div>
       {/if}
@@ -51,6 +53,10 @@
       <a href="#" class="dropdown-toggle" on:click={toggleProgrammingDropdown} in:fade={{ duration: 500 }}>Programming ▾</a>
       {#if isProgrammingOpen}
         <div class="dropdown-menu">
+          <!-- TODO Add more pages (e.g. panels, workshops, etc.)
+          - cosplay contest
+          - gaming area
+          - move artists here? -->
           <!-- Add programming items later -->
           <a href="/programming">Progamzz</a>
         </div>
@@ -58,7 +64,7 @@
     </div>
 
     <!-- Buy a Ticket -->
-    <a href="https://example.com/purchase-tickets" target="_blank" rel="noopener noreferrer" in:fade={{ duration: 500 }}>Buy a Ticket</a>
+    <a href={ticketLink} target="_blank" rel="noopener noreferrer" in:fade={{ duration: 500 }}>Buy a Ticket</a>
 
     <!-- Discord and Instagram -->
     <a href="https://discord.com" target="_blank" rel="noopener noreferrer" in:fade={{ duration: 500 }}>
@@ -84,14 +90,21 @@
     <div class="close-btn" on:click={closeMenu}>X</div>
 
     <div class="menu-content">
-      <!-- Simplified Mobile Menu -->
-      <a href="/about" on:click={closeMenu} in:fade={{ duration: 500 }}>About</a>
-      <a href="/artists" on:click={closeMenu} in:fade={{ duration: 500 }}>Artists</a>
-      <a href="/schedule" on:click={closeMenu} in:fade={{ duration: 500 }}>Schedule</a>
-      <a href="/rules" on:click={closeMenu} in:fade={{ duration: 500 }}>Rules</a>
+      <!-- TODO Add more pages (e.g. panels, workshops, etc.)
+          - cosplay contest
+          - gaming area
+          - move artists here? -->
+          <!-- Add programming items later -->
+
+      <!-- Mobile Menu -->
+      <a href="/" on:click={closeMenu} in:fade={{ duration: 500 }}>Homepage</a>
+      <a href="/#about" on:click={closeMenu} in:fade={{ duration: 500 }}>About AD</a>
+      <a href="/artists" on:click={closeMenu} in:fade={{ duration: 500 }}>Artist Alley</a>
+      <a href="/#schedule-section" on:click={closeMenu} in:fade={{ duration: 500 }}>Schedule</a>
+      <a href="/#rules" on:click={closeMenu} in:fade={{ duration: 500 }}>Rules</a>
 
       <!-- Buy a Ticket -->
-      <a href="https://example.com/purchase-tickets" target="_blank" rel="noopener noreferrer" on:click={closeMenu} in:fade={{ duration: 500 }}>Buy a Ticket</a>
+      <a href={ticketLink} target="_blank" rel="noopener noreferrer" on:click={closeMenu} in:fade={{ duration: 500 }}>Buy a Ticket</a>
 
       <!-- Discord and Instagram Icons -->
       <a href="https://discord.com/invite/Xp4MUjG" target="_blank" rel="noopener noreferrer" in:fade={{ duration: 500 }}>

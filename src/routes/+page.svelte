@@ -49,17 +49,20 @@
     </div>
   </div>
   <div class="event-info">
-    <hr />
+    <hr/>
 
     <!-- TODO add stuff here idk like a youtube video or instagram post
     mention what we have to offer
     mention priice and add link to buy ticket here -->
     <!-- "What is Anime Destiny" Section -->
     <section id="about">
-      <h2>What is Anime Destiny?</h2>
-      <p>Anime Destiny is a celebration of anime, manga, and Japanese culture hosted at UC Berkeley. Learn more about our event and what makes it unique.</p>
+      <h2>About</h2>
+      <p>Anime Destiny is UC Berkeley's premier anime convention! Join us for a day of fun, games, and excitement.
+        Admission is $20 online and at the door.</p>
+      <p>Buy Tickets Now</p>
+      <a href={purchaseLink} target="_blank" rel="noopener noreferrer" class="section-link">Purchase Tickets</a>
     </section>
-    <hr />
+    <hr/>
 
     <!-- Location Section -->
     <section>
@@ -109,7 +112,9 @@
 
     <!-- TODO populate Schedule section
     where map at?
-    where schedule? -->
+    where schedule?
+    convert schedule to embed google calendar?
+    -->
     <!-- Schedule Section -->
     <section id="schedule-section">
       <h2>Schedule and Map</h2>
@@ -196,13 +201,13 @@
 
   section {
     padding: 2rem 0;
+    margin: 0 2rem;
   }
 
   hr {
     border: none;
     border-top: 2px solid #485077;
-    margin: 2rem 0;
-    width: 100%;
+    margin: 0 2rem;
   }
 
   h2 {
@@ -297,6 +302,10 @@
     height: auto;
     display: block;
     margin: 0 auto;
+  }
+
+  .thick-divider {
+    border-top-width: 4px;
   }
 </style>
 

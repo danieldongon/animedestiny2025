@@ -1,5 +1,8 @@
 <script>
+  import { fade } from 'svelte/transition'; // Import fade transition
   let isOpen = false;
+  let isHomeOpen = false;
+  let isProgrammingOpen = false;
 
   const toggleMenu = () => {
     isOpen = !isOpen;
@@ -8,42 +11,94 @@
   const closeMenu = () => {
     isOpen = false;
   };
+
+  const toggleHomeDropdown = () => {
+    isHomeOpen = !isHomeOpen;
+  };
+
+  const toggleProgrammingDropdown = () => {
+    isProgrammingOpen = !isProgrammingOpen;
+  };
 </script>
 
 <nav class="navbar">
   <div class="logo">
-    <a href="/">Anime Destiny</a>
+    <a href="/" in:fade={{ duration: 500 }}>Anime Destiny</a>
   </div>
 
+  <!-- Work in Progress -->
+  <div class="wip" >
+    <span in:fade={{ duration: 500 }}>Work in Progress</span>
+  </div>
+
+  <!-- Desktop Menu -->
   <div class="menu-items desktop-only">
-    <!-- Removed Home link -->
-    <a href="/about">About</a>
-    <a href="/artists">Artists</a>
-    <a href="/schedule">Schedule</a>
-    <a href="/rules">Rules</a>
-    <a href="https://example.com/purchase-tickets" target="_blank" rel="noopener noreferrer">Purchase Tickets</a>
+    <!-- Home Dropdown -->
+    <div class="dropdown">
+      <a href="#" class="dropdown-toggle" on:click={toggleHomeDropdown} in:fade={{ duration: 500 }}>Home ▾</a>
+      {#if isHomeOpen}
+        <div class="dropdown-menu">
+          <a href="/about">About</a>
+          <a href="/artists">Artists</a>
+          <a href="/schedule">Schedule</a>
+          <a href="/rules">Rules</a>
+        </div>
+      {/if}
+    </div>
+
+    <!-- Programming Dropdown -->
+    <div class="dropdown">
+      <a href="#" class="dropdown-toggle" on:click={toggleProgrammingDropdown} in:fade={{ duration: 500 }}>Programming ▾</a>
+      {#if isProgrammingOpen}
+        <div class="dropdown-menu">
+          <!-- Add programming items later -->
+        </div>
+      {/if}
+    </div>
+
+    <!-- Buy a Ticket -->
+    <a href="https://example.com/purchase-tickets" target="_blank" rel="noopener noreferrer" in:fade={{ duration: 500 }}>Buy a Ticket</a>
+
+    <!-- Discord and Instagram -->
+    <a href="https://discord.com" target="_blank" rel="noopener noreferrer" in:fade={{ duration: 500 }}>
+      <img src="icons/discord.svg" alt="Discord" class="icon"/>
+    </a>
+    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" in:fade={{ duration: 500 }}>
+      <img src="icons/instagram.svg" alt="Instagram" class="icon"/>
+    </a>
   </div>
 
+  <!-- Mobile Menu Trigger -->
   <div class="hamburger mobile-only" on:click={toggleMenu}>
     <div class="bar"></div>
     <div class="bar"></div>
     <div class="bar"></div>
   </div>
 
-  <!-- Mobile Menu with a new logo inside -->
+  <!-- Mobile Menu -->
   <div class="mobile-menu {isOpen ? 'show' : ''}">
-    <!-- New logo placed inside the mobile menu -->
     <div class="mobile-logo">
-      <a href="/">Anime Destiny</a>
+      <a href="/" in:fade={{ duration: 500 }}>Anime Destiny</a>
     </div>
     <div class="close-btn" on:click={closeMenu}>X</div>
 
     <div class="menu-content">
-      <a href="/about" on:click={closeMenu}>About</a>
-      <a href="/artists" on:click={closeMenu}>Artists</a>
-      <a href="/schedule" on:click={closeMenu}>Schedule</a>
-      <a href="/rules" on:click={closeMenu}>Rules</a>
-      <a href="https://example.com/purchase-tickets" target="_blank" rel="noopener noreferrer" on:click={closeMenu}>Purchase Tickets</a>
+      <!-- Simplified Mobile Menu -->
+      <a href="/about" on:click={closeMenu} in:fade={{ duration: 500 }}>About</a>
+      <a href="/artists" on:click={closeMenu} in:fade={{ duration: 500 }}>Artists</a>
+      <a href="/schedule" on:click={closeMenu} in:fade={{ duration: 500 }}>Schedule</a>
+      <a href="/rules" on:click={closeMenu} in:fade={{ duration: 500 }}>Rules</a>
+
+      <!-- Buy a Ticket -->
+      <a href="https://example.com/purchase-tickets" target="_blank" rel="noopener noreferrer" on:click={closeMenu} in:fade={{ duration: 500 }}>Buy a Ticket</a>
+
+      <!-- Discord and Instagram Icons -->
+      <a href="https://discord.com/invite/Xp4MUjG" target="_blank" rel="noopener noreferrer" in:fade={{ duration: 500 }}>
+        Join our Discord!
+      </a>
+      <a href="https://www.instagram.com/calanimagealpha/" target="_blank" rel="noopener noreferrer" in:fade={{ duration: 500 }}>
+        Follow our Instagram!
+      </a>
     </div>
   </div>
 </nav>
@@ -66,11 +121,24 @@
     text-decoration: none;
   }
 
-  .menu-items a {
+  .wip {
+    color: yellow;
+    font-size: 1rem;
+    margin-right: auto;
+    padding-left: 1.5rem;
+  }
+
+  .menu-items a, .menu-content a {
     margin-left: 1.5rem;
     color: white;
     text-decoration: none;
     font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+
+  /* Hover effect for yellow highlight */
+  .menu-items a:hover, .menu-content a:hover {
+    color: yellow;
   }
 
   .desktop-only {
@@ -84,11 +152,42 @@
     cursor: pointer;
   }
 
+  .dropdown-menu {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    position: absolute;
+    padding: 0.5rem;
+    border: 1px solid white;
+    border-radius: 5px;
+  }
+
+  .dropdown-menu a {
+    color: white;
+    padding: 0.5rem;
+    text-decoration: none;
+  }
+
+  .dropdown-menu a:hover {
+    color: yellow;
+  }
+
+  .dropdown-toggle {
+    cursor: pointer;
+    position: relative;
+  }
+
   .bar {
     width: 25px;
     height: 3px;
     background-color: white;
     margin: 3px 0;
+  }
+
+  /* Discord and Instagram Icons */
+  .icon {
+    width: 24px;
+    height: 24px;
   }
 
   /* Mobile Menu Styles */
@@ -101,13 +200,15 @@
     background-color: black;
     opacity: 0;
     visibility: hidden;
-    transition: opacity 0.5s ease, visibility 0.5s ease;
+    transform: translateY(-100%);
+    transition: opacity 0.5s ease, transform 0.5s ease, visibility 0.5s ease;
     z-index: 20;
   }
 
   .mobile-menu.show {
     opacity: 1;
     visibility: visible;
+    transform: translateY(0);
   }
 
   .mobile-logo {
@@ -132,8 +233,6 @@
 
   .menu-content a {
     font-size: 2rem;
-    color: white;
-    text-decoration: none;
     margin: 1.5rem 0;
   }
 

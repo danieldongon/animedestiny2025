@@ -50,6 +50,10 @@
   </div>
   <div class="event-info">
     <hr />
+
+    <!-- TODO add stuff here idk like a youtube video or instagram post
+    mention what we have to offer
+    mention priice and add link to buy ticket here -->
     <!-- "What is Anime Destiny" Section -->
     <section id="about">
       <h2>What is Anime Destiny?</h2>
@@ -73,6 +77,9 @@
     </section>
     <hr />
 
+    <!-- TODO populate Exhibitors section
+    Should add a description of what the exhibitors section is about and
+    what artists are there, etc. -->
     <!-- Exhibitors Section -->
     <section>
       <h2>Exhibitors</h2>
@@ -90,6 +97,9 @@
     </section>
     <hr />
 
+    <!-- TODO populate Gaming Hall section
+    what games? what competitions? etc.
+    any prizes and events? -->
     <!-- Gaming Hall Section -->
     <section>
       <h2>Gaming Hall</h2>
@@ -97,6 +107,9 @@
     </section>
     <hr />
 
+    <!-- TODO populate Schedule section
+    where map at?
+    where schedule? -->
     <!-- Schedule Section -->
     <section id="schedule-section">
       <h2>Schedule and Map</h2>
@@ -106,6 +119,8 @@
     </section>
     <hr />
 
+    <!-- TODO
+    WHAT ARE THE RULESS??Z? -->
     <!-- Rules Section -->
     <section id='rules'>
       <h2>Rules</h2>
@@ -118,6 +133,8 @@
       <h2>Buy Tickets Now</h2>
       <a href={purchaseLink} target="_blank" rel="noopener noreferrer" class="section-link">Purchase Tickets</a>
     </section>
+
+    <!-- TODO FAQ section? -->
   </div>
 
 </main>

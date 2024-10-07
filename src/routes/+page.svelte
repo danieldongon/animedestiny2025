@@ -49,6 +49,7 @@
     </div>
   </div>
   <div class="event-info">
+    <!-- TODO make this a thick divider? this is between the Hero Image and the About section -->
     <hr/>
 
     <!-- TODO add stuff here idk like a youtube video or instagram post
@@ -121,6 +122,7 @@
       <p>Check out our exciting schedule filled with panels, performances, workshops, and more!</p>
       <img src={scheduleImage} alt="Event Schedule" id="schedule-graphic"/>
       <img src={mapImage} alt="Event Map" id="schedule-graphic"/>
+      <a href="/programming" class="section-link">View our programming here!</a>
     </section>
     <hr />
 

@@ -45,6 +45,9 @@
     <div class="overlay">
       <h1 class="event-title">Anime Destiny 2024</h1>
       <p class="event-date">Saturday, November 9</p>
+      <!-- TODO update time -->
+      <p class="event-time">8:00 AM - 8:00 PM</p>
+      <p class="event-location">ASUC Student Union: Martin Luther King Jr. Building</p>
       <a href={purchaseLink} class="purchase-link" target="_blank" rel="noopener noreferrer">Purchase Tickets</a>
     </div>
   </div>
@@ -58,14 +61,25 @@
     <!-- "What is Anime Destiny" Section -->
     <section id="about">
       <h2>About</h2>
-      <p>Anime Destiny is UC Berkeley's premier anime convention! Join us for a day of fun, games, and excitement.
+      <p>Anime Destiny is UC Berkeley's premier anime convention! 
+        This year we are on the second floor of the ASUC Student Union MLK Building inside of the Pauley Ballroom.
         Admission is $20 online and at the door.</p>
-      <p>Buy Tickets Now</p>
+      <iframe 
+          title="Anime Destiny Location"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3158.758826798221!2d-122.2594233846757!3d37.8684338797419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80857c3f3b87e1d5%3A0x138c6740b4409d55!2s2495%20Bancroft%20Way%2C%20Berkeley%2C%20CA%2094720%2C%20USA!5e0!3m2!1sen!2sus!4v1696439621724!5m2!1sen!2sus" 
+          width="100%" 
+          height="300" 
+          style="border:0;" 
+          loading="lazy" 
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      
+        <p>Buy Tickets Now</p>
       <a href={purchaseLink} target="_blank" rel="noopener noreferrer" class="section-link">Purchase Tickets</a>
     </section>
     <hr/>
 
-    <!-- Location Section -->
+    <!-- Location Section
     <section>
       <h2>Location</h2>
       <p>Anime Destiny takes place at UC Berkeley! We are on the second floor of the ASUC Student Union MLK Building inside of the Pauley Ballroom.</p>
@@ -79,7 +93,7 @@
           referrerpolicy="no-referrer-when-downgrade">
         </iframe>
     </section>
-    <hr />
+    <hr /> -->
 
     <!-- TODO populate Exhibitors section
     Should add a description of what the exhibitors section is about and
@@ -191,6 +205,21 @@
     font-family: 'Roboto', sans-serif;
     font-size: 2rem;
     margin-top: 0.5rem;
+  }
+
+  .event-time, .event-location {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    color: #fed893; /* Gold for styling */
+    margin-top: 0.5rem;
+  }
+
+  .event-time {
+    font-weight: 700;
+  }
+
+  .event-location {
+    font-weight: 400;
   }
 
   /* Event Info Section */

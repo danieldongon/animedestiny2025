@@ -36,6 +36,7 @@
     <img src="{desktopImage}" alt="Anime Destiny Event" class="desktop" />
     
     <div class="overlay">
+      <p class="event-date">Cal Animage Alpha presents</p>
       <h1 class="event-title">Anime Destiny 2024</h1>
       <p class="event-date">Saturday, November 9</p>
       <a href="https://example.com/purchase-tickets" class="purchase-button" target="_blank" rel="noopener noreferrer">Purchase Tickets</a>

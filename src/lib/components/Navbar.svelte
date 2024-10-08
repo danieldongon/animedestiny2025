@@ -62,7 +62,22 @@
           <!-- NOTE: add on:click={toggleProgrammingDropdown} to each link 
            and DON'T forget to add to mobiole menu when adding links! -->
           <!-- Add programming items later -->
-          <a href="/programming" on:click={toggleProgrammingDropdown}>Progamzz</a>
+          <div class="ASUCThirdFloor">
+          <a href="/ASUCThirdFloor" on:click={toggleProgrammingDropdown} class="floor-name">ASUC 3rd Floor</a>
+            <a href="/ASUCThirdFloor" on:click={toggleProgrammingDropdown} class="room-name">Kerr Lobby</a>
+              <a href="/ASUCThirdFloor" on:click={toggleProgrammingDropdown} class="event">Registration</a>
+            <a href="/ASUCThirdFloor" on:click={toggleProgrammingDropdown} class="room-name">Pauley Ballroom</a>
+                <a href="/ASUCThirdFloor" on:click={toggleProgrammingDropdown} class="event">Artist Alley</a>
+                <a href="/ASUCThirdFloor" on:click={toggleProgrammingDropdown} class="event">Gaming Area</a>
+              <a href="/ASUCThirdFloor" on:click={toggleProgrammingDropdown} class="room-name">Stephen's Lounge</a>
+                <a href="/ASUCThirdFloor" on:click={toggleProgrammingDropdown} class="event">Panels</a>
+          </div>
+          <div class="ASUCFourthFloor">
+            <a href="/ASUCFourthFloor" on:click={toggleProgrammingDropdown} class="floor-name">ASUC 4th Floor</a>
+            <a href="/ASUCFourthFloor" on:click={toggleProgrammingDropdown} class="room-name">Tilden Room</a>
+              <a href="/ASUCFourthFloor" on:click={toggleProgrammingDropdown} class="event">Cosplay Contest</a>
+            <a href="/ASUCFourthFloor" on:click={toggleProgrammingDropdown} class="room-name">Terrace</a>
+          </div>
         </div>
       {/if}
     </div>
@@ -261,6 +276,32 @@
     font-size: 2rem;
     color: white;
     cursor: pointer;
+  }
+
+  .ASUCThirdFloor {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .dropdown-menu .room-name {
+    font-size: 0.9rem;
+    color: gray;
+  }
+
+  .dropdown-menu .event {
+    font-size: 0.9rem;
+    color: white;
+    padding-left: 1rem;
+  }
+
+  .dropdown-menu .floor-name {
+    font-size: 1.2rem;
+    color: white;
+    padding-left: 0.5rem;
+  }
+  .ASUCFourthFloor {
+    display: flex;
+    flex-direction: column;
   }
 
   /* Desktop Menu (Media Query) */

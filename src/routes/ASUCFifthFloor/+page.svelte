@@ -6,7 +6,7 @@ import Navbar from '$lib/components/Navbar.svelte';
 <Navbar />
 
 <main>
-  <h1>ASUC Fourth Floor</h1>
+  <h1>ASUC Fifth Floor</h1>
   <p>Come back later!</p>
   <img src="debug/yellow.png" alt="Work in Progress" style="width: 100px; height: auto;" />
 </main>

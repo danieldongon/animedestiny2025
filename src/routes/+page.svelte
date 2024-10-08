@@ -62,7 +62,7 @@
     <section id="about">
       <h2>About</h2>
       <p>Anime Destiny is UC Berkeley's premier anime convention! 
-        This year we are on the second floor of the ASUC Student Union MLK Building inside of the Pauley Ballroom.
+        This year we are on the third floor of the ASUC Student Union MLK Building inside of the Pauley Ballroom.
         Admission is $20 online and at the door.</p>
       <iframe 
           title="Anime Destiny Location"

@@ -289,15 +289,14 @@
   }
 
   .dropdown-menu .event {
-    font-size: 0.9rem;
+    font-size: 1.0rem;
     color: white;
-    padding-left: 1rem;
   }
 
   .dropdown-menu .floor-name {
-    font-size: 1.2rem;
+    padding-top: 0.8rem;
     color: white;
-    padding-left: 0.5rem;
+    font-size: 0.8rem;
   }
   .ASUCFourthFloor {
     display: flex;

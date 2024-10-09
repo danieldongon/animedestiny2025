@@ -6,7 +6,16 @@
   let ticketLink = 'https://example.com/purchase-tickets';
   let discord = 'https://discord.com/invite/Xp4MUjG';
   let instagram = 'https://www.instagram.com/calanimagealpha/';
-  
+
+  // Function to show the dropdown on hover
+  function openHomeDropdown() {
+    isHomeOpen = true;
+  }
+
+  // Function to close the dropdown when mouse leaves
+  function closeHomeDropdown() {
+    isHomeOpen = false;
+  }
   const toggleMenu = () => {
     isOpen = !isOpen;
   };
@@ -15,13 +24,13 @@
     isOpen = false;
   };
 
-  const toggleHomeDropdown = () => {
-    isHomeOpen = !isHomeOpen;
-  };
+  function openProgrammingDropdown() {
+    isProgrammingOpen = true;
+  }
 
-  const toggleProgrammingDropdown = () => {
-    isProgrammingOpen = !isProgrammingOpen;
-  };
+  function closeProgrammingDropdown() {
+    isProgrammingOpen = false;
+  }
 </script>
 
 <nav class="navbar">
@@ -37,50 +46,65 @@
   <!-- Desktop Menu -->
   <div class="menu-items desktop-only">
     <!-- Home Dropdown -->
-    <div class="dropdown">
-      <a href="#" class="dropdown-toggle" on:click={toggleHomeDropdown} in:fade={{ duration: 500 }}>Home ▾</a>
+    <div class="dropdown" 
+        role="button"
+        aria-haspopup="true"
+        aria-expanded={isHomeOpen}
+        tabindex="0"
+        on:mouseover={openHomeDropdown} 
+        on:mouseleave={closeHomeDropdown}
+        on:focus={openHomeDropdown} 
+        on:blur={closeHomeDropdown}>
+
+      <!-- Home link with dropdown indicator -->
+      <a href="#" class="dropdown-toggle" aria-label="Home menu">AD Info ▾</a>
+
+      <!-- Dropdown Menu -->
       {#if isHomeOpen}
-        <div class="dropdown-menu">
-          <a href="/" on:click={toggleHomeDropdown}>Homepage</a>
-          <a href="/#about" on:click={toggleHomeDropdown}>About AD</a>
-          <a href="/artists" on:click={toggleHomeDropdown}>Artist Alley</a>
-          <a href="/#schedule-section" on:click={toggleHomeDropdown}>Schedule and Map</a>
-          <a href="/#rules" on:click={toggleHomeDropdown}>Rules</a>
+        <div class="dropdown-menu" in:fade={{ duration: 200 }} out:fade={{ duration: 300 }}>
+          <a href="/">Homepage</a>
+          <a href="/#about">About AD</a>
+          <a href="/artists">Artist Alley</a>
+          <a href="/#schedule-section">Schedule and Map</a>
+          <a href="/#rules">Rules</a>
         </div>
       {/if}
     </div>
 
     <!-- Programming Dropdown -->
-    <div class="dropdown">
-      <a href="#" class="dropdown-toggle" on:click={toggleProgrammingDropdown} in:fade={{ duration: 500 }}>Programming ▾</a>
-      {#if isProgrammingOpen}
-        <div class="dropdown-menu">
-          <!-- TODO Add more pages (e.g. panels, workshops, etc.)
-          - cosplay contest
-          - gaming area
-          - move artists here? -->
-          <!-- NOTE: add on:click={toggleProgrammingDropdown} to each link 
-           and DON'T forget to add to mobiole menu when adding links! -->
-          <!-- Add programming items later -->
-          <div class="ASUCThirdFloor">
-          <a href="/ASUCThirdFloor" on:click={toggleProgrammingDropdown} class="floor-name">ASUC 3rd Floor</a>
-            <a href="/ASUCThirdFloor" on:click={toggleProgrammingDropdown} class="room-name">Kerr Lobby</a>
-              <a href="/ASUCThirdFloor" on:click={toggleProgrammingDropdown} class="event">Registration</a>
-            <a href="/ASUCThirdFloor" on:click={toggleProgrammingDropdown} class="room-name">Pauley Ballroom</a>
-                <a href="/ASUCThirdFloor" on:click={toggleProgrammingDropdown} class="event">Artist Alley</a>
-                <a href="/ASUCThirdFloor" on:click={toggleProgrammingDropdown} class="event">Gaming Area</a>
-              <a href="/ASUCThirdFloor" on:click={toggleProgrammingDropdown} class="room-name">Stephen's Lounge</a>
-                <a href="/ASUCThirdFloor" on:click={toggleProgrammingDropdown} class="event">Panels</a>
-          </div>
-          <div class="ASUCFifthFloor">
-            <a href="/ASUCFifthFloor" on:click={toggleProgrammingDropdown} class="floor-name">ASUC 5th Floor</a>
-            <a href="/ASUCFifthFloor" on:click={toggleProgrammingDropdown} class="room-name">Tilden Room</a>
-              <a href="/ASUCFifthFloor" on:click={toggleProgrammingDropdown} class="event">Cosplay Contest</a>
-            <a href="/ASUCFifthFloor" on:click={toggleProgrammingDropdown} class="room-name">Terrace</a>
-          </div>
+    <div class="dropdown"
+       role="button"
+       aria-haspopup="true"
+       aria-expanded={isProgrammingOpen}
+       tabindex="0"
+       on:mouseover={openProgrammingDropdown}
+       on:mouseleave={closeProgrammingDropdown}
+       on:focus={openProgrammingDropdown}
+       on:blur={closeProgrammingDropdown}>
+
+    <!-- Programming link with dropdown indicator -->
+    <a href="#" class="dropdown-toggle" aria-label="Programming menu">Programming ▾</a>
+
+    <!-- Dropdown Menu -->
+    {#if isProgrammingOpen}
+      <div class="dropdown-menu" in:fade={{ duration: 200 }} out:fade={{ duration: 300 }}>
+        <!-- Category: ASUC 3rd Floor -->
+        <div class="category">ASUC 3rd Floor</div>
+        <div class="sub-links">
+          <a href="/registration">Registration</a>
+          <a href="/artists">Artist Alley</a>
+          <a href="/gaming">Gaming Area</a>
+          <a href="/panels">Panels</a>
         </div>
-      {/if}
-    </div>
+
+        <!-- Category: ASUC 5th Floor -->
+        <div class="category">ASUC 5th Floor</div>
+        <div class="sub-links">
+          <a href="/cosplay">Cosplay Contest</a>
+        </div>
+      </div>
+    {/if}
+  </div>
 
     <!-- Buy a Ticket -->
     <a href={ticketLink} target="_blank" rel="noopener noreferrer" in:fade={{ duration: 500 }}>Buy a Ticket</a>
@@ -155,7 +179,7 @@
   }
 
   .wip {
-    color: yellow;
+    color: #fed893;
     font-size: 1rem;
     margin-right: auto;
     padding-left: 1.5rem;
@@ -171,7 +195,7 @@
 
   /* Hover effect for yellow highlight */
   .menu-items a:hover, .menu-content a:hover {
-    color: yellow;
+    color: #fed893;
   }
 
   .desktop-only {
@@ -188,26 +212,29 @@
   .dropdown-menu {
     display: flex;
     flex-direction: column;
-    background-color: black;
+    background-color: rgb(49, 49, 49);
     position: absolute;
-    padding: 0.5rem;
-    border: 1px solid white;
-    border-radius: 5px;
+    padding: 0.3rem 2rem 0.3rem 0.1rem;
+    margin-top: 0.5rem;
+    /*border: 1px solid white;
+    border-radius: 5px;*/
   }
 
   .dropdown-menu a {
     color: white;
     padding: 0.5rem;
     text-decoration: none;
+    
   }
 
   .dropdown-menu a:hover {
-    color: yellow;
+    color: #fed893;
   }
 
   .dropdown-toggle {
     cursor: pointer;
     position: relative;
+    padding-bottom:1.3rem;
   }
 
   .bar {
@@ -278,30 +305,27 @@
     cursor: pointer;
   }
 
-  .ASUCThirdFloor {
-    display: flex;
-    flex-direction: column;
+  /* Sub-links under categories */
+  .sub-links {
+    padding-left: 20px; /* Indent the sub-links */
   }
 
-  .dropdown-menu .room-name {
-    font-size: 0.9rem;
-    color: gray;
+  .sub-links a {
+    display: block;
+    margin: 5px 0;
   }
 
-  .dropdown-menu .event {
-    font-size: 1.0rem;
-    color: white;
+  /* Category Styling */
+  .category {
+    font-weight: bold;
+    color: grey;
+    margin-top: 10px;
+    padding-left: 0.8em;
+    cursor: default;
+  
   }
 
-  .dropdown-menu .floor-name {
-    padding-top: 0.8rem;
-    color: white;
-    font-size: 0.8rem;
-  }
-  .ASUCFifthFloor {
-    display: flex;
-    flex-direction: column;
-  }
+
 
   /* Desktop Menu (Media Query) */
   @media(min-width: 768px) {

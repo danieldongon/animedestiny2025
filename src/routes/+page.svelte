@@ -100,7 +100,7 @@
     <!-- Exhibitors Section -->
     <section>
       <h2>Exhibitors</h2>
-      <p>Discover amazing artists and exhibitors at Anime Destiny! Explore their work and find something special to take home.</p>
+      <p>Many amazing artists and vendors are at Anime Destiny 2024! Explore and support their talent through the Artist Alley.</p>
       <div class="content-container">
         <h2>Here is the Artist Alley from AD 2023</h2>
         <div class="embed-wrapper">      
@@ -120,7 +120,7 @@
     <!-- Gaming Hall Section -->
     <section>
       <h2>Gaming Hall</h2>
-      <p>Our gaming hall is the place to be for video games, tabletop games, and competitions! Come show off your skills.</p>
+      <p>Looking to unwind at Anime Destiny? Or even to get a bit competitive? The gaming hall offers a diverse set of video games, tabletop games, rhythm/dance games, and more!</p>
     </section>
     <hr />
 
@@ -132,7 +132,7 @@
     <!-- Schedule Section -->
     <section id="schedule-section">
       <h2>Schedule and Map</h2>
-      <p>Check out our exciting schedule filled with panels, performances, workshops, and more!</p>
+      <p>Check out the schedule and map for Anime Destiny to stay up to date on when and where events are happening. You don't want to miss them!</p>
       <img src={scheduleImage} alt="Event Schedule" id="schedule-graphic"/>
       <img src={mapImage} alt="Event Map" id="schedule-graphic"/>
       <a href="/programming" class="section-link">View our programming here!</a>
@@ -152,7 +152,7 @@
     <section>
       <h2>Buy Tickets Now</h2>
       <a href={purchaseLink} target="_blank" rel="noopener noreferrer" class="section-link">Purchase Tickets</a>
-      <br /><br />
+      <br />
       <p>You will be redirected to our payment processor on Stripe.</p>
     </section>
 
@@ -189,7 +189,7 @@
     text-align: center;
     position: relative;
     z-index: 1;
-    opacity: calc(1 - (var(--scroll-y) / 600));
+    opacity: calc(1.3 - (var(--scroll-y) / 600));
     transition: opacity 0.3s ease;
     background: rgba(0, 0, 0, 0.5);
     padding: 2rem;
@@ -256,12 +256,15 @@
     font-size: 1.1rem;
     border-bottom: 2px solid #485077; /* Underline links */
     padding-bottom: 0.2rem;
+    line-height:4rem;
+    padding-top: 2rem;
     transition: color 0.3s ease, border-bottom-color 0.3s ease;
   }
 
   .section-link:hover {
     color: #fed893; /* Yellow on hover */
     border-bottom-color: #fed893;
+    
   }
 
   /* Purchase Link */

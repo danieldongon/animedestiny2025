@@ -63,7 +63,7 @@
       {#if isHomeOpen}
         <div class="dropdown-menu" in:fade={{ duration: 200 }} out:fade={{ duration: 300 }}>
           <a href="/">Homepage</a>
-          <a href="/#about">About AD</a>
+          <a href="/about">About AD</a>
           <a href="/artists">Artist Alley</a>
           <a href="/#schedule-section">Schedule and Map</a>
           <a href="/#rules">Rules</a>

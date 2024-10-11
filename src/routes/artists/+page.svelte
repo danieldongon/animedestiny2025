@@ -24,14 +24,16 @@ import { artists } from './artists.js';
   <div class="artists-grid">
     {#each artists as { name, socials, description, location }}
       <div class="artist-card">
-        <h2>{name}</h2>
+        <div class="name-bar">
+          <h2>{name}</h2>
+        </div>
         
         {#if isUrl(socials)}
           <a href="{formatUrl(socials)}" target="_blank" rel="noopener noreferrer">{socials}</a>
         {:else}
           <p>Social Media: {socials}</p>
         {/if}
-
+  
         {#if description}
           <p>{description}</p>
         {/if}
@@ -54,18 +56,37 @@ import { artists } from './artists.js';
 
   .artists-grid {
     display: flex;
-    flex-direction: column; /* Stack cards vertically */
-    gap: 1rem; /* Compact layout */
-    padding: 0 2rem;
+    flex-wrap: wrap; /* Allows wrapping of items */
+    flex-direction: column;
+    justify-content: center; /* Center the flex items */
+    gap: 20px; /* Space between each card */
+    max-width: 100rem; /* Set the max width of the grid container */
+    width: 100%; /* Ensure the grid spans full width */
+    margin: 0 auto; /* Center the grid container horizontally */
   }
 
   .artist-card {
     background-color: #f9f9f9;
-    border: 2px solid #1d3557; /* Soft dark blue outline */
-    padding: 1rem;
+    border: 2px solid #1d3557;
+    padding: 0 1rem 1rem 1rem;
     border-radius: 8px;
     transition: box-shadow 0.3s ease, transform 0.3s ease;
     text-align: left;
+    max-width: 100rem;
+    
+  }
+
+  /* Name bar styling */
+  .name-bar {
+    display: flex;
+    align-items: center;
+    background-color: #1d3557; /* Blue background */
+    color: white;
+    width: 100%; /* Full width of the card */
+    padding: 1rem;
+    margin-bottom: 10px; /* Add space below the name */
+    width: calc(100% + 2rem); /* Full width + compensate for side padding */
+    margin-left: -1rem;
   }
 
   .artist-card:hover {
@@ -74,7 +95,6 @@ import { artists } from './artists.js';
   }
 
   .artist-card h2 {
-    margin-bottom: 0.5rem;
     font-size: 1.25rem;
   }
 

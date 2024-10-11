@@ -79,12 +79,12 @@
       
       <ul style="list-style-type: disc; margin-left: 1.5rem; font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: #485077; margin-bottom: 1.5rem;">
         <li>Artist Alley featuring talented artists and vendors</li>
-        <li>Panels and workshops with industry professionals</li>
+        <li>Panels and workshops</li>
         <li>Cosplay contests and masquerades</li>
         <li>Live performances by The Intermission Orchestra and Nikkei Choral Ensemble</li>
         <li>Interactive Genshin at Berkeley activities</li>
-        <li>Special guest speakers, including voice acting and music industry professionals</li>
         <li>Anikura Destiny: An exciting anime rave with live DJs</li>
+        <li>And much more!</li>
       </ul>
     
       <p style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: #485077; margin-bottom: 1.5rem;">

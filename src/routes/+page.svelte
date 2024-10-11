@@ -187,10 +187,7 @@
     
       <!-- Schedule Section -->
       <div style="padding-right: 2rem;">
-        <h3 style="font-family: 'Roboto', sans-serif; font-size: 1.5rem; color: #485077; margin-bottom: 0.5rem;">Event Schedule:</h3>
-        <p style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #485077; margin-bottom: 1rem;">
-          View the detailed event schedule including times and locations for all activities. You can view and edit the schedule via the following link:
-        </p>
+        
         <p style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #485077; margin-bottom: 1rem;">
           <a href="https://docs.google.com/spreadsheets/d/1uLor3fj4G53hlDuvnCsNLayLDj9EizjN0eisJKar8Lc/edit?usp=sharing" target="_blank" rel="noopener noreferrer" style="color: #485077; text-decoration: underline;">Anime Destiny 2024 Event Schedule (Google Spreadsheet)</a>
         </p>

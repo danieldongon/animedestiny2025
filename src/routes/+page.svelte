@@ -139,14 +139,69 @@
     </section>
     <hr />
 
-    <!-- TODO
-    WHAT ARE THE RULESS??Z? -->
     <!-- Rules Section -->
-    <section id='rules'>
-      <h2>Rules</h2>
-      <p>Please make sure to review our event rules to ensure a safe and fun experience for everyone.</p>
+    <section id='rules' style="padding: 2rem 0;">
+      <div style="padding-right: 2rem;">
+        <h2 style="font-family: 'Roboto', sans-serif; font-size: 2rem; color: #485077; margin-bottom: 0.5rem;">Rules</h2>
+        <p style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: #485077; margin-bottom: 1.5rem;">
+          Please review these rules to ensure a safe and enjoyable experience at Anime Destiny 2024:
+        </p>
+    
+        <h3 style="font-family: 'Roboto', sans-serif; font-size: 1.5rem; color: #485077; margin-bottom: 0.5rem;">Alcohol and Drugs Policy:</h3>
+        <p style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #485077;">
+          No alcohol or drugs, including tobacco and other substances, are permitted at the event. Any found will be confiscated, and repercussions will follow.
+        </p>
+    
+        <h3 style="font-family: 'Roboto', sans-serif; font-size: 1.5rem; color: #485077; margin-bottom: 0.5rem;">Code of Conduct:</h3>
+        <p style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #485077;">
+          Respect others' privacy and personal space. Help those who need assistance. If you see anything suspicious, report it to event staff immediately.
+        </p>
+    
+        <h3 style="font-family: 'Roboto', sans-serif; font-size: 1.5rem; color: #485077; margin-bottom: 0.5rem;">Badges:</h3>
+        <p style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #485077;">
+          Attendees must wear their badge at all times and be prepared to show identification when entering the event or any program.
+        </p>
+    
+        <h3 style="font-family: 'Roboto', sans-serif; font-size: 1.5rem; color: #485077; margin-bottom: 0.5rem;">Prohibited Actions and Activities:</h3>
+        <ul style="list-style-type: disc; margin-left: 1.5rem; font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #485077; margin-bottom: 1rem;">
+          <li>Failure to be appropriately clothed</li>
+          <li>Harassment, lewd behavior, or discrimination</li>
+          <li>Unauthorized business transactions</li>
+          <li>Skateboarding, soliciting, alcohol consumption, and more (see master doc)</li>
+        </ul>
+    
+        <h3 style="font-family: 'Roboto', sans-serif; font-size: 1.5rem; color: #485077; margin-bottom: 0.5rem;">Prohibited Items:</h3>
+        <ul style="list-style-type: disc; margin-left: 1.5rem; font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #485077; margin-bottom: 1rem;">
+          <li>Illegal substances, drugs, weapons (see prop policy)</li>
+          <li>Non-service animals, oversized backpacks, flammable items</li>
+          <li>Signs, stickers, graffiti</li>
+          <li>And more (see master doc)</li>
+        </ul>
+    
+        <h3 style="font-family: 'Roboto', sans-serif; font-size: 1.5rem; color: #485077; margin-bottom: 0.5rem;">Cosplay Guidelines:</h3>
+        <p style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #485077;">
+          Shoes must be worn at all times. Costumes should not be excessively revealing or impede traffic. No law enforcement or military uniforms allowed. See the prop/weapon policy for rules on cosplay weapons.
+        </p>
+    
+        <h3 style="font-family: 'Roboto', sans-serif; font-size: 1.5rem; color: #485077; margin-bottom: 0.5rem;">COVID-19 Statement:</h3>
+        <p style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #485077;">
+          By attending, you assume all risks associated with potential exposure to COVID-19. Review the latest CDC guidelines before attending.
+        </p>
+    
+        <h3 style="font-family: 'Roboto', sans-serif; font-size: 1.5rem; color: #485077; margin-bottom: 0.5rem;">Prop/Weapon Policy:</h3>
+        <p style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #485077;">
+          No real or dangerous weapons are allowed. Prop weapons must be inspected at the front desk before being brought inside.
+        </p>
+    
+        <p style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #485077;">
+          For the complete list of rules, please review the 
+          <a href="https://docs.google.com/document/d/18tocsvWVEZ8xFNBvz8-88AAK9CnIbqlU7jkXd4G_FvQ/edit?usp=sharing" target="_blank" rel="noopener noreferrer" 
+             style="color: #485077; text-decoration: underline;">Master Rules Document</a>.
+        </p>
+      </div>
     </section>
-    <hr />
+    
+    <hr/>
 
     <!-- Buy Tickets Now Section -->
     <section>

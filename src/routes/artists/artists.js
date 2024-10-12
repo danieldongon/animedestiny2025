@@ -85,7 +85,7 @@ export const artists = [{
   "location": "C2"
 }, {
   "name": "Galaxsea Emporium",
-  "socials": "https://www.instagram.com/galaxseaemporium/ || https://www.etsy.com/shop/GalaxseaEmporium",
+  "socials": "https://www.instagram.com/galaxseaemporium/",
   "description": "a pod of artists collecting and making anime and video game merch from the galaxy to the deep sea!",
   "location": "C6"
 }, {

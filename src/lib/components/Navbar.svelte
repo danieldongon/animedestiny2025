@@ -85,25 +85,43 @@
     <!-- Programming link with dropdown indicator -->
     <a href="#" class="dropdown-toggle" aria-label="Programming menu">Programming ▾</a>
 
+
+    <!-- TODO make programming page and link them to sections in programming -->
+     <!-- Add relevant panels, performances, and workshops here -->
     <!-- Dropdown Menu -->
     {#if isProgrammingOpen}
-      <div class="dropdown-menu" in:fade={{ duration: 200 }} out:fade={{ duration: 300 }}>
-        <!-- Category: ASUC 3rd Floor -->
-        <div class="category">ASUC 3rd Floor</div>
-        <div class="sub-links">
-          <a href="/registration">Registration</a>
-          <a href="/artists">Artist Alley</a>
-          <a href="/gaming">Gaming Area</a>
-          <a href="/panels">Panels</a>
-        </div>
+  <div class="dropdown-menu" in:fade={{ duration: 200 }} out:fade={{ duration: 300 }}>
+    <!-- Category: 3rd Floor - Stephens Hall -->
+    <div class="category">Stephens Hall (3rd Floor)</div>
+    <div class="sub-links">
+      <!-- Panels -->
+      <a href="/artists">Artist Alley</a>
+      <a href="/programming#panel-music-voice-acting">Music and Voice Acting Panel</a>
+      
+      <!-- Workshops -->
+      <a href="/programming#workshop-anime-trivia">CAA Anime Trivia</a>
+      
+      <!-- Events -->
+      <a href="/programming#event-nikkei-choral-performance">Nikkei Choral Ensemble</a>
+      <a href="/programming#event-genshin-club">Genshin at Berkeley Event</a>
+    </div>
 
-        <!-- Category: ASUC 5th Floor -->
-        <div class="category">ASUC 5th Floor</div>
-        <div class="sub-links">
-          <a href="/cosplay">Cosplay Contest</a>
-        </div>
-      </div>
-    {/if}
+    <!-- Category: 5th Floor - Tilden Room -->
+    <div class="category">Tilden Room (5th Floor)</div>
+    <div class="sub-links">
+      <!-- Panels -->
+      <a href="/programming#panel-old-woke-manga">Old Woke Manga Panel</a>
+      
+      <!-- Workshops -->
+      <a href="/cosplay-contest">Cosplay Contest</a> <!-- Direct link to the separate Cosplay Contest page -->
+      
+      <!-- Events -->
+      <a href="/programming#event-intermission-orchestra">The Intermission Orchestra</a>
+      <a href="/programming#event-anikura-destiny">Anikura Destiny</a>
+    </div>
+  </div>
+{/if}
+
   </div>
 
     <!-- Buy a Ticket -->

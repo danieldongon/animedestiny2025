@@ -2,6 +2,7 @@
   import { onMount } from 'svelte';
   import Navbar from '$lib/components/Navbar.svelte';
   import Footer from '$lib/components/Footer.svelte';
+  import Calendar from '$lib/components/Calendar.svelte';
 
   let desktopImage = 'debug/test-banner-2.jpg';
   let mobileImage = 'debug/test-banner-2.jpg';
@@ -59,24 +60,57 @@
     mention what we have to offer
     mention priice and add link to buy ticket here -->
     <!-- "What is Anime Destiny" Section -->
-    <section id="about">
-      <h2>About</h2>
-      <p>Anime Destiny is UC Berkeley's premier anime convention! 
-        This year we are on the third floor of the ASUC Student Union MLK Building inside of the Pauley Ballroom.
-        Admission is $20 online and at the door.</p>
-      <iframe 
-          title="Anime Destiny Location"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3158.758826798221!2d-122.2594233846757!3d37.8684338797419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80857c3f3b87e1d5%3A0x138c6740b4409d55!2s2495%20Bancroft%20Way%2C%20Berkeley%2C%20CA%2094720%2C%20USA!5e0!3m2!1sen!2sus!4v1696439621724!5m2!1sen!2sus" 
-          width="100%" 
-          height="600" 
-          style="border:0;" 
-          loading="lazy" 
-          referrerpolicy="no-referrer-when-downgrade">
-        </iframe>
+    <section id="about" style="padding: 2rem 0;">
+      <h2 style="font-family: 'Roboto', sans-serif; font-size: 2rem; color: #485077; margin-bottom: 1rem;">About Anime Destiny 2024</h2>
       
-      <a href={purchaseLink} target="_blank" rel="noopener noreferrer" class="section-link">Purchase Tickets</a>
+      <p style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: #485077; margin-bottom: 1.5rem;">
+        Anime Destiny is UC Berkeley's premier anime convention, hosted annually by Cal Animage Alpha. This year, the convention will be held on Saturday, November 9, 2024, from 8:00 AM to 8:00 PM in the Pauley Ballroom of the ASUC Student Union, located at 2495 Bancroft Way, Berkeley, CA.
+      </p>
+    
+      <p style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: #485077; margin-bottom: 1.5rem;">
+        Admission is $20, and tickets are available online or at the door. Whether you're an anime enthusiast or someone curious to explore, Anime Destiny offers a full day of exciting events and a welcoming atmosphere for everyone!
+      </p>
+    
+      <h3 style="font-family: 'Roboto', sans-serif; font-size: 1.5rem; color: #485077; margin-bottom: 1rem;">What to Expect</h3>
+      
+      <p style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: #485077; margin-bottom: 1.5rem;">
+        At Anime Destiny, attendees can enjoy a variety of experiences including:
+      </p>
+      
+      <ul style="list-style-type: disc; margin-left: 1.5rem; font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: #485077; margin-bottom: 1.5rem;">
+        <li>Artist Alley featuring talented artists and vendors</li>
+        <li>Panels and workshops</li>
+        <li>Cosplay contests and masquerades</li>
+        <li>Live performances by The Intermission Orchestra and Nikkei Choral Ensemble</li>
+        <li>Interactive Genshin at Berkeley activities</li>
+        <li>Anikura Destiny: An exciting anime rave with live DJs</li>
+        <li>And much more!</li>
+      </ul>
+    
+      <p style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: #485077; margin-bottom: 1.5rem;">
+        For more about Anime Destiny and our organization, visit our <a href="/about" style="color: #485077; text-decoration: underline;">About Page</a>.
+      </p>
+    
+      <iframe 
+        title="Anime Destiny Location"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3158.758826798221!2d-122.2594233846757!3d37.8684338797419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80857c3f3b87e1d5%3A0x138c6740b4409d55!2s2495%20Bancroft%20Way%2C%20Berkeley%2C%20CA%2094720%2C%20USA!5e0!3m2!1sen!2sus!4v1696439621724!5m2!1sen!2sus"
+        width="100%" 
+        height="600" 
+        style="border: 0;" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    
+      <a href={purchaseLink} target="_blank" rel="noopener noreferrer" 
+        style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: #485077; text-decoration: underline; font-weight: bold; display: inline-block; margin-top: 1.5rem;">
+        Purchase Tickets
+      </a>
     </section>
-    <hr/>
+    
+    <hr style="border: none; border-top: 2px solid #485077; margin-top: 2rem;" />
+    
+    
+    
 
     <!-- Location Section
     <section>
@@ -130,31 +164,114 @@
     convert schedule to embed google calendar?
     -->
     <!-- Schedule Section -->
-    <section id="schedule-section">
-      <h2>Schedule and Map</h2>
-      <p>Check out the schedule and map for Anime Destiny to stay up to date on when and where events are happening. You don't want to miss them!</p>
-      <img src={scheduleImage} alt="Event Schedule" id="schedule-graphic"/>
-      <img src={mapImage} alt="Event Map" id="schedule-graphic"/>
-      <a href="/programming" class="section-link">View our programming here!</a>
+    <section id="map-schedule" style="padding: 2rem 0;">
+      <h2 style="font-family: 'Roboto', sans-serif; font-size: 2rem; color: #485077; margin-bottom: 1rem;">Map and Schedule</h2>
+    
+      <div style="padding-right: 2rem;">
+        <h3 style="font-family: 'Roboto', sans-serif; font-size: 1.5rem; color: #485077; margin-bottom: 0.5rem;">Parking Information:</h3>
+        <p style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #485077; margin-bottom: 1rem;">
+          Street parking is available around the Berkeley campus. You may also park at the following garages and lots:
+        </p>
+        <ul style="list-style-type: disc; margin-left: 1.5rem; font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #485077; margin-bottom: 1rem;">
+          <li>Lower Sproul Lot</li>
+          <li>Recreational Sports Facility (RSF) Garage</li>
+          <li>Telegraph-Channing Garage</li>
+          <li>Bancroft Structure</li>
+          <li>Upper Hearst Structure</li>
+          <li>Stadium Parking Garage</li>
+        </ul>
+        <p style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #485077;">
+          For more information, consult: <a href="https://berkeleyca.gov/city-services/parking/parking-garages-and-lots" target="_blank" rel="noopener noreferrer" style="color: #485077; text-decoration: underline;">Berkeley Parking Garages and Lots</a> and <a href="https://pt.berkeley.edu/sites/default/files/2018_ucb_map_051018_1.pdf" target="_blank" rel="noopener noreferrer" style="color: #485077; text-decoration: underline;">Berkeley Parking Map (PDF)</a>.
+        </p>
+      </div>
+    
+      <!-- Schedule Section -->
+      <div style="padding-right: 2rem;">
+        
+        <p style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #485077; margin-bottom: 1rem;">
+          <a href="https://docs.google.com/spreadsheets/d/1uLor3fj4G53hlDuvnCsNLayLDj9EizjN0eisJKar8Lc/edit?usp=sharing" target="_blank" rel="noopener noreferrer" style="color: #485077; text-decoration: underline;">Anime Destiny 2024 Event Schedule (Google Spreadsheet)</a>
+        </p>
+        
+        <!-- Google Calendar Embed (This would be a separate Svelte component) -->
+        <div style="margin-top: 1rem;">
+          <Calendar />
+        </div>
+      </div>
     </section>
     <hr />
 
-    <!-- TODO
-    WHAT ARE THE RULESS??Z? -->
     <!-- Rules Section -->
-    <section id='rules'>
-      <h2>Rules</h2>
-      <p>Please make sure to review our event rules to ensure a safe and fun experience for everyone.</p>
-    </section>
-    <hr />
+    <section id='rules' style="padding: 2rem 0;">
+  <div style="padding-right: 2rem;">
+    <h2 style="font-family: 'Roboto', sans-serif; font-size: 2rem; color: #485077; margin-bottom: 0.5rem;">Rules</h2>
+    <p style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: #485077; margin-bottom: 1.5rem;">
+      Please review these rules to ensure a safe and enjoyable experience at Anime Destiny 2024:
+    </p>
 
-    <!-- Buy Tickets Now Section -->
+    <h3 style="font-family: 'Roboto', sans-serif; font-size: 1.5rem; color: #485077; margin-bottom: 0.5rem;">I. Alcohol and Drugs Policy:</h3>
+    <p style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #485077;">
+      No alcohol or drugs, including tobacco and other substances, are permitted at the event. Any found will be confiscated, and repercussions will follow.
+    </p>
+
+    <h3 style="font-family: 'Roboto', sans-serif; font-size: 1.5rem; color: #485077; margin-bottom: 0.5rem;">II. Code of Conduct:</h3>
+    <p style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #485077;">
+      Respect others' privacy and personal space. Help those who need assistance. If you see anything suspicious, report it to event staff immediately.
+    </p>
+
+    <h3 style="font-family: 'Roboto', sans-serif; font-size: 1.5rem; color: #485077; margin-bottom: 0.5rem;">III. Badges:</h3>
+    <p style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #485077;">
+      Attendees must wear their badge at all times and be prepared to show identification when entering the event or any program.
+    </p>
+
+    <h3 style="font-family: 'Roboto', sans-serif; font-size: 1.5rem; color: #485077; margin-bottom: 0.5rem;">IV. Prohibited Actions and Activities:</h3>
+    <ul style="list-style-type: disc; margin-left: 1.5rem; font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #485077; margin-bottom: 1rem;">
+      <li>Failure to be appropriately clothed</li>
+      <li>Harassment, lewd behavior, or discrimination</li>
+      <li>Unauthorized business transactions</li>
+      <li>Skateboarding, soliciting, alcohol consumption, and more (see master doc)</li>
+    </ul>
+
+    <h3 style="font-family: 'Roboto', sans-serif; font-size: 1.5rem; color: #485077; margin-bottom: 0.5rem;">V. Prohibited Items:</h3>
+    <ul style="list-style-type: disc; margin-left: 1.5rem; font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #485077; margin-bottom: 1rem;">
+      <li>Illegal substances, drugs, weapons (see prop policy)</li>
+      <li>Non-service animals, oversized backpacks, flammable items</li>
+      <li>Signs, stickers, graffiti</li>
+      <li>And more (see master doc)</li>
+    </ul>
+
+    <h3 style="font-family: 'Roboto', sans-serif; font-size: 1.5rem; color: #485077; margin-bottom: 0.5rem;">VI. Cosplay Guidelines:</h3>
+    <p style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #485077;">
+      Shoes must be worn at all times. Costumes should not be excessively revealing or impede traffic. No law enforcement or military uniforms allowed. See the prop/weapon policy for rules on cosplay weapons.
+    </p>
+
+    <h3 style="font-family: 'Roboto', sans-serif; font-size: 1.5rem; color: #485077; margin-bottom: 0.5rem;">VII. COVID-19 Statement:</h3>
+    <p style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #485077;">
+      By attending, you assume all risks associated with potential exposure to COVID-19. Review the latest CDC guidelines before attending.
+    </p>
+
+    <h3 style="font-family: 'Roboto', sans-serif; font-size: 1.5rem; color: #485077; margin-bottom: 0.5rem;">VIII. Prop/Weapon Policy:</h3>
+    <p style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #485077;">
+      No real or dangerous weapons are allowed. Prop weapons must be inspected at the front desk before being brought inside.
+    </p>
+
+    <p style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #485077;">
+      For the complete list of rules, please review the 
+      <a href="https://docs.google.com/document/d/18tocsvWVEZ8xFNBvz8-88AAK9CnIbqlU7jkXd4G_FvQ/edit?usp=sharing" target="_blank" rel="noopener noreferrer" 
+         style="color: #485077; text-decoration: underline;">Master Rules Document</a>.
+    </p>
+  </div>
+</section>
+
+    
+    <!-- <hr/>
+
+    Buy Tickets Now Section 
     <section>
       <h2>Buy Tickets Now</h2>
       <a href={purchaseLink} target="_blank" rel="noopener noreferrer" class="section-link">Purchase Tickets</a>
       <br />
       <p>You will be redirected to our payment processor on Stripe.</p>
-    </section>
+    </section> -->
 
     <!-- TODO FAQ section? -->
   </div>

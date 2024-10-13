@@ -14,6 +14,7 @@
     <p>Your order has been processed!</p>
     <p>A receipt has been sent to your email.</p>
     <p>Please remember the name and email you signed up with for registration at AD 2024!</p>
+    <br><br>
     <p>Return to <a href={homeLink} class="home-link">Home Page</a></p>
   </div>
 </main>

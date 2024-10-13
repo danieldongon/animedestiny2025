@@ -20,7 +20,9 @@ import { artists } from './artists.js';
 <Navbar />
 
 <main>
-  <h1>Meet Our Artists</h1>
+  <div class="page-title">
+    Artists Alley
+  </div>
   <div class="artists-grid">
     {#each artists as { name, socials, description, location }}
       <div class="artist-card">
@@ -46,12 +48,28 @@ import { artists } from './artists.js';
 
 <style>
   main {
-    padding: 2rem;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
   }
 
   h1 {
     text-align: center;
     margin-bottom: 1.5rem;
+  }
+  
+  .page-title {
+    background-color: #485077; /* Solid blue background */
+    color: #fed893; /* Yellow text */
+    font-size: 3rem; /* Text size */
+    height: 10rem; /* Height of the bar */
+    display: flex; /* Flexbox for centering */
+    justify-content: center; /* Horizontally center the text */
+    align-items: center; /* Vertically center the text */
+    width: 100%; /* Full viewport width */
+    margin: 0; /* Remove any default margin */
+    box-sizing: border-box; /* Ensures padding doesn't affect width */
+    margin-bottom:2rem;
   }
 
   .artists-grid {
@@ -63,6 +81,7 @@ import { artists } from './artists.js';
     max-width: 100rem; /* Set the max width of the grid container */
     width: 100%; /* Ensure the grid spans full width */
     margin: 0 auto; /* Center the grid container horizontally */
+    padding-top:2rem;
   }
 
   .artist-card {

@@ -308,6 +308,7 @@
     transition: opacity 0.3s ease;
     padding: 2rem;
     border-radius: 8px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9);
   }
 
   .hero-image .ADLogo {
@@ -337,7 +338,7 @@
   }
 
   .event-location {
-    font-weight: 400;
+    font-weight: 450;
   }
 
   /* Event Info Section */

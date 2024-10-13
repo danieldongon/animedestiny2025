@@ -3,7 +3,7 @@
   let isOpen = false;
   let isHomeOpen = false;
   let isProgrammingOpen = false;
-  let ticketLink = 'https://example.com/purchase-tickets';
+  let ticketLink = 'https://buy.stripe.com/3cs7uKaGG5Fu3lu7ss';
   let discord = 'https://discord.com/invite/Xp4MUjG';
   let instagram = 'https://www.instagram.com/calanimagealpha/';
 

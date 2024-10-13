@@ -35,7 +35,7 @@
 
 <nav class="navbar">
   <div class="logo">
-    <a href="/" in:fade={{ duration: 500 }}>Anime Destiny</a>
+    <a href="/" in:fade={{ duration: 500 }} style="font-family: 'Roboto', sans-serif; font-size: 1.8rem;">Anime Destiny</a>
   </div>
 
   <!-- Work in Progress -->

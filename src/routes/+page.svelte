@@ -4,15 +4,13 @@
   import Footer from '$lib/components/Footer.svelte';
   import Calendar from '$lib/components/Calendar.svelte';
 
-  let desktopImage = 'debug/test-banner-2.jpg';
-  let mobileImage = 'debug/test-banner-2.jpg';
+  let desktopImage = 'images/hero.png';
+  let mobileImage = 'images/hero.png';
 
-  let locationImage = 'https://www.sasaki.com/wp-content/uploads/2022/03/DD_SASAKI_BERKELEY_V2-Evans_2021_07_30-Update-1800x1013.jpg';
   let exhibitorsImage = 'https://example.com/exhibitors-image.jpg';
-  let rulesImage = 'https://example.com/rules-image.jpg';
   let scheduleImage = 'debug/test-schedule.png';
   let aboutUsImage = 'https://i.redd.it/tyvpt1fy7b601.jpg';
-  let purchaseLink = 'https://example.com/purchase-tickets';
+  let purchaseLink = 'https://buy.stripe.com/3cs7uKaGG5Fu3lu7ss';
   let mapImage = 'https://example.com/map-image.jpg';
 
   let scrollY = 0;
@@ -24,12 +22,6 @@
 
     window.addEventListener('scroll', handleScroll);
 
-    // Ensure Instagram embed script is loaded after mount
-    const instagramScript = document.createElement('script');
-    instagramScript.async = true;
-    instagramScript.src = "//www.instagram.com/embed.js";
-    document.body.appendChild(instagramScript);
-
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
@@ -39,22 +31,28 @@
 <Navbar />
 
 <main>
+  <div class="gradient" style="background: linear-gradient(90deg, orange, purple); padding: 1rem; text-align: center;">
+    <p style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: white; margin: 0;">AD Tickets are now live for purchase!</p>
+  </div>
   <div class="hero-image" style="--scroll-y: {scrollY}">
-    <img src="{mobileImage}" alt="Anime Destiny Event" class="mobile" />
-    <img src="{desktopImage}" alt="Anime Destiny Event" class="desktop" />
+    <img src="{mobileImage}" alt="Anime Destiny Event" class="mobile" draggable="false" />
+    <img src="{desktopImage}" alt="Anime Destiny Event" class="desktop" draggable="false" />
     
     <div class="overlay">
-      <h1 class="event-title">Anime Destiny 2024</h1>
-      <p class="event-date">Saturday, November 9</p>
-      <!-- TODO update time -->
-      <p class="event-time">8:00 AM - 8:00 PM</p>
+      <!-- <h1 class="event-title">Anime Destiny 2024</h1>
+      <p class="event-date">Saturday, November 9</p> -->
+      <img src="images/ADLogo.png" alt="AD Logo" class="ADLogo" draggable="false"/>
+      <p class="event-time">Saturday, November 9th</p>
       <p class="event-location">ASUC Student Union: Martin Luther King Jr. Building</p>
       <a href={purchaseLink} class="purchase-link" target="_blank" rel="noopener noreferrer">Purchase Tickets</a>
     </div>
   </div>
+
+  <div class="gradient" style="background: linear-gradient(90deg, orange, purple); padding: 1rem; text-align: center;">
+    <p style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: white; margin: 0;"></p>
+  </div>
+  
   <div class="event-info">
-    <!-- TODO make this a thick divider? this is between the Hero Image and the About section -->
-    <hr/>
 
     <!-- TODO add stuff here idk like a youtube video or instagram post
     mention what we have to offer
@@ -308,9 +306,12 @@
     z-index: 1;
     opacity: calc(1.3 - (var(--scroll-y) / 600));
     transition: opacity 0.3s ease;
-    background: rgba(0, 0, 0, 0.5);
     padding: 2rem;
     border-radius: 8px;
+  }
+
+  .hero-image .ADLogo {
+    position: relative;
   }
 
   .event-title {
@@ -328,7 +329,6 @@
   .event-time, .event-location {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5rem;
-    color: #fed893; /* Gold for styling */
     margin-top: 0.5rem;
   }
 
@@ -386,7 +386,7 @@
 
   /* Purchase Link */
   .purchase-link {
-    color: #fed893;
+    color: rgb(248, 187, 74);
     text-decoration: none;
     font-weight: bold;
     font-size: 1.5rem;
@@ -394,7 +394,7 @@
   }
 
   .purchase-link:hover {
-    color: #d4ac5e;
+    color: rgb(0, 255, 255);
   }
 
   .bottom-link {

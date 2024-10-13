@@ -304,7 +304,7 @@
     text-align: center;
     position: relative;
     z-index: 1;
-    opacity: calc(1.3 - (var(--scroll-y) / 600));
+    opacity: calc(1.5 - (var(--scroll-y) / 600));
     transition: opacity 0.3s ease;
     padding: 2rem;
     border-radius: 8px;

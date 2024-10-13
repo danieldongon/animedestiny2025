@@ -194,6 +194,7 @@
     margin: 0; /* Remove any default margin */
     box-sizing: border-box; /* Ensures padding doesn't affect width */
     margin-bottom:2rem;
+    text-align: center;
   }
   .page-body {
       

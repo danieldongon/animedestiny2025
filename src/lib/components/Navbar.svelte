@@ -146,7 +146,7 @@
   <!-- Mobile Menu -->
   <div class="mobile-menu {isOpen ? 'show' : ''}">
     <div class="mobile-logo">
-      <a href="/" in:fade={{ duration: 500 }}>Anime Destiny</a>
+      <a href="/" on:click={closeMenu} in:fade={{ duration: 500 }}>Anime Destiny</a>
     </div>
     <div class="close-btn" on:click={closeMenu}>X</div>
 
@@ -159,11 +159,11 @@
 
       <!-- Mobile Menu -->
       <a href="/" on:click={closeMenu} in:fade={{ duration: 500 }}>Homepage</a>
-      <a href="/#about" on:click={closeMenu} in:fade={{ duration: 500 }}>About AD</a>
+      <a href="/about" on:click={closeMenu} in:fade={{ duration: 500 }}>About AD</a>
       <a href="/artists" on:click={closeMenu} in:fade={{ duration: 500 }}>Artist Alley</a>
-      <a href="/#schedule-section" on:click={closeMenu} in:fade={{ duration: 500 }}>Schedule</a>
-      <a href="/#rules" on:click={closeMenu} in:fade={{ duration: 500 }}>Rules</a>
-
+      <a href="/programming" on:click={closeMenu} in:fade={{ duration: 500 }}>Programming</a>
+      <a href="/cosplay-contest" on:click={closeMenu} in:fade={{ duration: 500 }}>Cosplay Contest</a>
+      
       <!-- Buy a Ticket -->
       <a href={ticketLink} target="_blank" rel="noopener noreferrer" on:click={closeMenu} in:fade={{ duration: 500 }}>Buy a Ticket</a>
 
@@ -296,7 +296,8 @@
   }
 
   .mobile-logo a {
-    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8rem;
     color: white;
     text-decoration: none;
   }

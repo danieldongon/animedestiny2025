@@ -7,7 +7,7 @@
   
   <main>
     <div class="page-title">
-      Cosplay Contest/Masquerade
+      Cosplay Contest (Masquerade)
     </div>
     <div class="page-body">
 
@@ -43,6 +43,7 @@
       width: 100%; /* Full viewport width */
       margin: 0; /* Remove any default margin */
       box-sizing: border-box; /* Ensures padding doesn't affect width */
+      text-align: center;
     }
     .page-body {
       

@@ -435,6 +435,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    max-width:100%!important;
   }
 
   .embed {
@@ -447,6 +448,10 @@
       flex-direction: column;
       align-items: center;
     }
+
+    iframe {
+    width:100%!important;
+  }
   }
 
   #schedule-graphic {

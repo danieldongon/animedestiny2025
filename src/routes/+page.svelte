@@ -1,17 +1,17 @@
 <script>
   import { onMount } from 'svelte';
   import Navbar from '$lib/components/Navbar.svelte';
+  import Footer from '$lib/components/Footer.svelte';
+  import Calendar from '$lib/components/Calendar.svelte';
 
-  // Image URLs (You can replace these with actual URLs for your images)
-  let desktopImage = 'https://i.imgur.com/GhFP5xD.jpeg'; // Replace with your desktop image URL
-  let mobileImage = 'https://assetsio.gnwcdn.com/Honkai-Star-Rail-Aventurine-materials%2C-kit%2C-and-Eidolons-cover.jpg?width=1920&height=1920&fit=bounds&quality=80&format=jpg&auto=webp'; // Replace with your mobile image URL
+  let desktopImage = 'images/hero.png';
+  let mobileImage = 'images/hero.png';
 
-  // Add URLs for side images
-  let locationImage = 'https://www.sasaki.com/wp-content/uploads/2022/03/DD_SASAKI_BERKELEY_V2-Evans_2021_07_30-Update-1800x1013.jpg'; // Replace with actual image URL
-  let exhibitorsImage = 'https://example.com/exhibitors-image.jpg'; // Replace with actual image URL
-  let rulesImage = 'https://example.com/rules-image.jpg'; // Replace with actual image URL
-  let scheduleImage = 'https://example.com/schedule-image.jpg'; // Replace with actual image URL
-  let aboutUsImage = 'https://i.redd.it/tyvpt1fy7b601.jpg'; // Replace with actual image URL
+  let exhibitorsImage = 'https://example.com/exhibitors-image.jpg';
+  let scheduleImage = 'debug/test-schedule.png';
+  let aboutUsImage = 'https://i.redd.it/tyvpt1fy7b601.jpg';
+  let purchaseLink = 'https://buy.stripe.com/3cs7uKaGG5Fu3lu7ss';
+  let mapImage = 'https://example.com/map-image.jpg';
 
   let scrollY = 0;
 
@@ -31,133 +31,263 @@
 <Navbar />
 
 <main>
+  <div class="gradient" style="background: linear-gradient(90deg, orange, purple); padding: 1rem; text-align: center;">
+    <p style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: white; margin: 0;">AD Tickets are now live for purchase!</p>
+  </div>
   <div class="hero-image" style="--scroll-y: {scrollY}">
-    <img src="{mobileImage}" alt="Anime Destiny Event" class="mobile" />
-    <img src="{desktopImage}" alt="Anime Destiny Event" class="desktop" />
+    <img src="{mobileImage}" alt="Anime Destiny Event" class="mobile" draggable="false" />
+    <img src="{desktopImage}" alt="Anime Destiny Event" class="desktop" draggable="false" />
     
     <div class="overlay">
-      <p class="event-date">Cal Animage Alpha presents</p>
-      <h1 class="event-title">Anime Destiny 2024</h1>
-      <p class="event-date">Saturday, November 9</p>
-      <a href="https://example.com/purchase-tickets" class="purchase-button" target="_blank" rel="noopener noreferrer">Purchase Tickets</a>
+      <!-- <h1 class="event-title">Anime Destiny 2024</h1>
+      <p class="event-date">Saturday, November 9</p> -->
+      <img src="images/ADLogo.png" alt="AD Logo" class="ADLogo" draggable="false"/>
+      <p class="event-time">Saturday, November 9th</p>
+      <p class="event-location">ASUC Student Union: Martin Luther King Jr. Building</p>
+      <a href={purchaseLink} class="purchase-link" target="_blank" rel="noopener noreferrer">Purchase Tickets</a>
     </div>
   </div>
 
+  <div class="gradient" style="background: linear-gradient(90deg, orange, purple); padding: 1rem; text-align: center;">
+    <p style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: white; margin: 0;"></p>
+  </div>
+  
   <div class="event-info">
 
-    <!-- "What is Anime Destiny" Box -->
-    <div class="info-box">
-      <div class="info-image">
-        <img src="path-to-what-is-anime-destiny-image.jpg" alt="What is Anime Destiny?">
-      </div>
-      <div class="info-content">
-        <h2>What is Anime Destiny?</h2>
-        <p>Anime Destiny is a celebration of anime, manga, and Japanese culture hosted at UC Berkeley. Learn more about our event and what makes it unique.</p>
-        <a href="/about" class="info-button">About Us</a>
-      </div>
-    </div>
+    <!-- TODO add stuff here idk like a youtube video or instagram post
+    mention what we have to offer
+    mention priice and add link to buy ticket here -->
+    <!-- "What is Anime Destiny" Section -->
+    <section id="about" style="padding: 2rem 0;">
+      <h2 style="font-family: 'Roboto', sans-serif; font-size: 2rem; color: #485077; margin-bottom: 1rem;">About Anime Destiny 2024</h2>
+      
+      <p style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: #485077; margin-bottom: 1.5rem;">
+        Anime Destiny is UC Berkeley's premier anime convention, hosted annually by Cal Animage Alpha. This year, the convention will be held on Saturday, November 9, 2024, from 8:00 AM to 8:00 PM in the Pauley Ballroom of the ASUC Student Union, located at 2495 Bancroft Way, Berkeley, CA.
+      </p>
+    
+      <p style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: #485077; margin-bottom: 1.5rem;">
+        Admission is $20, and tickets are available online or at the door. Whether you're an anime enthusiast or someone curious to explore, Anime Destiny offers a full day of exciting events and a welcoming atmosphere for everyone!
+      </p>
+    
+      <h3 style="font-family: 'Roboto', sans-serif; font-size: 1.5rem; color: #485077; margin-bottom: 1rem;">What to Expect</h3>
+      
+      <p style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: #485077; margin-bottom: 1.5rem;">
+        At Anime Destiny, attendees can enjoy a variety of experiences including:
+      </p>
+      
+      <ul style="list-style-type: disc; margin-left: 1.5rem; font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: #485077; margin-bottom: 1.5rem;">
+        <li>Artist Alley featuring talented artists and vendors</li>
+        <li>Panels and workshops</li>
+        <li>Cosplay contests and masquerades</li>
+        <li>Live performances by The Intermission Orchestra and Nikkei Choral Ensemble</li>
+        <li>Interactive Genshin at Berkeley activities</li>
+        <li>Anikura Destiny: An exciting anime rave with live DJs</li>
+        <li>And much more!</li>
+      </ul>
+    
+      <p style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: #485077; margin-bottom: 1.5rem;">
+        For more about Anime Destiny and our organization, visit our <a href="/about" style="color: #485077; text-decoration: underline;">About Page</a>.
+      </p>
+    
+      <iframe 
+        title="Anime Destiny Location"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3158.758826798221!2d-122.2594233846757!3d37.8684338797419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80857c3f3b87e1d5%3A0x138c6740b4409d55!2s2495%20Bancroft%20Way%2C%20Berkeley%2C%20CA%2094720%2C%20USA!5e0!3m2!1sen!2sus!4v1696439621724!5m2!1sen!2sus"
+        width="100%" 
+        height="600" 
+        style="border: 0;" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    
+      <a href={purchaseLink} target="_blank" rel="noopener noreferrer" 
+        style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: #485077; text-decoration: underline; font-weight: bold; display: inline-block; margin-top: 1.5rem;">
+        Purchase Tickets
+      </a>
+    </section>
+    
+    <hr style="border: none; border-top: 2px solid #485077; margin-top: 2rem;" />
+    
+    
+    
 
-    <!-- Location Box -->
-    <div class="info-box">
-      <div class="info-map">
-        <!-- Google Map Embed for UC Berkeley Location -->
-        <iframe 
+    <!-- Location Section
+    <section>
+      <h2>Location</h2>
+      <p>Anime Destiny takes place at UC Berkeley! We are on the second floor of the ASUC Student Union MLK Building inside of the Pauley Ballroom.</p>
+      <iframe 
+          title="Anime Destiny Location"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3158.758826798221!2d-122.2594233846757!3d37.8684338797419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80857c3f3b87e1d5%3A0x138c6740b4409d55!2s2495%20Bancroft%20Way%2C%20Berkeley%2C%20CA%2094720%2C%20USA!5e0!3m2!1sen!2sus!4v1696439621724!5m2!1sen!2sus" 
           width="100%" 
           height="300" 
           style="border:0;" 
-          allowfullscreen="" 
           loading="lazy" 
           referrerpolicy="no-referrer-when-downgrade">
         </iframe>
-      </div>
-      <div class="info-content">
-        <h2>Location</h2>
-        <p>Anime Destiny takes place at the UC Berkeley campus. Join us for a day full of events and fun in a beautiful location!</p>
-        <a href="/location" class="info-button">Find Location</a>
-      </div>
-    </div>
+    </section>
+    <hr /> -->
 
-    <!-- Exhibitors Box -->
-    <div class="info-box">
-      <div class="info-image">
-        <img src="path-to-exhibitors-image.jpg" alt="Exhibitors">
+    <!-- TODO populate Exhibitors section
+    Should add a description of what the exhibitors section is about and
+    what artists are there, etc. -->
+    <!-- Exhibitors Section -->
+    <section>
+      <h2>Exhibitors</h2>
+      <p>Many amazing artists and vendors are at Anime Destiny 2024! Explore and support their talent through the Artist Alley.</p>
+      <div class="content-container">
+        <h2>Here is the Artist Alley from AD 2023</h2>
+        <div class="embed-wrapper">      
+          <!-- YouTube Embed -->
+          <div id="embed youtube-embed">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/06DdqfWonN4?feature=shared" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+        </div>
+        <a href="/artists" class="section-link">View the list of artists in AD 2024 here!</a>
       </div>
-      <div class="info-content">
-        <h2>Exhibitors</h2>
-        <p>Discover amazing artists and exhibitors at Anime Destiny! Explore their work and find something special to take home.</p>
-        <a href="/artists" class="info-button">Meet the Artists</a>
-      </div>
-    </div>
+    </section>
+    <hr />
 
-    <!-- Schedule Box -->
-    <div class="info-box">
-      <div class="info-image">
-        <img src="path-to-schedule-image.jpg" alt="Schedule">
-      </div>
-      <div class="info-content">
-        <h2>Schedule</h2>
-        <p>Check out our exciting schedule filled with panels, performances, workshops, and more!</p>
-        <a href="/schedule" class="info-button">View Schedule</a>
-      </div>
-    </div>
+    <!-- TODO populate Gaming Hall section
+    what games? what competitions? etc.
+    any prizes and events? -->
+    <!-- Gaming Hall Section -->
+    <section>
+      <h2>Gaming Hall</h2>
+      <p>Looking to unwind at Anime Destiny? Or even to get a bit competitive? The gaming hall offers a diverse set of video games, tabletop games, rhythm/dance games, and more!</p>
+    </section>
+    <hr />
 
-    <!-- Gaming Hall Box (No button) -->
-    <div class="info-box">
-      <div class="info-image">
-        <img src="path-to-gaming-hall-image.jpg" alt="Gaming Hall">
+    <!-- TODO populate Schedule section
+    where map at?
+    where schedule?
+    convert schedule to embed google calendar?
+    -->
+    <!-- Schedule Section -->
+    <section id="map-schedule" style="padding: 2rem 0;">
+      <h2 style="font-family: 'Roboto', sans-serif; font-size: 2rem; color: #485077; margin-bottom: 1rem;">Map and Schedule</h2>
+    
+      <div style="padding-right: 2rem;">
+        <h3 style="font-family: 'Roboto', sans-serif; font-size: 1.5rem; color: #485077; margin-bottom: 0.5rem;">Parking Information:</h3>
+        <p style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #485077; margin-bottom: 1rem;">
+          Street parking is available around the Berkeley campus. You may also park at the following garages and lots:
+        </p>
+        <ul style="list-style-type: disc; margin-left: 1.5rem; font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #485077; margin-bottom: 1rem;">
+          <li>Lower Sproul Lot</li>
+          <li>Recreational Sports Facility (RSF) Garage</li>
+          <li>Telegraph-Channing Garage</li>
+          <li>Bancroft Structure</li>
+          <li>Upper Hearst Structure</li>
+          <li>Stadium Parking Garage</li>
+        </ul>
+        <p style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #485077;">
+          For more information, consult: <a href="https://berkeleyca.gov/city-services/parking/parking-garages-and-lots" target="_blank" rel="noopener noreferrer" style="color: #485077; text-decoration: underline;">Berkeley Parking Garages and Lots</a> and <a href="https://pt.berkeley.edu/sites/default/files/2018_ucb_map_051018_1.pdf" target="_blank" rel="noopener noreferrer" style="color: #485077; text-decoration: underline;">Berkeley Parking Map (PDF)</a>.
+        </p>
       </div>
-      <div class="info-content">
-        <h2>Gaming Hall</h2>
-        <p>Our gaming hall is the place to be for video games, tabletop games, and competitions! Come show off your skills.</p>
+    
+      <!-- Schedule Section -->
+      <div style="padding-right: 2rem;">
+        
+        <p style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #485077; margin-bottom: 1rem;">
+          <a href="https://docs.google.com/spreadsheets/d/1uLor3fj4G53hlDuvnCsNLayLDj9EizjN0eisJKar8Lc/edit?usp=sharing" target="_blank" rel="noopener noreferrer" style="color: #485077; text-decoration: underline;">Anime Destiny 2024 Event Schedule (Google Spreadsheet)</a>
+        </p>
+        
+        <!-- Google Calendar Embed (This would be a separate Svelte component) -->
+        <div style="margin-top: 1rem;">
+          <Calendar />
+        </div>
       </div>
-    </div>
+    </section>
+    <hr />
 
-    <!-- Rules Box -->
-    <div class="info-box">
-      <div class="info-image">
-        <img src="path-to-rules-image.jpg" alt="Rules">
-      </div>
-      <div class="info-content">
-        <h2>Rules</h2>
-        <p>Please make sure to review our event rules to ensure a safe and fun experience for everyone.</p>
-        <a href="/rules" class="info-button">Read Rules</a>
-      </div>
-    </div>
+    <!-- Rules Section -->
+    <section id='rules' style="padding: 2rem 0;">
+  <div style="padding-right: 2rem;">
+    <h2 style="font-family: 'Roboto', sans-serif; font-size: 2rem; color: #485077; margin-bottom: 0.5rem;">Rules</h2>
+    <p style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: #485077; margin-bottom: 1.5rem;">
+      Please review these rules to ensure a safe and enjoyable experience at Anime Destiny 2024:
+    </p>
 
-    <!-- Buy Tickets Now Box -->
-    <div class="info-box">
-      <div class="info-image">
-        <img src="path-to-tickets-image.jpg" alt="Buy Tickets">
-      </div>
-      <div class="info-content">
-        <h2>Buy Tickets Now</h2>
-        <a href="https://example.com/purchase-tickets" target="_blank" rel="noopener noreferrer" class="info-button">Purchase Tickets</a>
-      </div>
-    </div>
+    <h3 style="font-family: 'Roboto', sans-serif; font-size: 1.5rem; color: #485077; margin-bottom: 0.5rem;">I. Alcohol and Drugs Policy:</h3>
+    <p style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #485077;">
+      No alcohol or drugs, including tobacco and other substances, are permitted at the event. Any found will be confiscated, and repercussions will follow.
+    </p>
 
+    <h3 style="font-family: 'Roboto', sans-serif; font-size: 1.5rem; color: #485077; margin-bottom: 0.5rem;">II. Code of Conduct:</h3>
+    <p style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #485077;">
+      Respect others' privacy and personal space. Help those who need assistance. If you see anything suspicious, report it to event staff immediately.
+    </p>
 
+    <h3 style="font-family: 'Roboto', sans-serif; font-size: 1.5rem; color: #485077; margin-bottom: 0.5rem;">III. Badges:</h3>
+    <p style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #485077;">
+      Attendees must wear their badge at all times and be prepared to show identification when entering the event or any program.
+    </p>
 
+    <h3 style="font-family: 'Roboto', sans-serif; font-size: 1.5rem; color: #485077; margin-bottom: 0.5rem;">IV. Prohibited Actions and Activities:</h3>
+    <ul style="list-style-type: disc; margin-left: 1.5rem; font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #485077; margin-bottom: 1rem;">
+      <li>Failure to be appropriately clothed</li>
+      <li>Harassment, lewd behavior, or discrimination</li>
+      <li>Unauthorized business transactions</li>
+      <li>Skateboarding, soliciting, alcohol consumption, and more (see master doc)</li>
+    </ul>
 
+    <h3 style="font-family: 'Roboto', sans-serif; font-size: 1.5rem; color: #485077; margin-bottom: 0.5rem;">V. Prohibited Items:</h3>
+    <ul style="list-style-type: disc; margin-left: 1.5rem; font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #485077; margin-bottom: 1rem;">
+      <li>Illegal substances, drugs, weapons (see prop policy)</li>
+      <li>Non-service animals, oversized backpacks, flammable items</li>
+      <li>Signs, stickers, graffiti</li>
+      <li>And more (see master doc)</li>
+    </ul>
+
+    <h3 style="font-family: 'Roboto', sans-serif; font-size: 1.5rem; color: #485077; margin-bottom: 0.5rem;">VI. Cosplay Guidelines:</h3>
+    <p style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #485077;">
+      Shoes must be worn at all times. Costumes should not be excessively revealing or impede traffic. No law enforcement or military uniforms allowed. See the prop/weapon policy for rules on cosplay weapons.
+    </p>
+
+    <h3 style="font-family: 'Roboto', sans-serif; font-size: 1.5rem; color: #485077; margin-bottom: 0.5rem;">VII. COVID-19 Statement:</h3>
+    <p style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #485077;">
+      By attending, you assume all risks associated with potential exposure to COVID-19. Review the latest CDC guidelines before attending.
+    </p>
+
+    <h3 style="font-family: 'Roboto', sans-serif; font-size: 1.5rem; color: #485077; margin-bottom: 0.5rem;">VIII. Prop/Weapon Policy:</h3>
+    <p style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #485077;">
+      No real or dangerous weapons are allowed. Prop weapons must be inspected at the front desk before being brought inside.
+    </p>
+
+    <p style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #485077;">
+      For the complete list of rules, please review the 
+      <a href="https://docs.google.com/document/d/18tocsvWVEZ8xFNBvz8-88AAK9CnIbqlU7jkXd4G_FvQ/edit?usp=sharing" target="_blank" rel="noopener noreferrer" 
+         style="color: #485077; text-decoration: underline;">Master Rules Document</a>.
+    </p>
+  </div>
+</section>
+
+    
+    <!-- <hr/>
+
+    Buy Tickets Now Section 
+    <section>
+      <h2>Buy Tickets Now</h2>
+      <a href={purchaseLink} target="_blank" rel="noopener noreferrer" class="section-link">Purchase Tickets</a>
+      <br />
+      <p>You will be redirected to our payment processor on Stripe.</p>
+    </section> -->
+
+    <!-- TODO FAQ section? -->
   </div>
 
-  <a href="https://example.com/purchase-tickets" class="purchase-button bottom-button" target="_blank" rel="noopener noreferrer">Purchase Tickets</a>
 </main>
 
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Montserrat:wght@400&display=swap');
 
-  main {
-    padding: 0;
-  }
-
+  /* Hero Image */
   .hero-image {
     position: relative;
-    height: 100vh; /* Full viewport height */
+    height: 100vh;
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
   }
 
   .hero-image img {
@@ -174,154 +304,168 @@
     text-align: center;
     position: relative;
     z-index: 1;
-    opacity: calc(1 - (var(--scroll-y) / 600)); /* Adjust fade out based on scroll */
+    opacity: calc(1.5 - (var(--scroll-y) / 600));
     transition: opacity 0.3s ease;
+    padding: 2rem;
+    border-radius: 8px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9);
+  }
+
+  .hero-image .ADLogo {
+    position: relative;
   }
 
   .event-title {
     font-family: 'Protest Strike', sans-serif;
-    font-size: 8rem; /* Large font size for the title */
+    font-size: 5rem;
     margin: 0;
   }
 
   .event-date {
     font-family: 'Roboto', sans-serif;
-    font-size: 2rem; /* Medium font size for the date */
+    font-size: 2rem;
     margin-top: 0.5rem;
   }
 
-  .purchase-button {
-    display: inline-block;
-    padding: 0.75rem 1.5rem;
-    margin-top: 1.5rem;
-    background-color: #485077; /* Button color */
-    color: white;
-    border: none;
-    border-radius: 5px;
-    text-decoration: none;
-    font-size: 1.25rem;
-    transition: background-color 0.3s ease;
+  .event-time, .event-location {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
   }
 
-  .purchase-button:hover {
-    background-color: #b85f59; /* Darker blue on hover */
+  .event-time {
+    font-weight: 700;
   }
 
-  /* .event-info {
-    padding: 2rem;
-    text-align: center;
-  } */
+  .event-location {
+    font-weight: 450;
+  }
 
-
+  /* Event Info Section */
   .event-info {
-    padding-top:2em;
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    justify-content: center;
-    gap: 2rem; /* Space between the boxes */
     width: 100%;
-    max-width: 70rem; /* Constrain the total width */
+    max-width: 100rem;
+    margin: auto;
+    padding: 1rem 0;
+  }
+
+  section {
+    padding: 2rem 0;
+    margin: 0 2rem;
+  }
+
+  hr {
+    border: none;
+    border-top: 2px solid #485077;
+    margin: 0 2rem;
+  }
+
+  h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    color: #485077; /* Use the dark blue for headers */
+  }
+
+
+  .section-link {
+    color: #485077;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    border-bottom: 2px solid #485077; /* Underline links */
+    padding-bottom: 0.2rem;
+    line-height:4rem;
+    padding-top: 2rem;
+    transition: color 0.3s ease, border-bottom-color 0.3s ease;
+  }
+
+  .section-link:hover {
+    color: #fed893; /* Yellow on hover */
+    border-bottom-color: #fed893;
+    
+  }
+
+  /* Purchase Link */
+  .purchase-link {
+    color: rgb(248, 187, 74);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+  }
+
+  .purchase-link:hover {
+    color: rgb(0, 255, 255);
+  }
+
+  .bottom-link {
+    display: block;
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+  /* Mobile Styling */
+  @media(max-width: 768px) {
+    .event-title {
+      font-size: 3rem;
+    }
+
+    h2 {
+      font-size: 1.6rem;
+    }
+
+    .hero-image .overlay {
+      padding: 1rem;
+    }
+  }
+
+  .content-container {
+    text-align: center;
+    margin: 2rem 0;
+  }
+
+  .embed-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-center;
+  }
+
+  #embed.youtube-embed {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width:100%!important;
+  }
+
+  .embed {
+    flex: 1;
+  }
+
+
+  /* Mobile View */
+  @media(max-width: 768px) {
+    .embed-wrapper {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    iframe {
+    width:100%!important;
+  }
+  }
+
+  #schedule-graphic {
+    width: 60%;
+    max-width: 60%;
+    height: auto;
+    display: block;
     margin: 0 auto;
   }
 
-  .info-box {
-    flex: 1 1 40rem; /* Flex-grow, flex-shrink, flex-basis */
-    min-width: 20rem; /* Minimum width before they start stacking */
-    max-width: 35rem; /* Maximum box width */
-    text-align: left;
-    padding: 1em;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-  }
-
-  .info-image img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-  }
-
-  .info-map iframe {
-    width: 100%;
-    height: 300px;
-    border-radius: 8px;
-  }
-
-  .info-content {
-    margin-top: 1rem;
-  }
-
-  .info-content h2 {
-    font-size: 1.6rem;
-    margin-bottom: 1rem;
-  }
-
-  .info-content p {
-    font-size: 1rem;
-    margin-bottom: 1rem;
-  }
-
-  .btn {
-    display: inline-block;
-    padding: 0.75rem 1.5rem;
-    background-color: #ff4081;
-    color: white;
-    text-decoration: none;
-    border-radius: 4px;
-    font-weight: bold;
-  }
-
-  /* Mobile View (Single box per row, images above content) */
-  @media(max-width: 768px) {
-    .event-info {
-      grid-template-columns: 1fr;
-      width: 100%;
-      padding: 0 1rem;
-    }
-
-    .info-box {
-      flex-direction: column;
-    }
-  }
-
-
-  /* .info-box {
-    display: flex;
-    align-items: center;
-    margin: 1rem 0;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .info-image {
-    width: 40%;
-    height: auto;
-    border-radius: 8px;
-  }
-
-  .info-description {
-    width: 60%;
-    text-align: left;
-    padding: 0 1rem;
-  } */
-
-  .info-button {
-    display: inline-block;
-    margin-top: 1rem;
-    padding: 0.5rem 1rem;
-    background-color: #485077; /* Button color */
-    color: white;
-    border: none;
-    border-radius: 5px;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-  }
-
-  .info-button:hover {
-    background-color: #b85f59; /* Darker blue on hover */
-  }
-
-  .bottom-button {
-    margin-top: 2rem;
+  .thick-divider {
+    border-top-width: 4px;
   }
 </style>
+
+<Footer/>

@@ -211,6 +211,7 @@
     transition: color 0.3s ease;
   }
 
+
   /* Hover effect for yellow highlight */
   .menu-items a:hover, .menu-content a:hover {
     color: #fed893;

@@ -442,6 +442,7 @@
     flex: 1;
   }
 
+
   /* Mobile View */
   @media(max-width: 768px) {
     .embed-wrapper {

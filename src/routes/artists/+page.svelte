@@ -21,7 +21,11 @@ import { artists } from './artists.js';
 
 <main>
   <div class="page-title">
-    Artists Alley
+    Artist Alley
+  </div>
+  <div class="artists-info">
+    <p>Please be mindful of artists' original works and refrain from explicit photography/recording of artists' creations unless you have permission.</p>
+    <p>Anime Destiny and Cal Animage Alpha do not support the distribution or showcasing of AI art.</p>
   </div>
   <div class="artists-grid">
     {#each artists as { name, socials, description, location }}
@@ -71,7 +75,18 @@ import { artists } from './artists.js';
     box-sizing: border-box; /* Ensures padding doesn't affect width */
     margin-bottom:2rem;
   }
-
+  .artists-info {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping of items */
+    flex-direction: column;
+    text-align: center;
+    justify-content: center; /* Center the flex items */
+    gap: 20px; /* Space between each card */
+    max-width: 100rem; /* Set the max width of the grid container */
+    width: 100%; /* Ensure the grid spans full width */
+    margin: 0 auto; /* Center the grid container horizontally */
+    padding-top:2rem;
+  }
   .artists-grid {
     display: flex;
     flex-wrap: wrap; /* Allows wrapping of items */

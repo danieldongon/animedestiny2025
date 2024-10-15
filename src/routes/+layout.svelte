@@ -8,5 +8,5 @@
   <link rel="icon" href="icons/ADicon.png"/>
 
   <!-- Set meta tags for SEO purposes -->
-  <meta name="description" content="Anime Destiny 2024 at UC Berkeley - A celebration of anime, manga, and Japanese culture." />
+  <meta name="description" content="Welcome to Anime Destiny 2024 hosted by Cal Animage Alpha! Tickets are now live; don't wait and join in on the exciting events, exhibits, and games at UC Berkeley's premiere anime convention." />
 </svelte:head>

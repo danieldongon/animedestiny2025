@@ -283,6 +283,7 @@
   .hero-image {
     position: relative;
     height: 100vh;
+    min-height: 750px;
     overflow: hidden;
     display: flex;
     justify-content: center;

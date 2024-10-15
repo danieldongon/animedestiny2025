@@ -97,6 +97,9 @@ import { artists } from './artists.js';
     width: 100%; /* Ensure the grid spans full width */
     margin: 0 auto; /* Center the grid container horizontally */
     padding-top:2rem;
+    padding-bottom: 2rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
 
   .artist-card {

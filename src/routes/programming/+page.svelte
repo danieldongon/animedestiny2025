@@ -80,6 +80,9 @@
           <p><strong>Location:</strong> Stephens Hall</p>
           <p><strong>Time:</strong> 11:00 AM - 12:00 PM</p>
           <p>Student group performing an acapella set of songs, including Jpop, Anime songs, and some English music. Join NiCE for a fantastic live performance of popular hits!</p>
+          <p>Social Media: @nikkeichoralensemble</p>
+          <div class="nikkei-container">
+          <img src="images/nikkei-choral.png" alt="Work in Progress" class=nikkei-image style="width:16%;height:auto;margin:auto;" />
         </section>
 
         <section id="event-genshin-club" class="program-card" class:glow={currentHash === "#event-genshin-club"}>
@@ -116,6 +119,15 @@
           <p><strong>Location:</strong> Tilden Room</p>
           <p><strong>Time:</strong> 3:00 PM - 4:00 PM</p>
           <p>The Intermission Orchestra is a student-led community that performs music from anime, video games, and films. Enjoy their performance, which includes both full orchestral and small ensemble pieces!</p>
+          <p>Social Media: @intermissionberkeley</p>
+          <div class="intermission-container">
+          <div class="intermission-image">
+            <img src="images/intermission-profile.png" alt="Work in Progress" style="width:47%;" />
+          </div>
+          <div class="intermission-image">
+            <img src="images/intermission-concert.png" alt="Work in Progress" style="width:70%;" />
+          </div>
+          </div>
         </section>
 
         <section id="event-anikura-destiny" class="program-card" class:glow={currentHash === "#event-anikura-destiny"}>
@@ -206,6 +218,29 @@
     p {
       margin-bottom: 1rem;
     }
+  
+.nikkei-container {
+  display: flex;
+  padding: 15px;
+}
+
+.intermission-container {
+  display: flex;
+  justify-content: end;
+}
+.intermission-image:first-child {
+  height: 200px;
+  width: 400px;
+  margin-right: -125px;
+}
+
+.intermission-image:last-child {
+  height: 200px;
+  width: 400px;
+  margin-right: -45px;
+  margin-bottom: 1rem;
+}
+
 </style>
   
   <Footer/>

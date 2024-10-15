@@ -210,7 +210,7 @@
   }
   .page-body {
       
-      padding: 2rem;
+      padding: 1rem;
       width: 100%;
       max-width: 100rem;
       margin: auto;

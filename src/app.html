@@ -4,6 +4,7 @@
 		<meta charset="utf-8" />
 		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap" rel="stylesheet">
+		<link href="https://overpass-30e2.kxcdn.com/overpass.css" rel="stylesheet">
 		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		%sveltekit.head%
@@ -11,4 +12,22 @@
 	<body data-sveltekit-preload-data="hover">
 		<div style="display: contents">%sveltekit.body%</div>
 	</body>
+	<style>
+		.page-title {
+			
+			background-color: #485077; /* Solid blue background */
+			color: #fed893; /* Yellow text */
+			font-size: 3rem; /* Text size */
+			height: 10rem; /* Height of the bar */
+			display: flex; /* Flexbox for centering */
+			justify-content: center; /* Horizontally center the text */
+			align-items: center; /* Vertically center the text */
+			width: 100%; /* Full viewport width */
+			margin: 0; /* Remove any default margin */
+			box-sizing: border-box; /* Ensures padding doesn't affect width */
+			text-align: center;
+			font-family:"Overpass";
+			font-weight:800;
+		}
+	</style>
 </html>

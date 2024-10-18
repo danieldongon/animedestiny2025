@@ -15,7 +15,7 @@
     {
       name: "Aeson Coser",
       description: "Current CAA officer and Bay Area cosplayer",
-      intro: "(no intro provided yet. more info coming soon!)",
+      intro: "Hey, I’m aeson_coser, and I’m super excited to be a cosplay competition judge at Anime Destiny this year! I’ve been cosplaying for seven years, but it’s really been the past couple of years where I have definitely improved. Right now, I’m working on cosplays for Nana, Karlach, and Pomni. I’m also a huge fan of Final Fantasy, Arcane, and Digital Circus! I’m really looking forward to seeing what everyone brings to the stage!",
       socialLink: "https://instagram.com/aeson_coser",
       socialName: "@aeson_coser",
       imageUrl: "images/aeson.jpg"

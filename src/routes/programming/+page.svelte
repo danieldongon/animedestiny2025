@@ -91,7 +91,10 @@
           <p><strong>Location:</strong> Stephens Hall</p>
           <p><strong>Time:</strong> 5:00 PM - 6:00 PM</p>
           <p>Join Berkeley's Genshin Club! Complete four “commissions” for special prizes and discounts on merch. Participate in fun activities and hang out with Hoyoverse fans!</p>
-          <p>Discord: https://discord.gg/XwGc7eWDF6</p>
+          <a href="https://discord.gg/XwGc7eWDF6">
+            <div>Discord: https://discord.gg/XwGc7eWDF6</div>
+          </a>
+          <br>
           <p>Instagram: @genshinatberkeley</p>
           <div class="genshin-container">
           <img src="images/genshin_profile.png" alt="Work in Progress" style="width:16%;height:auto;margin:auto;" />

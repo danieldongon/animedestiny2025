@@ -83,6 +83,7 @@
           <p>Social Media: @nikkeichoralensemble</p>
           <div class="nikkei-container">
           <img src="images/nikkei-choral.png" alt="Work in Progress" class=nikkei-image style="width:16%;height:auto;margin:auto;" />
+          </div>
         </section>
 
         <section id="event-genshin-club" class="program-card" class:glow={currentHash === "#event-genshin-club"}>
@@ -90,6 +91,11 @@
           <p><strong>Location:</strong> Stephens Hall</p>
           <p><strong>Time:</strong> 5:00 PM - 6:00 PM</p>
           <p>Join Berkeley's Genshin Club! Complete four “commissions” for special prizes and discounts on merch. Participate in fun activities and hang out with Hoyoverse fans!</p>
+          <p>Discord: https://discord.gg/XwGc7eWDF6</p>
+          <p>Instagram: @genshinatberkeley</p>
+          <div class="genshin-container">
+          <img src="images/genshin_profile.png" alt="Work in Progress" style="width:16%;height:auto;margin:auto;" />
+          </div>
         </section>
       </div>
     </section>
@@ -224,10 +230,16 @@
   padding: 15px;
 }
 
+.genshin-container {
+  display: flex;
+  padding: 15px;
+}
+
 .intermission-container {
   display: flex;
   justify-content: end;
 }
+
 .intermission-image:first-child {
   height: 200px;
   width: 400px;

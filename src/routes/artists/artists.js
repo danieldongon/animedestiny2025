@@ -60,6 +60,12 @@ export const artists = [
     "location": "A10"
   },
   {
+  "name": "maiyarn",
+  "socials": "",
+  "description": "",
+  "location": "A11"
+  },
+  {
     "name": "Precious Touch Creations",
     "socials": "https://www.precioustouchcreations.com/",
     "description": "",

@@ -203,20 +203,6 @@
     margin-left: -1rem;
   }
 
-  .page-title {
-    background-color: #485077; /* Solid blue background */
-    color: #fed893; /* Yellow text */
-    font-size: 3rem; /* Text size */
-    height: 10rem; /* Height of the bar */
-    display: flex; /* Flexbox for centering */
-    justify-content: center; /* Horizontally center the text */
-    align-items: center; /* Vertically center the text */
-    width: 100%; /* Full viewport width */
-    margin: 0; /* Remove any default margin */
-    box-sizing: border-box; /* Ensures padding doesn't affect width */
-    margin-bottom:2rem;
-    text-align: center;
-  }
   .page-body {
       
       padding: 1rem;

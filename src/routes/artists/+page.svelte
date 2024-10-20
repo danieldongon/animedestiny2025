@@ -34,9 +34,9 @@ import { artists } from './artists.js';
           <h2>{name}</h2>
         </div>
         
-        {#if isUrl(socials)}
+        {#if socials && isUrl(socials)}
           <a href="{formatUrl(socials)}" target="_blank" rel="noopener noreferrer">{socials}</a>
-        {:else}
+        {:else if socials !== ""}
           <p>Social Media: {socials}</p>
         {/if}
   

@@ -128,9 +128,9 @@
     <!-- Exhibitors Section -->
     <section>
       <h2>Exhibitors</h2>
-      <p>Many amazing artists and vendors are at Anime Destiny 2024! Explore and support their talent through the Artist Alley.</p>
+      <p style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #485077; margin-bottom: 1rem;">Many amazing artists and vendors are at Anime Destiny 2024! Explore and support their talent through the Artist Alley.</p>
       <div class="content-container">
-        <h2>Here is the Artist Alley from AD 2023</h2>
+        <h2 style="font-family: 'Roboto', sans-serif; font-size: 2rem; color: #485077; margin-bottom: 1rem;">Here is the Artist Alley from AD 2023</h2>
         <div class="embed-wrapper">      
           <!-- YouTube Embed -->
           <div id="embed youtube-embed">
@@ -147,8 +147,8 @@
     any prizes and events? -->
     <!-- Gaming Hall Section -->
     <section>
-      <h2>Gaming Hall</h2>
-      <p>Looking to unwind at Anime Destiny? Or even to get a bit competitive? The gaming hall offers a diverse set of video games, tabletop games, rhythm/dance games, and more!</p>
+      <h2 style="font-family: 'Roboto', sans-serif; font-size: 2rem; color: #485077; margin-bottom: 1rem;">Gaming Hall</h2>
+      <p style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #485077; margin-bottom: 1rem;">Looking to unwind at Anime Destiny? Or even to get a bit competitive? The gaming hall offers a diverse set of video games, tabletop games, rhythm/dance games, and more!</p>
     </section>
     <hr />
 

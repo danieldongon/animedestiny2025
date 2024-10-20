@@ -32,7 +32,7 @@
 
 <main>
   <div class="gradient" style="background: linear-gradient(90deg, orange, purple); padding: 1rem; text-align: center;">
-    <p style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: white; margin: 0;">AD Tickets are now live for purchase!</p>
+    <p style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: white; margin: 0;"><a href={purchaseLink}>AD Tickets are now live for purchase!</a></p>
   </div>
   <div class="hero-image" style="--scroll-y: {scrollY}">
     <img src="{mobileImage}" alt="Anime Destiny Event" class="mobile" draggable="false" />
@@ -99,10 +99,6 @@
         referrerpolicy="no-referrer-when-downgrade">
       </iframe>
     
-      <a href={purchaseLink} target="_blank" rel="noopener noreferrer" 
-        style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: #485077; text-decoration: underline; font-weight: bold; display: inline-block; margin-top: 1.5rem;">
-        Purchase Tickets
-      </a>
     </section>
     
     <hr style="border: none; border-top: 2px solid #485077; margin-top: 2rem;" />
@@ -259,8 +255,13 @@
     </p>
   </div>
 </section>
+<div class="content-container">
+  <a href={purchaseLink} target="_blank" rel="noopener noreferrer" 
+  class="section-link" style="font-size:2.5rem;">
+  Get Your Tickets Now!
+  </a>
+</div>
 
-    
     <!-- <hr/>
 
     Buy Tickets Now Section 

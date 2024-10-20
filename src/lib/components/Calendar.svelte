@@ -22,7 +22,7 @@
       Here is the full schedule of events for Anime Destiny 2024. Make sure to plan your day and check out all the exciting activities!
     </p>
   
-    <div style="display: flex; justify-content: center; align-items: center;">
+    <div class="parent-container">
       <picture class="image-container">
         <!-- Mobile image: displayed on screens with a max width of 768px -->
         <source srcset={calendar_mobile} media="(max-width: 768px)" />
@@ -38,17 +38,26 @@
   
   <style>
 @media (max-width: 768px) {
-        .image-container {
-            position: absolute; /* Take the image out of the normal flow */
-            left: 0;
-            width: 100vw; /* Make the image 100% of the viewport width */
-            height: auto; /* Maintain aspect ratio */
-        }
+  .parent-container {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+      padding-top:60vw;
+      padding-bottom: 60vw;
+  }
+  .image-container {
+      position: absolute; /* Take the image out of the normal flow */
+      left: -2rem;
+      width: 100vw; /* Make the image 100% of the viewport width */
+      height: auto; /* Maintain aspect ratio */
+  }
 
-        .responsive-image {
-            width: 100%; /* Ensure the image takes up the full width of the image container */
-            height: auto;
-            border-radius: 0; /* Optional: remove border-radius on mobile */
-        }
-    }
+  .responsive-image {
+      width: 100%; /* Ensure the image takes up the full width of the image container */
+      height: auto;
+      border-radius: 0; /* Optional: remove border-radius on mobile */
+  }
+}
 </style>

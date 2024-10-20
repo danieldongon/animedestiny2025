@@ -182,9 +182,6 @@
       <!-- Schedule Section -->
       <div style="padding-right: 2rem;">
         
-        <p style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #485077; margin-bottom: 1rem;">
-          <a href="https://docs.google.com/spreadsheets/d/1uLor3fj4G53hlDuvnCsNLayLDj9EizjN0eisJKar8Lc/edit?usp=sharing" target="_blank" rel="noopener noreferrer" style="color: #485077; text-decoration: underline;">Anime Destiny 2024 Event Schedule (Google Spreadsheet)</a>
-        </p>
         
         <!-- Google Calendar Embed (This would be a separate Svelte component) -->
         <div style="margin-top: 1rem;">

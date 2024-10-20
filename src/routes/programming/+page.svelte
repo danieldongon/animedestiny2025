@@ -89,7 +89,7 @@
         <section id="event-genshin-club" class="program-card" class:glow={currentHash === "#event-genshin-club"}>
           <div class="name-bar"><h4>Genshin at Berkeley Club Event</h4></div>
           <p><strong>Location:</strong> Stephens Hall</p>
-          <p><strong>Time:</strong> 3:00 PM - 6:30 PM</p>
+          <p><strong>Time:</strong> 3:00 PM - 6:00 PM</p>
           <p>Join Berkeley's Genshin Club! Complete four “commissions” for special prizes and discounts on merch. Participate in fun activities and hang out with Hoyoverse fans!</p>
           <a href="https://discord.gg/XwGc7eWDF6">
             <div>Discord: https://discord.gg/XwGc7eWDF6</div>

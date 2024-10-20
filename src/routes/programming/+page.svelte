@@ -126,7 +126,7 @@
         <section id="event-intermission-orchestra" class="program-card" class:glow={currentHash === "#event-intermission-orchestra"}>
           <div class="name-bar"><h4>The Intermission Orchestra</h4></div>
           <p><strong>Location:</strong> Tilden Room</p>
-          <p><strong>Time:</strong> 2:00 PM - 3:30 PM</p>
+          <p><strong>Time:</strong> 2:00 PM - 3:00 PM</p>
           <p>The Intermission Orchestra is a student-led community that performs music from anime, video games, and films. Enjoy their performance, which includes both full orchestral and small ensemble pieces!</p>
           <p>Social Media: @intermissionberkeley</p>
           <div class="intermission-container">

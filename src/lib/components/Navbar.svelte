@@ -61,7 +61,7 @@
           <a href="/about">About AD</a>
           <a href="/artists">Artist Alley</a>
           <a href="/#map-schedule">Schedule and Map</a>
-          <a href="/#rules">Rules</a>
+          <a href="/parking">Parking</a>
         </div>
       {/if}
     </div>
@@ -118,7 +118,7 @@
 {/if}
 
   </div>
-
+    <a href="/rules">Rules</a>
     <!-- Buy a Ticket -->
     <a href={ticketLink} target="_blank" rel="noopener noreferrer" in:fade={{ duration: 500 }}>Buy a Ticket</a>
 
@@ -130,7 +130,6 @@
       <img src="icons/instagram.svg" alt="Instagram" class="icon"/>
     </a>
   </div>
-
   <!-- Mobile Menu Trigger -->
   <div class="hamburger mobile-only" on:click={toggleMenu}>
     <div class="bar"></div>
@@ -158,6 +157,7 @@
       <a href="/artists" on:click={closeMenu} in:fade={{ duration: 500 }}>Artist Alley</a>
       <a href="/programming" on:click={closeMenu} in:fade={{ duration: 500 }}>Programming</a>
       <a href="/cosplay-contest" on:click={closeMenu} in:fade={{ duration: 500 }}>Cosplay Contest</a>
+      <a href="/rules">Rules</a>
       
       <!-- Buy a Ticket -->
       <a href={ticketLink} target="_blank" rel="noopener noreferrer" on:click={closeMenu} in:fade={{ duration: 500 }}>Buy a Ticket</a>

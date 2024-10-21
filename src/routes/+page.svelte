@@ -51,7 +51,7 @@
   </div>
 
   <div class="gradient" style="background: linear-gradient(90deg, orange, purple); padding: 1rem; text-align: center;">
-    <p style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: white; margin: 0;"><a href="/cosplay-contest">Sign-up for the cosplay contest today!</a></p>
+    <p style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: white; margin: 0;"><a href="/cosplay-contest">Sign-up for the cosplay contest here! Prizes included.</a></p>
   </div>
   
   <div class="event-info">

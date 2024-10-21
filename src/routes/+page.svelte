@@ -163,38 +163,26 @@
     -->
     <!-- Schedule Section -->
     <section id="map-schedule" style="padding: 2rem 0;">
-      <h2 style="font-family: 'Roboto', sans-serif; font-size: 2rem; color: #485077; margin-bottom: 1rem;">Map and Schedule</h2>
-    
-      <div style="padding-right: 2rem;">
-        <h3 style="font-family: 'Roboto', sans-serif; font-size: 1.5rem; color: #485077; margin-bottom: 0.5rem;">Parking Information:</h3>
-        <p style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #485077; margin-bottom: 1rem;">
-          Street parking is available around the Berkeley campus. You may also park at the following garages and lots:
-        </p>
-        <ul style="list-style-type: disc; margin-left: 1.5rem; font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #485077; margin-bottom: 1rem;">
-          <li>Lower Sproul Lot</li>
-          <li>Recreational Sports Facility (RSF) Garage</li>
-          <li>Telegraph-Channing Garage</li>
-          <li>Bancroft Structure</li>
-          <li>Upper Hearst Structure</li>
-          <li>Stadium Parking Garage</li>
-        </ul>
-        <p style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #485077;">
-          For more information, consult: <a href="https://berkeleyca.gov/city-services/parking/parking-garages-and-lots" target="_blank" rel="noopener noreferrer" style="color: #485077; text-decoration: underline;">Berkeley Parking Garages and Lots</a> and <a href="https://pt.berkeley.edu/sites/default/files/2018_ucb_map_051018_1.pdf" target="_blank" rel="noopener noreferrer" style="color: #485077; text-decoration: underline;">Berkeley Parking Map (PDF)</a>.
-        </p>
-      </div>
+      <h2 style="font-family: 'Roboto', sans-serif; font-size: 2rem; color: #485077; margin-bottom: 1rem;">Schedule and Parking</h2>
     
       <!-- Schedule Section -->
       <div style="padding-right: 2rem;">
-        
-        <p style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #485077; margin-bottom: 1rem;">
-          <a href="https://docs.google.com/spreadsheets/d/1uLor3fj4G53hlDuvnCsNLayLDj9EizjN0eisJKar8Lc/edit?usp=sharing" target="_blank" rel="noopener noreferrer" style="color: #485077; text-decoration: underline;">Anime Destiny 2024 Event Schedule (Google Spreadsheet)</a>
+        <p style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: #485077; margin-bottom: 1.5rem;">
+          Here is the full schedule of events for Anime Destiny 2024. For more detailed descriptions of each event, please visit our <a href="/programming" style="color: #485077; text-decoration: underline;">Programming Page.</a>
         </p>
-        
         <!-- Google Calendar Embed (This would be a separate Svelte component) -->
         <div style="margin-top: 1rem;">
           <Calendar />
         </div>
       </div>
+
+      <div style="padding-right: 2rem;">
+        <h3 style="font-family: 'Roboto', sans-serif; font-size: 1.5rem; color: #485077; margin-bottom: 0.5rem;">Parking Information:</h3>
+        <p style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #485077; margin-bottom: 1rem;">
+            For info about street parking, visit the <a href="/parking" style="color: #485077; text-decoration: underline;">parking page</a>.
+        </p>
+      </div>
+
     </section>
     <hr />
 

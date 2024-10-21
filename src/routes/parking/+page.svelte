@@ -1,73 +1,110 @@
 <script>
   import Navbar from '$lib/components/Navbar.svelte';
   import Footer from '$lib/components/Footer.svelte';
-  
-  let confirmationMessage = "Purchase Confirmed!";
-  let homeLink = "/";
 </script>
   
 <Navbar />
-  
+
 <main class="confirmation-page">
-  <div class="confirmation-content">
-    <h1>{confirmationMessage}</h1>
-    <p>Your order has been processed!</p>
-    <p>A receipt has been sent to your email.</p>
-    <p>Please remember the name and email you signed up with for registration at AD 2024!</p>
-    <p>Return to <a href={homeLink} class="home-link">Home Page</a></p>
+  <div class="page-title">
+    Parking
   </div>
+  <section id="map-schedule" class="parking-info">
+    <div>
+      <p>
+        Street parking may be available around the Berkeley campus. You may also park at the following garages and lots:
+      </p>
+      <ul>
+        <li>Lower Sproul Lot</li>
+        <li>Recreational Sports Facility (RSF) Garage</li>
+        <li>Telegraph-Channing Garage</li>
+        <li>Bancroft Structure</li>
+        <li>Upper Hearst Structure</li>
+        <li>Stadium Parking Garage</li>
+      </ul>
+      <p>
+        For more information, consult: 
+        <a href="https://berkeleyca.gov/city-services/parking/parking-garages-and-lots" target="_blank" rel="noopener noreferrer">
+          Berkeley Parking Garages and Lots
+        </a> and 
+        <a href="https://pt.berkeley.edu/sites/default/files/2018_ucb_map_051018_1.pdf" target="_blank" rel="noopener noreferrer">
+          Berkeley Parking Map (PDF)
+        </a>.
+      </p>
+    </div>
+  </section>
 </main>
   
-<Footer/>
-  
+<Footer />
+
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Montserrat:wght@400&display=swap');
   
-  .confirmation-page {
+  main {
+    flex-grow: 1;
     display: flex;
     flex-direction: column;
+    background-color: #f0f4f8;
+  }
+  
+  .confirmation-page {
+    padding: 0;
+    margin: 0; 
+  }
+  
+  .page-title {
+    background-color: #485077;
+    color: #fed893;
+    font-size: 3rem;
+    height: 10rem;
+    display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    background-color: #f0f4f8;
-    text-align: center;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .parking-info {
     padding: 2rem;
-  }
-  
-  .confirmation-content h1 {
-    font-family: 'Protest Strike', sans-serif;
-    font-size: 3rem;
-    color: #485077; /* Match with the theme’s dark blue */
-  }
-  
-  .confirmation-content p {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.2rem;
     color: #485077;
   }
   
-  .home-link {
+  .parking-info p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .parking-info ul {
+    list-style-type: disc;
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .parking-info a {
     color: #485077;
-    text-decoration: none;
-    font-weight: bold;
-    border-bottom: 2px solid #485077;
-    padding-bottom: 0.2rem;
-    transition: color 0.3s ease, border-bottom-color 0.3s ease;
+    text-decoration: underline;
+    transition: color 0.3s ease;
   }
   
-  .home-link:hover {
-    color: #fed893; /* Hover color */
-    border-bottom-color: #fed893;
+  .parking-info a:hover {
+    color: #fed893;
   }
-  
+
   /* Mobile Styling */
   @media (max-width: 768px) {
-    .confirmation-content h1 {
-    font-size: 2rem;
+    .page-title {
+      font-size: 2rem;
+      height: 8rem;
     }
-  
-    .confirmation-content p {
-    font-size: 1rem;
+
+    .parking-info p,
+    .parking-info ul {
+      font-size: 1rem;
     }
   }
 </style>

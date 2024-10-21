@@ -81,8 +81,15 @@
           <p><strong>Time:</strong> 11:00 AM - 12:00 PM</p>
           <p>Student group performing an acapella set of songs, including Jpop, Anime songs, and some English music. Join NiCE for a fantastic live performance of popular hits!</p>
           <p>Social Media: @nikkeichoralensemble</p>
+          <a href="https://niceacappella.studentorg.berkeley.edu/index.html" target="_blank">
+            <div>Website: https://niceacappella.studentorg.berkeley.edu/index.html</div>
+          </a>
+          
           <div class="nikkei-container">
-          <img src="images/nikkei-choral.png" alt="Work in Progress" class=nikkei-image style="width:16%;height:auto;margin:auto;" />
+            <div class="video-container">            
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/Zft_N-6KHsM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <img src="images/nikkei-choral.png" alt="Work in Progress" class=nikkei-image style="width:16%;height:auto;margin:auto;" />
           </div>
         </section>
 
@@ -144,8 +151,9 @@
           <p><strong>Location:</strong> Tilden Room</p>
           <p><strong>Time:</strong> 4:30 PM - 7:00 PM</p>
           <p>Come experience an anime rave featuring live DJs performing various hits across anime, games, and Japanese media. Dance and enjoy the rave atmosphere at Anime Destiny!</p>
-        </section>
-      </div>
+          <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/UpmPM_NzA70" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
     </section>
 
   </div>
@@ -242,6 +250,27 @@
   margin-bottom: 1rem;
 }
 
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .video-container iframe {
+    height: 400px; /* Adjust height for tablets */
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .video-container iframe {
+    height: 300px; /* Adjust height for mobile screens */
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .video-container iframe {
+    height: 200px; /* Adjust height for small mobile screens */
+    width: 100%;
+  }
+}
 </style>
   
   <Footer/>

@@ -4,6 +4,7 @@
   import Footer from '$lib/components/Footer.svelte';
   import Calendar from '$lib/components/Calendar.svelte';
   import Gaming from '$lib/components/Gaming.svelte';
+  import Events from '$lib/components/Events.svelte';
 
   let desktopImage = 'images/hero.png';
   let mobileImage = 'images/hero.png';
@@ -50,7 +51,7 @@
   </div>
 
   <div class="gradient" style="background: linear-gradient(90deg, orange, purple); padding: 1rem; text-align: center;">
-    <p style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: white; margin: 0;"></p>
+    <p style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: white; margin: 0;"><a href="/cosplay-contest">Sign-up for the cosplay contest today!</a></p>
   </div>
   
   <div class="event-info">
@@ -93,7 +94,7 @@
     
     <!-- What to Expect Section -->
   <section id="events" style="padding: 2rem 0;">
-    <h2 style="font-family: 'Roboto', sans-serif; font-size: 2rem; color: #485077; margin-bottom: 1rem;">What to Expect</h2>
+    <h2 style="font-family: 'Roboto', sans-serif; font-size: 2rem; color: #485077; margin-bottom: 1rem;">Events</h2>
     
     <p style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: #485077; margin-bottom: 1.5rem;">
       At Anime Destiny, attendees can enjoy a variety of experiences including:
@@ -108,7 +109,7 @@
       <li>Anikura Destiny: An exciting anime rave with live DJs</li>
       <li>And much more!</li>
     </ul>
-    
+    <Events/>
   </section>
 
   <hr style="border: none; border-top: 2px solid #485077; margin-top: 2rem;" />
@@ -135,7 +136,7 @@
     what artists are there, etc. -->
     <!-- Exhibitors Section -->
     <section>
-      <h2>Exhibitors</h2>
+      <h2>Artist Alley/Exhibitors</h2>
       <p style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #485077; margin-bottom: 1rem;">Many amazing artists and vendors are at Anime Destiny 2024! Explore and support their talent through the Artist Alley.</p>
       <div class="content-container">
         <h2 style="font-family: 'Roboto', sans-serif; font-size: 2rem; color: #485077; margin-bottom: 1rem;">Here is the Artist Alley from AD 2023</h2>
@@ -150,9 +151,6 @@
     </section>
     <hr />
 
-    <!-- TODO populate Gaming Hall section
-    what games? what competitions? etc.
-    any prizes and events? -->
     <!-- Gaming Hall Section -->
     <section>
       <h2 style="font-family: 'Roboto', sans-serif; font-size: 2rem; color: #485077; margin-bottom: 1rem;">Gaming Hall</h2>

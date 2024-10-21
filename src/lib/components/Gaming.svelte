@@ -32,7 +32,7 @@
       <a href={club.link} target="_blank" rel="noopener noreferrer" class="club-card" aria-label="Visit {club.name}">
         <div class="logo">
           {#if club.logo}
-            <img src={club.logo} alt="{club.name} logo" class="club-logo" />
+            <img src={club.logo} alt="{club.name} logo" class="club-logo" draggable="false" />
           {:else}
             <div class="placeholder-image">No Logo</div>
           {/if}
@@ -54,7 +54,6 @@
       gap: 1.5rem;
       justify-content: center;
       padding: 2rem;
-      background-color: #f5f7fa;
     }
   
     .club-card {

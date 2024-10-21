@@ -118,7 +118,7 @@
 {/if}
 
   </div>
-    <a href="/rules">Rules</a>
+  <a href="/rules">Rules</a>
     <!-- Buy a Ticket -->
     <a href={ticketLink} target="_blank" rel="noopener noreferrer" in:fade={{ duration: 500 }}>Buy a Ticket</a>
 

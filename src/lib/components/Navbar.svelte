@@ -38,11 +38,6 @@
     <a href="/" in:fade={{ duration: 500 }} style="font-family: 'Roboto', sans-serif; font-size: 1.8rem;">Anime Destiny</a>
   </div>
 
-  <!-- Work in Progress -->
-  <div class="wip" >
-    <span in:fade={{ duration: 500 }}>Work in Progress</span>
-  </div>
-
   <!-- Desktop Menu -->
   <div class="menu-items desktop-only">
     <!-- Home Dropdown -->
@@ -148,7 +143,7 @@
     <div class="mobile-logo">
       <a href="/" on:click={closeMenu} in:fade={{ duration: 500 }}>Anime Destiny</a>
     </div>
-    <div class="close-btn" on:click={closeMenu}>X</div>
+    <div class="close-btn" on:click={closeMenu}>✖</div>
 
     <div class="menu-content">
       <!-- TODO Add more pages (e.g. panels, workshops, etc.)
@@ -194,13 +189,6 @@
     font-size: 1.5rem;
     color: white;
     text-decoration: none;
-  }
-
-  .wip {
-    color: #fed893;
-    font-size: 1rem;
-    margin-right: auto;
-    padding-left: 1.5rem;
   }
 
   .menu-items a, .menu-content a {
@@ -276,7 +264,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: black;
+    background-color: #101030;
     opacity: 0;
     visibility: hidden;
     transform: translateY(-100%);
@@ -306,14 +294,18 @@
   .menu-content {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    padding-left: 2rem;
+    padding-top: 3.5rem;
     height: 100%;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight:200;
   }
 
   .menu-content a {
-    font-size: 2rem;
-    margin: 1.5rem 0;
+    font-size: 1.8rem;
+    margin: 1rem 0;
   }
 
   .close-btn {

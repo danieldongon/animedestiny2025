@@ -32,7 +32,7 @@
 
 <main>
   <div class="gradient" style="background: linear-gradient(90deg, orange, purple); padding: 1rem; text-align: center;">
-    <p style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: white; margin: 0;">AD Tickets are now live for purchase!</p>
+    <p style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: white; margin: 0;"><a href={purchaseLink}>AD Tickets are now live for purchase!</a></p>
   </div>
   <div class="hero-image" style="--scroll-y: {scrollY}">
     <img src="{mobileImage}" alt="Anime Destiny Event" class="mobile" draggable="false" />
@@ -62,7 +62,7 @@
       <h2 style="font-family: 'Roboto', sans-serif; font-size: 2rem; color: #485077; margin-bottom: 1rem;">About Anime Destiny 2024</h2>
       
       <p style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: #485077; margin-bottom: 1.5rem;">
-        Anime Destiny is UC Berkeley's premier anime convention, hosted annually by Cal Animage Alpha. This year, the convention will be held on Saturday, November 9, 2024, from 8:00 AM to 8:00 PM in the Pauley Ballroom of the ASUC Student Union, located at 2495 Bancroft Way, Berkeley, CA.
+        Anime Destiny is UC Berkeley's premier anime convention, hosted annually by Cal Animage Alpha. This year, the convention will be held on Saturday, November 9, 2024, from <strong>9:00 AM to 7:00 PM</strong> in the Pauley Ballroom of the ASUC Student Union, located at 2495 Bancroft Way, Berkeley, CA.
       </p>
     
       <p style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: #485077; margin-bottom: 1.5rem;">
@@ -99,10 +99,6 @@
         referrerpolicy="no-referrer-when-downgrade">
       </iframe>
     
-      <a href={purchaseLink} target="_blank" rel="noopener noreferrer" 
-        style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: #485077; text-decoration: underline; font-weight: bold; display: inline-block; margin-top: 1.5rem;">
-        Purchase Tickets
-      </a>
     </section>
     
     <hr style="border: none; border-top: 2px solid #485077; margin-top: 2rem;" />
@@ -132,9 +128,9 @@
     <!-- Exhibitors Section -->
     <section>
       <h2>Exhibitors</h2>
-      <p>Many amazing artists and vendors are at Anime Destiny 2024! Explore and support their talent through the Artist Alley.</p>
+      <p style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #485077; margin-bottom: 1rem;">Many amazing artists and vendors are at Anime Destiny 2024! Explore and support their talent through the Artist Alley.</p>
       <div class="content-container">
-        <h2>Here is the Artist Alley from AD 2023</h2>
+        <h2 style="font-family: 'Roboto', sans-serif; font-size: 2rem; color: #485077; margin-bottom: 1rem;">Here is the Artist Alley from AD 2023</h2>
         <div class="embed-wrapper">      
           <!-- YouTube Embed -->
           <div id="embed youtube-embed">
@@ -151,8 +147,8 @@
     any prizes and events? -->
     <!-- Gaming Hall Section -->
     <section>
-      <h2>Gaming Hall</h2>
-      <p>Looking to unwind at Anime Destiny? Or even to get a bit competitive? The gaming hall offers a diverse set of video games, tabletop games, rhythm/dance games, and more!</p>
+      <h2 style="font-family: 'Roboto', sans-serif; font-size: 2rem; color: #485077; margin-bottom: 1rem;">Gaming Hall</h2>
+      <p style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #485077; margin-bottom: 1rem;">Looking to unwind at Anime Destiny? Or even to get a bit competitive? The gaming hall offers a diverse set of video games, tabletop games, rhythm/dance games, and more!</p>
     </section>
     <hr />
 
@@ -247,8 +243,13 @@
     </p>
   </div>
 </section>
+<div class="content-container">
+  <a href={purchaseLink} target="_blank" rel="noopener noreferrer" 
+  class="section-link" style="font-size:2.5rem;">
+  Get Your Tickets Now!
+  </a>
+</div>
 
-    
     <!-- <hr/>
 
     Buy Tickets Now Section 
@@ -271,6 +272,7 @@
   .hero-image {
     position: relative;
     height: 100vh;
+    min-height: 750px;
     overflow: hidden;
     display: flex;
     justify-content: center;

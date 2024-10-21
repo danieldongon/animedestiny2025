@@ -54,7 +54,7 @@
         <section id="panel-music-voice-acting" class="program-card" class:glow={currentHash === "#panel-music-voice-acting"}>
           <div class="name-bar"><h4>Entering the Music and Voice Acting Industry with Raj Ramayya</h4></div>
           <p><strong>Location:</strong> Stephens Hall</p>
-          <p><strong>Time:</strong> 1:00 PM - 2:00 PM</p>
+          <p><strong>Time:</strong> 1:30 PM - 2:30 PM</p>
           <p>An industry panel with Raj Ramayya, an Indo-Canadian Singer/Songwriter/Composer with over 250 television commercial writing, co-writing, and singing credits. Raj’s involvement includes "Resident Evil", "Gungrave", and "Cowboy Bebop". Join this session to discuss the music and voice acting industry!</p>
         </section>
       </div>
@@ -80,13 +80,25 @@
           <p><strong>Location:</strong> Stephens Hall</p>
           <p><strong>Time:</strong> 11:00 AM - 12:00 PM</p>
           <p>Student group performing an acapella set of songs, including Jpop, Anime songs, and some English music. Join NiCE for a fantastic live performance of popular hits!</p>
+          <p>Social Media: @nikkeichoralensemble</p>
+          <div class="nikkei-container">
+          <img src="images/nikkei-choral.png" alt="Work in Progress" class=nikkei-image style="width:16%;height:auto;margin:auto;" />
+          </div>
         </section>
 
         <section id="event-genshin-club" class="program-card" class:glow={currentHash === "#event-genshin-club"}>
           <div class="name-bar"><h4>Genshin at Berkeley Club Event</h4></div>
           <p><strong>Location:</strong> Stephens Hall</p>
-          <p><strong>Time:</strong> 5:00 PM - 6:00 PM</p>
+          <p><strong>Time:</strong> 3:00 PM - 6:00 PM</p>
           <p>Join Berkeley's Genshin Club! Complete four “commissions” for special prizes and discounts on merch. Participate in fun activities and hang out with Hoyoverse fans!</p>
+          <a href="https://discord.gg/XwGc7eWDF6">
+            <div>Discord: https://discord.gg/XwGc7eWDF6</div>
+          </a>
+          <br>
+          <p>Instagram: @genshinatberkeley</p>
+          <div class="genshin-container">
+          <img src="images/genshin_profile.png" alt="Work in Progress" style="width:16%;height:auto;margin:auto;" />
+          </div>
         </section>
       </div>
     </section>
@@ -102,7 +114,7 @@
         <section id="panel-old-woke-manga" class="program-card" class:glow={currentHash === "#panel-old-woke-manga"}>
           <div class="name-bar"><h4>Old Woke Manga</h4></div>
           <p><strong>Location:</strong> Tilden Room</p>
-          <p><strong>Time:</strong> 10:00 AM - 11:30 AM</p>
+          <p><strong>Time:</strong> 10:30 AM - 11:30 AM</p>
           <p>Explore old Jump manga that were unexpectedly progressive, such as *Hidebari Kun*, *Barefoot Gen*, and more! Dive into a fascinating discussion on these classics.</p>
         </section>
       </div>
@@ -114,14 +126,23 @@
         <section id="event-intermission-orchestra" class="program-card" class:glow={currentHash === "#event-intermission-orchestra"}>
           <div class="name-bar"><h4>The Intermission Orchestra</h4></div>
           <p><strong>Location:</strong> Tilden Room</p>
-          <p><strong>Time:</strong> 3:00 PM - 4:00 PM</p>
+          <p><strong>Time:</strong> 2:00 PM - 3:00 PM</p>
           <p>The Intermission Orchestra is a student-led community that performs music from anime, video games, and films. Enjoy their performance, which includes both full orchestral and small ensemble pieces!</p>
+          <p>Social Media: @intermissionberkeley</p>
+          <div class="intermission-container">
+          <div class="intermission-image">
+            <img src="images/intermission-profile.png" alt="Work in Progress" style="width:47%;" />
+          </div>
+          <div class="intermission-image">
+            <img src="images/intermission-concert.png" alt="Work in Progress" style="width:70%;" />
+          </div>
+          </div>
         </section>
 
         <section id="event-anikura-destiny" class="program-card" class:glow={currentHash === "#event-anikura-destiny"}>
           <div class="name-bar"><h4>Anikura Destiny</h4></div>
           <p><strong>Location:</strong> Tilden Room</p>
-          <p><strong>Time:</strong> 6:30 PM - 7:30 PM</p>
+          <p><strong>Time:</strong> 4:30 PM - 7:00 PM</p>
           <p>Come experience an anime rave featuring live DJs performing various hits across anime, games, and Japanese media. Dance and enjoy the rave atmosphere at Anime Destiny!</p>
         </section>
       </div>
@@ -182,23 +203,9 @@
     margin-left: -1rem;
   }
 
-  .page-title {
-    background-color: #485077; /* Solid blue background */
-    color: #fed893; /* Yellow text */
-    font-size: 3rem; /* Text size */
-    height: 10rem; /* Height of the bar */
-    display: flex; /* Flexbox for centering */
-    justify-content: center; /* Horizontally center the text */
-    align-items: center; /* Vertically center the text */
-    width: 100%; /* Full viewport width */
-    margin: 0; /* Remove any default margin */
-    box-sizing: border-box; /* Ensures padding doesn't affect width */
-    margin-bottom:2rem;
-    text-align: center;
-  }
   .page-body {
       
-      padding: 2rem;
+      padding: 1rem;
       width: 100%;
       max-width: 100rem;
       margin: auto;
@@ -206,6 +213,35 @@
     p {
       margin-bottom: 1rem;
     }
+  
+.nikkei-container {
+  display: flex;
+  padding: 15px;
+}
+
+.genshin-container {
+  display: flex;
+  padding: 15px;
+}
+
+.intermission-container {
+  display: flex;
+  justify-content: end;
+}
+
+.intermission-image:first-child {
+  height: 200px;
+  width: 400px;
+  margin-right: -125px;
+}
+
+.intermission-image:last-child {
+  height: 200px;
+  width: 400px;
+  margin-right: -45px;
+  margin-bottom: 1rem;
+}
+
 </style>
   
   <Footer/>

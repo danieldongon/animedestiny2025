@@ -4,14 +4,7 @@
   import { onDestroy } from 'svelte';
   import { fade } from 'svelte/transition';
   const judges = [
-    {
-      name: "Nomi",
-      description: "Former CAA officer, Bay Area cosplayer",
-      intro: "Hallo! I’m nomi, a Bay Area based craft cosplayer. When it comes to making cosplays, I love figuring out how to interpret non physical design elements to real life. I personally prefer a live action interpretation of a character’s design rather than a strict following of a stylized appearance, and enjoy taking inspiration from film. Outside of cosplay, I love drawing, playing video games, and talking about physics - if you need someone to help you navigate studying physics at UCB and get research, let me know. Or if you want someone to join your Baldur’s Gate 3 co-op campaign, I’m also available for conscription.",
-      socialLink: "https://instagram.com/nawhmi.cos",
-      socialName: "@nawhmi.cos",
-      imageUrl: "images/nomi.jpg"
-    },
+    
     {
       name: "Aeson Coser",
       description: "Current CAA officer and Bay Area cosplayer",
@@ -27,6 +20,14 @@
       socialLink: null,
       socialName: null,
       imageUrl: "images/daniel.jpg"
+    },
+    {
+      name: "Nomi",
+      description: "Former CAA officer, Bay Area cosplayer",
+      intro: "Hallo! I’m nomi, a Bay Area based craft cosplayer. When it comes to making cosplays, I love figuring out how to interpret non physical design elements to real life. I personally prefer a live action interpretation of a character’s design rather than a strict following of a stylized appearance, and enjoy taking inspiration from film. Outside of cosplay, I love drawing, playing video games, and talking about physics - if you need someone to help you navigate studying physics at UCB and get research, let me know. Or if you want someone to join your Baldur’s Gate 3 co-op campaign, I’m also available for conscription.",
+      socialLink: "https://instagram.com/nawhmi.cos",
+      socialName: "@nawhmi.cos",
+      imageUrl: "images/nomi.jpg"
     }
   ];
 

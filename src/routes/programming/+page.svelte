@@ -67,7 +67,7 @@
           <div class="name-bar"><h4>CAA Anime Trivia!</h4></div>
           <p><strong>Location:</strong> Stephens Hall</p>
           <p><strong>Time:</strong> 9:30 AM - 10:30 AM</p>
-          <p>From *Kakegurui* to *Dress up Darling*, join the CAA Events Team in a team game of **Um Actually**! Show off your anime knowledge!</p>
+          <p>From <i>Kakegurui</i> to <i>Dress up Darling</i>, join the CAA Events Team in a team game of <strong>Um Actually</strong>! Show off your anime knowledge!</p>
         </section>
       </div>
 
@@ -80,16 +80,14 @@
           <p><strong>Location:</strong> Stephens Hall</p>
           <p><strong>Time:</strong> 11:00 AM - 12:00 PM</p>
           <p>Student group performing an acapella set of songs, including Jpop, Anime songs, and some English music. Join NiCE for a fantastic live performance of popular hits!</p>
+          <p>Website: <a href="https://niceacappella.studentorg.berkeley.edu/index.html" target="_blank" class="link">https://niceacappella.studentorg.berkeley.edu/</a></p>
           <p>Social Media: @nikkeichoralensemble</p>
-          <a href="https://niceacappella.studentorg.berkeley.edu/index.html" target="_blank">
-            <div>Website: https://niceacappella.studentorg.berkeley.edu/index.html</div>
-          </a>
           
           <div class="nikkei-container">
             <div class="video-container">            
               <iframe width="560" height="315" src="https://www.youtube.com/embed/Zft_N-6KHsM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-            <img src="images/nikkei-choral.png" alt="Work in Progress" class=nikkei-image style="width:16%;height:auto;margin:auto;" />
+            <img src="images/nikkei-choral.png" alt="Work in Progress" class="nikkei-image" />
           </div>
         </section>
 
@@ -98,13 +96,13 @@
           <p><strong>Location:</strong> Stephens Hall</p>
           <p><strong>Time:</strong> 3:00 PM - 6:00 PM</p>
           <p>Join Berkeley's Genshin Club! Complete four “commissions” for special prizes and discounts on merch. Participate in fun activities and hang out with Hoyoverse fans!</p>
-          <a href="https://discord.gg/XwGc7eWDF6">
-            <div>Discord: https://discord.gg/XwGc7eWDF6</div>
+          <p>Discord: <a href="https://discord.gg/XwGc7eWDF6" class="link">
+            https://discord.gg/XwGc7eWDF6
           </a>
-          <br>
+          </p>
           <p>Instagram: @genshinatberkeley</p>
           <div class="genshin-container">
-          <img src="images/genshin_profile.png" alt="Work in Progress" style="width:16%;height:auto;margin:auto;" />
+          <img src="images/genshin_profile.png" alt="Work in Progress" />
           </div>
         </section>
       </div>
@@ -122,7 +120,7 @@
           <div class="name-bar"><h4>Old Woke Manga</h4></div>
           <p><strong>Location:</strong> Tilden Room</p>
           <p><strong>Time:</strong> 10:30 AM - 11:30 AM</p>
-          <p>Explore old Jump manga that were unexpectedly progressive, such as *Hidebari Kun*, *Barefoot Gen*, and more! Dive into a fascinating discussion on these classics.</p>
+          <p>Explore old Jump manga that were unexpectedly progressive, such as <i>Hidebari Kun</i>, <i>Barefoot Gen</i>, and more! Dive into a fascinating discussion on these classics.</p>
         </section>
       </div>
 
@@ -137,12 +135,12 @@
           <p>The Intermission Orchestra is a student-led community that performs music from anime, video games, and films. Enjoy their performance, which includes both full orchestral and small ensemble pieces!</p>
           <p>Social Media: @intermissionberkeley</p>
           <div class="intermission-container">
-          <div class="intermission-image">
-            <img src="images/intermission-profile.png" alt="Work in Progress" style="width:47%;" />
-          </div>
-          <div class="intermission-image">
-            <img src="images/intermission-concert.png" alt="Work in Progress" style="width:70%;" />
-          </div>
+            <div class="intermission-image">
+              <img src="images/intermission-profile.png" alt="Work in Progress" />
+            </div>
+            <div class="intermission-image">
+              <img src="images/intermission-concert.png" alt="Work in Progress" />
+            </div>
           </div>
         </section>
 
@@ -151,7 +149,7 @@
           <p><strong>Location:</strong> Tilden Room</p>
           <p><strong>Time:</strong> 4:30 PM - 7:00 PM</p>
           <p>Come experience an anime rave featuring live DJs performing various hits across anime, games, and Japanese media. Dance and enjoy the rave atmosphere at Anime Destiny!</p>
-          <div class="video-container">
+          <div class="video-container" style="display: flex; justify-content:center;padding-top:10px;">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/UpmPM_NzA70" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
     </section>
@@ -224,7 +222,31 @@
   
 .nikkei-container {
   display: flex;
+  justify-content:center;
   padding: 15px;
+  flex-wrap: wrap;
+  gap: 10px 50px;
+}
+
+.link {
+  color: #485077;
+  text-decoration: none;
+  border-bottom: 1px solid #485077; /* Underline links */
+  transition: color 0.3s ease, border-bottom-color 0.3s ease;
+  word-wrap: break-word;
+  font-weight: bold;
+}
+
+.link:hover {
+  color: #fed893; /* Yellow on hover */
+  border-bottom-color: #fed893;
+}
+
+.nikkei-image {
+  max-width:200px;
+  max-height:200px;
+  margin:auto 0;
+  padding: 5px;
 }
 
 .genshin-container {
@@ -232,22 +254,23 @@
   padding: 15px;
 }
 
+.genshin-container img {
+  max-width:200px;
+  max-height:200px;
+  margin:0 auto;
+  padding: 5px;
+}
+
 .intermission-container {
   display: flex;
-  justify-content: end;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px 50px;
 }
 
-.intermission-image:first-child {
+.intermission-image img {
   height: 200px;
-  width: 400px;
-  margin-right: -125px;
-}
-
-.intermission-image:last-child {
-  height: 200px;
-  width: 400px;
-  margin-right: -45px;
-  margin-bottom: 1rem;
 }
 
 /* Responsive Styles */

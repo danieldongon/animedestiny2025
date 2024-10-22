@@ -70,9 +70,7 @@
       <iframe 
       title="Anime Destiny Location"
       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3158.758826798221!2d-122.2594233846757!3d37.8684338797419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80857c3f3b87e1d5%3A0x138c6740b4409d55!2s2495%20Bancroft%20Way%2C%20Berkeley%2C%20CA%2094720%2C%20USA!5e0!3m2!1sen!2sus!4v1696439621724!5m2!1sen!2sus"
-      width="20%" 
-      height="20%" 
-      style="border: 2px solid black;" 
+      class="google-map" 
       loading="lazy" 
       referrerpolicy="no-referrer-when-downgrade">
     </iframe>
@@ -289,6 +287,12 @@
     padding: 1rem 0;
   }
 
+  .google-map {
+    width:60%; 
+    height:20rem; 
+    border: 2px solid black;
+    margin: 0 auto;
+  }
   section {
     padding: 2rem 0;
     margin: 0 2rem;

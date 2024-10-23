@@ -19,7 +19,7 @@
       intro: "Hi, I'm Daniel! I'm currently the Vice-President/Treasurer for CAA. Last year, I was an Anime Destiny planner and I co-hosted the 2023 cosplay contest. I cosplay casually whenever I get the chance and I love attending conventions to meet new people!  I look forward to AD 2024!",
       socialLink: null,
       socialName: null,
-      imageUrl: "images/daniel.jpg"
+      imageUrl: "images/daniel2.jpg"
     },
     {
       name: "Nomi",

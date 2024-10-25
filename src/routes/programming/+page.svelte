@@ -59,9 +59,10 @@
         </section>
       </div>
 
-      <!-- Workshops -->
-      <div class="workshop-category">
-        <h3>Workshops</h3>
+
+      <!-- Events -->
+      <div class="event-category">
+        <h3>Events</h3>
 
         <section id="workshop-anime-trivia" class="program-card" class:glow={currentHash === "#panel-music-voice-acting"}>
           <div class="name-bar"><h4>CAA Anime Trivia!</h4></div>
@@ -69,12 +70,7 @@
           <p><strong>Time:</strong> 9:30 AM - 10:30 AM</p>
           <p>From <i>Kakegurui</i> to <i>Dress up Darling</i>, join the CAA Events Team in a team game of <strong>Um Actually</strong>! Show off your anime knowledge!</p>
         </section>
-      </div>
-
-      <!-- Events -->
-      <div class="event-category">
-        <h3>Events</h3>
-
+        
         <section id="event-nikkei-choral-performance" class="program-card" class:glow={currentHash === "#event-nikkei-choral-performance"}>
           <div class="name-bar"><h4>Nikkei Choral Ensemble Performance</h4></div>
           <p><strong>Location:</strong> Stephens Hall</p>

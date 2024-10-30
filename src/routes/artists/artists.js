@@ -70,7 +70,7 @@ export const artists = [
     "socials": "https://bart.gov/anime",
     "description": "The San Francisco Bay Area Rapid Transit District (BART) is a heavy-rail public transit system that connects the San Francisco Peninsula with communities in the East Bay and South Bay. BART is excited to announce the release of five BART- and Bay Area-themed anime mascots that will help us in our mission to promote public transportation use, especially among youth riders, a growing and reliable ridership demographic.",
     "location": "AB1"
-  }
+  },
   {
     "name": "Precious Touch Creations",
     "socials": "https://www.precioustouchcreations.com/",

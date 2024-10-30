@@ -76,7 +76,7 @@
     </iframe>
     
       <p style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: #485077; margin-bottom: 1.5rem; margin-top: 1.5rem;">
-        Admission is $20, <a href={purchaseLink} style="color: #485077; text-decoration: underline;">and tickets are available online</a> or at the door. Online ticket purchases will close at <strong>11:59 PM Thursday, November 7</strong>, so don't delay if you want to beat the lines!
+        Admission is $20, <a href={purchaseLink} style="color: #485077; text-decoration: underline;">and tickets are available online</a> or at the door. Online ticket purchases will close on <strong>Thursday, November 7</strong> at 11:59 PM, so don't delay if you want to beat the lines!
       </p>
 
     

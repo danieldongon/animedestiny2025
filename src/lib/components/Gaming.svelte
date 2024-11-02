@@ -24,6 +24,12 @@
         logo: "icons/rythm.png",
         description: "Dive into the rhythm and music with Rhythm Games at Berkeley.",
       },
+      {
+        name: "Fighting Games at Berkeley",
+        link: "https://x.com/berkeleyfgc",
+        logo: "icons/fgb.jpg",
+        description: "Play fighting games against other CAA attendees with Fighting Games at Berkeley!",
+      }
     ];
   </script>
   
@@ -61,7 +67,7 @@
       border-radius: 12px;
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
       overflow: hidden;
-      max-width: 300px;
+      max-width: 250px;
       text-align: center;
       transition: transform 0.3s ease-in-out;
       text-decoration: none;

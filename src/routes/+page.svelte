@@ -5,6 +5,7 @@
   import Calendar from '$lib/components/Calendar.svelte';
   import Gaming from '$lib/components/Gaming.svelte';
   import Events from '$lib/components/Events.svelte';
+  import { fade } from 'svelte/transition';
 
   let desktopImage = 'images/hero.png';
   let mobileImage = 'images/hero.png';
@@ -28,6 +29,27 @@
       window.removeEventListener('scroll', handleScroll);
     };
   });
+
+  let showOverlayArtistMap = false;
+
+  function openOverlayArtistMap() {
+    showOverlayArtistMap = true;
+  }
+
+  function closeOverlayArtistMap() {
+    showOverlayArtistMap = false;
+  }
+
+
+  let showOverlayADMap = false;
+
+  function openOverlayADMap() {
+    showOverlayADMap = true;
+  }
+
+  function closeOverlayADMap() {
+    showOverlayADMap = false;
+  }
 </script>
 
 <Navbar />
@@ -64,7 +86,7 @@
       <h2 style="font-family: 'Roboto', sans-serif; font-size: 2rem; color: #485077; margin-bottom: 1rem;">About Anime Destiny 2024</h2>
       
       <p style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: #485077; margin-bottom: 1.5rem;">
-        Anime Destiny is UC Berkeley's premier anime convention, hosted annually by Cal Animage Alpha. This year, the convention will be held on Saturday, November 9, 2024, from <strong>9:00 AM to 7:00 PM</strong> in the Pauley Ballroom of the ASUC Student Union, located at 2495 Bancroft Way, Berkeley, CA.
+        Anime Destiny is UC Berkeley's premier anime convention, hosted annually by Cal Animage Alpha. This year, the convention will be held on <strong>Saturday, November 9, 2024</strong>, from <strong>9:00 AM to 7:00 PM</strong> in the Pauley Ballroom of the ASUC Student Union, located at 2495 Bancroft Way, Berkeley, CA.
       </p>
 
       <iframe 
@@ -74,9 +96,22 @@
       loading="lazy" 
       referrerpolicy="no-referrer-when-downgrade">
     </iframe>
-    
+
+      <div class="content-container">
+        <img src="images/AD map.png" class="ADMap" alt="Artist Alley Map" on:click={openOverlayADMap} />
+        <div style="padding:1rem 0;">
+        <a on:click={openOverlayADMap}>Click for larger image!</a>
+        </div>
+      </div>
+      {#if showOverlayADMap}
+        <div class="overlay-artist-map"  on:click={closeOverlayADMap} in:fade={{ duration: 200 }} out:fade={{ duration: 200 }} >
+          <button class="close-button-artist-map" on:click={closeOverlayADMap}>✕</button>
+          <img src="images/AD map.png" on:click|stopPropagation class="image-artist-map" alt="Fullscreen AD Map" />
+        </div>
+      {/if}
+
       <p style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: #485077; margin-bottom: 1.5rem; margin-top: 1.5rem;">
-        Admission is $20, <a href={purchaseLink} style="color: #485077; text-decoration: underline;">and tickets are available online</a> or at the door.
+        Admission is $20, <a href={purchaseLink} style="color: #485077; text-decoration: underline;">and tickets are available online</a> or at the door. Online ticket purchases will close on <strong>Thursday, November 7</strong> at 11:59 PM, so don't delay if you want to beat the lines!
       </p>
 
     
@@ -107,6 +142,10 @@
       <li>Anikura Destiny: An exciting anime rave with live DJs</li>
       <li>And much more!</li>
     </ul>
+
+
+
+
     <Events/>
   </section>
 
@@ -137,7 +176,17 @@
       <h2>Artist Alley/Exhibitors</h2>
       <p style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #485077; margin-bottom: 1rem;">Many amazing artists and vendors are at Anime Destiny 2024! Explore and support their talent through the Artist Alley.</p>
       <div class="content-container">
-        <h2 style="font-family: 'Roboto', sans-serif; font-size: 2rem; color: #485077; margin-bottom: 1rem;">Here is the Artist Alley from AD 2023</h2>
+        <img src="images/AD artist alley map.png" class="ADMap" alt="Artist Alley Map" on:click={openOverlayArtistMap} />
+        <div style="padding:1rem 0;">
+        <a on:click={openOverlayArtistMap}>Click for larger image!</a>
+        </div>
+        {#if showOverlayArtistMap}
+          <div class="overlay-artist-map"  on:click={closeOverlayArtistMap} in:fade={{ duration: 200 }} out:fade={{ duration: 200 }} >
+            <button class="close-button-artist-map" on:click={closeOverlayArtistMap}>✕</button>
+            <img src="images/AD artist alley map.png" on:click|stopPropagation class="image-artist-map" alt="Fullscreen Artist Alley Map" />
+          </div>
+        {/if}
+        <h2 style="font-family: 'Roboto', sans-serif; font-size: 2rem; color: #485077; margin-bottom: 1rem;">AD 2023 Artist Alley Showcase</h2>
         <div class="embed-wrapper">      
           <!-- YouTube Embed -->
           <div id="embed youtube-embed">
@@ -406,6 +455,47 @@
     display: block;
     margin: 0 auto;
   }
+
+  .ADMap {
+    margin: 0 auto;
+    max-height: 40rem;
+    width: auto;
+  }
+
+  .overlay-artist-map {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+
+  /* Styling for the close (X) button */
+  .close-button-artist-map {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: none;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    border: none;
+  }
+
+  /* Image styling */
+  .image-artist-map {
+    max-width: 100vw;
+    max-height: 100vh;
+    width: auto;
+    height: auto;
+    border-radius: 8px;
+  }
+
 
   .thick-divider {
     border-top-width: 4px;

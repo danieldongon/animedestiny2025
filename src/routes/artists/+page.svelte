@@ -2,6 +2,7 @@
 import Footer from '$lib/components/Footer.svelte';
 import Navbar from '$lib/components/Navbar.svelte';
 import { artists } from './artists.js';
+import { fade } from 'svelte/transition';
 
   // Utility function to determine if the socials field is a URL
   function isUrl(socials) {
@@ -15,6 +16,17 @@ import { artists } from './artists.js';
     }
     return `https://${socials}`;
   }
+
+  let showOverlayArtistMap = false;
+
+  function openOverlayArtistMap() {
+    showOverlayArtistMap = true;
+  }
+
+  function closeOverlayArtistMap() {
+    showOverlayArtistMap = false;
+  }
+
 </script>
 
 <Navbar />
@@ -27,6 +39,22 @@ import { artists } from './artists.js';
     <p>Please be mindful of artists' original works and refrain from explicit photography/recording of artists' creations unless you have permission.</p>
     <p>Anime Destiny and Cal Animage Alpha do not support the distribution or showcasing of AI art.</p>
   </div>
+
+  <div class="content-container">
+  <img src="images/AD artist alley map.png" class="ADMap" alt="Artist Alley Map" on:click={openOverlayArtistMap} />
+    <div style="padding:1rem 0;">
+    <a on:click={openOverlayArtistMap}>Click for larger image!</a>
+    </div>
+    {#if showOverlayArtistMap}
+      <div class="overlay-artist-map"  on:click={closeOverlayArtistMap} in:fade={{ duration: 200 }} out:fade={{ duration: 200 }} >
+        <button class="close-button-artist-map" on:click={closeOverlayArtistMap}>✕</button>
+        <img src="images/AD artist alley map.png" on:click|stopPropagation class="image-artist-map" alt="Fullscreen Artist Alley Map" />
+      </div>
+    {/if}
+
+  </div>
+
+
   <div class="artists-grid">
     {#each artists as { name, socials, description, location }}
       <div class="artist-card">
@@ -145,6 +173,51 @@ import { artists } from './artists.js';
   .artist-card .location {
     font-style: italic;
     color: #555;
+  }
+
+  .ADMap {
+    margin: 0 auto;
+    max-height: 40rem;
+    width: auto;
+  }
+
+  .overlay-artist-map {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+
+  /* Styling for the close (X) button */
+  .close-button-artist-map {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: none;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    border: none;
+  }
+
+  /* Image styling */
+  .image-artist-map {
+    max-width: 100vw;
+    max-height: 100vh;
+    width: auto;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  .content-container {
+    text-align: center;
+    margin: 2rem 0;
   }
 </style>
 

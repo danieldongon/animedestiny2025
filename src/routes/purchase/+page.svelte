@@ -14,6 +14,8 @@
     <p>Your order has been processed!</p>
     <p>A receipt has been sent to your email.</p>
     <p>Please remember the name and email you signed up with for registration at AD 2024!</p>
+    <p>Note: you will <strong>not</strong> receive a separate email with a ticket or QR code. Your ticket to entry is the name and email you signed up with, which will be checked at the gate.</p>
+    
     <br><br>
     <p>Return to <a href={homeLink} class="home-link">Home Page</a></p>
   </div>

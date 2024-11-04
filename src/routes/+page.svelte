@@ -2,7 +2,7 @@
   import { onMount } from 'svelte';
   import Navbar from '$lib/components/Navbar.svelte';
   import Footer from '$lib/components/Footer.svelte';
-  import Calendar from '$lib/components/Calendar.svelte';
+  // import Calendar from '$lib/components/Calendar.svelte';
   import Gaming from '$lib/components/Gaming.svelte';
   import Events from '$lib/components/Events.svelte';
   import { fade } from 'svelte/transition';
@@ -50,6 +50,16 @@
   function closeOverlayADMap() {
     showOverlayADMap = false;
   }
+
+  let showOverlayADSchedule = false;
+
+  function openOverlayADSchedule() {
+    showOverlayADSchedule = true;
+  }
+
+  function closeOverlayADSchedule() {
+    showOverlayADSchedule = false;
+  }
 </script>
 
 <Navbar />
@@ -77,10 +87,6 @@
   </div>
   
   <div class="event-info">
-
-    <!-- TODO add stuff here idk like a youtube video or instagram post
-    mention what we have to offer
-    mention priice and add link to buy ticket here -->
     <!-- "What is Anime Destiny" Section -->
     <section id="about" style="padding: 2rem 0;">
       <h2 style="font-family: 'Roboto', sans-serif; font-size: 2rem; color: #485077; margin-bottom: 1rem;">About Anime Destiny 2024</h2>
@@ -95,20 +101,7 @@
       class="google-map" 
       loading="lazy" 
       referrerpolicy="no-referrer-when-downgrade">
-    </iframe>
-
-      <div class="content-container">
-        <img src="images/AD map.png" class="ADMap" alt="Artist Alley Map" on:click={openOverlayADMap} />
-        <div style="padding:1rem 0;">
-        <a on:click={openOverlayADMap}>Click for larger image!</a>
-        </div>
-      </div>
-      {#if showOverlayADMap}
-        <div class="overlay-artist-map"  on:click={closeOverlayADMap} in:fade={{ duration: 200 }} out:fade={{ duration: 200 }} >
-          <button class="close-button-artist-map" on:click={closeOverlayADMap}>✕</button>
-          <img src="images/AD map.png" on:click|stopPropagation class="image-artist-map" alt="Fullscreen AD Map" />
-        </div>
-      {/if}
+      </iframe>
 
       <p style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: #485077; margin-bottom: 1.5rem; margin-top: 1.5rem;">
         Admission is $20, <a href={purchaseLink} style="color: #485077; text-decoration: underline;">and tickets are available online</a> or at the door. Online ticket purchases will close on <strong>Thursday, November 7</strong> at 11:59 PM, so don't delay if you want to beat the lines!
@@ -118,7 +111,46 @@
       <p style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: #485077; margin-bottom: 1.5rem;">
         For more about Anime Destiny and our organization, visit our <a href="/about" style="color: #485077; text-decoration: underline;">About Page</a>.
       </p>
-    
+
+      <div class="embed-wrapper" style="padding:1rem 0; display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center;">
+
+        <div id="embed youtube-embed" style="flex: 1 1 300px; max-width: 560px;">
+          
+          <iframe 
+            width="100%" 
+            height="315" 
+            src="https://www.youtube.com/embed/uiZ_Heo92yo" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen>
+          </iframe>
+          <p style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: #485077; margin-bottom: 1.5rem; text-align: center; font-style: italic;">
+            View our AD Promo here!
+          </p>
+        </div>
+      
+        <div id="embed instagram" style="flex: 1 1 300px; max-width: 540px;">
+          <iframe class="instagram-media instagram-media-rendered" 
+            id="instagram-embed-0" 
+            src="https://www.instagram.com/calanimagealpha/embed/?cr=1&amp;v=14&amp;wp=925&amp;rd=https%3A%2F%2Fwww.anime-expo.org&amp;rp=%2F#%7B%22ci%22%3A0%2C%22os%22%3A438%2C%22ls%22%3A197%2C%22le%22%3A425%7D" 
+            allowtransparency="true" 
+            allowfullscreen="true" 
+            frameborder="0" 
+            height="315" 
+            data-instgrm-payload-id="instagram-media-payload-0" 
+            scrolling="no" 
+            style="background: #FFF; width: 100%; border-radius: 3px; border: 1px solid rgb(219, 219, 219); box-shadow: 0 0 1px rgba(0,0,0,0.5), 0 1px 10px rgba(0,0,0,0.15); display: block; margin: 0 auto; padding: 0;">
+          </iframe>
+          <p style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: #485077; margin-bottom: 1.5rem; text-align: center; font-style: italic;">
+            Follow for more latest updates.
+          </p> 
+          
+        </div>
+      
+      </div>
+      
+      
     
     </section>
     
@@ -207,15 +239,10 @@
       <Gaming/>
     </section>
     <hr />
-
-    <!-- TODO populate Schedule section
-    where map at?
-    where schedule?
-    convert schedule to embed google calendar?
-    -->
+    
     <!-- Schedule Section -->
     <section id="map-schedule" style="padding: 2rem 0;">
-      <h2 style="font-family: 'Roboto', sans-serif; font-size: 2rem; color: #485077; margin-bottom: 1rem;">Schedule and Parking</h2>
+      <h2 style="font-family: 'Roboto', sans-serif; font-size: 2rem; color: #485077; margin-bottom: 1rem;">Schedule and Map</h2>
     
       <!-- Schedule Section -->
       <div style="padding-right: 2rem;">
@@ -229,10 +256,34 @@
               For info about street parking, visit the <a href="/parking" style="color: #485077; text-decoration: underline;">parking page</a>.
           </p>
         </div>
-        <!-- Google Calendar Embed (This would be a separate Svelte component) -->
-        <div style="margin-top: 1rem;">
-          <Calendar />
+        
+        
+
+        <div class="content-container">
+          <img src="images/schedule.png" class="ADMap" alt="Artist Alley Map" on:click={openOverlayADSchedule} />
+          <div style="padding:1rem 0;">
+          <a on:click={openOverlayADSchedule}>Click for larger image!</a>
+          </div>
         </div>
+        {#if showOverlayADSchedule}
+          <div class="overlay-artist-map"  on:click={closeOverlayADSchedule} in:fade={{ duration: 200 }} out:fade={{ duration: 200 }} >
+            <button class="close-button-artist-map" on:click={closeOverlayADSchedule}>✕</button>
+            <img src="images/schedule.png" on:click|stopPropagation class="image-artist-map" alt="Fullscreen AD Map" />
+          </div>
+        {/if}
+        
+        <div class="content-container">
+          <img src="images/AD map.png" class="ADMap" alt="Artist Alley Map" on:click={openOverlayADMap} />
+          <div style="padding:1rem 0;">
+          <a on:click={openOverlayADMap}>Click for larger image!</a>
+          </div>
+        </div>
+        {#if showOverlayADMap}
+          <div class="overlay-artist-map"  on:click={closeOverlayADMap} in:fade={{ duration: 200 }} out:fade={{ duration: 200 }} >
+            <button class="close-button-artist-map" on:click={closeOverlayADMap}>✕</button>
+            <img src="images/AD map.png" on:click|stopPropagation class="image-artist-map" alt="Fullscreen AD Map" />
+          </div>
+        {/if}
       </div>
 
       
@@ -357,6 +408,9 @@
     font-family: 'Roboto', sans-serif;
     font-size: 2rem;
     color: #485077; /* Use the dark blue for headers */
+    font-weight: bold;
+    text-transform: uppercase;
+    
   }
 
 

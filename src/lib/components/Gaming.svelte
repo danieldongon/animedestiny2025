@@ -8,7 +8,7 @@
       },
       {
         name: "Dance Games at Berkeley",
-        link: "",
+        link: "https://discord.gg/DzhkQasw3C",
         logo: "icons/danceatberk.png",
         description: "Show off your moves and groove to the beat with Dance Games at Berkeley, featuring DDR (Dance Dance Revolution).",
       },

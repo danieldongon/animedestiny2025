@@ -98,7 +98,7 @@
           </p>
           <p>Instagram: @genshinatberkeley</p>
           <div class="genshin-container">
-          <img src="images/genshin_profile.png" alt="Work in Progress" />
+            <img src="images/genshin_profile.png" alt="Work in Progress" />
           </div>
         </section>
       </div>
@@ -112,11 +112,17 @@
       <div class="panel-category">
         <h3>Panels</h3>
 
-        <section id="panel-old-woke-manga" class="program-card" class:glow={currentHash === "#panel-old-woke-manga"}>
-          <div class="name-bar"><h4>Old Woke Manga</h4></div>
+        <section id="panel-cosplay-wrestling" class="program-card" class:glow={currentHash === "#panel-cosplay-wrestling"}>
+          <div class="name-bar"><h4>Cosplay Wrestling Federation</h4></div>
           <p><strong>Location:</strong> Tilden Room</p>
           <p><strong>Time:</strong> 10:30 AM - 11:30 AM</p>
-          <p>Explore old Jump manga that were unexpectedly progressive, such as <i>Hidebari Kun</i>, <i>Barefoot Gen</i>, and more! Dive into a fascinating discussion on these classics.</p>
+          <p>The CWF is back at UC Berkeley to once again, school you in the ABCs of wrestling, comedy and improv! Cosplay Wrestling Federation is a competitive event bringing the biggest personalities on stage, in the spirit of pro wrestling, improv and cosplay. Our organization has been performing at major California conventions since January 2014, including Anime Los Angeles, Fanime, Anime Expo and Los Angeles Comic Con.</p>
+          <p>Linktree: <a href="https://linktr.ee/cosplaywrestlingfederation" class="link">
+            https://linktr.ee/cosplaywrestlingfederation
+          </a>
+            <div class="wrestling-container">
+            <img src="images/cosplaywrestling.png" alt="Cosplay Wrestling" style="display: block; margin: 0 auto; max-width:200px; max-height:200px;" />
+            </div>
         </section>
       </div>
 
@@ -246,6 +252,11 @@
 }
 
 .genshin-container {
+  display: flex;
+  padding: 15px;
+}
+
+.wrestling-container {
   display: flex;
   padding: 15px;
 }

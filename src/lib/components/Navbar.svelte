@@ -105,7 +105,7 @@
     <div class="category">Tilden Room (5th Floor)</div>
     <div class="sub-links">
       <!-- Panels -->
-      <a href="/programming#panel-old-woke-manga">Old Woke Manga Panel</a>
+      <a href="/programming#panel-cosplay-wrestling">Cosplay Wrestling Federation</a>
       
       <!-- Workshops -->
       <a href="/cosplay-contest">Cosplay Contest</a> <!-- Direct link to the separate Cosplay Contest page -->

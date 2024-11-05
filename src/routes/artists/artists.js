@@ -278,7 +278,7 @@ export const artists = [
   {
     "name": "chowpan",
     "socials": "https://instagram.com/chowpandraws",
-    "description": "I'm chow! A former CAA officer who loves seinen/shounen. I'll be here with my table partner bopx! We'll have stuff from Kaiju no. 8, Blue Lock, Windbreaker, Dun Mesh, JJK, Resident Evil, Heartsteel and original art!",
+    "description": "I'm chow! A former CAA officer who loves seinen/shounen. Currently into Kaiju no. 8, Blue Lock, Windbreaker, Dungeon Meshi, and cats! yippeee",
     "location": "E5"
   },
   {

@@ -2,10 +2,11 @@
   import { onMount } from 'svelte';
   import Navbar from '$lib/components/Navbar.svelte';
   import Footer from '$lib/components/Footer.svelte';
-  // import Calendar from '$lib/components/Calendar.svelte';
+  import Calendar from '$lib/components/Calender.svelte';
   import Gaming from '$lib/components/Gaming.svelte';
   import Events from '$lib/components/Events.svelte';
   import { fade } from 'svelte/transition';
+  import Calender from '$lib/components/Calender.svelte';
 
   let desktopImage = 'images/hero.png';
   let mobileImage = 'images/hero.png';
@@ -259,7 +260,7 @@
         
         
 
-        <div class="content-container">
+        <!-- <div class="content-container">
           <img src="images/schedule.png" class="ADMap" alt="Artist Alley Map" on:click={openOverlayADSchedule} />
           <div style="padding:1rem 0;">
           <a on:click={openOverlayADSchedule}>Click for larger image!</a>
@@ -270,7 +271,8 @@
             <button class="close-button-artist-map" on:click={closeOverlayADSchedule}>✕</button>
             <img src="images/schedule.png" on:click|stopPropagation class="image-artist-map" alt="Fullscreen AD Map" />
           </div>
-        {/if}
+        {/if} -->
+        <Calender/>
         
         <div class="content-container">
           <img src="images/AD map.png" class="ADMap" alt="Artist Alley Map" on:click={openOverlayADMap} />

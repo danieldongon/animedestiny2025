@@ -66,7 +66,7 @@
 
 <main>
   <div class="gradient" style="background: linear-gradient(90deg, orange, purple); padding: 1rem; text-align: center;">
-    <p style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: white; margin: 0;"><a href={purchaseLink}>Online tickets have closed! Tickets will still be available at the gate for $20.</a></p>
+    <p style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: white; margin: 0;">Online tickets have closed! Tickets will still be available at the gate for $20.</p>
   </div>
   <div class="hero-image" style="--scroll-y: {scrollY}">
     <img src="{mobileImage}" alt="Anime Destiny Event" class="mobile" draggable="false" />

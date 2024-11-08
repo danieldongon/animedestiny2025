@@ -66,7 +66,7 @@
 
 <main>
   <div class="gradient" style="background: linear-gradient(90deg, orange, purple); padding: 1rem; text-align: center;">
-    <p style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: white; margin: 0;"><a href={purchaseLink}>Online tickets are now live and will close on Thursday, November 7 at 11:59 PM</a></p>
+    <p style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: white; margin: 0;"><a href={purchaseLink}>Online tickets have closed! Tickets will still be available at the gate for $20.</a></p>
   </div>
   <div class="hero-image" style="--scroll-y: {scrollY}">
     <img src="{mobileImage}" alt="Anime Destiny Event" class="mobile" draggable="false" />
@@ -78,7 +78,6 @@
       <img src="images/ADLogo.png" alt="AD Logo" class="ADLogo" draggable="false"/>
       <p class="event-time">Saturday, November 9th</p>
       <p class="event-location">ASUC Student Union: Martin Luther King Jr. Building</p>
-      <a href={purchaseLink} class="purchase-link" target="_blank" rel="noopener noreferrer">Purchase Tickets</a>
     </div>
   </div>
 
@@ -104,7 +103,7 @@
       </iframe>
 
       <p style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: #485077; margin-bottom: 1.5rem; margin-top: 1.5rem;">
-        Admission is $20, <a href={purchaseLink} style="color: #485077; text-decoration: underline;">and tickets are available online</a> or at the door. Online ticket purchases will close on <strong>Thursday, November 7</strong> at 11:59 PM, so don't delay if you want to beat the lines!
+        Admission is $20, and tickets are available at the door. Online ticket purchases closed on <strong>Thursday, November 7</strong> at 11:59 PM.
       </p>
 
     
@@ -292,10 +291,9 @@
     <hr />
 
 <div class="content-container">
-  <a href={purchaseLink} target="_blank" rel="noopener noreferrer" 
-  class="section-link" style="font-size:2.5rem;">
-  Get Your Tickets Now!
-  </a>
+  <p style="font-size:2.5rem;">
+  See you there!
+  </p>
 </div>
 
     <!-- <hr/>

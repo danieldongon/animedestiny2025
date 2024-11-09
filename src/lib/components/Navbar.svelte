@@ -120,7 +120,7 @@
   </div>
   <a href="/rules">Rules</a>
     <!-- Buy a Ticket -->
-    <a href={ticketLink} target="_blank" rel="noopener noreferrer" in:fade={{ duration: 500 }}>Buy a Ticket</a>
+    <!-- a href={ticketLink} target="_blank" rel="noopener noreferrer" in:fade={{ duration: 500 }}>Buy a Ticket</a -->
 
     <!-- Discord and Instagram -->
     <a href={discord} target="_blank" rel="noopener noreferrer" in:fade={{ duration: 500 }}>
@@ -160,7 +160,7 @@
       <a href="/rules">Rules</a>
       
       <!-- Buy a Ticket -->
-      <a href={ticketLink} target="_blank" rel="noopener noreferrer" on:click={closeMenu} in:fade={{ duration: 500 }}>Buy a Ticket</a>
+      <!--a href={ticketLink} target="_blank" rel="noopener noreferrer" on:click={closeMenu} in:fade={{ duration: 500 }}>Buy a Ticket</a -->
 
       <!-- Discord and Instagram Icons -->
       <a href={discord} target="_blank" rel="noopener noreferrer" in:fade={{ duration: 500 }}>

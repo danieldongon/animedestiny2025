@@ -13,7 +13,7 @@
   let exhibitorsImage = 'https://example.com/exhibitors-image.jpg';
   let scheduleImage = 'debug/test-schedule.png';
   let aboutUsImage = 'https://i.redd.it/tyvpt1fy7b601.jpg';
-  let purchaseLink = 'https://buy.stripe.com/3cs7uKaGG5Fu3lu7ss';
+  let purchaseLink = 'https://buy.stripe.com/8x28wQ9Qcb1ccWl5ebbAs01';
   let mapImage = 'https://example.com/map-image.jpg';
 
   let scrollY = 0;
@@ -66,7 +66,14 @@
 
 <main>
   <div class="gradient" style="background: linear-gradient(90deg, orange, purple); padding: 1rem; text-align: center;">
-    <p style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: white; margin: 0;">Online tickets have closed! Tickets will still be available at the gate for $20.</p>
+    <!--<p style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: white; margin: 0;">Online tickets have closed! Tickets will still be available at the gate for $20.</p> -->
+    <!-- Buy Tickets Now Section -->
+    <section>
+      <h2>Buy Tickets Now</h2>
+      <a href={purchaseLink} target="_blank" rel="noopener noreferrer" class="section-link">Purchase Tickets</a>
+      <br />
+      <p>You will be redirected to our payment processor on Stripe.</p>
+    </section>
   </div>
   <div class="hero-image" style="--scroll-y: {scrollY}">
     <img src="{mobileImage}" alt="Anime Destiny Event" class="mobile" draggable="false" />
@@ -296,9 +303,9 @@
   </p>
 </div>
 
-    <!-- <hr/>
+    <hr/> //
 
-    Buy Tickets Now Section 
+    <!-- Buy Tickets Now Section 
     <section>
       <h2>Buy Tickets Now</h2>
       <a href={purchaseLink} target="_blank" rel="noopener noreferrer" class="section-link">Purchase Tickets</a>

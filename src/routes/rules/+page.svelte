@@ -14,7 +14,7 @@
     <div class="rules-content">
       <h2>Rules</h2>
       <p>
-        Please review these rules to ensure a safe and enjoyable experience at Anime Destiny 2024:
+        Please review these rules to ensure a safe and enjoyable experience at Anime Destiny 2025:
       </p>
 
       <h3>I. Alcohol and Drugs Policy:</h3>

@@ -3,7 +3,7 @@
   let isOpen = false;
   let isHomeOpen = false;
   let isProgrammingOpen = false;
-  let ticketLink = 'https://buy.stripe.com/3cs7uKaGG5Fu3lu7ss';
+  let ticketLink = 'https://buy.stripe.com/8x28wQ9Qcb1ccWl5ebbAs01';
   let discord = 'https://discord.com/invite/Xp4MUjG';
   let instagram = 'https://www.instagram.com/calanimagealpha/';
 
@@ -87,6 +87,8 @@
     {#if isProgrammingOpen}
   <div class="dropdown-menu" in:fade={{ duration: 200 }} out:fade={{ duration: 300 }}>
     <!-- Category: 3rd Floor - Stephens Hall -->
+    <a class="main-links" href="/special-guests">Special Guests</a>
+    
     <div class="category">Stephens Hall (3rd Floor)</div>
     <div class="sub-links">
       <!-- Panels -->
@@ -120,7 +122,12 @@
   </div>
   <a href="/rules">Rules</a>
     <!-- Buy a Ticket -->
-    <!-- a href={ticketLink} target="_blank" rel="noopener noreferrer" in:fade={{ duration: 500 }}>Buy a Ticket</a -->
+    <a
+      href={ticketLink}
+      class="ml-4 inline-block rounded-full bg-[#3F6CC9] px-5 py-2 -my-1 text-xs font-bold tracking-wide text-white uppercase font-['Montserrat'] shadow-md hover:bg-[#2F4898] transition-colors duration-200"
+    >
+      Buy a Ticket
+    </a>
 
     <!-- Discord and Instagram -->
     <a href={discord} target="_blank" rel="noopener noreferrer" in:fade={{ duration: 500 }}>
@@ -155,13 +162,10 @@
       <a href="/" on:click={closeMenu} in:fade={{ duration: 500 }}>Homepage</a>
       <a href="/about" on:click={closeMenu} in:fade={{ duration: 500 }}>About AD</a>
       <a href="/artists" on:click={closeMenu} in:fade={{ duration: 500 }}>Artist Alley</a>
+      <a href="/special-guests" on:click={closeMenu} in:fade={{ duration: 500 }}>Special Guests</a>
       <a href="/programming" on:click={closeMenu} in:fade={{ duration: 500 }}>Programming</a>
       <a href="/cosplay-contest" on:click={closeMenu} in:fade={{ duration: 500 }}>Cosplay Contest</a>
       <a href="/rules">Rules</a>
-      
-      <!-- Buy a Ticket -->
-      <!--a href={ticketLink} target="_blank" rel="noopener noreferrer" on:click={closeMenu} in:fade={{ duration: 500 }}>Buy a Ticket</a -->
-
       <!-- Discord and Instagram Icons -->
       <a href={discord} target="_blank" rel="noopener noreferrer" in:fade={{ duration: 500 }}>
          Join our Discord!
@@ -169,7 +173,15 @@
       <a href={instagram} target="_blank" rel="noopener noreferrer" in:fade={{ duration: 500 }}>
         Follow our Instagram!
       </a>
+
+
     </div>
+          <a
+      href={ticketLink}
+      class="block w-full bg-[#3F6CC9] py-7 -my-[6rem] text-center text-4xl font-bold uppercase tracking-wide text-white font-['Montserrat'] hover:bg-[#2F4898] transition-colors duration-200"
+    >
+      Buy Tickets
+    </a>
   </div>
 </nav>
 
@@ -321,6 +333,12 @@
   .sub-links {
     padding-left: 20px; /* Indent the sub-links */
   }
+
+  .main-links {
+    padding-top:10px;
+    margin-left: 5px!important; /* Indent the sub-links */
+  }
+
 
   .sub-links a {
     display: block;

@@ -326,7 +326,7 @@
   .hero-image {
     position: relative;
     height: 100vh;
-    min-height: 750px;
+    max-height: 750px;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -342,7 +342,7 @@
     height: 100%;
     object-fit: cover;
     object-position: center top;
-    transform: scale(1.7)  translateY(150px);
+    transform: scale(1.3)  translateY(10px);
     transform-origin: center; 
   }
 
@@ -360,38 +360,54 @@
 
   .hero-image .ADLogo {
     position: relative;
-    top: -160px; 
-    width: 100%;         
+    top: 100px; 
+    width: 200%;         
     max-width: 500px;   
     height: auto;       
     display: block;
     margin: 0 auto 1rem auto; 
+    transform: translateY(-150px);
   }
+  
+  @media (min-width: 768px) {                   /* adjusts size for desktop */
+  .hero-image .ADLogo {
+    width: 1000px;       
+    max-width: 1500px;
+    height: auto;
+    display: block;
+    transform: translateY(-75px);
+  }
+}
 
   .event-title {
     font-family: 'Protest Strike', sans-serif;
     font-size: 5rem;
     margin: 0;
+    transform: translateY(-250px);
   }
 
   .event-date {
     font-family: 'Roboto', sans-serif;
     font-size: 2rem;
     margin-top: 0.5rem;
+    transform: translateY(-250px);
   }
 
   .event-time, .event-location {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5rem;
     margin-top: 0.5rem;
+    transform: translateY(-250px);
   }
 
   .event-time {
     font-weight: 700;
+    transform: translateY(-250px);
   }
 
   .event-location {
     font-weight: 450;
+    transform: translateY(-250px);
   }
 
   /* Event Info Section */

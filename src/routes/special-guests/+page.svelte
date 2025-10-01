@@ -29,6 +29,10 @@
 
 <main>
   <div class="page-title">Special Guests</div>
+
+  <div class="container mx-auto  px-4 py-4">
+    <p>We're bringing some of your favorite industry professionals and community members to AD 2025! Stay tuned to see who we reveal next! Click on each image to learn more about our featured guests.</p>
+  </div>
 <div  class="container mx-auto px-4 py-12">
 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
   {#each filledGuests as guest, i (i)}
@@ -41,11 +45,13 @@
           aria-expanded={expandedIndex === i}
           aria-controls={"guest-details-" + i}
         >
+
           <img
             src={guest.image}
             alt={guest.name}
             class="w-full aspect-square object-contain bg-gray-100"
           />
+
         </button>
       {:else}
         <div class="w-full">

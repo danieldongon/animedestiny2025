@@ -342,9 +342,16 @@
     height: 100%;
     object-fit: cover;
     object-position: center top;
-    transform: scale(1.3)  translateY(10px);
+    transform: scale(1.3)  translateY(-50px);
     transform-origin: center; 
   }
+
+  /* Mobile override */
+  @media (max-width: 768px) {
+  .hero-image img {
+    transform: scale(1.0) translateY(0px); /* less zoom for mobile */
+  }
+}
 
   .hero-image .overlay {
     color: white;
@@ -361,8 +368,8 @@
   .hero-image .ADLogo {
     position: relative;
     top: 100px; 
-    width: 200%;         
-    max-width: 500px;   
+    width: 150%;         
+    max-width: 400px;   
     height: auto;       
     display: block;
     margin: 0 auto 1rem auto; 
@@ -383,32 +390,50 @@
     font-family: 'Protest Strike', sans-serif;
     font-size: 5rem;
     margin: 0;
-    transform: translateY(-250px);
+    transform: translateY(-100px);
   }
 
   .event-date {
     font-family: 'Roboto', sans-serif;
     font-size: 2rem;
     margin-top: 0.5rem;
-    transform: translateY(-250px);
+    transform: translateY(-150px);
   }
 
   .event-time, .event-location {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5rem;
     margin-top: 0.5rem;
-    transform: translateY(-250px);
+    transform: translateY(-150px);
   }
 
   .event-time {
     font-weight: 700;
-    transform: translateY(-250px);
+    transform: translateY(-150px);
   }
 
   .event-location {
     font-weight: 450;
+    transform: translateY(-150px);
+  }
+
+  /* Desktop overrides */
+  @media (min-width: 768px) {
+  .event-title { 
+    font-size: 5rem;          /* bigger on desktop */
+    transform: translateY(-200px);
+  }
+
+  .event-date {
+    font-size: 2rem;
     transform: translateY(-250px);
   }
+
+  .event-time, .event-location {
+    font-size: 1.5rem;
+    transform: translateY(-250px);
+  }
+}
 
   /* Event Info Section */
   .event-info {

@@ -126,7 +126,7 @@
       href={ticketLink}
       class="ml-4 inline-block rounded-full bg-[#3F6CC9] px-5 py-2 -my-1 text-xs font-bold tracking-wide text-white uppercase font-['Montserrat'] shadow-md hover:bg-[#2F4898] transition-colors duration-200"
     >
-      Buy a Ticket
+      Purchase Tickets
     </a>
 
     <!-- Discord and Instagram -->

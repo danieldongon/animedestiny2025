@@ -280,7 +280,7 @@
         {/if}
         
         <div class="content-container">
-          <img src="images/AD map.png" class="ADMap" alt="Artist Alley Map" on:click={openOverlayADMap} />
+          <img src="images/parking.jpg" class="ADMap" alt="Artist Alley Map" on:click={openOverlayADMap} />
           <div style="padding:1rem 0;">
           <a on:click={openOverlayADMap}>Click for larger image!</a>
           </div>
@@ -288,7 +288,7 @@
         {#if showOverlayADMap}
           <div class="overlay-artist-map"  on:click={closeOverlayADMap} in:fade={{ duration: 200 }} out:fade={{ duration: 200 }} >
             <button class="close-button-artist-map" on:click={closeOverlayADMap}>✕</button>
-            <img src="images/AD map.png" on:click|stopPropagation class="image-artist-map" alt="Fullscreen AD Map" />
+            <img src="images/parking.jpg" on:click|stopPropagation class="image-artist-map" alt="Fullscreen AD Map" />
           </div>
         {/if}
       </div>

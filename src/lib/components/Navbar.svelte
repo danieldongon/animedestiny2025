@@ -89,33 +89,29 @@
   <div class="dropdown-menu" in:fade={{ duration: 200 }} out:fade={{ duration: 300 }}>
     <!-- Category: 3rd Floor - Stephens Hall -->
     <a class="main-links" href="/special-guests">Special Guests</a>
+    <a class="main-links" href="/cosplay-contest">Cosplay Contest</a> <!-- Direct link to the separate Cosplay Contest page -->
     
     <div class="category">Stephens Hall (3rd Floor)</div>
     <div class="sub-links">
-      <!-- Panels -->
       <a href="/artists">Artist Alley</a>
-      <a href="/programming#panel-music-voice-acting">Music and Voice Acting Panel</a>
-      
-      <!-- Workshops -->
-      <a href="/programming#workshop-anime-trivia">CAA Anime Trivia</a>
-      
-      <!-- Events -->
+
+      <!-- Events (Chronological)-->
       <a href="/programming#event-nikkei-choral-performance">Nikkei Choral Ensemble</a>
+      <a href="/programming#event-jpop-kpop">J-Pop/K-Pop Random Play Dance</a>
+      <a href="/programming#event-shipgirls">Shipgirls and Jetgirl VTubers? : Welcome to VFleet Project</a>
+      <a href="/programming#event-himeko-firefly">All Aboard the Astral Express with Himeko and Firefly!</a>
       <a href="/programming#event-genshin-club">Genshin at Berkeley Event</a>
     </div>
 
     <!-- Category: 5th Floor - Tilden Room -->
     <div class="category">Tilden Room (5th Floor)</div>
     <div class="sub-links">
-      <!-- Panels -->
-      <a href="/programming#panel-cosplay-wrestling">Cosplay Wrestling Federation</a>
-      
-      <!-- Workshops -->
-      <a href="/cosplay-contest">Cosplay Contest</a> <!-- Direct link to the separate Cosplay Contest page -->
-      
-      <!-- Events -->
-      <a href="/programming#event-intermission-orchestra">The Intermission Orchestra</a>
-      <a href="/programming#event-anikura-destiny">Anikura Destiny</a>
+      <!-- Events (Chronological)-->
+      <a href="/programming#panel-cosplay-competition-101">Cosplay Contest 101 Panel & Contest Pre-Judging</a>
+      <a href="/programming#event-otaku-ongaku">Otaku Ongaku: Nerd Music LIVE!</a>
+      <a href="/programming#event-wotagei">Introduction to Wotagei 101</a>
+      <a href="/programming#event-intermission">The Intermission Orchestra</a>
+      <a href="/programming#event-virtual-bears">Virtual Bears: VTuber Mini Concert</a>
     </div>
   </div>
 {/if}

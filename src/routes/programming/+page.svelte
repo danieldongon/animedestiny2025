@@ -51,7 +51,7 @@
 
       <!-- Events -->
       <div class="event-category">
-        <h3>Events</h3>
+        <!--<h3>Events</h3> -->
 
         <section id="event-nikkei-choral-performance" class="program-card" class:glow={currentHash === "#event-nikkei-choral-performance"}>
           <div class="name-bar"><h4>Nikkei Choral Ensemble</h4></div>
@@ -123,7 +123,7 @@
 
       <!-- Panels -->
       <div class="panel-category">
-        <h3>Panels</h3>
+        <!--<h3>Panels</h3>-->
 
         <section id="panel-cosplay-competition-101" class="program-card" class:glow={currentHash === "#panel-cosplay-competition-101"}>
           <div class="name-bar"><h4>Cosplay Contest 101 Panel & Contest Pre-Judging</h4></div>
@@ -138,7 +138,7 @@
 
       <!-- Events -->
       <div class="event-category">
-        <h3>Events</h3>
+        <!--<h3>Events</h3>-->
 
         <section id="event-otaku-ongaku" class="program-card" class:glow={currentHash === "#event-otaku-ongaku"}>
           <div class="name-bar"><h4>Otaku Ongaku: Nerd Music LIVE!</h4></div>

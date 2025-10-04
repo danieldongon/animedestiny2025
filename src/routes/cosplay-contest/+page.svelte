@@ -169,7 +169,7 @@
         <div class="spacer"></div>
 
         <div class="bottom-text">
-          What are you waiting for? <a href="https://forms.gle/yFaseo2pursJjzodA" target="_blank" class="section-link">Sign Up Now!</a>  
+          What are you waiting for? <a href="https://forms.gle/hXUxzeVHSgghcyyh8" target="_blank" class="section-link">Sign Up Now!</a>  
 
         </div>
         

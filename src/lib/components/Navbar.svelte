@@ -62,6 +62,7 @@
           <a href="/artists">Artist Alley</a>
           <a href="/#map-schedule">Schedule and Map</a>
           <a href="/parking">Parking</a>
+          <a href="/sponsors">Sponsors</a>
         </div>
       {/if}
     </div>
@@ -129,13 +130,14 @@
       Purchase Tickets
     </a>
 
-    <!-- Discord and Instagram -->
+    <!-- Discord and Instagram 
     <a href={discord} target="_blank" rel="noopener noreferrer" in:fade={{ duration: 500 }}>
       <img src="icons/discord.svg" alt="Discord" class="icon"/>
     </a>
     <a href={instagram} target="_blank" rel="noopener noreferrer" in:fade={{ duration: 500 }}>
       <img src="icons/instagram.svg" alt="Instagram" class="icon"/>
     </a>
+    -->
   </div>
   <!-- Mobile Menu Trigger -->
   <div class="hamburger mobile-only" on:click={toggleMenu}>
@@ -166,13 +168,16 @@
       <a href="/programming" on:click={closeMenu} in:fade={{ duration: 500 }}>Programming</a>
       <a href="/cosplay-contest" on:click={closeMenu} in:fade={{ duration: 500 }}>Cosplay Contest</a>
       <a href="/rules">Rules</a>
-      <!-- Discord and Instagram Icons -->
+      <a href="/sponsors">Sponsors</a>
+      
+      <!-- Discord and Instagram Icons 
       <a href={discord} target="_blank" rel="noopener noreferrer" in:fade={{ duration: 500 }}>
          Join our Discord!
       </a>
       <a href={instagram} target="_blank" rel="noopener noreferrer" in:fade={{ duration: 500 }}>
         Follow our Instagram!
       </a>
+      -->
 
 
     </div>

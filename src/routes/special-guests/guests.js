@@ -4,14 +4,14 @@ export const guests = [
     "socials":"https://www.instagram.com/analesafisher/?hl=en",
     "social_type":"instagram",
     "image":"/images/guests/Analesa Fisher.jpg",
-    "blurb":"Meet Analesa Fisher, known for various roles in the voice acting industry, including Firefly from Honkai: Star Rail, Snow Sugar Cookie in Cookie Run: Kingdom, Maya Watermelon in MGA’s YUMMILAND, Spall Blaster Charybdis & Mischief Maker Charybdis in SMITE, and Sublime Bartlett & Aglae in Miraculous: Tales of Ladybug & Cat Noir!"
+    "blurb":"Meet Analesa Fisher, known for various roles in the voice acting industry, including Firefly from Honkai: Star Rail, Snow Sugar Cookie in Cookie Run: Kingdom, Maya Watermelon in MGA’s YUMMILAND, Spall Blaster Charybdis & Mischief Maker Charybdis in SMITE, and Sublime Bartlett & Aglae in Miraculous: Tales of Ladybug & Cat Noir!\n\n\nAutograph times: 11 AM - 2 PM and 4 PM - 6 PM at Pauley Ballroom Booth A!"
   },
   {
     "name":"Cia Court",
     "socials":"https://www.instagram.com/ciacourtvo/?hl=en",
     "social_type":"instagram",
     "image":"/images/guests/Cia Court.jpg",
-    "blurb":"Meet Cia Court, known for various roles in the voice acting industry, including Himeko from Honkai: Star Rail, Vi in League of Legends and Legends of Runeterra, Raven in DC Dark Legion, and Faith in The Wolf Among Us!"
+    "blurb":"Meet Cia Court, known for various roles in the voice acting industry, including Himeko from Honkai: Star Rail, Vi in League of Legends and Legends of Runeterra, Raven in DC Dark Legion, and Faith in The Wolf Among Us!\n\n\nAutograph times: 11 AM - 2 PM and 4 PM - 6 PM at Pauley Ballroom Booth A!"
   },
   {
     "name":"Daiya Fortuna",

@@ -66,9 +66,9 @@
 
             <!-- Description only shows when expanded[i] is true -->
             {#if expanded[i]}
-              <div transition:slide|local class="bg-gray-50 rounded-b-lg p-2">
+              <div transition:slide|local class="bg-gray-50 rounded-b-lg p-3">
               {#if guest.blurb}
-                <p class="mt-1 text-sm text-gray-600">{guest.blurb}</p>
+                <p class="mt-1 text-sm text-gray-600" style="white-space: pre-line;">{guest.blurb}</p>
               {/if}
 
               {#if guest.socials}

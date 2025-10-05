@@ -86,7 +86,7 @@
   
   <main>
     <div class="page-title">
-      Cosplay Contest (Masquerade)
+      Cosplay Contest
     </div>
     <div class="page-body">
 

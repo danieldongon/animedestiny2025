@@ -40,7 +40,8 @@ import { fade } from 'svelte/transition';
     <p>Anime Destiny and Cal Animage Alpha do not support the distribution or showcasing of AI art.</p>
   </div>
 
-  <div class="content-container">
+  <!-- Remove this comment once the final artist alley map is complete-->
+  <!-- <div class="content-container">
   <img src="images/AD artist alley map.png" class="ADMap" alt="Artist Alley Map" on:click={openOverlayArtistMap} />
     <div style="padding:1rem 0;">
     <a on:click={openOverlayArtistMap}>Click for larger image!</a>
@@ -52,7 +53,7 @@ import { fade } from 'svelte/transition';
       </div>
     {/if}
 
-  </div>
+  </div>  -->
 
 
   <div class="artists-grid">

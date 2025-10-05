@@ -52,36 +52,34 @@
       <!-- Events -->
       <div class="event-category">
         <!--<h3>Events</h3> -->
-
-        <section id="event-nikkei-choral-performance" class="program-card" class:glow={currentHash === "#event-nikkei-choral-performance"}>
-          <div class="name-bar"><h4>Nikkei Choral Ensemble</h4></div>
+  
+        <section id="event-sweden" class="program-card" class:glow={currentHash === "#event-sweden"}>
+          <div class="name-bar"><h4>Alfhilde Presents: WWII Swedish History</h4></div>
           <p><strong>Location:</strong> Stephens Hall</p>
           <p><strong>Time:</strong> 11:15 AM - 11:45 AM</p>
-          <p>We are the Nikkei Choral Ensemble, UC Berkeley's premiere Japanese and English acapella group.  We'll be singing songs from media and popular culture, including Vocaloid hits and favorites from anime.  We hope you'll enjoy our performance!</p>
-          <p>Website: <a href="https://niceacappella.studentorg.berkeley.edu/index.html" target="_blank" class="link">https://niceacappella.studentorg.berkeley.edu/</a></p>
-          <p>Social Media: @nikkeichoralensemble</p>
-          <div class="nikkei-choral-image">
-            <img src="images/nikkei_choral.png" alt="Work in Progress" class="nikkei-image" />
-          </div>
-        </section>
-        
-        <section id="event-jpop-kpop" class="program-card" class:glow={currentHash === "#event-jpop-kpop"}>
-          <div class="name-bar"><h4>J-Pop/K-Pop Random Play Dance</h4></div>
-          <p><strong>Location:</strong> Stephens Hall</p>
-          <p><strong>Time:</strong> 12:00 PM - 1:00 PM</p>
-          <p>Come show off your dance skills at our Random Play Dance event! Join us for a randomly selected set of J-Pop and K-Pop tracks full of fun and energy! All levels of dancers, beginners or experienced performers are welcome to come and try their hand at our dances.</p>
-          <div class="jpop-kpop-image">
-            <img src="images/jpop_kpop.png" alt="Work in Progress" />
+          <p>Ever wanted to receive a lecture from a VTuber? Join History enthusiast Alfhilde as she gives an interesting deep dive into Sweden's involvement in World War II (despite being neutral) and the many occurrences where Sweden was caught in the middle of the conflict. It will be fun, we promise!</p>
+          <div class="sweden-image">
+            <img src="images\Anime Destiny 2025 Post Graphics\Anime_Destiny_2025_-_Alfhilde_Panel.png" alt="Work in Progress" />
           </div>
         </section>
 
         <section id="event-shipgirls" class="program-card" class:glow={currentHash === "#event-shipgirls"}>
           <div class="name-bar"><h4>Shipgirls and Jetgirl VTubers? : Welcome to VFleet Project</h4></div>
           <p><strong>Location:</strong> Stephens Hall</p>
-          <p><strong>Time:</strong> 1:30 PM - 2:15 PM</p>
+          <p><strong>Time:</strong> 12:00 PM - 12:45 PM</p>
           <p>VTubers have a Navy? Meet the shipgirls and Jetgirls of VFleet Project as they take to the virtual seas to raise awareness and support for nonprofit museums!</p>
           <div class="shipgirls-image">
-            <img src="images/shipgirls.png" alt="Work in Progress" />
+            <img src="images\Anime Destiny 2025 Post Graphics\Anime_Destiny_2025_-_VFleet_Panel.png" alt="Work in Progress" />
+          </div>
+        </section>
+
+        <section id="event-jpop-kpop" class="program-card" class:glow={currentHash === "#event-jpop-kpop"}>
+          <div class="name-bar"><h4>J-Pop/K-Pop Random Play Dance</h4></div>
+          <p><strong>Location:</strong> Stephens Hall</p>
+          <p><strong>Time:</strong> 1:00 PM - 2:00 PM</p>
+          <p>Come show off your dance skills at our Random Play Dance event! Join us for a randomly selected set of J-Pop and K-Pop tracks full of fun and energy! All levels of dancers, beginners or experienced performers are welcome to come and try their hand at our dances.</p>
+          <div class="jpop-kpop-image">
+            <img src="images\Anime Destiny 2025 Post Graphics\Anime_Destiny_2025_-_JPopKPop_Random_Dance_Event_1.png" alt="Work in Progress" />
           </div>
         </section>
 
@@ -92,18 +90,27 @@
           <p>All aboard the Astral Express for a special interview panel with Analesa Fisher and Cia Court, the voices behind Firefly and Himeko from Honkai: Star Rail! We will be doing a live Q&A about their roles behind Firefly and Himeko, have them perform some well-known lines from the game, and have a chance for members of the audience to ask them questions!</p>
           <div class="himeko-firefly-container">
             <div class="himeko-firefly-image">
-              <img src="images/analesa_fischer.png" alt="Work in Progress" />
+              <img src="images\Anime Destiny 2025 Post Graphics\Anime_Destiny_2025_-_Star_Rail_Panel.png" alt="Work in Progress" />
             </div>
-            <div class="himeko-firefly-image">
-              <img src="images/cia_court.png" alt="Work in Progress" />
-            </div>
+          </div>
+        </section>
+
+        <section id="event-nikkei-choral-performance" class="program-card" class:glow={currentHash === "#event-nikkei-choral-performance"}>
+          <div class="name-bar"><h4>Nikkei Choral Ensemble</h4></div>
+          <p><strong>Location:</strong> Stephens Hall</p>
+          <p><strong>Time:</strong> 4:00 PM - 4:30PM</p>
+          <p>We are the Nikkei Choral Ensemble, UC Berkeley's premiere Japanese and English acapella group.  We'll be singing songs from media and popular culture, including Vocaloid hits and favorites from anime.  We hope you'll enjoy our performance!</p>
+          <p>Website: <a href="https://niceacappella.studentorg.berkeley.edu/index.html" target="_blank" class="link">https://niceacappella.studentorg.berkeley.edu/</a></p>
+          <p>Social Media: @nikkeichoralensemble</p>
+          <div class="nikkei-choral-image">
+            <img src="images\Anime Destiny 2025 Post Graphics\Anime_Destiny_2025_-_NiCE_Event.png" alt="Work in Progress" class="nikkei-image" />
           </div>
         </section>
 
         <section id="event-genshin-club" class="program-card" class:glow={currentHash === "#event-genshin-club"}>
           <div class="name-bar"><h4>Genshin at Berkeley Event</h4></div>
           <p><strong>Location:</strong> Stephens Hall</p>
-          <p><strong>Time:</strong> 4:00 PM - 7:00 PM</p>
+          <p><strong>Time:</strong> 5:00 PM - 7:00 PM</p>
           <p>Hey there Astra-Nauts! Genshin at Berkeley will be at Anime Destiny hosting a bunch of fun activities themed around in-game Hoyoverse idols! Complete your “daily commissions“ to receive a prize! Come hangout with Hoyoverse fans!</p>
           <p>Discord: <a href="https://discord.gg/XwGc7eWDF6" class="link">
             https://discord.gg/XwGc7eWDF6
@@ -140,6 +147,17 @@
       <div class="event-category">
         <!--<h3>Events</h3>-->
 
+      <section id="event-cosplay-comp" class="program-card" class:glow={currentHash === "#event-cosplay-comp"}>
+          <div class="name-bar"><h4>Cosplay Contest</h4></div>
+          <p><strong>Location:</strong> Tilden Room</p>
+          <p><strong>Time:</strong> 12:00 PM - 1:00 PM</p>
+          <p>Join Berkeley’s cosplayers for a fun and welcoming event! Show off your cosplaying skills or just enjoy watching the amazing talent at Anime Destiny. Check-in for the contest will occur starting at 11:30AM at the judging table left of the stage until the start of the contest. <a href="/cosplay-contest" class="link"> Click here for all details.</a> </p>
+          <div class="cosplay-comp-image">
+            <img src="images\Anime Destiny 2025 Post Graphics\Anime_Destiny_2025_-_Cosplay_Contest_Event.png" alt="Work in Progress" />
+          </div>
+        </section>
+
+
         <section id="event-otaku-ongaku" class="program-card" class:glow={currentHash === "#event-otaku-ongaku"}>
           <div class="name-bar"><h4>Otaku Ongaku: Nerd Music LIVE!</h4></div>
           <p><strong>Location:</strong> Tilden Room</p>
@@ -158,7 +176,7 @@
           Have you heard about wotagei from Oshi no Ko but never knew where to start?
           Or maybe you already love wotagei and want to have a great time with fellow uchishi?<br><br>Join Bay Area wotagei team SanFlare's panel and start your wotagei journey!</p>
           <div class="wotagei-image">
-            <img src="images/wotagei.png" alt="Work in Progress" />
+            <img src="images\Anime Destiny 2025 Post Graphics\Anime_Destiny_2025_-_SanFlare_Event.png" alt="Work in Progress" />
           </div>
         </section>
 
@@ -177,7 +195,10 @@
           <div class="name-bar"><h4>Virtual Bears: VTuber Mini Concert</h4></div>
           <p><strong>Location:</strong> Tilden Room</p>
           <p><strong>Time:</strong> 6:00 PM - 7:00 PM</p>
-          <p>INFO TBD</p>
+          <p>VTubers are taking over Anime Destiny! Join talents from agencies VFleet and Aegis Link, as well as various Indie VTubers as they sing, dance, and perform some of your favorite hits! You don't want to miss this high-energy, fun closing event for Anime Destiny 2025</p>
+          <div class="virtual-bears-image">
+            <img src="images\Anime Destiny 2025 Post Graphics\Anime_Destiny_2025_-_VTuber_Mini_Concert.png" alt="Work in Progress" />
+          </div>
         </section>
       </div>
   
@@ -287,6 +308,13 @@
     flex: 1; /* Allows the image block to grow */
   }
 
+  .sweden-image img {
+    max-width:300px;
+    max-height:300px;
+    margin:0 auto;
+    padding: 5px;
+  }
+
   .nikkei-choral-image img {
     max-width:300px;
     max-height:300px;
@@ -334,6 +362,13 @@
     padding: 5px;
   }
 
+  .cosplay-comp-image img {
+    max-width:300px;
+    max-height:300px;
+    margin:0 auto;
+    padding: 5px;
+  }
+
   .otaku-ongaku-image img {
     max-width:300px;
     max-height:300px;
@@ -357,6 +392,13 @@
   }
 
   .intermission-image img {
+    max-width:300px;
+    max-height:300px;
+    margin:0 auto;
+    padding: 5px;
+  }
+
+  .virtual-bears-image img {
     max-width:300px;
     max-height:300px;
     margin:0 auto;

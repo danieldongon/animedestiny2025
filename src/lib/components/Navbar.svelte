@@ -89,17 +89,18 @@
   <div class="dropdown-menu" in:fade={{ duration: 200 }} out:fade={{ duration: 300 }}>
     <!-- Category: 3rd Floor - Stephens Hall -->
     <a class="main-links" href="/special-guests">Special Guests</a>
-    <a class="main-links" href="/cosplay-contest">Cosplay Contest</a> <!-- Direct link to the separate Cosplay Contest page -->
     
     <div class="category">Stephens Hall (3rd Floor)</div>
     <div class="sub-links">
       <a href="/artists">Artist Alley</a>
 
       <!-- Events (Chronological)-->
-      <a href="/programming#event-nikkei-choral-performance">Nikkei Choral Ensemble</a>
-      <a href="/programming#event-jpop-kpop">J-Pop/K-Pop Random Play Dance</a>
+      <!-- Perhaps add start and end time for artist alley?-->
+      <a href="/programming#event-sweden">Alfhilde Presents: WWII Swedish History</a>
       <a href="/programming#event-shipgirls">Shipgirls and Jetgirl VTubers? : Welcome to VFleet Project</a>
+      <a href="/programming#event-jpop-kpop">J-Pop/K-Pop Random Play Dance</a>
       <a href="/programming#event-himeko-firefly">All Aboard the Astral Express with Himeko and Firefly!</a>
+      <a href="/programming#event-nikkei-choral-performance">Nikkei Choral Ensemble</a>
       <a href="/programming#event-genshin-club">Genshin at Berkeley Event</a>
     </div>
 
@@ -108,6 +109,7 @@
     <div class="sub-links">
       <!-- Events (Chronological)-->
       <a href="/programming#panel-cosplay-competition-101">Cosplay Contest 101 Panel & Contest Pre-Judging</a>
+      <a href="/programming#event-cosplay-comp">Cosplay Contest</a>
       <a href="/programming#event-otaku-ongaku">Otaku Ongaku: Nerd Music LIVE!</a>
       <a href="/programming#event-wotagei">Introduction to Wotagei 101</a>
       <a href="/programming#event-intermission">The Intermission Orchestra</a>

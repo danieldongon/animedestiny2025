@@ -215,7 +215,7 @@
       <h2>Artist Alley/Exhibitors</h2>
       <p style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #485077; margin-bottom: 1rem;">Many amazing artists and vendors are at Anime Destiny 2025! Explore and support their talent through the Artist Alley.</p>
       <div class="content-container">
-        <img src="images/AD artist alley map.png" class="ADMap" alt="Artist Alley Map" on:click={openOverlayArtistMap} />
+        <!-- <img src="images/AD artist alley map.png" class="ADMap" alt="Artist Alley Map" on:click={openOverlayArtistMap} />
         <div style="padding:1rem 0;">
         <a on:click={openOverlayArtistMap}>Click for larger image!</a>
         </div>
@@ -224,9 +224,9 @@
             <button class="close-button-artist-map" on:click={closeOverlayArtistMap}>✕</button>
             <img src="images/AD artist alley map.png" on:click|stopPropagation class="image-artist-map" alt="Fullscreen Artist Alley Map" />
           </div>
-        {/if}
+        {/if}    -->                                    <!-- Restore once an artist alley map is completed -->
         <h2 style="font-family: 'Roboto', sans-serif; font-size: 2rem; color: #485077; margin-bottom: 1rem;">AD 2023 Artist Alley Showcase</h2>
-        <div class="embed-wrapper">      
+        <div class="embed-wrapper">  
           <!-- YouTube Embed -->
           <div id="embed youtube-embed">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/06DdqfWonN4?feature=shared" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -267,7 +267,7 @@
         
 
         <div class="content-container">
-          <img src="images/schedule.png" class="ADMap" alt="Artist Alley Map" on:click={openOverlayADSchedule} />
+          <img src="images/schedule.temp.png" class="ADMap" alt="Artist Alley Map" on:click={openOverlayADSchedule} />
           <div style="padding:1rem 0;">
           <a on:click={openOverlayADSchedule}>Click for larger image!</a>
           </div>
@@ -275,7 +275,7 @@
         {#if showOverlayADSchedule}
           <div class="overlay-artist-map"  on:click={closeOverlayADSchedule} in:fade={{ duration: 200 }} out:fade={{ duration: 200 }} >
             <button class="close-button-artist-map" on:click={closeOverlayADSchedule}>✕</button>
-            <img src="images/schedule.png" on:click|stopPropagation class="image-artist-map" alt="Fullscreen AD Map" />
+            <img src="images/schedule.temp.png" on:click|stopPropagation class="image-artist-map" alt="Fullscreen AD Map" />
           </div>
         {/if}
         

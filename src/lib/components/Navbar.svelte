@@ -88,8 +88,11 @@
     {#if isProgrammingOpen}
   <div class="dropdown-menu" in:fade={{ duration: 200 }} out:fade={{ duration: 300 }}>
     <!-- Category: 3rd Floor - Stephens Hall -->
-    <a class="main-links" href="/special-guests">Special Guests</a>
-    <a class="main-links" href="/artists">Artist Alley</a>
+    <div class="category">Pauley Ballroom (3rd Floor)</div>
+    <div class="sub-links">
+      <a href="/artists">Artist Alley</a>
+      <a href="/special-guests">Special Guests</a>
+    </div>
 
     <div class="category">Stephens Hall (3rd Floor)</div>
     <div class="sub-links">

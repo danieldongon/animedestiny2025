@@ -1,13 +1,13 @@
 export const artists = [
   {
     "name": "Effervessa",
-    "socials": "https://https://www.effervessa.com/.instagram.com/raineeski/",
+    "socials": "https://https://www.effervessa.com/" and "instagram.com/raineeski/",
     "description": "",
     "location": "TBD"
   },
   {
     "name": "Oolongcreama & AmaiCandy",
-    "socials": "https://ideloreart.com/#merch and https://x.com/_amaicandy",
+    "socials": "https://ideloreart.com/#merch" and "https://x.com/_amaicandy",
     "description": "",
     "location": "TBD"
   },
@@ -174,7 +174,7 @@ export const artists = [
     "location": "TBD"
   },
   {
-    "name": "Galaxsea tokiitem",
+    "name": "tokiitem",
     "socials": "https://instagram.com/tokiitem",
     "description": "",
     "location": "TBD"
@@ -313,7 +313,7 @@ export const artists = [
   },
   {
     "name": "Butterchu",
-    "socials": "https://www.instagram.com/butterchuxdrawings/ and https://x.com/Butterchuxdraw",
+    "socials": "https://www.instagram.com/butterchuxdrawings/" and "https://x.com/Butterchuxdraw",
     "description": "",
     "location": "TBD"
   },
@@ -510,5 +510,6 @@ export const artists = [
     "location": "I9"
   }*/
 ];
+
 
 

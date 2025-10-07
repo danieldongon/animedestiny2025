@@ -6,7 +6,7 @@ export const artists = [
     "location": "TBD"
   },
   {
-    "name": "moldy.Oolongcreama & AmaiCandy",
+    "name": "Oolongcreama & AmaiCandy",
     "socials": "https://ideloreart.com/#merch and https://x.com/_amaicandy",
     "description": "",
     "location": "TBD"
@@ -162,7 +162,7 @@ export const artists = [
     "location": "TBD"
   },
   {
-    "name": "Rupurinspacebysama",
+    "name": "purinspace",
     "socials": "https://www.instagram.com/purinspace",
     "description": "",
     "location": "TBD"
@@ -242,6 +242,12 @@ export const artists = [
   {
     "name": "p1ku00",
     "socials": "https://www.instagram.com/p1ku00?igsh=NTc4MTIwNjQ2YQ%3D%3D&utm_source=qr",
+    "description": "",
+    "location": "TBD"
+  },
+  {
+    "name": "LenisLynx",
+    "socials": "https:lenislynx.tumblr.com",
     "description": "",
     "location": "TBD"
   },
@@ -456,12 +462,6 @@ export const artists = [
     "location": "TBD"
   },
   /*{
-    "name": "Strawberry Hill Studio",
-    "socials": "",
-    "description": "",
-    "location": "I1"
-  },
-  {
     "name": "Genshin at Berkeley",
     "socials": "https://linktr.ee/genshinatberkeley",
     "description": "UC Berkeley's Genshin Impact club selling Genshin Impact, Honkai Star Rail, and other Hoyoverse merch. The merch is made entirely by community artists and all proceeds go towards creating future fun events for our members!",
@@ -510,4 +510,5 @@ export const artists = [
     "location": "I9"
   }*/
 ];
+
 

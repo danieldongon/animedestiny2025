@@ -315,7 +315,7 @@ export const artists = [
   },
   {
     "name": "Butterchu",
-    "socials": "https://www.instagram.com/butterchuxdrawings/" and "https://x.com/Butterchuxdraw",
+    "socials": "https://www.instagram.com/butterchuxdrawings/ and https://x.com/Butterchuxdraw",
     "description": "",
     "location": "TBD"
   },

@@ -78,6 +78,7 @@
           <p><strong>Location:</strong> Stephens Hall</p>
           <p><strong>Time:</strong> 1:00 PM - 2:00 PM</p>
           <p>Come show off your dance skills at our Random Play Dance event! Join us for a randomly selected set of J-Pop and K-Pop tracks full of fun and energy! All levels of dancers, beginners or experienced performers are welcome to come and try their hand at our dances.</p>
+          <p><a href="https://docs.google.com/document/d/1V7kSIqSdTqx-Un8jRzs5vGfwAlz_YuaCdZ5aC1G5WxA/edit?usp=sharing" class="link">Random Dance Setlist Link</a></p>
           <div class="jpop-kpop-image">
             <img src="images\Anime Destiny 2025 Post Graphics\Anime_Destiny_2025_-_JPopKPop_Random_Dance_Event_1.png" alt="Work in Progress" />
           </div>

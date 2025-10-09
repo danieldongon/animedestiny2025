@@ -6,6 +6,7 @@ import { fade } from 'svelte/transition';
 
   // Utility function to determine if the socials field is a URL
   function isUrl(socials) {
+    if (Array.isArray(socials)) return false;
     return socials.startsWith('http://') || socials.startsWith('https://') || socials.includes('.co');
   }
 

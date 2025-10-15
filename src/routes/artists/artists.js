@@ -1,518 +1,816 @@
 export const artists = [
-  {
-    "name": "Effervessa",
-    "socials": ["https://https://www.effervessa.com/",
-                "instagram.com/raineeski/"],
+    {
+    "name": "chthonicArchivist ",
+    "socials": [
+      {
+        "text":"Webpage",
+        "url":"https://chthonicArchivist.carrd.co"
+      }
+    ],
     "description": "",
-    "location": "TBD"
+    "location": "A1"
   },
   {
-    "name": "Oolongcreama & AmaiCandy",
-    "socials": ["https://ideloreart.com/#merch",
-                "https://x.com/_amaicandy"],
+    "name": "driedmangoenjoyer",
+    "socials": [
+      {
+        "text":"Instgram",
+        "url":"https://www.instagram.com/driedmangoenjoyer"
+      }
+    ],
     "description": "",
-    "location": "TBD"
+    "location": "A1"
   },
   {
-    "name": "HuaXuan",
-    "socials": "N/A",
+    "name": "tokiitem",
+    "socials": [
+      {
+        "text":"Instagram",
+        "url":"https://instagram.com/tokiitem"
+      }
+    ],
     "description": "",
-    "location": "TBD"
+    "location": "A2"
   },
   {
-    "name": "LilyCli",
-    "socials": "https://lihttps://lilycli.com",
+    "name": "mousec1ub",
+    "socials": [
+      {
+        "text":"Instagram",
+        "url":"https://www.instagram.com/mousec1ub"
+      }
+    ],
     "description": "",
-    "location": "TBD"
+    "location": "A3"
+  },
+  {
+    "name": "Butterchu",
+    "socials": [
+      {
+        "text":"Instagram",
+        "url":"https://www.instagram.com/butterchuxdrawings/"
+      }, 
+      {
+        "text":"Twitter",
+        "url":"https://x.com/Butterchuxdraw"
+      }
+  ],
+    "description": "",
+    "location": "A4"
   },
   {
     "name": "Fabucasle",
-    "socials": "https://twitter.com/fabucastle",
+    "socials": [
+      {
+        "text":"Twitter",
+        "url":"https://twitter.com/fabucastle"
+      }
+    ],
     "description": "",
-    "location": "TBD"
+    "location": "A5-A6"
   },
   {
-    "name": "Ratfestival",
-    "socials": "https://ratfestival.github.io",
+    "name": "Ikaouji",
+    "socials": [
+      {
+        "text":"Webpage",
+        "url":"https://Ikaouji.bigcartel.com"
+      }
+    ],
     "description": "",
-    "location": "TBD"
+    "location": "A7"
   },
   {
-    "name": "Tanisquirrel",
-    "socials": "https://tanisquirrel.carrd.co/",
+    "name": "MisulMint",
+    "socials": [
+      {
+        "text":"Webpage",
+        "url":"https://misulstudios.wixsite.com/misulstudios/links"
+      }
+    ],
     "description": "",
-    "location": "TBD"
+    "location": "A8"
+  },
+  {
+    "name": "Art of Mazzy",
+    "socials": [
+      {
+        "text":"Webpage",
+        "url":"http://artofmazzy.com/"
+      }
+    ],
+    "description": "",
+    "location": "A9"
   },
   {
     "name": "Mewchao",
-    "socials": "https://mewchao.com",
+    "socials": [
+      {
+        "text":"Webpage",
+        "url":"https://mewchao.com"
+      }
+    ],
     "description": "",
-    "location": "TBD"
+    "location": "B1"
   },
   {
-    "name": "Spirafall",
-    "socials": "https://spirafall.net/",
+    "name": "Saiyakyy",
+    "socials": [
+      {
+        "text":"Webpage",
+        "url":"https://saiyakyy.carrd.co/"
+      }
+    ],
     "description": "",
-    "location": "TBD"
+    "location": "B2"
   },
   {
-    "name": "Redteapanda",
-    "socials": "https://redteapanda.carrd.co/",
+    "name": "purinspace",
+    "socials": [
+      {
+        "text":"Instagram",
+        "url":"https://www.instagram.com/purinspace"
+      }
+    ],
     "description": "",
-    "location": "TBD"
+    "location": "B2"
   },
   {
-  "name": "JWijaya Art",
-  "socials": "http://www.kailunqu.com",
-  "description": "",
-  "location": "TBD"
+    "name": "remirii",
+    "socials": [
+      {
+        "text":"Twitter",
+        "url":"https://x.com/remiriin"
+      }
+    ],
+    "description": "",
+    "location": "B3"
   },
   {
-    "name": "_naidraws",
-    "socials": "https://Www.instagram.com/_naidraws",
+    "name": "kahel",
+    "socials": [
+      {
+        "text":"Instagram",
+        "url":"https://www.instagram.com/c_ffeejelly/"
+      }
+    ],
     "description": "",
-    "location": "TBD"
+    "location": "B4"
   },
   {
-    "name": "AlcorChannel",
-    "socials": "https://alcorchannel.com/",
+    "name": "Draconli",
+    "socials": [
+      {
+        "text":"Webpage",
+        "url":"https://www.kirstenandersenartist.com"
+      }
+    ],
     "description": "",
-    "location": "TBD"
+    "location": "B5"
   },
   {
-    "name": "Mintybytes",
-    "socials": "https://mintybytes.com",
+    "name": "Morning Tea",
+    "socials": [
+      {
+        "text":"Instagram",
+        "url":"https://www.instagram.com/my_morningtea/"
+      }
+    ],
     "description": "",
-    "location": "TBD"
+    "location": "B6"
   },
   {
-    "name": "Komun Horangi",
-    "socials": "https://www.instagram.com/komunhorangi/",
+    "name": "Glacia",
+    "socials": [
+      {
+        "text":"Webpage",
+        "url":"https://glaciavt.carrd.co"
+      }
+    ],
     "description": "",
-    "location": "TBD"
+    "location": "B7"
   },
   {
     "name": "Essukaa",
     "socials": "N/A",
     "description": "",
-    "location": "TBD"
+    "location": "B8"
   },
   {
-    "name": "Hideawaymelon",
-    "socials": "https://hideawaymelon.com/",
+    "name": "Komun Horangi",
+    "socials": [
+      {
+        "text":"Instagram",
+        "url":"https://www.instagram.com/komunhorangi/"
+      }
+    ],
     "description": "",
-    "location": "TBD"
+    "location": "B9"
   },
   {
-    "name": "Glacia",
-    "socials": "https://glaciavt.carrd.co",
+    "name": "LilyCli",
+        "socials": [ 
+          {
+            "text":"Webpage",
+            "url":"https://lihttps://lilycli.com"
+          }
+        ],
     "description": "",
-    "location": "TBD"
+    "location": "C1"
   },
   {
-    "name": "Batsouppe",
-    "socials": "https://batsouppe.art",
+    "name": "pinktoyfish.art",
+    "socials": "N/A",
     "description": "",
-    "location": "TBD"
-  },
-  {
-    "name": "Morning Tea",
-    "socials": "https://www.instagram.com/my_morningtea/",
-    "description": "",
-    "location": "TBD"
-  },
-  {
-    "name": "Draconli",
-    "socials": "https://www.kirstenandersenartist.com",
-    "description": "",
-    "location": "TBD"
-  },
-  {
-    "name": "maplesyrupbean",
-    "socials": "https://maplesyrupbean.carrd.co/",
-    "description": "",
-    "location": "TBD"
-  },
-  {
-    "name": "kahel",
-    "socials": "https://www.instagram.com/c_ffeejelly/",
-    "description": "",
-    "location": "TBD"
-  },
-  {
-    "name": "yumitang_",
-    "socials": "https://www.yumitang.art/",
-    "description": "",
-    "location": "TBD"
-  },
-  {
-    "name": "remirii",
-    "socials": "https://x.com/remiriin",
-    "description": "",
-    "location": "TBD"
-  },
-  {
-    "name": "Saiyakyy",
-    "socials": "https://saiyakyy.carrd.co/",
-    "description": "",
-    "location": "TBD"
-  },
-  {
-    "name": "lixizu",
-    "socials": "https://lixizu.shop",
-    "description": "",
-    "location": "TBD"
-  },
-  {
-    "name": "purinspace",
-    "socials": "https://www.instagram.com/purinspace",
-    "description": "",
-    "location": "TBD"
-  },
-  {
-    "name": "mousec1ub",
-    "socials": "https://www.instagram.com/mousec1ub",
-    "description": "",
-    "location": "TBD"
-  },
-  {
-    "name": "tokiitem",
-    "socials": "https://instagram.com/tokiitem",
-    "description": "",
-    "location": "TBD"
-  },
-  {
-    "name": "soyemilky",
-    "socials": "https://soyemilky.carrd.co",
-    "description": "",
-    "location": "TBD"
-  },
-  {
-    "name": "Studio Sushisox",
-    "socials": "https://www.instagram.com/studiosushisox/",
-    "description": "",
-    "location": "TBD"
-  },
-  {
-    "name": "chthonicArchivist ",
-    "socials": "https://chthonicArchivist.carrd.co",
-    "description": "",
-    "location": "TBD"
-  },
-  {
-    "name": "Beam Sinlapa",
-    "socials": "",
-    "description": "",
-    "location": "TBD"
-  },
-  {
-    "name": "Casually Cosplay",
-    "socials": "https://Casuallycosplay.com",
-    "description": "",
-    "location": "TBD"
-  },
-  {
-    "name": "Aretevir",
-    "socials": "https://artstation.com/crha",
-    "description": "",
-    "location": "TBD"
-  },
-  {
-    "name": "Lem's World",
-    "socials": "https://www.instagram.com/lemsworld_",
-    "description": "",
-    "location": "TBD"
-  },
-  {
-    "name": "Doulbedo",
-    "socials": "https://x.com/doulbedo?lang=en",
-    "description": "",
-    "location": "TBD"
-  },
-  {
-    "name": "Dog Ear (tanuweir)",
-    "socials": "https://x.com/tanuweir",
-    "description": "",
-    "location": "TBD"
-  },
-  {
-    "name": "JZhangDraws",
-    "socials": "https://www.instagram.com/jzhangdraws/",
-    "description": "",
-    "location": "TBD"
-  },
-  {
-    "name": "p1ku00",
-    "socials": "https://www.instagram.com/p1ku00?igsh=NTc4MTIwNjQ2YQ%3D%3D&utm_source=qr",
-    "description": "",
-    "location": "TBD"
+    "location": "C2"
   },
   {
     "name": "LenisLynx",
-    "socials": "https:lenislynx.tumblr.com",
+    "socials": [
+      {
+        "text":"Tumblr",
+        "url":"https:lenislynx.tumblr.com"
+      }
+    ],
     "description": "",
-    "location": "TBD"
+    "location": "C2"
   },
   {
-    "name": "Jesdee",
-    "socials": "https://www.instagram.com/jesvded/",
+    "name": "Studio Sushisox",
+    "socials": [
+      {
+        "text":"Instagram",
+        "url":"https://www.instagram.com/studiosushisox/"
+      }
+    ],
     "description": "",
-    "location": "TBD"
-  },
-  {
-    "name": "kwnce",
-    "socials": "https://www.instagram.com/kwnce/",
-    "description": "",
-    "location": "TBD"
-  },
-  {
-    "name": "AiTsuki Art",
-    "socials": "https://www.instagram.com/aitsukiart/",
-    "description": "",
-    "location": "TBD"
-  },
-  {
-    "name": "izzyxue_",
-    "socials": "https://www.instagram.com/izzyxue_?igsh=NTc4MTIwNjQ2YQ%3D%3D&utm_source=qr",
-    "description": "",
-    "location": "TBD"
-  },
-  {
-    "name": "Suki Suki Merch",
-    "socials": "https://www.instagram.com/sukisukimerch/",
-    "description": "",
-    "location": "TBD"
+    "location": "C3"
   },
   {
     "name": "SonoNabe",
-    "socials": "https://www.instagram.com/sono.nabe?igsh=NTc4MTIwNjQ2YQ%3D%3D&utm_source=qr",
+    "socials": [
+      {
+        "text":"Instagram",
+        "url":"https://www.instagram.com/sono.nabe?igsh=NTc4MTIwNjQ2YQ%3D%3D&utm_source=qr"
+      }
+    ],
     "description": "",
-    "location": "TBD"
-  },
-  {
-    "name": "twig",
-    "socials": "",
-    "description": "",
-    "location": "TBD"
-  },
-  {
-    "name": "wen",
-    "socials": "https://www.instagram.com/wen_draws/",
-    "description": "",
-    "location": "TBD"
-  },
-  {
-    "name": "Imperial Knight",
-    "socials": "https://linktr.ee/imperialknight",
-    "description": "",
-    "location": "TBD"
-  },
-  {
-    "name": "Bunibelles",
-    "socials": "https://www.instagram.com/bunibelles?igsh=NTc4MTIwNjQ2YQ==",
-    "description": "",
-    "location": "TBD"
-  },
-  {
-    "name": "Butterchu",
-    "socials": "https://www.instagram.com/butterchuxdrawings/",
-    "description": "",
-    "location": "TBD"
-  },
-  {
-    "name": "LYFLAN",
-    "socials": "https://instagram.com/lyflan",
-    "description": "",
-    "location": "TBD"
+    "location": "C3"
   },
   {
     "name": "Galaxsea Emporium",
-    "socials": "https://Galaxseaemporium.etsy.com",
+    "socials": [
+      {
+        "text":"Etsy",
+        "url":"https://Galaxseaemporium.etsy.com"
+      }
+    ],
     "description": "",
-    "location": "TBD"
-  },
-  {
-    "name": "BONE",
-    "socials": "https://x.com/BONEEEeeZzz",
-    "description": "",
-    "location": "TBD"
-  },
-  {
-    "name": "Joziar",
-    "socials": "https://www.instagram.com/joziarl/",
-    "description": "",
-    "location": "TBD"
-  },
-  {
-    "name": "driedmangoenjoyer",
-    "socials": "https://www.instagram.com/driedmangoenjoyer",
-    "description": "",
-    "location": "TBD"
-  },
-  {
-    "name": "sandpuddle.art",
-    "socials": "N/A",
-    "description": "",
-    "location": "TBD"
-  },
-  {
-    "name": "Art of Mazzy",
-    "socials": "http://artofmazzy.com/",
-    "description": "",
-    "location": "TBD"
+    "location": "C4"
   },
   {
     "name": "Yuerise",
-    "socials": "https://www.instagram.com/yuerise",
+    "socials": [
+      {
+        "text":"Instagram",
+        "url":"https://www.instagram.com/yuerise"
+      }
+    ],
     "description": "",
-    "location": "TBD"
+    "location": "C5"
+  },
+  {
+    "name": "Hideawaymelon",
+    "socials": [
+      {
+        "text":"Webpage",
+        "url":"https://hideawaymelon.com/"
+      }
+    ],
+    "description": "",
+    "location": "C6"
+  },
+  {
+    "name": "Lem's World",
+    "socials": [
+      {
+        "text":"Instagram",
+        "url":"https://www.instagram.com/lemsworld_"
+      }
+    ],
+    "description": "",
+    "location": "C7"
+  },
+  {
+    "name": "AlcorChannel",
+    "socials": [
+      {
+        "text":"Webpage",
+        "url":"https://alcorchannel.com/"
+      }
+    ],
+    "description": "",
+    "location": "C8"
+  },
+  {
+    "name": "Redteapanda",
+    "socials": [
+      {
+        "text":"Webpage",
+        "url":"https://redteapanda.carrd.co/"
+      }
+    ],
+    "description": "",
+    "location": "C9"
+  },
+  {
+    "name": "p1ku00",
+    "socials": [
+      {
+        "text":"Instagram",
+        "url":"https://www.instagram.com/p1ku00?igsh=NTc4MTIwNjQ2YQ%3D%3D&utm_source=qr"
+      }
+    ],
+    "description": "",
+    "location": "D1"
+  },
+  {
+    "name": "Jesdee",
+    "socials": [
+      {
+        "text":"Instagram",
+        "url":"https://www.instagram.com/jesvded/"
+      }
+    ],
+    "description": "",
+    "location": "D1"
+  },
+  {
+    "name": "Aretevir",
+    "socials": [
+      {
+        "text":"Webpage",
+        "url":"https://artstation.com/crha"
+      }
+    ],
+    "description": "",
+    "location": "D2"
+  },
+  {
+    "name": "kwnce",
+    "socials": [
+      {
+        "text":"Instagram",
+        "url":"https://www.instagram.com/kwnce/"
+      }
+    ],
+    "description": "",
+    "location": "D2"
+  },
+  {
+    "name": "Ratfestival",
+    "socials": [
+      {
+        "text":"GitHub",
+        "url":"https://ratfestival.github.io"
+      }
+    ],
+    "description": "",
+    "location": "D3"
+  },
+  {
+    "name": "Batsouppe",
+    "socials": [
+      {
+        "text":"Webpage",
+        "url":"https://batsouppe.art"
+      }
+    ],
+    "description": "",
+    "location": "D4"
+  },
+  {
+    "name": "JZhangDraws",
+    "socials": [
+      {
+        "text":"Instagram",
+        "url":"https://www.instagram.com/jzhangdraws/"
+      }
+    ],
+    "description": "",
+    "location": "D5"
+  },
+  {
+    "name": "Doulbedo",
+    "socials": [
+      {
+        "text":"Twitter",
+        "url":"https://x.com/doulbedo?lang=en"
+      }
+    ],
+    "description": "",
+    "location": "D6"
+  },
+  {
+    "name": "Beam Sinlapa",
+    "socials": "N/A",
+    "description": "",
+    "location": "D7"
+  },
+  {
+    "name": "Dog Ear (tanuweir)",
+    "socials": [
+      {
+        "text":"Twitter",
+        "url":"https://x.com/tanuweir"
+      }
+    ],
+    "description": "",
+    "location": "D7"
+  },
+  {
+    "name": "wen",
+    "socials": [
+      {
+        "text":"Instagram",
+        "url":"https://www.instagram.com/wen_draws/"
+      }
+    ],
+    "description": "",
+    "location": "D8"
+  },
+  {
+    "name": "Bunibelles",
+    "socials": [
+      {
+        "text":"Instagram",
+        "url":"https://www.instagram.com/bunibelles?igsh=NTc4MTIwNjQ2YQ=="
+      }
+    ],
+    "description": "",
+    "location": "D8"
+  },
+  {
+    "name": "LYFLAN",
+    "socials": [
+      {
+        "text":"Instagram",
+        "url":"https://instagram.com/lyflan"
+      }
+    ],
+    "description": "",
+    "location": "D9"
+  },
+  {
+    "name": "izzyxue_",
+    "socials": [
+      {
+        "text":"Instagram",
+        "url":"https://www.instagram.com/izzyxue_?igsh=NTc4MTIwNjQ2YQ%3D%3D&utm_source=qr"
+      }
+    ],
+    "description": "",
+    "location": "D9"
+  },
+  {
+    "name": "AiTsuki Art",
+    "socials": [
+      {
+        "text":"Instagram",
+        "url":"https://www.instagram.com/aitsukiart/"
+      }
+    ],
+    "description": "",
+    "location": "E1-E2"
+  },
+  {
+    "name": "Suki Suki Merch",
+    "socials": [
+      {
+        "text":"Instagram",
+        "url":"https://www.instagram.com/sukisukimerch/"
+      }
+    ],
+    "description": "",
+    "location": "E3"
+  },
+  {
+    "name": "eckoeckoss studio",
+    "socials": [
+      {
+        "text":"Webpage",
+        "url":"https://www.eckoeckos.com/welcome/"
+      }
+    ],
+    "description": "",
+    "location": "E4"
+  },
+  {
+    "name": "Casually Cosplay",
+    "socials": [
+      {
+        "text":"Webpage",
+        "url":"https://Casuallycosplay.com"
+      }
+    ],
+    "description": "",
+    "location": "E5"
+  },
+  {
+    "name": "soyemilky",
+    "socials": [
+      {
+        "text":"Webpage",
+        "url":"https://soyemilky.carrd.co"
+      }
+    ],
+    "description": "",
+    "location": "E6"
+  },
+  {
+    "name": "Pachito",
+    "socials": [
+      {
+        "text": "Instagram",
+        "url": "https://www.instagram.com/bachipott?igsh=MzRlODBiNWFlZA=="
+      }
+    ],
+    "description": "",
+    "location": "",
   },
   {
     "name": "Ando",
     "socials": "N/A",
     "description": "",
-    "location": "TBD"
+    "location": "E7"
   },
   {
     "name": "NyamenRamen",
-    "socials": "https://nyamenramen.carrd.co/",
+    "socials": [
+      {
+        "text":"Webpage",
+        "url":"https://nyamenramen.carrd.co/"
+      }
+    ],
     "description": "",
-    "location": "TBD"
+    "location": "E8"
   },
   {
-    "name": "poxei",
-    "socials": "https://poxei.carrd.co",
+    "name": "Joziar",
+    "socials": [
+      {
+        "text":"Instagram",
+        "url":"https://www.instagram.com/joziarl/"
+      }
+    ],
     "description": "",
-    "location": "TBD"
-  },
-  {
-    "name": "MisulMint",
-    "socials": "https://misulstudios.wixsite.com/misulstudios/links",
-    "description": "",
-    "location": "TBD"
+    "location": "E8"
   },
   {
     "name": "Shigezaki",
-    "socials": "https://shigezaki.carrd.co/",
+    "socials": [
+      {
+        "text":"Webpage",
+        "url":"https://shigezaki.carrd.co/"
+      }
+    ],
     "description": "",
-    "location": "TBD"
+    "location": "E9"
   },
   {
-    "name": "eckoeckoss studio",
-    "socials": "https://www.eckoeckos.com/welcome/",
+    "name": "BONE",
+    "socials": [
+      {
+        "text":"Twitter",
+        "url":"https://x.com/BONEEEeeZzz"
+      }
+    ],
     "description": "",
-    "location": "TBD"
+    "location": "E9"
   },
   {
-    "name": "eckoeckoss studio",
-    "socials": "https://www.eckoeckos.com/welcome/",
+    "name": "HuaXuan",
+    "socials": "N/A",
     "description": "",
-    "location": "TBD"
+    "location": "F1-F2"
   },
   {
-    "name": "mlkinis",
-    "socials": "https://mlkinis.carrd.co/",
+    "name": "yumitang_",
+    "socials": [
+      {
+        "text":"Webpage",
+        "url":"https://www.yumitang.art/"
+      }
+    ],
     "description": "",
-    "location": "TBD"
+    "location": "F3-F4"
+  },
+  {
+    "name": "maplesyrupbean",
+    "socials": [
+      {
+        "text":"Webpage",
+        "url":"https://maplesyrupbean.carrd.co/"
+      }
+    ],
+    "description": "",
+    "location": "F5"
+  },
+  {
+    "name": "Mintybytes",
+    "socials": [
+      {
+        "text":"Webpage",
+        "url":"https://mintybytes.com"
+      }
+    ],
+    "description": "",
+    "location": "F6"
+  },
+  {
+    "name": "Spirafall",
+    "socials": [
+      {
+        "text":"Webpage",
+        "url":"https://spirafall.net/"
+      }
+    ],
+    "description": "",
+    "location": "F7"
+  },
+  {
+  "name": "JWijaya Art",
+  "socials": [
+    {
+      "text":"Webpage",
+      "url":"http://www.kailunqu.com"
+    }
+  ],
+  "description": "",
+  "location": "F8"
+  },
+  {
+      "name": "Oolongcreama & AmaiCandy",
+    "socials": [
+      {
+        "text":"Webpage",
+        "url":"https://ideloreart.com/#merch"
+      },
+      {
+        "text":"Twitter",
+        "url":"https://x.com/_amaicandy"
+      }
+    ],
+    "description": "",
+    "location": "F9"
+  },
+  {
+    "name": "_naidraws",
+    "socials": [
+      {
+        "text":"Instagram",
+        "url":"https://Www.instagram.com/_naidraws"
+      }
+    ],
+    "description": "",
+    "location": "G1"
   },
   {
     "name": "Ash the Lazy",
-    "socials": "https://ashthelazy.myportfolio.com",
+    "socials": [
+      {
+        "text":"Myportfolio",
+        "url":"https://ashthelazy.myportfolio.com"
+      }
+    ],
     "description": "",
-    "location": "TBD"
+    "location": "G2"
+  },
+  {
+    "name": "mlkinis",
+    "socials": [
+      {
+        "text":"Webpage",
+        "url":"https://mlkinis.carrd.co/"
+      }
+    ],
+    "description": "",
+    "location": "G3"
+  },
+  {
+    "name": "poxei",
+    "socials": [
+      {
+        "text":"Webpage",
+        "url":"https://poxei.carrd.co"
+      }
+    ],
+    "description": "",
+    "location": "G4"
+  },
+  {
+    "name": "Tanisquirrel",
+    "socials": [
+      {
+        "text":"Webpage",
+        "url":"https://tanisquirrel.carrd.co/"
+      }
+    ],
+    "description": "",
+    "location": "G5"
+  },
+  {
+    "name": "Effervessa",
+    "socials": [
+      {
+        "text":"Webpage",
+        "url":"https://https://www.effervessa.com/"
+      },
+      {
+        "text":"Instagram",
+        "url":"https://instagram.com/raineeski/"
+      }
+              ],
+    "description": "",
+    "location": "G6"
+  },
+  {
+    "name": "Imperial Knight",
+    "socials": [
+      {
+        "text":"Linktree",
+        "url":"https://linktr.ee/imperialknight"
+      }
+    ],
+    "description": "",
+    "location": "G7"
+  },
+  {
+    "name": "twig",
+    "socials": "N/A",
+    "description": "",
+    "location": "G7"
   },
   {
     "name": "CHIOU!",
-    "socials": "https://www.instagram.com",
+    "socials": [
+      {
+        "text":"Instagram",
+        "url":"https://www.instagram.com"
+      }
+    ],
     "description": "",
-    "location": "TBD"
+    "location": "G8"
   },
   {
-    "name": "Ikaouji",
-    "socials": "https://Ikaouji.bigcartel.com",
+    "name": "lixizu",
+    "socials": [
+      {
+        "text":"Webpage",
+        "url":"https://lixizu.shop"
+      }
+    ],
     "description": "",
-    "location": "TBD"
-  },
-  {
-    "name": "The Trinket Hall",
-    "socials": "https://www.instagram.com/trinket.hall/",
-    "description": "",
-    "location": "TBD"
+    "location": "G9"
   },
   {
     "name": "Genshin at Berkeley",
-    "socials": "https://linktr.ee/genshinatberkeley",
+    "socials": [
+      {
+        "text":"Lintree",
+        "url":"https://linktr.ee/genshinatberkeley"
+      }
+    ],
     "description": "",
-    "location": "TBD"
+    "location": "H1"
   },
   {
     "name": "Playland Japan",
     "socials": "N/A",
     "description": "",
-    "location": "TBD"
+    "location": "H2-H3"
+  },
+  {
+    "name": "The Trinket Hall",
+    "socials": [
+      {
+        "text":"Instagram",
+        "url":"https://www.instagram.com/trinket.hall/"
+      }
+    ],
+    "description": "",
+    "location": "H4-H6"
   },
   {
     "name": "Nikaku Animart",
     "socials": "N/A",
     "description": "",
-    "location": "TBD"
+    "location": "H7-H8"
   },
   {
     "name": "Astro (astros_here)",
-    "socials": "",
+    "socials": "N/A",
     "description": "",
-    "location": "TBD"
+    "location": "H9"
   },
-  /*{
-    "name": "Genshin at Berkeley",
-    "socials": "https://linktr.ee/genshinatberkeley",
-    "description": "UC Berkeley's Genshin Impact club selling Genshin Impact, Honkai Star Rail, and other Hoyoverse merch. The merch is made entirely by community artists and all proceeds go towards creating future fun events for our members!",
-    "location": "I2"
-  },
-  {
-    "name": "Kemong's Art Cafe",
-    "socials": "https://kemongarts.carrd.co/",
-    "description": "",
-    "location": "I3"
-  },
-  {
-    "name": "bunibelles",
-    "socials": "https://www.instagram.com/bunibelles",
-    "description": "",
-    "location": "I4"
-  },
-  {
-    "name": "drawingsbybea",
-    "socials": "https://drawingsbybeaportfolio.carrd.co/",
-    "description": "",
-    "location": "I5"
-  },
-  {
-    "name": "Rolilomi",
-    "socials": "https://rolilomi.carrd.co",
-    "description": "your mom",
-    "location": "I6"
-  },
-  {
-    "name": "eelsilog",
-    "socials": "https://www.instagram.com/eelsilog/",
-    "description": "hi i'm ella! this is just like in persona...",
-    "location": "I7"
-  },
-  {
-    "name": "lov3fish",
-    "socials": "https://www.instagram.com/_lov3fish",
-    "description": "greetings! i'm a student and hobby artist that likes to draw fanart and original work. im into shoujosei, drhdr, hnk, lads, and other various media. i hope you visit! i'm also #1 chiikawa believer⑨(ˊᗜˋ*)۶ ♡",
-    "location": "I8"
-  },
-  {
-    "name": "Neko-Oi",
-    "socials": "https://www.instagram.com/justnekooi",
-    "description": "Bay area local artist focusing on cute cat art, food, and anime/games. ",
-    "location": "I9"
-  }*/
 ];
-
-
-
-

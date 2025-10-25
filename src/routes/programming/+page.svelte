@@ -49,17 +49,27 @@
 
       <!-- Panels -->
 
+      <section id="panel-guess-song" class="program-card" class:glow={currentHash === "#panel-guess-song"}>
+          <div class="name-bar"><h4>Guess The Song: Anime Edition</h4></div>
+          <p><strong>Location:</strong> Stephens Hall</p>
+          <p><strong>Time:</strong> 10:00 AM - 11:00 AM</p>
+          <p>Think you know your anime openings and endings? Can you name the tune faster than a shonen protagonist power up? Join us for Guess the Song: Anime Edition to engage in a fast paced, fun-filled hour of music, nostalgia, and confusion as you test your anime music knowledge in rivalrous contest.</p>
+          <div class="guess-song-image">
+            <img src="images\Anime Destiny 2025 - Guess the Song.png" alt="Work in Progress" />
+          </div>
+        </section>
+
       <!-- Events -->
       <div class="event-category">
         <!--<h3>Events</h3> -->
   
-        <section id="event-sweden" class="program-card" class:glow={currentHash === "#event-sweden"}>
-          <div class="name-bar"><h4>Alfhilde Presents: WWII Swedish History</h4></div>
+        <section id="event-nene-qna" class="program-card" class:glow={currentHash === "#event-nene-qna"}>
+          <div class="name-bar"><h4>Q&A with Nene Amano</h4></div>
           <p><strong>Location:</strong> Stephens Hall</p>
           <p><strong>Time:</strong> 11:15 AM - 11:45 AM</p>
-          <p>Ever wanted to receive a lecture from a VTuber? Join History enthusiast Alfhilde as she gives an interesting deep dive into Sweden's involvement in World War II (despite being neutral) and the many occurrences where Sweden was caught in the middle of the conflict. It will be fun, we promise!</p>
-          <div class="sweden-image">
-            <img src="images\Anime Destiny 2025 Post Graphics\Anime_Destiny_2025_-_Alfhilde_Panel.png" alt="Work in Progress" />
+          <p>Come join us for a live Q&A session with popular Indie VTuber, Nene Amano! Stop by her panel to have your questions answered about anything Nene, VTubing, or other fun questions as well!</p>
+          <div class="nene-qna-image">
+            <img src="images\Anime Destiny 2025 - Nene Amano Panel.png" alt="Work in Progress" />
           </div>
         </section>
 
@@ -132,6 +142,16 @@
       <!-- Panels -->
       <div class="panel-category">
         <!--<h3>Panels</h3>-->
+
+        <section id="panel-issei-band" class="program-card" class:glow={currentHash === "#panel-issei-band"}>
+          <div class="name-bar"><h4>Issei Band: Student Anime Band & Opening Ceremony</h4></div>
+          <p><strong>Location:</strong> Tilden Room Patio</p>
+          <p><strong>Time:</strong> 10:00 AM - 10:30 AM</p>
+          <p>This is Issei Band, a band consisting of members that are all in UC Berkeley’s Japanese Language program. They will be performing hit songs from anime and J-pop culture; please enjoy! The performance will kick-off Anime Destiny 2025 and end with a special word from our Director!</p>
+          <div class="issei-band-image">
+            <img src="images\Anime Destiny 2025 - Issei Band (3).png" alt="Work in Progress" />
+          </div>
+        </section>
 
         <section id="panel-cosplay-competition-101" class="program-card" class:glow={currentHash === "#panel-cosplay-competition-101"}>
           <div class="name-bar"><h4>Cosplay Contest 101 Panel & Contest Pre-Judging</h4></div>
@@ -309,7 +329,14 @@
     flex: 1; /* Allows the image block to grow */
   }
 
-  .sweden-image img {
+  .guess-song-image img {
+    max-width:300px;
+    max-height:300px;
+    margin:0 auto;
+    padding: 5px;
+  }
+
+  .nene-qna-image img {
     max-width:300px;
     max-height:300px;
     margin:0 auto;
@@ -350,6 +377,13 @@
   }
 
   .genshin-image img {
+    max-width:300px;
+    max-height:300px;
+    margin:0 auto;
+    padding: 5px;
+  }
+
+  .issei-band-image img {
     max-width:300px;
     max-height:300px;
     margin:0 auto;

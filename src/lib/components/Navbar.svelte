@@ -98,7 +98,8 @@
     <div class="sub-links">
       <!-- Events (Chronological)-->
       <!-- Perhaps add start and end time for artist alley?-->
-      <a href="/programming#event-sweden">Alfhilde Presents: WWII Swedish History</a>
+      <a href="/programming#panel-guess-song">Guess The Song: Anime Edition</a>
+      <a href="/programming#event-nene-qna">Q&A with Nene Amano</a>
       <a href="/programming#event-shipgirls">Shipgirls and Jetgirl VTubers? : Welcome to VFleet Project</a>
       <a href="/programming#event-jpop-kpop">J-Pop/K-Pop Random Play Dance</a>
       <a href="/programming#event-himeko-firefly">All Aboard the Astral Express with Himeko and Firefly!</a>
@@ -110,6 +111,7 @@
     <div class="category">Tilden Room (5th Floor)</div>
     <div class="sub-links">
       <!-- Events (Chronological)-->
+       <a href="/programming#panel-issei-band">Issei Band: Student Anime Bnad & Opening Ceremony</a>
       <a href="/programming#panel-cosplay-competition-101">Cosplay Contest 101 Panel & Contest Pre-Judging</a>
       <a href="/programming#event-cosplay-comp">Cosplay Contest</a>
       <a href="/programming#event-otaku-ongaku">Otaku Ongaku: Nerd Music LIVE!</a>

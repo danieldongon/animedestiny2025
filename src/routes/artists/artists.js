@@ -312,8 +312,8 @@ export const artists = [
     "location": "E8"
   },
   {
-    "name": "Joziar",
-    "socials": "https://www.instagram.com/joziarl/",
+    "name": "leelee",
+    "socials": "https://www.pixiv.net/en/users/95383172",
     "description": "",
     "location": "E8"
   },
@@ -433,8 +433,8 @@ export const artists = [
     "location": "G9"
   },
   {
-    "name": "Genshin at Berkeley",
-    "socials": "https://linktr.ee/genshinatberkeley",
+    "name": "Furries at Berkeley",
+    "socials": "https://furries.at/berkeley",
     "description": "",
     "location": "H1"
   },
@@ -442,7 +442,13 @@ export const artists = [
     "name": "Playland Japan",
     "socials": "N/A",
     "description": "",
-    "location": "H2-H3"
+    "location": "H1-H2"
+  },
+  {
+    "name": "Genshin at Berkeley",
+    "socials": "https://linktr.ee/genshinatberkeley",
+    "description": "",
+    "location": "H3",
   },
   {
     "name": "The Trinket Hall",
@@ -463,3 +469,4 @@ export const artists = [
     "location": "H9"
   },
 ];
+

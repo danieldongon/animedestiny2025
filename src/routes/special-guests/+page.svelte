@@ -5,7 +5,7 @@
   import Footer from '$lib/components/Footer.svelte';
 
   // Ensure 8 total cards
-  const maxGuests = 8;
+  const maxGuests = 9;
   const filledGuests = [
     ...guests,
     ...Array.from({ length: maxGuests - guests.length }, () => ({
@@ -34,7 +34,7 @@
     <p>We're excited to announce our special guest lineup for Anime Destiny 2025, with some of your favorite industry professionals and VTubers! Click on each image to learn about them.</p>
   </div>
 <div  class="container mx-auto px-4 py-12">
-<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 items-start">
+<div class="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 gap-6 items-start">
   {#each filledGuests as guest, i (i)}
     <div class="bg-gray-50 rounded-lg shadow flex flex-col">
       <!-- Image area: clickable for real guests, static for coming soon -->

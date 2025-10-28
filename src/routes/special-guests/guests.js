@@ -28,6 +28,13 @@ export const guests = [
     "blurb":"Meet VTuber from V-Dere, Kirispica! Born from a cirrus cloud, Spica took on human form to share her love of music with the world. With dreams of becoming the first cloud to fly to the moon, she gathers magical wisps of wind to help her on her journey!\n\n\nSee her perform at our VTuber Mini Concert: 6-7 PM in Tilden Room!"
   },
   {
+    "name":"Kōri-Oujo",
+    "blurb":"Kōri is a VTuber content creator who is Twitch affiliate and YouTube partner, working to push the boundaries of where VTubing goes in-real-life. As a raccoon that got isekai’d into an ice princess, Kōri displays her passion for storytelling across all mediums, with a silly chaotic flair. Her focus is virtually attending events like anime conventions, raves, sports arenas- or even creating her own live concerts in locations like Las Vegas and aboard a carriership museum!\n\n\nAk the raccoon and Kōri are excited to meet you! Find Kori rolling around the convention and at the meet-and-greets!",
+    "image":"/images/guests/Kori-Oujo.png",
+    "socials":"https://www.youtube.com/channel/UCEm8JrLC0LrmRz84vrWaY8g",
+    "social_type":"youtube",
+  },
+  {
     "name":"Nene Amano",
     "socials":"https://www.youtube.com/@NeneAmanoCh",
     "social_type":"youtube",

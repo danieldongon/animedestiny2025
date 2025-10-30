@@ -87,11 +87,22 @@
     <!-- Dropdown Menu -->
     {#if isProgrammingOpen}
   <div class="dropdown-menu" in:fade={{ duration: 200 }} out:fade={{ duration: 300 }}>
+    <!-- Category: 3rd Floor - Kerr Lobby -->
+    <div class="category">Kerr Lobby (3rd Floor)</div>
+    <div class="sub-links">
+      <a href="/exhibition#vfleet">VFleet and Indie VTuber Meet-and-Greets</a>
+      <a href="/exhibition#pixiv">pixiv Drawing Panel</a>
+      <a href="/exhibition#neon-shrine">Neon Shrine</a>
+    </div>
+
     <!-- Category: 3rd Floor - Stephens Hall -->
     <div class="category">Pauley Ballroom (3rd Floor)</div>
     <div class="sub-links">
       <a href="/artists">Artist Alley</a>
       <a href="/special-guests">Special Guests</a>
+      <a href="/exhibition#autographs">Autographs with Analesa Fisher and Cia Court</a>
+      <a href="/exhibition#emaqi">Emaqi Manga App</a>
+      <a href="/exhibition#bart-anime">BART Anime</a>
     </div>
 
     <div class="category">Stephens Hall (3rd Floor)</div>
@@ -111,7 +122,7 @@
     <div class="category">Tilden Room (5th Floor)</div>
     <div class="sub-links">
       <!-- Events (Chronological)-->
-       <a href="/programming#panel-issei-band">Issei Band: Student Anime Bnad & Opening Ceremony</a>
+       <a href="/programming#panel-issei-band">Issei Band: Student Anime Band & Opening Ceremony</a>
       <a href="/programming#panel-cosplay-competition-101">Cosplay Contest 101 Panel & Contest Pre-Judging</a>
       <a href="/programming#event-cosplay-comp">Cosplay Contest</a>
       <a href="/programming#event-otaku-ongaku">Otaku Ongaku: Nerd Music LIVE!</a>

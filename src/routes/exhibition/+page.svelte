@@ -39,7 +39,7 @@
 <main>
 
   <div class="page-title">
-    Exhibition
+    Exhibitions
   </div>
 
   <div class="page-body">

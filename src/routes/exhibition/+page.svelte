@@ -53,7 +53,7 @@
           <p><strong>Time:</strong> All Day</p>
           <p>VTubers are taking over Anime Destiny! Visit the booth of our sponsor, VFleet Project, as they bring their cast of VTubers along with numerous other Indie VTubers for exclusive meet-and-greet opportunities! Also stop by the booth to learn more about VFleet and their mission involving ships and aircraft museums!</p>
           <div class="guess-song-image">
-            <img src="" alt="Work in Progress" />
+            <img src="images\exhibition\vfleet.png" alt="Work in Progress" />
           </div>
         </section>
 
@@ -74,7 +74,7 @@
           <p><strong>Time:</strong> All Day</p>
           <p>Neon Shrine is a group specializing in goods for VTubers and Idols, such as penlights, happi coats, muffler towels, uchiwa fans, shikishi autograph boards, holographic tickets, and more! Come check them out and purchase some merch for your favorite VTubers, including SanFlare's Peoni Astera and indie Utano Pandora!</p>
           <div class="guess-song-image">
-            <img src="images\Anime Destiny 2025 - Guess the Song.png" alt="Work in Progress" />
+            <img src="images\exhibition\neon.png" alt="Work in Progress" />
           </div>
         </section>
     </section>
@@ -89,7 +89,7 @@
           <p><strong>Time:</strong> 11:00 AM - 2:00 PM, 4:00 PM - 6:00 PM</p>
           <p>Special Guest voice actors Analesa Fisher and Cia Court will be doing autographing at Anime Destiny 2025! Stop by their tables during their autographing hours, 11AM - 2PM and 4PM - 6PM, to chat, get your merch signed, and hang out with them!</p>
           <div class="guess-song-image">
-            <img src="images\Anime Destiny 2025 - Guess the Song.png" alt="Work in Progress" />
+            <img src="images\Anime Destiny 2025 Post Graphics\Anime_Destiny_2025_-_Star_Rail_Panel.png" alt="Work in Progress" />
           </div>
         </section>
 
@@ -99,7 +99,7 @@
           <p><strong>Time:</strong> All Day</p>
           <p>Visit an industry booth by Emaqi Manga App, a digital manga store based in Japan! Experience app demos as well as learn more about Emaqi’s manga donation to the Berkeley East Asian Library (opening soon)!</p>
           <div class="guess-song-image">
-            <img src="images\Anime Destiny 2025 - Guess the Song.png" alt="Work in Progress" />
+            <img src="images\exhibition\emaqi.png" alt="Work in Progress" />
           </div>
         </section>
 
@@ -109,7 +109,7 @@
           <p><strong>Time:</strong> All Day</p>
           <p>The BART has Anime mascots?!? Come to the BART Anime booth to pick up freebies as well as see the cutouts of your favorite mascots and the BART train! There will also be exclusive merch sales happening from 10AM - 2PM, so don't miss out!</p>
           <div class="guess-song-image">
-            <img src="images\Anime Destiny 2025 - Guess the Song.png" alt="Work in Progress" />
+            <img src="images\exhibition\bart.png" alt="Work in Progress" />
           </div>
         </section>
     </section>

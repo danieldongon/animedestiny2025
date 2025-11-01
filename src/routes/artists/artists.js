@@ -115,7 +115,7 @@ export const artists = [
   },
   {
     "name": "LilyCli",
-        "socials": "https://lihttps://lilycli.com",
+        "socials": "https://linktr.ee/Lilycli",
     "description": "",
     "location": "C1"
   },
@@ -469,4 +469,5 @@ export const artists = [
     "location": "H9"
   },
 ];
+
 

@@ -124,6 +124,7 @@
 {/if}
 
   </div>
+  <a href="/cosplay">Cosplay</a>
   <a href="/exhibition">Exhibitions</a>
   <a href="/rules">Rules</a>
     <!-- Buy a Ticket -->

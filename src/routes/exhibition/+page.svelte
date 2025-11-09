@@ -52,6 +52,26 @@
           <p><strong>Location:</strong> Kerr Lobby</p>
           <p><strong>Time:</strong> All Day</p>
           <p>VTubers are taking over Anime Destiny! Visit the booth of our sponsor, VFleet Project, as they bring their cast of VTubers along with numerous other Indie VTubers for exclusive meet-and-greet opportunities! Also stop by the booth to learn more about VFleet and their mission involving ships and aircraft museums!</p>
+          <p style="text-align: center; font-weight: bold;">VTuber Meet and Greets</p>
+          <p>
+            10:00AM - Josie-12 (M&amp;G)<br>
+            10:30AM - Eve-80, Lina-55 (M&amp;G)<br>
+            11:00AM - Anthony Talon (M&amp;G); Eve-80, Mayhem (iPad)<br>
+            11:30AM - AlienMixture, PillowDear (M&amp;G)<br>
+            12:00PM - Daiya Fortuna, Hara Rae Sol, Radiactive (M&amp;G)<br>
+            12:30PM - Mim, RIHSURI (M&amp;G)<br>
+            1:00PM - Nemimi Yane, Luci-04, LAZULI (M&amp;G); TRiGGERPHiSH (iPad)<br>
+            1:30PM - Nene Amano, Camizole Corzette (M&amp;G)<br>
+            <em>Note: Nene Amano’s meet-and-greet will be first-come, first-served; claim your ticket at registration by mentioning you are here for Nene (limit first ~30-35 people)</em><br>
+            2:00PM - Prawn Star Itsi, Utano Pandora (M&amp;G)<br>
+            2:30PM - Ali-60, Munii Shoda (M&amp;G)<br>
+            3:00PM - Kat-14, FA.ye-18, TRiGGERPHiSH (M&amp;G), Estelle, Nemimi Yane (iPad)<br>
+            3:30PM - Vampirate Odessa, Ami-35 (M&amp;G)<br>
+            4:00PM - Mayhem (M&amp;G)<br>
+            4:30PM - Lexie-16 (M&amp;G)<br>
+            5:00PM - Snoozy (M&amp;G), RIHSURI (iPad)<br>
+            5:30PM - Raki Kazuki (M&amp;G)
+          </p>
           <div class="guess-song-image">
             <img src="images\exhibition\vfleet.png" alt="Work in Progress" />
           </div>

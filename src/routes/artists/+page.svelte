@@ -42,19 +42,19 @@ import { fade } from 'svelte/transition';
   </div>
 
   <!-- Remove this comment once the final artist alley map is complete-->
-  <!-- <div class="content-container">
-  <img src="images/AD artist alley map.png" class="ADMap" alt="Artist Alley Map" on:click={openOverlayArtistMap} />
+  <div class="content-container">
+  <img src="images/AD 2025 Detailed Map.png" class="ADMap" alt="Artist Alley Map" on:click={openOverlayArtistMap} />
     <div style="padding:1rem 0;">
     <a on:click={openOverlayArtistMap}>Click for larger image!</a>
     </div>
     {#if showOverlayArtistMap}
       <div class="overlay-artist-map"  on:click={closeOverlayArtistMap} in:fade={{ duration: 200 }} out:fade={{ duration: 200 }} >
         <button class="close-button-artist-map" on:click={closeOverlayArtistMap}>✕</button>
-        <img src="images/AD artist alley map.png" on:click|stopPropagation class="image-artist-map" alt="Fullscreen Artist Alley Map" />
+        <img src="images/AD 2025 Detailed Map.png" on:click|stopPropagation class="image-artist-map" alt="Fullscreen Artist Alley Map" />
       </div>
     {/if}
 
-  </div>  -->
+  </div>
 
 
   <div class="artists-grid">

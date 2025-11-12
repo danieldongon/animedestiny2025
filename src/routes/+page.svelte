@@ -257,15 +257,6 @@
           Here is the schedule of events for Anime Destiny 2025. For more detailed descriptions of each event, please visit our <a href="/programming" style="color: #485077; text-decoration: underline;">Programming Page.</a>
         </p>
 
-        <div style="padding-right: 2rem;">
-          <h3 style="font-family: 'Roboto', sans-serif; font-size: 1.5rem; color: #485077; margin-bottom: 0.5rem;">Parking Information:</h3>
-          <p style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #485077; margin-bottom: 1rem;">
-              For info about street parking, visit the <a href="/parking" style="color: #485077; text-decoration: underline;">parking page</a>.
-          </p>
-        </div>
-        
-        
-
         <div class="content-container">
           <img src="images/schedule.temp.png" class="ADMap" alt="Artist Alley Map" on:click={openOverlayADSchedule} />
           <div style="padding:1rem 0;">
@@ -278,6 +269,30 @@
             <img src="images/schedule.temp.png" on:click|stopPropagation class="image-artist-map" alt="Fullscreen AD Map" />
           </div>
         {/if}
+        
+        <h3 style="font-family: 'Roboto', sans-serif; font-size: 1.5rem; color: #485077; margin-bottom: 0.5rem;">Event map:</h3>
+        
+
+        <div class="content-container">
+          <img src="images/AD 2025 MAP.png" class="ADMap" alt="Artist Alley Map" on:click={openOverlayArtistMap} />
+          <div style="padding:1rem 0;">
+          <a on:click={openOverlayArtistMap}>Click for larger image!</a>
+          </div>
+        </div>
+        {#if showOverlayArtistMap}
+          <div class="overlay-artist-map"  on:click={closeOverlayArtistMap} in:fade={{ duration: 200 }} out:fade={{ duration: 200 }} >
+            <button class="close-button-artist-map" on:click={closeOverlayArtistMap}>✕</button>
+            <img src="images/AD 2025 MAP.png" on:click|stopPropagation class="image-artist-map" alt="Fullscreen AD Map" />
+          </div>
+        {/if}
+
+
+        <div style="padding-right: 2rem;">
+          <h3 style="font-family: 'Roboto', sans-serif; font-size: 1.5rem; color: #485077; margin-bottom: 0.5rem;">Parking Information:</h3>
+          <p style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #485077; margin-bottom: 1rem;">
+              For info about street parking, visit the <a href="/parking" style="color: #485077; text-decoration: underline;">parking page</a>.
+          </p>
+        </div>
         
         <div class="content-container">
           <img src="images/parking.jpg" class="ADMap" alt="Artist Alley Map" on:click={openOverlayADMap} />

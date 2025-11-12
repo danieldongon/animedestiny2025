@@ -58,7 +58,7 @@
             10:30AM - Eve-80, Lina-55 (M&amp;G)<br>
             11:00AM - Anthony Talon (M&amp;G); Eve-80, Mayhem (iPad)<br>
             11:30AM - AlienMixture, PillowDear (M&amp;G)<br>
-            12:00PM - Daiya Fortuna, Hara Rae Sol, Radiactive (M&amp;G)<br>
+            12:00PM - Hara Rae Sol, Radiactive (M&amp;G)<br>
             12:30PM - Mim, RIHSURI (M&amp;G)<br>
             1:00PM - Nemimi Yane, Luci-04, LAZULI (M&amp;G); TRiGGERPHiSH (iPad)<br>
             1:30PM - Nene Amano, Camizole Corzette (M&amp;G)<br>
@@ -69,7 +69,7 @@
             3:30PM - Vampirate Odessa, Ami-35 (M&amp;G)<br>
             4:00PM - Mayhem (M&amp;G)<br>
             4:30PM - Lexie-16 (M&amp;G)<br>
-            5:00PM - Snoozy (M&amp;G), RIHSURI (iPad)<br>
+            5:00PM - Daiya Fortuna, Estelle, Snoozy (M&G), RIHSURI (iPad)<br>
             5:30PM - Raki Kazuki (M&amp;G)
           </p>
           <div class="guess-song-image">

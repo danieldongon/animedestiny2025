@@ -217,6 +217,14 @@
           <p><strong>Location:</strong> Tilden Room</p>
           <p><strong>Time:</strong> 6:00 PM - 7:00 PM</p>
           <p>VTubers are taking over Anime Destiny! Join talents from agencies VFleet and Aegis Link, as well as various Indie VTubers as they sing, dance, and perform some of your favorite hits! You don't want to miss this high-energy, fun closing event for Anime Destiny 2025</p>
+          <p style="text-align: center;"> <span style="font-size: 20px; font-weight: bold;">Performer List:</span> </p>
+          <p style="text-align: center;">VFleet: Ali-60, Anthony Talon, FA.ye-18</p>
+          <p style="text-align: center;">Aegis Link: REM:NANT (TRiGG3RPh!$h, MaeFae, Lan Philia)</p>
+          <p style="text-align: center;">Eva Ananova</p>
+          <p style="text-align: center;">Kirispica</p>
+          <p style="text-align: center;">Nene Amano</p>
+          <p style="text-align: center;">RIHSURI</p>
+          <p style="text-align: center;">Vampirate Odessa</p>
           <div class="virtual-bears-image">
             <img src="images\Anime Destiny 2025 Post Graphics\Anime_Destiny_2025_-_VTuber_Mini_Concert.png" alt="Work in Progress" />
           </div>

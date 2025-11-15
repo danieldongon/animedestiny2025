@@ -70,10 +70,10 @@
     <!-- Buy Tickets Now Section -->
     <section>
 
-      <h2 style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: white; margin: 0;">Buy Tickets Now</h2>
+      <!-- <h2 style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: white; margin: 0;">Buy Tickets Now</h2>
       <a href={purchaseLink} target="_blank" rel="noopener noreferrer" class="section-link" style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: white; margin: 0;" >Purchase Tickets</a>
-      <br />
-      <p style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: white; margin: 0;">You will be redirected to our payment processor on Stripe.</p>
+      <br /> -->
+      <p style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: white; margin: 0;">Tickets are available for purchase in-person. See you there!</p>
     </section>
   </div>
   <div class="hero-image" style="--scroll-y: {scrollY}">

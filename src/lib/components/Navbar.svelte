@@ -128,12 +128,12 @@
   <a href="/exhibition">Exhibitions</a>
   <a href="/rules">Rules</a>
     <!-- Buy a Ticket -->
-    <a
+    <!-- <a
       href={ticketLink}
       class="ml-4 inline-block rounded-full bg-[#3F6CC9] px-5 py-2 -my-1 text-xs font-bold tracking-wide text-white uppercase font-['Montserrat'] shadow-md hover:bg-[#2F4898] transition-colors duration-200"
     >
       Purchase Tickets
-    </a>
+    </a> -->
 
     <!-- Discord and Instagram 
     <a href={discord} target="_blank" rel="noopener noreferrer" in:fade={{ duration: 500 }}>

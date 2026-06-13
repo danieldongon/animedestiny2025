@@ -104,7 +104,7 @@
       </p>
       
       <p style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: #485077; margin-bottom: 1.5rem;">
-        We will also be hosting a Day 0 on <strong>Saturday, November 14</strong>, from <strong>12:00 PM to 6:00 PM</strong> on Lower Sproul Plaza, which is located outside of the ASUC Student Union.
+        We will also be hosting a Day 0 on <strong>Saturday, November 14</strong>, from <strong>12:00 PM to 6:00 PM</strong> on Lower Sproul Plaza, which is located outside of the ASUC Student Union. Come to see our opening ceremony, performances, food/drink vendors, and early badge pick-ups/purchases!
       </p>
 
       <iframe 

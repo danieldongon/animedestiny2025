@@ -86,6 +86,7 @@
       <p class="event-date">Sunday, November 15th</p>
       <p class="event-time">10:00 AM to 7:00 PM</p>
       <p class="event-location">ASUC Student Union: Martin Luther King Jr. Building</p>
+      <p class="event-time">Day 0 - Saturday, November 14th 12:00 PM to 6:00 PM on Lower Sproul Plaza</p>
     </div>
   </div>
 
@@ -100,6 +101,10 @@
       
       <p style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: #485077; margin-bottom: 1.5rem;">
         Anime Destiny is UC Berkeley's premier anime convention, hosted annually by Cal Animage Alpha. This year, the convention will be held on <strong>Sunday, November 15, 2026</strong>, from <strong>10:00 AM to 7:00 PM</strong> in the Pauley Ballroom of the ASUC Student Union, located at 2495 Bancroft Way, Berkeley, CA.
+      </p>
+      
+      <p style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: #485077; margin-bottom: 1.5rem;">
+        We will also be hosting a Day 0 on <strong>Saturday, November 14</strong>, from <strong>12:00 PM to 6:00 PM</strong> on Lower Sproul Plaza, which is located outside of the ASUC Student Union.
       </p>
 
       <iframe 
@@ -212,11 +217,11 @@
     what artists are there, etc. -->
     <!-- Exhibitors Section -->
     <section>
-      <h2>Artist Alley/Exhibitors</h2>
+      <h2 style="font-family: 'Roboto', sans-serif; font-size: 2rem; color: #485077; margin-bottom: 1rem;">Artist Alley/Exhibitors</h2>
       <p style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #485077; margin-bottom: 1rem;">To Be Announced - Stay Tuned!</p>
       <!-- <p style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #485077; margin-bottom: 1rem;">Many amazing artists and vendors are at Anime Destiny 2026! Explore and support their talent through the Artist Alley.</p> -->
-      <div class="content-container">
-        <!-- <img src="images/AD artist alley map.png" class="ADMap" alt="Artist Alley Map" on:click={openOverlayArtistMap} />
+      <!-- <div class="content-container">
+        <img src="images/AD artist alley map.png" class="ADMap" alt="Artist Alley Map" on:click={openOverlayArtistMap} />
         <div style="padding:1rem 0;">
         <a on:click={openOverlayArtistMap}>Click for larger image!</a>
         </div>
@@ -225,16 +230,16 @@
             <button class="close-button-artist-map" on:click={closeOverlayArtistMap}>✕</button>
             <img src="images/AD artist alley map.png" on:click|stopPropagation class="image-artist-map" alt="Fullscreen Artist Alley Map" />
           </div>
-        {/if}    -->                                    <!-- Restore once an artist alley map is completed -->
-        <!-- <h2 style="font-family: 'Roboto', sans-serif; font-size: 2rem; color: #485077; margin-bottom: 1rem;">AD 2023 Artist Alley Showcase</h2> -->
-        <div class="embed-wrapper">  
+        {/if} -->                                    <!-- Restore once an artist alley map is completed -->
+        <!-- <h2 style="font-family: 'Roboto', sans-serif; font-size: 2rem; color: #485077; margin-bottom: 1rem;">AD 2023 Artist Alley Showcase</h2>
+        <div class="embed-wrapper"> -->
           <!-- YouTube Embed -->
           <!-- <div id="embed youtube-embed">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/06DdqfWonN4?feature=shared" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </div> -->
-        </div>
-        <!-- <a href="/artists" class="section-link">View the list of artists in AD 2026 here!</a> -->
-      </div>
+        <!-- </div>
+         <a href="/artists" class="section-link">View the list of artists in AD 2026 here!</a>
+      </div> -->
     </section>
     <hr />
 

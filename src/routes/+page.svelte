@@ -116,7 +116,7 @@
       </iframe>
 
       <p style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: #485077; margin-bottom: 1.5rem; margin-top: 1.5rem;">
-        Admission is $18, and tickets are available at the door for $20. Online ticket purchases will close on <strong>Friday, November 13th</strong> at 11:59 PM.
+        Admission is $18, and tickets are available at the door for $23. Online ticket purchases will close on <strong>Friday, November 13th</strong> at 11:59 PM.
       </p>
 
     

@@ -37,11 +37,15 @@ import { fade } from 'svelte/transition';
     Artist Alley
   </div>
   <div class="artists-info">
+    <p style="font-family: 'Montserrat', sans-serif; font-size: 1.5rem; color: #485077; margin-bottom: 1rem;">To Be Announced - Stay Tuned!</p>
+    <!--
     <p>Please be mindful of artists' original works and refrain from explicit photography/recording of artists' creations unless you have permission.</p>
     <p>Anime Destiny and Cal Animage Alpha do not support the distribution or showcasing of AI art.</p>
+    -->
   </div>
 
   <!-- Remove this comment once the final artist alley map is complete-->
+  <!--
   <div class="content-container">
   <img src="images/AD 2025 Detailed Map.png" class="ADMap" alt="Artist Alley Map" on:click={openOverlayArtistMap} />
     <div style="padding:1rem 0;">
@@ -55,8 +59,9 @@ import { fade } from 'svelte/transition';
     {/if}
 
   </div>
+  -->
 
-
+  <!--
   <div class="artists-grid">
     {#each artists as { name, socials, description, location }}
       <div class="artist-card">
@@ -78,6 +83,7 @@ import { fade } from 'svelte/transition';
       </div>
     {/each}
   </div>
+  -->
 </main>
 
 <style>

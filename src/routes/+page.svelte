@@ -7,13 +7,13 @@
   import Events from '$lib/components/Events.svelte';
   import { fade } from 'svelte/transition';
 
-  let desktopImage = 'images/ad_banner_no_txt.png';
-  let mobileImage = 'images/ad_banner_no_txt.png';
+  let desktopImage = 'images/bg2026.png';
+  let mobileImage = 'images/bg2026.png';
 
   let exhibitorsImage = 'https://example.com/exhibitors-image.jpg';
   let scheduleImage = 'debug/test-schedule.png';
   let aboutUsImage = 'https://i.redd.it/tyvpt1fy7b601.jpg';
-  let purchaseLink = 'https://buy.stripe.com/8x28wQ9Qcb1ccWl5ebbAs01';
+  let purchaseLink = 'https://buy.stripe.com/8x2fZi8M81qC5tT363bAs05';
   let mapImage = 'https://example.com/map-image.jpg';
 
   let scrollY = 0;
@@ -70,10 +70,10 @@
     <!-- Buy Tickets Now Section -->
     <section>
 
-      <!-- <h2 style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: white; margin: 0;">Buy Tickets Now</h2>
-      <a href={purchaseLink} target="_blank" rel="noopener noreferrer" class="section-link" style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: white; margin: 0;" >Purchase Tickets</a>
-      <br /> -->
-      <p style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: white; margin: 0;">Tickets are available for purchase in-person. See you there!</p>
+      <!-- <h2 style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: white; margin: 0;">Buy Tickets Now</h2> -->
+      <a href={purchaseLink} target="_blank" rel="noopener noreferrer" class="section-link" style="font-family: 'Montserrat', sans-serif; font-size: 3rem; color: white; margin: 0;" >Tickets are now available for purchase online, $18 pre-sale price!</a>
+      <br />
+      <!-- <p style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: white; margin: 0;">Tickets are available for purchase in-person. See you there!</p> -->
     </section>
   </div>
   <div class="hero-image" style="--scroll-y: {scrollY}">
@@ -81,25 +81,25 @@
     <img src="{desktopImage}" alt="Anime Destiny Event" class="desktop" draggable="false" />
     
     <div class="overlay">
-      <!--<h1 class="event-title">Anime Destiny 2025</h1> -->
-      <img src="/images/ad_txt.png" alt="AD Logo" class="ADLogo" draggable="false"/>
-      <p class="event-date">Saturday, November 15th</p>
+      <!--<h1 class="event-title">Anime Destiny 2026</h1> -->
+      <img src="/images/logo2026spaced.png" alt="AD Logo" class="ADLogo" draggable="false"/>
+      <p class="event-date">Sunday, November 15th</p>
       <p class="event-time">10:00 AM to 7:00 PM</p>
       <p class="event-location">ASUC Student Union: Martin Luther King Jr. Building</p>
     </div>
   </div>
 
-  <div class="gradient" style="background: linear-gradient(90deg, #2F4898, #5892DA, #2F4898); padding: 1rem; text-align: center;">
+  <!-- <div class="gradient" style="background: linear-gradient(90deg, #2F4898, #5892DA, #2F4898); padding: 1rem; text-align: center;">
     <p style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: white; margin: 0;"><a href="/cosplay-contest">Sign-up for the cosplay contest here! Prizes included.</a></p>
-  </div>
+  </div> -->
   
   <div class="event-info">
     <!-- "What is Anime Destiny" Section -->
     <section id="about" style="padding: 2rem 0;">
-      <h2 style="font-family: 'Roboto', sans-serif; font-size: 2rem; color: #485077; margin-bottom: 1rem;">About Anime Destiny 2025</h2>
+      <h2 style="font-family: 'Roboto', sans-serif; font-size: 2rem; color: #485077; margin-bottom: 1rem;">About Anime Destiny 2026</h2>
       
       <p style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: #485077; margin-bottom: 1.5rem;">
-        Anime Destiny is UC Berkeley's premier anime convention, hosted annually by Cal Animage Alpha. This year, the convention will be held on <strong>Saturday, November 15, 2025</strong>, from <strong>10:00 AM to 7:00 PM</strong> in the Pauley Ballroom of the ASUC Student Union, located at 2495 Bancroft Way, Berkeley, CA.
+        Anime Destiny is UC Berkeley's premier anime convention, hosted annually by Cal Animage Alpha. This year, the convention will be held on <strong>Sunday, November 15, 2026</strong>, from <strong>10:00 AM to 7:00 PM</strong> in the Pauley Ballroom of the ASUC Student Union, located at 2495 Bancroft Way, Berkeley, CA.
       </p>
 
       <iframe 
@@ -111,7 +111,7 @@
       </iframe>
 
       <p style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: #485077; margin-bottom: 1.5rem; margin-top: 1.5rem;">
-        Admission is $15, and tickets are available at the door. Online ticket purchases will close on <strong>Friday, November 14th</strong> at 11:59 PM.
+        Admission is $18, and tickets are available at the door for $20. Online ticket purchases will close on <strong>Friday, November 13th</strong> at 11:59 PM.
       </p>
 
     
@@ -176,7 +176,7 @@
       <li>Artist Alley featuring talented artists and vendors</li>
       <li>Special guests including voice actors and VTubers</li>
       <li>Panels and workshops</li>
-      <li>Cosplay contests</li>
+      <!-- <li>Cosplay contests</li> -->
       <li>Live performances by The Intermission Orchestra and Nikkei Choral Ensemble</li>
       <li>Interactive Genshin at Berkeley activities</li>
       <li>And much more!</li>
@@ -185,7 +185,7 @@
 
 
 
-    <Events/>
+    <!-- <Events/> -->
   </section>
 
   <hr style="border: none; border-top: 2px solid #485077; margin-top: 2rem;" />
@@ -213,7 +213,8 @@
     <!-- Exhibitors Section -->
     <section>
       <h2>Artist Alley/Exhibitors</h2>
-      <p style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #485077; margin-bottom: 1rem;">Many amazing artists and vendors are at Anime Destiny 2025! Explore and support their talent through the Artist Alley.</p>
+      <p style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #485077; margin-bottom: 1rem;">To Be Announced - Stay Tuned!</p>
+      <!-- <p style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #485077; margin-bottom: 1rem;">Many amazing artists and vendors are at Anime Destiny 2026! Explore and support their talent through the Artist Alley.</p> -->
       <div class="content-container">
         <!-- <img src="images/AD artist alley map.png" class="ADMap" alt="Artist Alley Map" on:click={openOverlayArtistMap} />
         <div style="padding:1rem 0;">
@@ -225,14 +226,14 @@
             <img src="images/AD artist alley map.png" on:click|stopPropagation class="image-artist-map" alt="Fullscreen Artist Alley Map" />
           </div>
         {/if}    -->                                    <!-- Restore once an artist alley map is completed -->
-        <h2 style="font-family: 'Roboto', sans-serif; font-size: 2rem; color: #485077; margin-bottom: 1rem;">AD 2023 Artist Alley Showcase</h2>
+        <!-- <h2 style="font-family: 'Roboto', sans-serif; font-size: 2rem; color: #485077; margin-bottom: 1rem;">AD 2023 Artist Alley Showcase</h2> -->
         <div class="embed-wrapper">  
           <!-- YouTube Embed -->
-          <div id="embed youtube-embed">
+          <!-- <div id="embed youtube-embed">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/06DdqfWonN4?feature=shared" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-          </div>
+          </div> -->
         </div>
-        <a href="/artists" class="section-link">View the list of artists in AD 2025 here!</a>
+        <!-- <a href="/artists" class="section-link">View the list of artists in AD 2026 here!</a> -->
       </div>
     </section>
     <hr />
@@ -240,10 +241,11 @@
     <!-- Gaming Hall Section -->
     <section>
       <h2 style="font-family: 'Roboto', sans-serif; font-size: 2rem; color: #485077; margin-bottom: 1rem;">Gaming Hall</h2>
-      <p style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: #485077; margin-bottom: 1.5rem;">
+      <p style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #485077; margin-bottom: 1rem;">To Be Announced - Stay Tuned!</p>
+      <!-- <p style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: #485077; margin-bottom: 1.5rem;">
         Looking to unwind at Anime Destiny? Or even to get a bit competitive? The gaming hall offers a diverse set of video games, tabletop games, rhythm/dance games, and more!
-      </p>
-      <Gaming/>
+      </p> 
+      <Gaming/> -->
     </section>
     <hr />
     
@@ -253,7 +255,8 @@
     
       <!-- Schedule Section -->
       <div style="padding-right: 2rem;">
-        <p style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: #485077; margin-bottom: 1.5rem;">
+        <p style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #485077; margin-bottom: 1rem;">To Be Announced - Stay Tuned!</p>
+        <!-- <p style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: #485077; margin-bottom: 1.5rem;">
           Here is the schedule of events for Anime Destiny 2025. For more detailed descriptions of each event, please visit our <a href="/programming" style="color: #485077; text-decoration: underline;">Programming Page.</a>
         </p>
 
@@ -293,6 +296,8 @@
               For info about street parking, visit the <a href="/parking" style="color: #485077; text-decoration: underline;">parking page</a>.
           </p>
         </div>
+
+        -->
         
         <div class="content-container">
           <img src="images/parking.jpg" class="ADMap" alt="Artist Alley Map" on:click={openOverlayADMap} />

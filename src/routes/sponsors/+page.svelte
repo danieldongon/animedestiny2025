@@ -11,6 +11,8 @@
   </div>
   <section>
     <div class="page-body">
+    <p style="font-family: 'Montserrat', sans-serif; font-size: 1.5rem; color: #485077; margin-bottom: 1rem;">To Be Announced - Stay Tuned!</p>
+    <!--
       <h1 class="text-4xl mb-8 subhead1">Sponsors</h1>
       <img src="/images/Anime Destiny 2025 Post Graphics/Anime_Destiny_2025_-_Sponsors.png" alt="Our sponsors VFleet Project and pixiv" class="mx-auto w-full max-w-[40em] h-auto" />
 
@@ -37,6 +39,7 @@
         <p>Thank you to an incredible artist from our community Komun Horangi (<a class="link" href="https://x.com/komunhorangi">@komunhorangi</a>) for their help in creating the amazing art for this flyer! 
           They will be participating in Anime Destiny 2025's Artist Alley, so we encourage all attendees to check them out!</p>
       </div>
+    -->
       
     </div>
   </section>

@@ -2,7 +2,7 @@
 
 <svelte:head>
   <!-- Set the website title -->
-  <title>Anime Destiny 2025</title>
+  <title>Anime Destiny 2026</title>
   
   <!-- You can also use PNG format for the favicon -->
   <link rel="icon" href="icons/ADicon.png"/>

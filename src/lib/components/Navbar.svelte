@@ -87,18 +87,24 @@
     <!-- Dropdown Menu -->
     {#if isProgrammingOpen}
   <div class="dropdown-menu" in:fade={{ duration: 200 }} out:fade={{ duration: 300 }}>
+    <div class="sub-links">To Be Announced - Stay Tuned!</div>
 
     <!-- Category: 3rd Floor - Stephens Hall -->
+    <!--
     <div class="category">Pauley Ballroom (3rd Floor)</div>
     <div class="sub-links">
       <a href="/artists">Artist Alley</a>
       <a href="/special-guests">Special Guests</a>
     </div>
+    -->
 
+    <!--
     <div class="category">Stephens Hall (3rd Floor)</div>
+    -->
     <div class="sub-links">
       <!-- Events (Chronological)-->
       <!-- Perhaps add start and end time for artist alley?-->
+      <!--
       <a href="/programming#panel-guess-song">Guess The Song: Anime Edition</a>
       <a href="/programming#event-nene-qna">Q&A with Nene Amano</a>
       <a href="/programming#event-shipgirls">Shipgirls and Jetgirl VTubers? : Welcome to VFleet Project</a>
@@ -106,19 +112,24 @@
       <a href="/programming#event-himeko-firefly">All Aboard the Astral Express with Himeko and Firefly!</a>
       <a href="/programming#event-nikkei-choral-performance">Nikkei Choral Ensemble</a>
       <a href="/programming#event-genshin-club">Genshin at Berkeley Event</a>
+      -->
     </div>
 
     <!-- Category: 5th Floor - Tilden Room -->
+    <!--
     <div class="category">Tilden Room (5th Floor)</div>
+    -->
     <div class="sub-links">
       <!-- Events (Chronological)-->
-       <a href="/programming#panel-issei-band">Issei Band: Student Anime Band & Opening Ceremony</a>
+      <!--
+      <a href="/programming#panel-issei-band">Issei Band: Student Anime Band & Opening Ceremony</a>
       <a href="/programming#panel-cosplay-competition-101">Cosplay Contest 101 Panel & Contest Pre-Judging</a>
       <a href="/programming#event-cosplay-comp">Cosplay Contest</a>
       <a href="/programming#event-otaku-ongaku">Otaku Ongaku: Nerd Music LIVE!</a>
       <a href="/programming#event-wotagei">Introduction to Wotagei 101</a>
       <a href="/programming#event-intermission">The Intermission Orchestra</a>
       <a href="/programming#event-virtual-bears">Virtual Bears: VTuber Mini Concert</a>
+      -->
     </div>
   </div>
 {/if}

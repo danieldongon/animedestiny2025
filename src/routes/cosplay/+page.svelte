@@ -40,7 +40,8 @@
     </div>
 
     <div class="page-body">
-        
+        <p style="font-family: 'Montserrat', sans-serif; font-size: 1.5rem; color: #485077; margin-bottom: 1rem;">To Be Announced - Stay Tuned!</p>
+        <!--
         <section class="content-section">
             <img 
                 src="images/cosplay/cosplay_gathering.png" 
@@ -82,6 +83,7 @@
                 </p>
             </div>
         </section>
+        -->
 
     </div>
 </main>

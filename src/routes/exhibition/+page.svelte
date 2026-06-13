@@ -43,7 +43,9 @@
   </div>
 
   <div class="page-body">
+    <p style="font-family: 'Montserrat', sans-serif; font-size: 1.5rem; color: #485077; margin-bottom: 1rem;">To Be Announced - Stay Tuned!</p>
     <!-- Kerr Lobby -->
+    <!--
     <section id="kerr-lobby">
       <h2>3rd Floor - Kerr Lobby</h2>
 
@@ -98,8 +100,10 @@
           </div>
         </section>
     </section>
+    -->
 
     <!-- Kerr Lobby -->
+    <!--
     <section id="kerr-lobby">
       <h2>3rd Floor - Pauley Ballroom</h2>
 
@@ -133,6 +137,7 @@
           </div>
         </section>
     </section>
+    -->
   </div>
 </main>
 

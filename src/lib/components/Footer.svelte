@@ -14,11 +14,11 @@
       </a>
     </p>
     
-    <p class="py-4 text-center">
+    <!--<p class="py-4 text-center">
       <a href="https://vfleetproject.com/" class="link">VFleet Project</a>
       <span class="px-4"></span>
       <a href="https://pixiv.net/en/" class="link">Pixiv</a>
-    </p>
+    </p>-->
 
 
 

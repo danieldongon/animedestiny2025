@@ -138,6 +138,7 @@
   <a href="/cosplay">Cosplay</a>
   <a href="/exhibition">Exhibitions</a>
   <a href="/rules">Rules</a>
+  <a href="/special-guests">Special Guests</a>
     <!-- Buy a Ticket -->
     <!-- <a
       href={ticketLink}

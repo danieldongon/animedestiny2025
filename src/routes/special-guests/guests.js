@@ -1,65 +1,16 @@
 export const guests = [
   {
-    "name":"Analesa Fisher",
-    "socials":"https://www.instagram.com/analesafisher/?hl=en",
+    "name":"Amber Lee Connors",
+    "socials":"https://www.instagram.com/amberleeconnors/?utm_source=ig_web_button_share_sheet",
     "social_type":"instagram",
-    "image":"/images/guests/Analesa Fisher.jpg",
-    "blurb":"Meet Analesa Fisher, known for various roles in the voice acting industry, including Firefly from Honkai: Star Rail, Snow Sugar Cookie in Cookie Run: Kingdom, Maya Watermelon in MGA’s YUMMILAND, Spall Blaster Charybdis & Mischief Maker Charybdis in SMITE, and Sublime Bartlett & Aglae in Miraculous: Tales of Ladybug & Cat Noir!\n\n\nAutograph times: 11 AM - 2 PM and 4 PM - 6 PM at Pauley Ballroom Booth A!"
+    "image":"/images/guests/Amber Lee Connors_01(1).jpg",
+    "blurb":"Meet Amber Lee Connors, known in the voice acting industry for her contributions to numerous different medias as roles including: Furina in Genshin Impact; Nihilux in Honkai: Star Rail; Remielle in Zenless Zone Zero; Pieck Finger in Attack on Titan; Komi Shouko in Komi Can’t Communicate; Elaina in Wandering Witch: The Journey of Elaina; Mei Mei in Jujutsu Kaisen; Nakime in Demon Slayer; Toy Chica in Ultimate Custom Night/FNAF World; and more.\n\n\nAutograph times: 11 AM - 12:30 PM and 2:30 PM - 6 PM in Pauley Ballroom!"
   },
   {
-    "name":"Cia Court",
-    "socials":"https://www.instagram.com/ciacourtvo/?hl=en",
+    "name":"Ray Chase",
+    "socials":"https://www.instagram.com/itsraychase/?utm_source=ig_web_button_share_sheet",
     "social_type":"instagram",
-    "image":"/images/guests/Cia Court.jpg",
-    "blurb":"Meet Cia Court, known for various roles in the voice acting industry, including Himeko from Honkai: Star Rail, Vi in League of Legends and Legends of Runeterra, Raven in DC Dark Legion, and Faith in The Wolf Among Us!\n\n\nAutograph times: 11 AM - 2 PM and 4 PM - 6 PM at Pauley Ballroom Booth A!"
-  },
-  {
-    "name":"Daiya Fortuna",
-    "socials":"https://www.youtube.com/@DaiyaFortuna",
-    "social_type":"youtube",
-    "image":"/images/guests/Daiya Fortuna.png",
-    "blurb":"Meet Indie VTuber Daiya Fortuna! Owner of the Fortuna's Favor Casino, Daiya Fortuna is an infamous card dealer. She is constantly on the hunt for her next big gamble, ready to risk it all even if the odds aren't in her favor.\n\n\nMeet her during one of her meet-and-greets during the day or see her perform at our VTuber Mini Concert: 6-7 PM in Tilden Room!"
-  },
-  {
-    "name":"Kirispica",
-    "socials":"https://www.youtube.com/@kirispica",
-    "social_type":"youtube",
-    "image":"/images/guests/Kirispica.png",
-    "blurb":"Meet VTuber from V-Dere, Kirispica! Born from a cirrus cloud, Spica took on human form to share her love of music with the world. With dreams of becoming the first cloud to fly to the moon, she gathers magical wisps of wind to help her on her journey!\n\n\nSee her perform at our VTuber Mini Concert: 6-7 PM in Tilden Room!"
-  },
-  {
-    "name":"Kōri-Oujo",
-    "blurb":"Kōri is a VTuber content creator who is Twitch affiliate and YouTube partner, working to push the boundaries of where VTubing goes in-real-life. As a raccoon that got isekai’d into an ice princess, Kōri displays her passion for storytelling across all mediums, with a silly chaotic flair. Her focus is virtually attending events like anime conventions, raves, sports arenas- or even creating her own live concerts in locations like Las Vegas and aboard a carriership museum!\n\n\nAk the raccoon and Kōri are excited to meet you! Find Kori rolling around the convention and at the meet-and-greets!",
-    "image":"/images/guests/Kori-Oujo.png",
-    "socials":"https://www.youtube.com/channel/UCEm8JrLC0LrmRz84vrWaY8g",
-    "social_type":"youtube",
-  },
-  {
-    "name":"Nene Amano",
-    "socials":"https://www.youtube.com/@NeneAmanoCh",
-    "social_type":"youtube",
-    "image":"/images/guests/Nene Amano.png",
-    "blurb":"Meet Indie VTuber Nene Amano! An angel made up of mostly sugar, a dash of spice, and a pinch of human! She spent years up in the clouds trying to figure out how to connect more with humans, and found VTubing! She wants to spread happiness and healing power through her streams.\n\n\nMeet her during one of her meet-and-greets during the day or see her perform at our VTuber Mini Concert: 6-7 PM in Tilden Room!"
-  },
-  {
-    "name":"Raki Kazuki",
-    "socials":"https://www.youtube.com/@RakiKazuki",
-    "social_type":"youtube",
-    "image":"/images/guests/Raki Kazuki.png",
-    "blurb":"Meet Indie VTuber Raki Kazuki! Formally a raccoon familiar, Raki is a witch who attends a prestigious magical academy. When she isn’t studying, she spends her free time singing or dumpster diving, and despite her clumsy nature, works hard every day.\n\n\nMeet her during one of her meet-and-greets during the day or see her perform at our VTuber Mini Concert: 6-7 PM in Tilden Room!"
-  },
-  {
-    "name":"Rihsuri",
-    "socials":"https://www.youtube.com/@RIHSURI",
-    "social_type":"youtube",
-    "image":"/images/guests/Rihsuri.png",
-    "blurb":"Meet Indie VTuber Rihsuri! Singer by day, Marksman by night, Rihsuri is a Tactical VSinger (+ FPS Gamer and Artist)!\n\n\nMeet her during one of her meet-and-greets during the day or see her perform at our VTuber Mini Concert: 6-7 PM in Tilden Room!"
-  },
-  {
-    "name":"Vampirate Odessa",
-    "socials":"https://www.youtube.com/channel/UCo7gkxT-OFJwrYTJs0AZVbA",
-    "social_type":"youtube",
-    "image":"/images/guests/Vampirate Odessa.png",
-    "blurb":"Meet Indie VTuber Vampirate Odessa! The most fabulous vampirate captain on the seven seas, Odessa Delico is a vampirate (a vampire pirate, obviously) who has been roaming the seas for over 300 years.\n\n\nMeet her during one of her meet-and-greets during the day or see her perform at our VTuber Mini Concert: 6-7 PM in Tilden Room!"
-  },
+    "image":"/images/guests/Ray Chase.jpeg",
+    "blurb":"Meet Ray Chase, known in the voice acting industry for his contributions to numerous different medias as roles including: Neuvillette in Genshin Impact; Noctis Lucis Caelum in Final Fantasy XV; Sukuna and Choso in Jujutsu Kaisen; Tengen Uzui in Demon Slayer; Bruno Bucciarati in JoJo’s Bizarre Adventure; Fyodor Dostoevsky in Bungo Stray Dogs; Cyclops in X-Men ‘97; Silent Salt Cookie in Cookie Run Kingdom; and more. \n\n\nAutograph times: 11 AM - 12:30 PM and 2:30 PM - 6 PM in Pauley Ballroom!"
+  }
 ];

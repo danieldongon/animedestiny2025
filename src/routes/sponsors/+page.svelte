@@ -11,7 +11,18 @@
   </div>
   <section>
     <div class="page-body">
-    <p style="font-family: 'Montserrat', sans-serif; font-size: 1.5rem; color: #485077; margin-bottom: 1rem;">To Be Announced - Stay Tuned!</p>
+
+      <h1 class="text-4xl mb-8 subhead1">Sponsors</h1>
+      <p class="my-8">Anime Destiny would not be possible without the support of our sponsors and supporters, thank you so much for helping make Anime Destiny possible!</p>
+
+      <p>A big thank you to Glacia, a local community artist who created the art for the official Anime Destiny flyer this year! 
+        Drawing from the “Fantasy” theme of this year’s event, Glacia brought our mascots, Cal and Ani, to life. 
+        Please check out Glacia’s table at the Artist Alley as well as support their socials through their handle @glaciavt! </p>
+
+        <img src="/images/mascots2026.png" alt="mascots" class="mx-auto w-full max-w-[80em] h-auto"/>
+        <!--eventually make this two seperate images-->
+      
+
     <!--
       <h1 class="text-4xl mb-8 subhead1">Sponsors</h1>
       <img src="/images/Anime Destiny 2025 Post Graphics/Anime_Destiny_2025_-_Sponsors.png" alt="Our sponsors VFleet Project and pixiv" class="mx-auto w-full max-w-[40em] h-auto" />

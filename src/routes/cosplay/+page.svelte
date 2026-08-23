@@ -40,34 +40,85 @@
     </div>
 
     <div class="page-body">
-        <p style="font-family: 'Montserrat', sans-serif; font-size: 1.5rem; color: #485077; margin-bottom: 1rem;">To Be Announced - Stay Tuned!</p>
-        <!--
+        <!-- <p style="font-family: 'Montserrat', sans-serif; font-size: 1.5rem; color: #485077; margin-bottom: 1rem;">To Be Announced - Stay Tuned!</p> -->
+        
         <section class="content-section">
-            <img 
+            <!-- <img 
                 src="images/cosplay/cosplay_gathering.png" 
                 alt="Cosplay Gathering Sign-Ups" 
                 class="content-graphic"
-            />
+            /> -->
             <div class="content-text">
-                <h2>Host a Cosplay Gathering!</h2>
+                <h2>Cosplay!</h2>
                 <p>
-                    Are you a cosplayer, dedicated fan, or just someone who wants to bring 
-                    your favorite fandom together? Anime Destiny is looking for 
-                    organizers to host cosplay gatherings from any fandom!
+                    Showcase your cosplay talents at Anime Destiny 2026! Cosplays of all kinds from all fandoms are welcome; we encourage you to represent your favorite media and help bring the convention to life!
+                    Please keep in mind a couple of ground rules for cosplay at Anime Destiny, since our event takes place on a University campus:
+                        - Shoes must be worn at all times. Costumes should not be excessively revealing or impede traffic. No law enforcement or military uniforms allowed.
+                        - No real or dangerous weapons are allowed. Prop weapons must be inspected at the front desk before being brought inside. 
+                        - Full Rules: 
+                        <a  
+                            href="https://docs.google.com/document/d/18tocsvWVEZ8xFNBvz8-88AAK9CnIbqlU7jkXd4G_FvQ/edit?usp=sharing"
+                            style="color: blue; text-decoration: underline;"
+                            > 
+                            Master Rules Document 
+                        </a>
+
                 </p>
-                <a 
-                    href="https://forms.gle/bfbzXMr2rK3mmTFF7" 
-                    class="signup-link"
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                >
-                    Sign Up to Host Here
-                </a>
             </div>
         </section>
 
         <hr class="section-divider" />
 
+        <section class="content-section">
+            <!--
+            <img 
+                src="images/cosplay/cosplay_gathering.png" 
+                alt="Cosplay Gathering Sign-Ups" 
+                class="content-graphic"
+            />
+            -->
+            <div class="content-text">
+                <h2>Host a Cosplay Gathering!</h2>
+                <p>
+                    <strong>Interested in hosting a Cosplay Gathering? </strong>
+                    We encourage you to connect with fellow fans from the same fandoms and create large cosplay groups at Anime Destiny! 
+                    All are welcome to apply and submit a request for a gathering - no prior hosting experience needed!
+                </p>
+                <a 
+                    href="https://forms.gle/4pbB5MdgpSSJBzQT7" 
+                    class="signup-link"
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                >
+                    Submit an application here
+                </a>
+                <p>A cosplay gathering schedule will be posted once requested gatherings are confirmed!</p>
+            </div>
+        </section>
+        
+        <hr class="section-divider" />
+
+        <section class="content-section">
+            <div class="content-text">
+                <h2>Cosplay Contest</h2>
+                <p>
+                    <strong>Interested in participating in our Cosplay Contest? </strong>
+                    Applications are open now all the way up until the time of the event! More information can be found in the form below~
+
+                </p>
+                <a 
+                    href="https://forms.gle/BLnGZ3CQNWUokKDZA" 
+                    class="signup-link"
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                >
+                    Apply here
+                </a>
+                <p>Information about our judges and cosplay guests will be released soon!</p>
+            </div>
+        </section>
+
+        <!--
         <section class="content-section">
             <img 
                 src="images/cosplay/cosplay_template.jpg" 

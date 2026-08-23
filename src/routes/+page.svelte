@@ -82,7 +82,7 @@
     
     <div class="overlay">
       <!--<h1 class="event-title">Anime Destiny 2026</h1> -->
-      <img src="/images/logo2026spaced.png" alt="AD Logo" class="ADLogo" draggable="false"/>
+      <img src="/images/logo2026.png" alt="AD Logo" class="ADLogo" draggable="false"/>
       <p class="event-date">Sunday, November 15th</p>
       <p class="event-time">10:00 AM to 7:00 PM</p>
       <p class="event-location">ASUC Student Union: Martin Luther King Jr. Building</p>
@@ -392,12 +392,12 @@
 
   .hero-image .ADLogo {
     position: relative;
-    top: 100px; 
+    top: 330px; 
     width: 150%;         
     max-width: 400px;   
     height: auto;       
     display: block;
-    margin: 0 auto 1rem auto; 
+    margin: 0 auto 35rem auto; 
     transform: translateY(-150px);
   }
   

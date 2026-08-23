@@ -31,7 +31,7 @@
   <div class="page-title">Special Guests</div>
 
   <div class="container mx-auto  px-4 py-4">
-    <p>We're excited to announce our special guest lineup for Anime Destiny 2025, with some of your favorite industry professionals and VTubers! Click on each image to learn about them.</p>
+    <p>We're excited to announce our special guest lineup for Anime Destiny 2026, with some of your favorite industry professionals and VTubers! Click on each image to learn about them.</p>
   </div>
 <div  class="container mx-auto px-4 py-12">
 <div class="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 gap-6 items-start">

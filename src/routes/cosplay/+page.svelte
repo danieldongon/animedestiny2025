@@ -54,7 +54,7 @@
                     Showcase your cosplay talents at Anime Destiny 2026! Cosplays of all kinds from all fandoms are welcome; we encourage you to represent your favorite media and help bring the convention to life!
                     Please keep in mind a couple of ground rules for cosplay at Anime Destiny, since our event takes place on a University campus:
                 </p>
-                <ul style="list-style-type: disc; margin-left: 1.5rem; font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: #485077; margin-bottom: 1.5rem;">
+                <ul style="list-style-type: square">
                         <li>Shoes must be worn at all times. Costumes should not be excessively revealing or impede traffic. No law enforcement or military uniforms allowed.</li> 
                         <li>No real or dangerous weapons are allowed. Prop weapons must be inspected at the front desk before being brought inside.</li> 
                         <li>

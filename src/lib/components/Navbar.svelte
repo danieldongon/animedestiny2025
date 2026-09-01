@@ -183,7 +183,7 @@
       <a href="/artists" on:click={closeMenu} in:fade={{ duration: 500 }}>Artist Alley</a>
       <a href="/special-guests" on:click={closeMenu} in:fade={{ duration: 500 }}>Special Guests</a>
       <a href="/programming" on:click={closeMenu} in:fade={{ duration: 500 }}>Programming</a>
-      <a href="/cosplay-contest" on:click={closeMenu} in:fade={{ duration: 500 }}>Cosplay Contest</a>
+      <!--<a href="/cosplay-contest" on:click={closeMenu} in:fade={{ duration: 500 }}>Cosplay Contest</a>-->
       <a href="/rules">Rules</a>
       <a href="/sponsors">Sponsors</a>
       

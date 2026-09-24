@@ -35,6 +35,13 @@
   function toggleDescription(index) {
     expanded[index] = !expanded[index];
   }
+
+  // Track expanded states for each guest
+  let expanded2 = filledGuests.map(() => false);
+
+  function toggleDescription2(index) {
+    expanded2[index] = !expanded2[index];
+  }
 </script>
 
 <Navbar />
@@ -157,7 +164,7 @@
             <!-- Image with overlay -->
             <div 
               class="relative cursor-pointer group"
-              on:click={() => toggleDescription(i)}
+              on:click={() => toggleDescription2(i)}
             >
               <img
                 src={guest.image}
@@ -179,7 +186,7 @@
             <p class="text-2xl my-2 font-semibold text-gray-900 text-center">{guest.name}</p>
 
             <!-- Description only shows when expanded[i] is true -->
-            {#if expanded[i]}
+            {#if expanded2[i]}
               <div transition:slide|local class="bg-gray-50 rounded-b-lg p-3">
               {#if guest.blurb}
                 <p class="mt-1 text-sm text-gray-600" style="white-space: pre-line;">{guest.blurb}</p>

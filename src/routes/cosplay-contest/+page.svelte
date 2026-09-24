@@ -6,28 +6,28 @@
   const judges = [
     
     {
-      name: "Astro (astros_here)",
+      name: "Cesseciel",
       description: "_______________",
-      intro: "Meet Astro ( astros_here ) a 55+ Award winning master level competitive cosplayer from central California! They specialize in sewing and needlework but dabbles is alot of different mediums and materials! Astro knows a plethora of techniques and skills! They have competed and judges all over the United states and have been published in magazines before! They have been cosplaying for 8 years and have made well over 30+ unique costumes! Astro is also a chronically ill/disabled and queer cosplayer who wants to carve out a space for everyone within the cosplay community! Come meet and talk shop with Astro! They are always willing to give advice on cosplay, build books and more!",
-      socialLink: "https://www.instagram.com/astros_here/",
-      socialName: "@astros_here",
-      imageUrl: "images/AnimeDestiny-2025CosplayGuestAstro.jpg"
+      intro: "Cesseciel (He/They), also known as Ciel, is a cosplayer, performer, and seamstress based in the Bay Area. He has been sewing since the age of four and has been crafting his own cosplays since he first began attending conventions in 2013. Ciel can often be found onstage performing idol dance covers or with his fellow maids at the Ai Hoshi Cafe!",
+      socialLink: "https://www.instagram.com/cesseciel",
+      socialName: "@cesseciel",
+      imageUrl: "/images/guests/Cesseciel Photo.png"
     },
     {
-      name: "Elee (theacalix)",
+      name: "Tytalis",
       description: "_______________",
-      intro: "Theacalix is a masters level cosplayer with 13 years of experience. They specialize in sewing craftsmanship builds across a variety of media with a specialty in original design. Thea loves to chat about cosplay, craftsmanship, and fandom so come say hi!",
-      socialLink: "https://www.instagram.com/theacalix/",
-      socialName: "@theacalix",
-      imageUrl: "images/AnimeDestiny-2025CosplayGuestThecalix.jpg"
+      intro: "Tytalis Cosplay has been cosplaying since 2012, and has won several awards for her work and performances from cons like Anime Los Angeles and San Diego Comic Con. Her love of cosplay inspired her to pursue engineering, and she received her Master of Engineering from UC Berkeley in 2019! She is self taught, and believes that cosplay is for everyone, and wants to inspire others to follow their passions.",
+      socialLink: "https://www.instagram.com/tytalis",
+      socialName: "@tytalis",
+      imageUrl: "/images/guests/Tytalis Photo.jpeg"
     },
     {
-      name: "Max (Deadgoatcos)",
+      name: "Cosmic Peachz",
       description: "_______________",
-      intro: "Deadgoatcos is excited for her first guesting experience. With her 7 years of cosplaying and certificate of costume design she is so happy to share her knowledge and expertise with the con goers. Thank you Anime Destiny for allowing me this opportunity. See everyone at con!!",
-      socialLink: "https://www.instagram.com/deadgoatcos/",
-      socialName: "@deadgoatcos",
-      imageUrl: "images/AnimeDestiny-2025CosplayGuestDeadgoatcos.jpg"
+      intro: "Cosmic Peachz (she/they), also known as Caroline, originally from SoCal, is now a NorCal based cosplayer who has been cosplaying since 2011, sewing since 2013 and competing since 2014. With a few awards under her belt for both sewing and performance, Cosmic Peachz is excited to see what contestants will bring to the event!",
+      socialLink: "https://www.instagram.com/cosmic.peachz",
+      socialName: "@cosmic.peachz",
+      imageUrl: "/images/guests/Cosmic Peachz Photo.jpg"
     }
   ];
 
@@ -99,6 +99,13 @@
           Join Berkeley’s cosplayers for a fun and welcoming event! Show off your cosplaying skills or just enjoy watching the amazing talent at Anime Destiny.
           Anyone who has a costume and is interested is welcome to join! Whether you're a seasoned cosplayer or it's your first time, we'd love to see you there!
           Sign up here: <a href="https://forms.gle/hXUxzeVHSgghcyyh8" target="_blank" class="section-link">Cosplay Sign-Up Form</a>  
+        </p>
+        <div class="spacer"></div>
+        <p>
+          Costume pre-judging will take place <strong>starting from 10:00AM until 11:30AM</strong> during the course of the <strong>"Cosplay Contest 101"</strong> panel with our judges! Please find the judges at any time until 11:30AM to have your costume pre-judged. <strong>*For hand-made costumes only - judging for craftsmanship*</strong>
+        </p>
+        <p>
+          We encourage all interested participants to attend the Cosplay Contest 101 panel with our judges from 10:00AM - 11:30AM regardless, so you can learn more about the contest and what the judges might be looking for!
         </p>
         <div class="spacer"></div>
         <p>

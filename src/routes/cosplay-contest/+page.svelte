@@ -93,19 +93,19 @@
       <section id="workshop-cosplay-contest">
         <div class="spacer"></div>
         <p>
-          We will be holding our annual AD cosplay contest this year in <strong>Tilden Room</strong> from <strong>12:00 PM - 1:00 PM</strong>.
+          We will be holding our annual AD cosplay contest this year in <strong>Tilden Room</strong> from <strong>11:30 AM - 12:30 PM</strong>.
         </p>
         <p>
           Join Berkeley’s cosplayers for a fun and welcoming event! Show off your cosplaying skills or just enjoy watching the amazing talent at Anime Destiny.
           Anyone who has a costume and is interested is welcome to join! Whether you're a seasoned cosplayer or it's your first time, we'd love to see you there!
-          Sign up here: <a href="https://forms.gle/hXUxzeVHSgghcyyh8" target="_blank" class="section-link">Cosplay Sign-Up Form</a>  
+          Sign up here: <a href="https://docs.google.com/forms/d/e/1FAIpQLScOLeEchUxxV5NJ74z8eMQ1cPSenge3LYx1jvMYYzI_TkcOHQ/viewform?usp=send_form" target="_blank" class="section-link">Cosplay Sign-Up Form</a>  
         </p>
         <div class="spacer"></div>
         <p>
-          Costume pre-judging will take place <strong>starting from 10:00AM until 11:30AM</strong> during the course of the <strong>"Cosplay Contest 101"</strong> panel with our judges! Please find the judges at any time until 11:30AM to have your costume pre-judged. <strong>*For hand-made costumes only - judging for craftsmanship*</strong>
+          Costume pre-judging will take place <strong>starting from 10:00 AM until 11:30 AM</strong> during the course of the <strong>"Cosplay Contest 101"</strong> panel with our judges! Please find the judges at any time until 11:30 AM to have your costume pre-judged. <strong>*For hand-made costumes only - judging for craftsmanship*</strong>
         </p>
         <p>
-          We encourage all interested participants to attend the Cosplay Contest 101 panel with our judges from 10:00AM - 11:30AM regardless, so you can learn more about the contest and what the judges might be looking for!
+          We encourage all interested participants to attend the Cosplay Contest 101 panel with our judges from 10:00 AM - 11:30 AM regardless, so you can learn more about the contest and what the judges might be looking for!
         </p>
         <div class="spacer"></div>
         <p>
@@ -176,7 +176,7 @@
         <div class="spacer"></div>
 
         <div class="bottom-text">
-          What are you waiting for? <a href="https://forms.gle/hXUxzeVHSgghcyyh8" target="_blank" class="section-link">Sign Up Now!</a>  
+          What are you waiting for? <a href="https://docs.google.com/forms/d/e/1FAIpQLScOLeEchUxxV5NJ74z8eMQ1cPSenge3LYx1jvMYYzI_TkcOHQ/viewform?usp=send_form" target="_blank" class="section-link">Sign Up Now!</a>  
 
         </div>
         

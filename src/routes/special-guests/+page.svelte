@@ -36,7 +36,9 @@
     expanded[index] = !expanded[index];
   }
 
-  // Track expanded states for each guest
+  // change naming scheme for this in the future because it's bad
+  // actually ideally use something better for both this and the vtuber section because this is especially poor programming practice
+  // Track expanded states for each vtuber
   let expanded2 = filledGuests.map(() => false);
 
   function toggleDescription2(index) {

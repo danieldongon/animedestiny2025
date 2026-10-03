@@ -33,5 +33,19 @@ export const guests = [
     "social_type":"instagram",
     "image":"/images/guests/Miaucosplay Photo.jpeg",
     "blurb":"meow"
+  },
+  {
+    "name":"Pearl",
+    "socials":"https://www.instagram.com/pearl.viper",
+    "social_type":"instagram",
+    "image":"/images/guests/Pearl Viper Photo.jpg",
+    "blurb":"Hi!! I’m Pearl (@Pearl.Viper)! I’ve been cosplaying since 2022 and am a HUGE Black Clover fan, but I also love NIKKE, Zenless Zone Zero, and all things anime and gacha games! My favorite part of cosplay is bringing characters I love to life and connecting with others who share the same passions. I’m a big believer that cosplay is for everyone, and I hope to help create a positive and inclusive community where everyone feels welcome to express themselves and celebrate the characters they love! ♡ Photo by @rebecca.simpp on instagram"
+  },
+  {
+    "name":"Cosmic Peachz",
+    "socials":"https://www.instagram.com/cosmic.peachz",
+    "social_type":"instagram",
+    "image":"/images/guests/Cosmic Peachz Photo.jpg",
+    "blurb":"Cosmic Peachz (she/they), also known as Caroline, originally from SoCal, is now a NorCal based cosplayer who has been cosplaying since 2011, sewing since 2013 and competing since 2014. With a few awards under her belt for both sewing and performance, Cosmic Peachz is excited to see what contestants will bring to the event!"
   }
 ];

@@ -23,7 +23,7 @@
 
 
 
-  <p class="py-2">© 2025 Anime Destiny and Cal Animage Alpha. All rights reserved.</p>
+  <p class="py-2">© 2026 Anime Destiny and Cal Animage Alpha. All rights reserved.</p>
 
   </div>
   

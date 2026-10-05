@@ -47,5 +47,12 @@ export const guests = [
     "social_type":"instagram",
     "image":"/images/guests/Cosmic Peachz Photo.jpg",
     "blurb":"Cosmic Peachz (she/they), also known as Caroline, originally from SoCal, is now a NorCal based cosplayer who has been cosplaying since 2011, sewing since 2013 and competing since 2014. With a few awards under her belt for both sewing and performance, Cosmic Peachz is excited to see what contestants will bring to the event!"
+  },
+  {
+    "name":"Alice",
+    "socials":"https://www.instagram.com/yeonwooege",
+    "social_type":"instagram",
+    "image":"/images/guests/Yeonwooege Photo.jpg",
+    "blurb":"Hello! My name is Alice (@yeonwooege on Instagram and TikTok) and I've been a cosplayer since 2024. I love recreating the iconic and cinematic moments of the characters I love through cosplay photoshoots. I also love sharing my passion for a character, anime, or game with those in the community. I'm really excited to attend Anime Destiny and looking forward to creating welcoming and positive energy at the convention!"
   }
 ];

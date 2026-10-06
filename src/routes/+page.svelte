@@ -245,12 +245,12 @@
 
     <!-- Gaming Hall Section -->
     <section>
-      <h2 style="font-family: 'Roboto', sans-serif; font-size: 2rem; color: #485077; margin-bottom: 1rem;">Gaming Hall</h2>
-      <p style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #485077; margin-bottom: 1rem;">To Be Announced - Stay Tuned!</p>
-      <!-- <p style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: #485077; margin-bottom: 1.5rem;">
+      <!--<h2 style="font-family: 'Roboto', sans-serif; font-size: 2rem; color: #485077; margin-bottom: 1rem;">Gaming Hall</h2>
+      <p style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #485077; margin-bottom: 1rem;">To Be Announced - Stay Tuned!</p>-->
+      <p style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: #485077; margin-bottom: 1.5rem;">
         Looking to unwind at Anime Destiny? Or even to get a bit competitive? The gaming hall offers a diverse set of video games, tabletop games, rhythm/dance games, and more!
       </p> 
-      <Gaming/> -->
+      <Gaming/>
     </section>
     <hr />
     
@@ -261,12 +261,12 @@
       <!-- Schedule Section -->
       <div style="padding-right: 2rem;">
         <p style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #485077; margin-bottom: 1rem;">To Be Announced - Stay Tuned!</p>
-        <!-- <p style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: #485077; margin-bottom: 1.5rem;">
-          Here is the schedule of events for Anime Destiny 2025. For more detailed descriptions of each event, please visit our <a href="/programming" style="color: #485077; text-decoration: underline;">Programming Page.</a>
+        <p style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: #485077; margin-bottom: 1.5rem;">
+          Here is the schedule of events for Anime Destiny 2026. For more detailed descriptions of each event, please visit our <a href="/programming" style="color: #485077; text-decoration: underline;">Programming Page.</a>
         </p>
 
         <div class="content-container">
-          <img src="images/schedule.temp.png" class="ADMap" alt="Artist Alley Map" on:click={openOverlayADSchedule} />
+          <img src="images/schedule2026.png" class="ADMap" alt="Artist Alley Map" on:click={openOverlayADSchedule} />
           <div style="padding:1rem 0;">
           <a on:click={openOverlayADSchedule}>Click for larger image!</a>
           </div>
@@ -278,7 +278,7 @@
           </div>
         {/if}
         
-        <h3 style="font-family: 'Roboto', sans-serif; font-size: 1.5rem; color: #485077; margin-bottom: 0.5rem;">Event map:</h3>
+        <!--<h3 style="font-family: 'Roboto', sans-serif; font-size: 1.5rem; color: #485077; margin-bottom: 0.5rem;">Event map:</h3>
         
 
         <div class="content-container">
@@ -300,9 +300,8 @@
           <p style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #485077; margin-bottom: 1rem;">
               For info about street parking, visit the <a href="/parking" style="color: #485077; text-decoration: underline;">parking page</a>.
           </p>
-        </div>
+        </div>-->
 
-        -->
         
         <div class="content-container">
           <img src="images/parking.jpg" class="ADMap" alt="Artist Alley Map" on:click={openOverlayADMap} />

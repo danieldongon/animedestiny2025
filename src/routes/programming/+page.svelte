@@ -43,28 +43,164 @@
   </div>
 
   <div class="page-body">
-  <p style="font-family: 'Montserrat', sans-serif; font-size: 1.5rem; color: #485077; margin-bottom: 1rem;">To Be Announced - Stay Tuned!</p>
+  <!--<p style="font-family: 'Montserrat', sans-serif; font-size: 1.5rem; color: #485077; margin-bottom: 1rem;">To Be Announced - Stay Tuned!</p>-->
 
     <!-- 5th Floor - Tilden Room -->
     <!--
     <section id="tilden-room">
-      <h2>5th Floor - Tilden Room</h2>
+      <h2>5th Floor - Tilden Room</h2>-->
 
-      <!-- Panels -->
+       <!--Panels -->
       <div class="panel-category">
         <!--<h3>Panels</h3>-->
 
-        <!-- <section id="panel-template" class="program-card" class:glow={currentHash === "#panel-template"}>
-          <div class="name-bar"><h4></h4></div>
-           <p><strong>Location:</strong> Tilden Room Patio</p>
-          <p><strong>Time:</strong> 10:00 AM - 10:30 AM</p>
-          <p>This is Issei Band, a band consisting of members that are all in UC Berkeley’s Japanese Language program. They will be performing hit songs from anime and J-pop culture; please enjoy! The performance will kick-off Anime Destiny 2025 and end with a special word from our Director!</p>
-          <div class="issei-band-image">
-            <img src="images\Anime Destiny 2025 - Issei Band (3).png" alt="Work in Progress" />
+         <section id="panel-template" class="program-card" class:glow={currentHash === "#panel-template"}>
+          <div class="name-bar"><h4>CAA Event: Voice Acting Contest</h4></div>
+           <p><strong>Location:</strong> Stephens Room</p>
+          <p><strong>Time:</strong> 10:00 AM - 10:45 AM</p>
+          <p>DO YOU WANT TO PARTICIPATE IN A FUN VOICE ACTING CONTEST? THENNNNNNNNNN COME ON OVER DURING THE VOICE ACTING CONTEST PANEL WHERE YOU- YES YOU- CAN WIN A PRIZE FOR WINNING THE ENTIRE CONTEST!!!<br><br>
+              THE AUDIENCE WILL DECIDE WHO WINSSSSSSSSS<br><br>
+              WE WILL HAVE SPECIAL SCRIPTS FOR YOU TO READ OUT TO THE WORLD!!! DONT BE SHY, IT IS A JUDGE-FREE ZONE :D
+          </p>
+          <div class="std-event-image">
+            <img src="images\seiyuucontest.png" alt="Work in Progress" />
           </div>
         </section>
+
+        <section id="panel-template" class="program-card" class:glow={currentHash === "#panel-template"}>
+          <div class="name-bar"><h4>How is Manga Delivered To You? Licensing and Digital Publication</h4></div>
+           <p><strong>Location:</strong> Stephens Room</p>
+          <p><strong>Time:</strong> 11:00 AM - 12:00 PM</p>
+          <p>Explaining the process of licensing and digital publication. Will be taking Q/A from the floor!
+          </p>
+          <div class="std-event-image">
+            <img src="images\emaqi.png" alt="Work in Progress" />
+          </div>
+        </section>
+
+        <section id="panel-template" class="program-card" class:glow={currentHash === "#panel-template"}>
+          <div class="name-bar"><h4>Fansubbing for Dummies</h4></div>
+           <p><strong>Location:</strong> Stephens Room</p>
+          <p><strong>Time:</strong> 12:15 PM - 1:00 PM</p>
+          <p>A quick and dirty overview of fansubbing, along with its history and effects on simulcasting.
+          </p>
+          <div class="std-event-image">
+            <img src="images\Fansubs.png" alt="Work in Progress" />
+          </div>
+        </section>
+
+        <section id="panel-template" class="program-card" class:glow={currentHash === "#panel-template"}>
+          <div class="name-bar"><h4>Where VTubing Is Going IRL</h4></div>
+           <p><strong>Location:</strong> Stephens Room</p>
+          <p><strong>Time:</strong> 1:15 PM - 2:00 PM</p>
+          <p>VTubers are going across the world at different locations-not just online! Whether it be at a baseball game in Frisco, Texas, at the zoo, or on a massive cinema screen in Las Vegas, VTuber Kōri-Oujo shares how these events happened and how it can affect the VTubing industry in the future!
+          </p>
+          <div class="std-event-image">
+            <img src="images\VTubing IRL.png" alt="Work in Progress" />
+          </div>
+        </section>
+
+        <section id="panel-template" class="program-card" class:glow={currentHash === "#panel-template"}>
+          <div class="name-bar"><h4>Nikkei Choral Ensemble</h4></div>
+           <p><strong>Location:</strong> Stephens Room</p>
+          <p><strong>Time:</strong> 2:30 PM - 3:00 PM</p>
+          <p>The Nikkei Choral Ensemble, UC Berkeley’s premiere Japanese and English acapela group, is so excited to be performing at Anime Destiny again. We’ll be singing a variety of songs from media and popular culture, including Vocaloid, J-Pop, and anime. We hope you enjoy our performance!
+          </p>
+          <div class="std-event-image">
+            <img src="images\NiCE.png" alt="Work in Progress" />
+          </div>
+        </section>
+
+        <section id="panel-template" class="program-card" class:glow={currentHash === "#panel-template"}>
+          <div class="name-bar"><h4>All Roads Lead to Touhou: Past, Present, and Future</h4></div>
+           <p><strong>Location:</strong> Stephens Room</p>
+          <p><strong>Time:</strong> 3:30 PM - 4:30 PM</p>
+          <p>Presentation, small activities, Q&A, and how you can get involved in all things Touhou! Everyone is welcome, whether you're an old fan, new fan, magician, youkai, ghost, or "Honestly Just Got Lost."
+          </p>
+          <div class="std-event-image">
+            <img src="images\Touhou.png" alt="Work in Progress" />
+          </div>
+        </section>
+
+        <section id="panel-template" class="program-card" class:glow={currentHash === "#panel-template"}>
+          <div class="name-bar"><h4>Genshin at Berkeley Commission Event</h4></div>
+           <p><strong>Location:</strong> Stephens Room</p>
+          <p><strong>Time:</strong> 5:00 PM - 7:00 PM</p>
+          <p>Join Berkeley's Genshin/Hoyoverse Club! Complete four "commissions" for special prizes, discounts on merch, and the chance to pull on our account! Participate in fun activities and hang out with other like-minded Gacha fans!!
+          </p>
+          <div class="std-event-image">
+            <img src="images\gb26.png" alt="Work in Progress" />
+          </div>
+        </section>
+
+        <section id="panel-template" class="program-card" class:glow={currentHash === "#panel-template"}>
+          <div class="name-bar"><h4>Cosplay Contest 101 & Costume Pre-Judging</h4></div>
+           <p><strong>Location:</strong> Tilden Room</p>
+          <p><strong>Time:</strong> 10:00 AM - 11:30 AM</p>
+          <p>Join our cosplay contest judges - Cesseciel, Tytalis, and Cosmic Peachz - for an informative panel on the cosplay contest, which will hopefully inspire you to participate! Costume pre-judging for craftsmanship costumes will also take place during/after this panel!
+          </p>
+          <div class="std-event-image">
+            <img src="images\Cosplay Panel.png" alt="Work in Progress" />
+          </div>
+        </section>
+
+        <section id="panel-template" class="program-card" class:glow={currentHash === "#panel-template"}>
+          <div class="name-bar"><h4>Cosplay Contest</h4></div>
+           <p><strong>Location:</strong> Tilden Room</p>
+          <p><strong>Time:</strong> 11:30 AM - 12:30 PM</p>
+          <p> Take part in the cosplay contest this year to win some amazing prizes, with one of the grand prizes being a LIFETIME pass to Anime Destiny! With prizes in both performance and craftsmanship, ALL are welcome, regardless of if your costume was homemade or store-bought!</p>
+          <a href="/cosplay-contest">Click here for more information</a>
+          <div class="std-event-image">
+            <img src="images\Cosplay Contest.png" alt="Work in Progress" />
+          </div>
+        </section>
+
+        <section id="panel-template" class="program-card" class:glow={currentHash === "#panel-template"}>
+          <div class="name-bar"><h4>Curtain Call with Furina and Neuvillette</h4></div>
+           <p><strong>Location:</strong> Tilden Room</p>
+          <p><strong>Time:</strong> 1:00 PM - 2:00 PM</p>
+          <p>Join Amber Lee Connors (voice of Furina) and Ray Chase (voice of Neuvillette) for a special Genshin Impact Fontaine panel! Featuring Q&As, live voice acting, and audience questions, with autographs taking place before and after the panel!
+          </p>
+          <div class="std-event-image">
+            <img src="images\Voice Actor Panel.png" alt="Work in Progress" />
+          </div>
+        </section>
+
+        <section id="panel-template" class="program-card" class:glow={currentHash === "#panel-template"}>
+          <div class="name-bar"><h4>The Intermission Orchestra</h4></div>
+           <p><strong>Location:</strong> Tilden Room</p>
+          <p><strong>Time:</strong> 2:30 PM - 3:30 PM</p>
+          <p>The Intermission Orchestra will perform ensemble-based arrangements of cinematic, video game, and anime music!
+          </p>
+          <div class="std-event-image">
+            <img src="images\TIO.png" alt="Work in Progress" />
+          </div>
+        </section>
+
+        <section id="panel-template" class="program-card" class:glow={currentHash === "#panel-template"}>
+          <div class="name-bar"><h4>Sixth Station Trio Performs Anime OST and VGM</h4></div>
+           <p><strong>Location:</strong> Tilden Room</p>
+          <p><strong>Time:</strong> 3:45 PM - 4:45 PM</p>
+          <p>Sixth Station Trio will be performing a setlist of anime and video game music, arranged for a piano trio!
+          </p>
+          <div class="std-event-image">
+            <img src="images\Sixth Station.png" alt="Work in Progress" />
+          </div>
+        </section>
+
+        <section id="panel-template" class="program-card" class:glow={currentHash === "#panel-template"}>
+          <div class="name-bar"><h4>Virtual Bears: VTuber Mini Concert</h4></div>
+           <p><strong>Location:</strong> Tilden Room</p>
+          <p><strong>Time:</strong> 5:30 PM - 7:00 PM</p>
+          <p>Anime Destiny’s live VTuber concert full of energy, good vibes, and a perfect way to close off the night! The full concert line-up will be announced shortly~ please stay tuned!
+          </p>
+          <div class="std-event-image">
+            <img src="images\" alt="Work in Progress" />
+          </div>
+        </section>
+
       </div>
-      -->
+      
   
 </main>
 
@@ -169,6 +305,13 @@
     display: flex;
     justify-content: flex-end; /* Align image to the right */
     flex: 1; /* Allows the image block to grow */
+  }
+
+  .std-event-image img {
+    max-width:300px;
+    max-height:300px;
+    margin:0 auto;
+    padding: 5px;
   }
 
   .guess-song-image img {

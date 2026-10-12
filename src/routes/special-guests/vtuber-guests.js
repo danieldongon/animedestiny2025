@@ -33,5 +33,19 @@ export const vtubers = [
     "social_type":"twitter",
     "image":"/images/guests/Admiral Trina.png",
     "blurb":"Admiral Trina is a Voice Actress, real life US Navy Sailor and Idol! She loves to chat, sing, and teach everyone about history!"
+  },
+  {
+    "name":"SnailMeru",
+    "socials":"https://x.com/SnailMeru",
+    "social_type":"twitter",
+    "image":"/images/guests/SnailMeru.png",
+    "blurb":"﹏You Got Meru!﹏ Meet SnailMeru, the one & only Snail Mail (SMAIL!) Delivery Girl V-Bassist! Meru puts her heart and soul into every delivery, sharing her love of retro gaming, illustration, and bass guitar with fans both on and off the stage. As a returning former kaigai idol, Meru’s passion for performing shines through the screen, bringing her energy, creativity, and love for the stage beyond the boundaries of the internet. From the stage to your screen, she’s out to deliver a whole lot of SMAIL~! Will you join her on her next delivery?"
+  },
+  {
+    "name":"Märpo Elder",
+    "socials":"https://x.com/Marpo_VEL",
+    "social_type":"twitter",
+    "image":"/images/guests/Marpo Elder.png",
+    "blurb":"Part-time dreamer, full-time chaos. Märpo Elder is a Korean-American VSinger here to help you unwind after a long week over a glass or three of whiskey. Dreams of being rich and unemployed, but currently is neither."
   }
 ];

@@ -1,29 +1,36 @@
 <script>
     const clubs = [
       {
-        name: "XR at Berkeley",
-        link: "https://xr.studentorg.berkeley.edu/home/",
-        logo: "icons/XR.png",
-        description: "Explore immersive experiences and virtual reality with XR at Berkeley. Join us for Beat Saber sessions!",
-      },
-      {
-        name: "Dance Games at Berkeley",
-        link: "https://discord.gg/DzhkQasw3C",
-        logo: "icons/danceatberk.png",
-        description: "Show off your moves and groove to the beat with Dance Games at Berkeley, featuring DDR (Dance Dance Revolution).",
-      },
-      {
         name: "UC Berkeley Mahjong Club",
         link: "https://www.ocf.berkeley.edu/~mahjong/index.html",
         logo: "icons/mahjong.jpg",
-        description: "Challenge your mind with strategic play at the UC Berkeley Mahjong Club.",
+        description: "Learn/Play Richii Mahjong",
       },
       {
-        name: "Fighting Games at Berkeley",
+        name: "Fighting Games @ Berkeley",
         link: "https://x.com/berkeleyfgc",
-        logo: "icons/fgb.jpg",
-        description: "Play fighting games against other CAA attendees with Fighting Games at Berkeley!",
+        logo: "icons/fgb2026.png",
+        description: "FG@B Speed Challenge",
+      },
+      {
+        name: "Rhythm @ Berkeley",
+        link: "https://discord.gg/br9Ubfb",
+        logo: "icons/Rhythm.png",
+        description: "Rhythm Games!",
+      },
+      {
+        name: "Dance Games @ Berkeley",
+        link: "https://discord.gg/DzhkQasw3C",
+        logo: "icons/dgb.png",
+        description: "Dance Dance Revolution Arcade",
+      },
+      {
+        name: "Board Games at Berkeley",
+        link: "https://discord.com/invite/BbfVpMh",
+        logo: "icons/bgb.jpg",
+        description: "Magic the Gathering Learn to Plays / General Board Games",
       }
+      
     ];
   </script>
   

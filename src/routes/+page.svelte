@@ -274,7 +274,7 @@
         {#if showOverlayADSchedule}
           <div class="overlay-artist-map"  on:click={closeOverlayADSchedule} in:fade={{ duration: 200 }} out:fade={{ duration: 200 }} >
             <button class="close-button-artist-map" on:click={closeOverlayADSchedule}>✕</button>
-            <img src="images/schedule.temp.png" on:click|stopPropagation class="image-artist-map" alt="Fullscreen AD Map" />
+            <img src="images/schedule2026.png" on:click|stopPropagation class="image-artist-map" alt="Fullscreen AD Map" />
           </div>
         {/if}
         

@@ -40,10 +40,6 @@ import { fade } from 'svelte/transition';
   <center>
   <p style="font-family: 'Montserrat', sans-serif; font-size: 2.5rem; color: #485077; margin-bottom: 1rem; font-weight: bold;"> Artist Alley Map </p>
    <p style="font-family: 'Montserrat', sans-serif; font-size: 1.0rem; color: #a0bb44; margin-bottom: 1rem; font-weight: bold;"> Check out the cool artists and activities in the Artist Alley!</p>
-  <img class="image-artist-map"
-    src="/images/Detailed Map (Artist Alley).png" 
-    alt="Artist Alley Map"
-  />
   </center>
     <p style="font-family: 'Montserrat', sans-serif; font-size: 1.5rem; color: #485077; margin-bottom: 1rem;">To Be Announced - Stay Tuned!</p>
     <!--
@@ -53,21 +49,20 @@ import { fade } from 'svelte/transition';
   </div>
 
   <!-- Remove this comment once the final artist alley map is complete-->
-  <!--
+
   <div class="content-container">
-  <img src="images/AD 2025 Detailed Map.png" class="ADMap" alt="Artist Alley Map" on:click={openOverlayArtistMap} />
+  <img src="/images/Detailed Map (Artist Alley).png" class="ADMap" alt="Artist Alley Map" on:click={openOverlayArtistMap} />
     <div style="padding:1rem 0;">
     <a on:click={openOverlayArtistMap}>Click for larger image!</a>
     </div>
     {#if showOverlayArtistMap}
       <div class="overlay-artist-map"  on:click={closeOverlayArtistMap} in:fade={{ duration: 200 }} out:fade={{ duration: 200 }} >
         <button class="close-button-artist-map" on:click={closeOverlayArtistMap}>✕</button>
-        <img src="images/AD 2025 Detailed Map.png" on:click|stopPropagation class="image-artist-map" alt="Fullscreen Artist Alley Map" />
+        <img src="/images/Detailed Map (Artist Alley).png"  on:click|stopPropagation class="image-artist-map" alt="Fullscreen Artist Alley Map" />
       </div>
     {/if}
 
   </div>
-  -->
 
   <!--
   <div class="artists-grid">

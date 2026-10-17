@@ -31,12 +31,20 @@ import { fade } from 'svelte/transition';
 </script>
 
 <Navbar />
-
 <main>
   <div class="page-title">
     Artist Alley
   </div>
   <div class="artists-info">
+  <!--The Artist Alley Map for AD 2026-->
+  <center>
+  <p style="font-family: 'Montserrat', sans-serif; font-size: 2.5rem; color: #485077; margin-bottom: 1rem; font-weight: bold;"> Artist Alley Map </p>
+   <p style="font-family: 'Montserrat', sans-serif; font-size: 1.0rem; color: #a0bb44; margin-bottom: 1rem; font-weight: bold;"> Check out the cool artists and activities in the Artist Alley!</p>
+  <img class="image-artist-map"
+    src="/images/Detailed Map (Artist Alley).png" 
+    alt="Artist Alley Map"
+  />
+  </center>
     <p style="font-family: 'Montserrat', sans-serif; font-size: 1.5rem; color: #485077; margin-bottom: 1rem;">To Be Announced - Stay Tuned!</p>
     <!--
     <p>Please be mindful of artists' original works and refrain from explicit photography/recording of artists' creations unless you have permission.</p>

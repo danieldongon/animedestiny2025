@@ -63,7 +63,7 @@ import { fade } from 'svelte/transition';
 
   </div>
 
-  <!--
+ 
   <div class="artists-grid">
     {#each artists as { name, socials, description, location }}
       <div class="artist-card">
@@ -85,7 +85,7 @@ import { fade } from 'svelte/transition';
       </div>
     {/each}
   </div>
-  -->
+  
 </main>
 
 <style>

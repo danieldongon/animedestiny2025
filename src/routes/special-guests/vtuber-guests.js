@@ -48,4 +48,42 @@ export const vtubers = [
     "image":"/images/guests/Marpo Elder.png",
     "blurb":"Part-time dreamer, full-time chaos. Märpo Elder is a Korean-American VSinger here to help you unwind after a long week over a glass or three of whiskey. Dreams of being rich and unemployed, but currently is neither."
   }
+  {
+    "name":"Stellar Goth",
+    "socials":"https://x.com/StellarGoth",
+    "social_type":"twitter",
+    "image":"",
+    "blurb":"Stellar Goth: an alien, android succubus from outer space! Here to steal your heat, sing songs and play games!" 
+  },
+    {
+    "name":"Hara Rae Sol",
+    "socials":"https://x.com/HaraRaeSol",
+    "social_type":"twitter",
+    "image":"",
+    "blurb":"Hara Rae Sol is a 5000 year old Ancient Egyptian goddess that focuses on history, strategy, and variety game streams. Whether it is a fun Total War playthrough, a virtual museum tour, or even the occasional history lecture she will be sure to exhibit some funny chaos while also telling you about history or mythology you've never heard about! With her Master's in Ancient Mediterranean history and job as a museum curator, you're sure to learn something new every stream! So make sure to bring your internal organs for jarring, a sacrifice for the altar, and some sour gummy worms  for your goddess or you'll surely be leaving with a nasty, ancient curse!"   
+  },
+    {
+    "name":"Yoro Yoyo",
+    "socials":"https://x.com/YoroYoyoVirtual",
+    "social_type":"twitter",
+    "image":"",
+    "blurb":"Who's that cutie on your screen?! It's Yoro-chan, 3033! YUGAMINEENA! Yoro is the supreme leader of Yoyomania and yumejoshi idol extraordinaire! She loves retro games, superheroes, self-insert fanfiction, and talking for hours about the things she loves. She’s incredibly passionate about music and with her album, 夢女子IDOL, she encourages others to be authentic to themselves no matter what other people think. Reflect, introspect, and put it into effect! She can sing, she can write lyrics, she can voice act, she can design cool graphics, and most of all, she can totally flub when trying to clutch a game. She's dedicated to pushing creative boundaries in her music, and wants to spread her mantra: Succumb to the self! Worship the weird!"   
+  },
+    {
+    "name":"Hiiragi Yuu",
+    "socials":"https://x.com/HiiragiYuu_Vt",
+    "social_type":"twitter",
+    "image":"",
+    "blurb":"Welcome to the Starlight Host Club, kitten✨ It'd be my honour to escort you tonight. The No. 1 Host of the Starlight Host club - Hiiragi Yuu - is here to make you swoon! A non-binary voice actor, musician, and artist, Hiiragi Yuu taps into all of their areas of expertise as VTuber. Games like visual novels are their favourite - with a versatile spectrum of voices ranging from mischievous gremlin, haughty brat, to androgynous heartthrob, they consistently put on immersive performances for their community. Between their laid-back humour, sultry voice, and passion for music, you'll be charmed into becoming one of their kittens before you know it."   
+  },
+    { 
+      //For some reason this is needed to avoid next section bug, do not delete until something is figured out //
+  },
+    {
+    "name":"FAye-18",
+    "socials": "",
+    "social_type":"twitter",
+    "image":"",
+    "blurb":"FAye-18 is the Blue Angel of the skies, the jetgirl incarnation of the FA-18 fighter jet. She’s a variety streamer and Vsinger who brings her wholesome energy and warmth to every stream, creating a welcoming space for gaming, music, nostalgia and community. She has participated in multiple VTuber concerts such as OffSeason Live, collaborations and conventions. With a passion for history and singing, FAye hopes to entertain, inspire and make a positive impact both on and off stream."   
+  }
 ];

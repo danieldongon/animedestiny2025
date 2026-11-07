@@ -92,46 +92,35 @@
     <!--<div class="sub-links">To Be Announced - Stay Tuned!</div>-->
 
     <!-- Category: 3rd Floor - Stephens Hall -->
-    <!--
-    <div class="category">Pauley Ballroom (3rd Floor)</div>
+    <div class="category"> Pauley Ballroom (3rd Floor)</div>
     <div class="sub-links">
       <a href="/artists">Artist Alley</a>
       <a href="/special-guests">Special Guests</a>
     </div>
-    -->
 
-    <!--
     <div class="category">Stephens Hall (3rd Floor)</div>
-    -->
     <div class="sub-links">
       <!-- Events (Chronological)-->
       <!-- Perhaps add start and end time for artist alley?-->
-      <!--
-      <a href="/programming#panel-guess-song">Guess The Song: Anime Edition</a>
-      <a href="/programming#event-nene-qna">Q&A with Nene Amano</a>
-      <a href="/programming#event-shipgirls">Shipgirls and Jetgirl VTubers? : Welcome to VFleet Project</a>
-      <a href="/programming#event-jpop-kpop">J-Pop/K-Pop Random Play Dance</a>
-      <a href="/programming#event-himeko-firefly">All Aboard the Astral Express with Himeko and Firefly!</a>
-      <a href="/programming#event-nikkei-choral-performance">Nikkei Choral Ensemble</a>
-      <a href="/programming#event-genshin-club">Genshin at Berkeley Event</a>
-      -->
+      <a href="/programming#voice-acting-contest">CAA Event: Voice Acting Contest</a>
+      <a href="/programming#manga-licensing">How Is Manga Delivered To You?</a>
+      <a href="/programming#fansubbing">Fansubbing for Dummies</a>
+      <a href="/programming#vtubing-irl">Where VTubing Is Going IRL</a>
+      <a href="/programming#nikkei-choral">Nikkei Choral Ensemble</a>
+      <a href="/programming#touhou">All Roads Lead to Touhou</a>
+      <a href="/programming#genshin-club">Genshin at Berkeley Commission Event</a>
     </div>
 
     <!-- Category: 5th Floor - Tilden Room -->
-    <!--
     <div class="category">Tilden Room (5th Floor)</div>
-    -->
     <div class="sub-links">
       <!-- Events (Chronological)-->
-      <!--
-      <a href="/programming#panel-issei-band">Issei Band: Student Anime Band & Opening Ceremony</a>
-      <a href="/programming#panel-cosplay-competition-101">Cosplay Contest 101 Panel & Contest Pre-Judging</a>
-      <a href="/programming#event-cosplay-comp">Cosplay Contest</a>
-      <a href="/programming#event-otaku-ongaku">Otaku Ongaku: Nerd Music LIVE!</a>
-      <a href="/programming#event-wotagei">Introduction to Wotagei 101</a>
-      <a href="/programming#event-intermission">The Intermission Orchestra</a>
-      <a href="/programming#event-virtual-bears">Virtual Bears: VTuber Mini Concert</a>
-      -->
+      <a href="/programming#cosplay-101">Cosplay Contest 101 & Pre-Judging</a>
+      <a href="/programming#cosplay-contest-event">Cosplay Contest</a>
+      <a href="/programming#curtain-call">Curtain Call with Furina and Neuvillette</a>
+      <a href="/programming#intermission-orchestra">The Intermission Orchestra</a>
+      <a href="/programming#sixth-station">Sixth Station Trio</a>
+      <a href="/programming#virtual-bears">Virtual Bears: VTuber Mini Concert</a>
     </div>
   </div>
 {/if}

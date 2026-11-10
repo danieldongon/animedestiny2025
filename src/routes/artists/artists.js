@@ -31,8 +31,8 @@ export const artists = [
   },
   {
     "name": "izzyxue_",
-    "socials": "https://ideloreart.com/#merch",
-    "description": "Come on by for fun and whimsical hand-screenprinted apparel, risograph prints, stickers and more~ Outside of merch, I'm also a mixed-media animator who works with VTubers!",
+    "socials": "https://www.instagram.com/izzyxue_?igsh=NTc4MTIwNjQ2YQ%3D%3D&utm_source=qr",
+    "description": "An artist who draws for the whimsy of it, which first usually comes in a series of scribbles at 3 AM, a splash in color and suddenly art comes out! My lack of sleep is replaced by my passion for making silly little drawings >:D usually sidequesting into random fandoms rabbit holes…",
     "location": "A5"
   },
   {

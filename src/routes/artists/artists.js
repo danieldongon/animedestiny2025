@@ -49,7 +49,7 @@ export const artists = [
   },
   {
     "name": "TalussAthner",
-    "socials": "https://www.instagram.com/talussathne",
+    "socials": "https://www.instagram.com/talussathner",
     "description": "Lover of Fire Emblem, Final Fantasy, Gainax, and many other things.",
     "location": "A8"
   },
@@ -157,7 +157,7 @@ export const artists = [
   },
   {
     "name": "Tsumomoca",
-    "socials": "https://www.tsumomoca.com/portfolio.html#/",
+    "socials": "https://www.tsumomoca.com/portfolio.html",
     "description": "",
     "location": "C4"
   },
@@ -265,7 +265,7 @@ export const artists = [
   },
   {
     "name": "kibawastaken",
-    "socials": "https://sites.google.com/view/kibaportfolio/2025-aa?authuser=0",
+    "socials": "https://sites.google.com/view/kibaportfolio/2025-aa",
     "description": "Local boba-powered cryptid that also happens to be an artist and cosplayer. I make original art and fanart inspired by my favorite anime, games, and media. I mainly specialize in prints, keychains, and stickers with current fandoms being Wuthering Waves, Valorant, Marvel Rivals, DC, and NieR mainly.",
     "location": "E3"
   },
@@ -367,7 +367,7 @@ export const artists = [
   },
   {
   "name": "aechungg",
-  "socials": " https://aechungg.carrd.co/#portfolio ",
+  "socials": "https://aechungg.carrd.co/#portfolio",
   "description": "illustrator for cozy anime aesthetics",
   "location": "F9"
   },
@@ -391,7 +391,7 @@ export const artists = [
   },
   {
     "name": "Parade Animals",
-    "socials": "Https://instagram.com/parade.animals",
+    "socials": "https://instagram.com/parade.animals",
     "description": "I’m an animator and artist selling stickers and prints, of my favorite anime and games such as Street Fighter, Guilty Gear, Frieren, and Chainsaw Man!",
     "location": "G3"
   },
@@ -457,13 +457,13 @@ export const artists = [
   },
   {
     "name": "Playland Japan",
-    "socials": "", 
-    "description": "We sell various sized stuffed animals and anime figurines. We had a store previously and have attached the yelp page for a sample of our products that we had then and plan to sell similar items: https://www.yelp.com/biz/playland-japan-san-francisco-2",
+    "socials": "https://www.yelp.com/biz/playland-japan-san-francisco-2", 
+    "description": "We sell various sized stuffed animals and anime figurines. We had a store previously and have attached the yelp page for a sample of our products that we had then and plan to sell similar items.",
     "location": "H8-H9"
   },
   {
     "name": "The Intermission Orchestra",
-    "socials": "intermissionberkeley.com",
+    "socials": "https://www.instagram.com/tioatberkeley/",
     "description": "The Intermission Orchestra at Berkeley is a wholly student-run orchestra that produces and performs arrangements of popular movie, video game, and anime soundtracks.  Our 100+ member club includes a robust photo/video, audio, and art staff.  Our art staff will be selling their original pieces in order to support our operations as a club!",
     "location": "H9"
   },

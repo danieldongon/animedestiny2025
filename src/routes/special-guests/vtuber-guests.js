@@ -47,7 +47,7 @@ export const vtubers = [
     "social_type":"twitter",
     "image":"/images/guests/Marpo Elder.png",
     "blurb":"Part-time dreamer, full-time chaos. Märpo Elder is a Korean-American VSinger here to help you unwind after a long week over a glass or three of whiskey. Dreams of being rich and unemployed, but currently is neither."
-  }
+  },
   {
     "name":"Stellar Goth",
     "socials":"https://x.com/StellarGoth",

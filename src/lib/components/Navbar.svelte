@@ -3,6 +3,7 @@
   let isOpen = false;
   let isHomeOpen = false;
   let isProgrammingOpen = false;
+  let isDay0Open = false;
   let ticketLink = 'https://buy.stripe.com/8x28wQ9Qcb1ccWl5ebbAs01';
   let discord = 'https://discord.com/invite/Xp4MUjG';
   let instagram = 'https://www.instagram.com/calanimagealpha/';
@@ -30,6 +31,14 @@
 
   function closeProgrammingDropdown() {
     isProgrammingOpen = false;
+  }
+
+  function openDay0Dropdown() { 
+    isDay0Open = true; 
+  }
+
+  function closeDay0Dropdown() { 
+    isDay0Open = false; 
   }
 </script>
 
@@ -88,6 +97,7 @@
     {#if isProgrammingOpen}
   <div class="dropdown-menu" in:fade={{ duration: 200 }} out:fade={{ duration: 300 }}>
     <!--keep this here for now, remove once the schedule part of the navbar is completed-->
+    <div class="category"> Cosplay Contest Info </div>
     <a href="/cosplay-contest">Cosplay Contest</a>
     <!--<div class="sub-links">To Be Announced - Stay Tuned!</div>-->
 
@@ -126,6 +136,39 @@
 {/if}
 
   </div>
+
+      <!-- Day 0 Dropdown -->
+    <div class="dropdown"
+       role="button"
+       aria-haspopup="true"
+       aria-expanded={isDay0Open}
+       tabindex="0"
+       on:mouseover={openDay0Dropdown}
+       on:mouseleave={closeDay0Dropdown}
+       on:focus={openDay0Dropdown}
+       on:blur={closeDay0Dropdown}>
+
+    <!-- Programming link with dropdown indicator -->
+    <a href="#" class="dropdown-toggle" aria-label="Programming menu">Day 0 Programming ▾</a>
+
+    <!-- Dropdown Menu -->
+  {#if isDay0Open}
+    <div class="dropdown-menu" in:fade={{ duration: 200 }} out:fade={{ duration: 300 }}>
+
+      <div class="category">Day 0 Events</div>
+      <div class="sub-links">
+        <!-- Events (Chronological)-->
+        <a href="/day-0#opening-ceremony">Opening Ceremony, Presented by Issei Bando</a>
+        <a href="/day-0#luxx">LUXX</a>
+        <a href="/day-0#hfc">Steel on Steel Historical Fencing Club</a>
+        <a href="/day-0#ncnf">Northern California Naginata Federation</a>
+        <a href="/day-0#nikkei-choral-ensemble">Nikkei Choral Ensemble</a>
+        <a href="/day-0#intermission-orchestra">The Intermission Orchestra</a>
+
+      </div>
+    </div>
+  {/if}
+  
   <a href="/cosplay">Cosplay</a>
   <a href="/exhibition">Exhibitions</a>
   <a href="/rules">Rules</a>
@@ -177,7 +220,8 @@
       <a href="/cosplay-contest" on:click={closeMenu} in:fade={{ duration: 500 }}>Cosplay Contest</a>
       <a href="/rules">Rules</a>
       <a href="/sponsors">Sponsors</a>
-      
+      <a href="/day-0" on:click={closeMenu} in:fade={{ duration: 500 }}>Day 0</a>
+
       <!-- Discord and Instagram Icons 
       <a href={discord} target="_blank" rel="noopener noreferrer" in:fade={{ duration: 500 }}>
          Join our Discord!

@@ -236,7 +236,7 @@
     </div>
           <a
       href={ticketLink}
-      class="block w-full bg-[#3F6CC9] py-7 -my-[6rem] text-center text-4xl font-bold uppercase tracking-wide text-white font-['Montserrat'] hover:bg-[#2F4898] transition-colors duration-200"
+      class=""block w-full shrink-0 bg-[#3F6CC9] py-7 text-center text-4xl font-bold uppercase tracking-wide text-white font-['Montserrat'] hover:bg-[#2F4898] transition-colors duration-200"
     >
       Buy Tickets
     </a>
@@ -333,14 +333,16 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
     background-color: #101030;
     opacity: 0;
     visibility: hidden;
     transform: translateY(-100%);
     transition: opacity 0.5s ease, transform 0.5s ease, visibility 0.5s ease;
     z-index: 20;
-    overflow-y: auto;
   }
 
   .mobile-menu.show {
@@ -365,12 +367,15 @@
   .menu-content {
     display: flex;
     flex-direction: column;
+    flex: 1;
+    min-height: 0;
     /*justify-content: center;*/
     /*align-items: center;*/
     padding-left: 2rem;
     padding-top: 3.5rem;
     font-family: 'Segoe UI', sans-serif;
     font-weight:200;
+    overflow-y: auto;
   }
 
   .menu-content a {

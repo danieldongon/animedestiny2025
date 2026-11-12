@@ -4,7 +4,7 @@
   let isHomeOpen = false;
   let isProgrammingOpen = false;
   let isDay0Open = false;
-  let ticketLink = 'https://buy.stripe.com/8x28wQ9Qcb1ccWl5ebbAs01';
+  let ticketLink = 'https://buy.stripe.com/8x2fZi8M81qC5tT363bAs05';
   let discord = 'https://discord.com/invite/Xp4MUjG';
   let instagram = 'https://www.instagram.com/calanimagealpha/';
 
@@ -369,11 +369,8 @@
     /*align-items: center;*/
     padding-left: 2rem;
     padding-top: 3.5rem;
-    height: 100%;
     font-family: 'Segoe UI', sans-serif;
     font-weight:200;
-    min-height: 0;
-    padding-bottom: 8rem;
   }
 
   .menu-content a {

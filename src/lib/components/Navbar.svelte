@@ -340,6 +340,7 @@
     transform: translateY(-100%);
     transition: opacity 0.5s ease, transform 0.5s ease, visibility 0.5s ease;
     z-index: 20;
+    overflow-y: auto;
   }
 
   .mobile-menu.show {
@@ -371,6 +372,8 @@
     height: 100%;
     font-family: 'Segoe UI', sans-serif;
     font-weight:200;
+    min-height: 0;
+    padding-bottom: 8rem;
   }
 
   .menu-content a {

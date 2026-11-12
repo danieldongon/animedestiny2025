@@ -138,7 +138,7 @@
   </div>
 
       <!-- Day 0 Dropdown -->
-    <div class="dropdown"
+  <div class="dropdown"
        role="button"
        aria-haspopup="true"
        aria-expanded={isDay0Open}
@@ -149,7 +149,7 @@
        on:blur={closeDay0Dropdown}>
 
     <!-- Programming link with dropdown indicator -->
-    <a href="#" class="dropdown-toggle" aria-label="Programming menu">Day 0 Programming ▾</a>
+    <a href="#" class="dropdown-toggle" aria-label="Day 0 menu">Day 0 Programming ▾</a>
 
     <!-- Dropdown Menu -->
   {#if isDay0Open}
@@ -168,6 +168,7 @@
       </div>
     </div>
   {/if}
+  </div>
   
   <a href="/cosplay">Cosplay</a>
   <a href="/exhibition">Exhibitions</a>

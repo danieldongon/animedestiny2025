@@ -236,7 +236,7 @@
     </div>
           <a
       href={ticketLink}
-      class=""block w-full shrink-0 bg-[#3F6CC9] py-7 text-center text-4xl font-bold uppercase tracking-wide text-white font-['Montserrat'] hover:bg-[#2F4898] transition-colors duration-200"
+      class="block w-full shrink-0 bg-[#3F6CC9] py-7 text-center text-4xl font-bold uppercase tracking-wide text-white font-['Montserrat'] hover:bg-[#2F4898] transition-colors duration-200"
     >
       Buy Tickets
     </a>

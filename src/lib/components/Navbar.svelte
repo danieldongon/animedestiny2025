@@ -60,7 +60,7 @@
           <a href="/">Homepage</a>
           <a href="/about">About AD</a>
           <a href="/artists">Artist Alley</a>
-          <a href="/#map-schedule">Schedule and Map</a>
+          <a href="/#map-schedule">Schedul and Map</a>
           <a href="/parking">Parking</a>
           <a href="/sponsors">Sponsors</a>
         </div>

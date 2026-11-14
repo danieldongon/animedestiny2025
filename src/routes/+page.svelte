@@ -281,7 +281,7 @@
     
       <!-- Schedule Section -->
       <div style="padding-right: 2rem;">
-        <p style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #485077; margin-bottom: 1rem;">To Be Announced - Stay Tuned!</p>
+       <!-- <p style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #485077; margin-bottom: 1rem;">To Be Announced - Stay Tuned!</p> -->
         <p style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: #485077; margin-bottom: 1.5rem;">
           Here is the schedule of events for Anime Destiny 2026. For more detailed descriptions of each event, please visit our <a href="/programming" style="color: #485077; text-decoration: underline;">Programming Page.</a>
         </p>

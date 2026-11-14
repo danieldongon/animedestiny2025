@@ -43,64 +43,61 @@
   </div>
 
   <div class="page-body">
-    <p style="font-family: 'Montserrat', sans-serif; font-size: 1.5rem; color: #485077; margin-bottom: 1rem;">To Be Announced - Stay Tuned!</p>
+    <!--<p style="font-family: 'Montserrat', sans-serif; font-size: 1.5rem; color: #485077; margin-bottom: 1rem;">To Be Announced - Stay Tuned!</p>-->
     <!-- Kerr Lobby -->
-    <!--
     <section id="kerr-lobby">
-      <h2>3rd Floor - Kerr Lobby</h2>
+      <h2>3rd Floor - Kerr Lobby Exhibit Hall</h2>
 
-      <section id="vfleet" class="program-card" class:glow={currentHash === "#vfleet"}>
-          <div class="name-bar"><h4>VFleet and Indie VTuber Meet-and-Greets</h4></div>
-          <p><strong>Location:</strong> Kerr Lobby</p>
+      <section id="emaqi" class="program-card" class:glow={currentHash === "#emaqi"}>
+          <div class="name-bar"><h4>Emaqi Manga App</h4></div>
+          <p><strong>Location:</strong> Kerr Lobby Exhibit Hall</p>
           <p><strong>Time:</strong> All Day</p>
-          <p>VTubers are taking over Anime Destiny! Visit the booth of our sponsor, VFleet Project, as they bring their cast of VTubers along with numerous other Indie VTubers for exclusive meet-and-greet opportunities! Also stop by the booth to learn more about VFleet and their mission involving ships and aircraft museums!</p>
-          <p style="text-align: center; font-weight: bold;">VTuber Meet and Greets</p>
           <p>
-            10:00AM - Josie-12 (M&amp;G)<br>
-            10:30AM - Eve-80, Lina-55 (M&amp;G)<br>
-            11:00AM - Anthony Talon (M&amp;G); Eve-80, Mayhem (iPad)<br>
-            11:30AM - AlienMixture, PillowDear (M&amp;G)<br>
-            12:00PM - Hara Rae Sol, Radiactive (M&amp;G)<br>
-            12:30PM - Mim, RIHSURI (M&amp;G)<br>
-            1:00PM - Nemimi Yane, Luci-04, LAZULI (M&amp;G); TRiGGERPHiSH (iPad)<br>
-            1:30PM - Nene Amano, Camizole Corzette (M&amp;G)<br>
-            <em>Note: Nene Amano’s meet-and-greet will be first-come, first-served; claim your ticket at registration by mentioning you are here for Nene (limit first ~30-35 people)</em><br>
-            2:00PM - Prawn Star Itsi, Utano Pandora (M&amp;G)<br>
-            2:30PM - Ali-60, Munii Shoda (M&amp;G)<br>
-            3:00PM - Kat-14, FA.ye-18, TRiGGERPHiSH (M&amp;G), Estelle, Nemimi Yane (iPad)<br>
-            3:30PM - Vampirate Odessa, Ami-35 (M&amp;G)<br>
-            4:00PM - Mayhem (M&amp;G)<br>
-            4:30PM - Lexie-16 (M&amp;G)<br>
-            5:00PM - Daiya Fortuna, Estelle, Snoozy (M&G), RIHSURI (iPad)<br>
-            5:30PM - Raki Kazuki (M&amp;G)
+            The emaqi manga app, developed by Orange! 
+            They will be doing a demo of the app and showing the manga titles on there, 
+            as well as free mini-games with prizes! 
+            There will also be free in-app points for attendees and lots of other fun things.
           </p>
           <div class="guess-song-image">
-            <img src="images\exhibition\vfleet.png" alt="Work in Progress" />
+            <img src="images\exhibition\emaqi26.png" alt="Work in Progress" />
           </div>
         </section>
 
-      <section id="pixiv" class="program-card" class:glow={currentHash === "#pixiv"}>
-          <div class="name-bar"><h4>pixiv Drawing Panel</h4></div>
-          <p><strong>Location:</strong> Kerr Lobby</p>
+      <section id="seeyuu" class="program-card" class:glow={currentHash === "#pixiv"}>
+          <div class="name-bar"><h4>SeeYuu Studio</h4></div>
+          <p><strong>Location:</strong> Kerr Lobby Exhibit Hall</p>
           <p><strong>Time:</strong> All Day</p>
-          <p>Come doodle on pixiv's drawing panel! Draw anything you want (as long as it's appropriate) and show off your creative flair at Anime Destiny. The panel will also be shared with pixiv for posting on their social media, so be sure to contribute to the panel! 
-            Note: Please be respectful of other people's drawings and experiences, we may have to remove inappropriate drawings or otherwise improper additions, as needed.</p>
+          <p>"SeeYuu Studio is a creative photography space in Fremont with themed sets, props, and studio rentals for your next shoot. 
+            We host cosplay events and workshops, bringing cosplayers and photographers together to create and connect.
+            Visit our Anime Destiny booth for an interactive photobooth experience, meet our team, and learn more about our studio—with a chance to win prizes!
+          </p>
+          <a href="https://www.seeyuustudio.com">www.seeyuustudio.com"</a>
           <div class="guess-song-image">
-            <img src="images\exhibition\pixiv.png" alt="Work in Progress" />
+            <img src="images\exhibition\SeeYuu Studio.png" alt="Work in Progress" />
           </div>
         </section>
 
-      <section id="neon-shrine" class="program-card" class:glow={currentHash === "#neon-shrine"}>
-          <div class="name-bar"><h4>Neon Shrine</h4></div>
-          <p><strong>Location:</strong> Kerr Lobby</p>
+      <section id="beyblade-x" class="program-card" class:glow={currentHash === "#neon-shrine"}>
+          <div class="name-bar"><h4>Beyblade X</h4></div>
+          <p><strong>Location:</strong> Kerr Lobby Exhibit Hall</p>
           <p><strong>Time:</strong> All Day</p>
-          <p>Neon Shrine is a group specializing in goods for VTubers and Idols, such as penlights, happi coats, muffler towels, uchiwa fans, shikishi autograph boards, holographic tickets, and more! Come check them out and purchase some merch for your favorite VTubers, including SanFlare's Peoni Astera and indie Utano Pandora!</p>
+          <p>The NorCal Beyblade League is bringing Beyblade to Anime Destiny! 
+            Stop by their booth for Beyblade freeplay, to try out the game, and ask any questions you may have about all things Beyblade!</p>
           <div class="guess-song-image">
-            <img src="images\exhibition\neon.png" alt="Work in Progress" />
+            <img src="images\exhibition\NorCal Beyblade League.png" alt="Work in Progress" />
           </div>
         </section>
+      
+      <section id="tytalis" class="program-card" class:glow={currentHash === "#neon-shrine"}>
+          <div class="name-bar"><h4>Tytalis</h4></div>
+          <p><strong>Location:</strong> Kerr Lobby Exhibit Hall</p>
+          <p><strong>Time:</strong> All Day</p>
+          <p>The booth of Tytalis Cosplay, one of our cosplay guests and Cosplay Contest judges! 
+            Tytalis will have stickers, prints, and other small items for sale, as well as props to show and illustrate cosplay techniques! 
+            Come support their cosplay journey!</p>
+        </section>
+
     </section>
-    -->
 
     <!-- Kerr Lobby -->
     <!--

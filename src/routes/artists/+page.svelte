@@ -38,6 +38,7 @@ import { fade } from 'svelte/transition';
 </script>
 
 <Navbar />
+
 <main>
   <div class="page-title">
     Artist Alley

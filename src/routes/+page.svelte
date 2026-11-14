@@ -60,6 +60,14 @@
   function closeOverlayADSchedule() {
     showOverlayADSchedule = false;
   }
+
+  let artistMaps = [
+  { src: '/images/Detailed Map (Artist Alley).png', alt: 'Artist Alley Map, part 1' },
+  { src: '/images/General_Map[1].png', alt: 'Artist Alley Map, part 2' }
+  ];
+
+  let selectedMap = null;
+
 </script>
 
 <Navbar />
@@ -217,29 +225,42 @@
     what artists are there, etc. -->
     <!-- Exhibitors Section -->
     <section>
+      <center>
       <h2 style="font-family: 'Roboto', sans-serif; font-size: 2rem; color: #485077; margin-bottom: 1rem;">Artist Alley/Exhibitors</h2>
-      <p style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #485077; margin-bottom: 1rem;">To Be Announced - Stay Tuned!</p>
-      <!-- <p style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #485077; margin-bottom: 1rem;">Many amazing artists and vendors are at Anime Destiny 2026! Explore and support their talent through the Artist Alley.</p> -->
-      <!-- <div class="content-container">
-        <img src="images/AD artist alley map.png" class="ADMap" alt="Artist Alley Map" on:click={openOverlayArtistMap} />
-        <div style="padding:1rem 0;">
-        <a on:click={openOverlayArtistMap}>Click for larger image!</a>
+      <p style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #485077; margin-bottom: 1rem;">Many amazing artists and vendors are at Anime Destiny 2026! Explore and support their talent through the Artist Alley.</p>
+      </center>
+
+    <div class="content-container">
+        <div class="map-row">
+        {#each artistMaps as map}
+          <button type="button" class="map-button" on:click={() => (selectedMap = map)}>
+            <img src={map.src} alt={map.alt} class="ADMap" draggable="false" />
+          </button>
+        {/each}
+      </div>
+      <p>Click an image for a larger view!</p>
+
+      {#if selectedMap}
+        <div class="overlay-artist-map" on:click={() => (selectedMap = null)} in:fade={{ duration: 200 }} out:fade={{ duration: 200 }}>
+          <button class="close-button-artist-map" on:click={() => (selectedMap = null)}>✕</button>
+          <img src={selectedMap.src} alt={selectedMap.alt} class="image-artist-map" on:click|stopPropagation />
         </div>
-        {#if showOverlayArtistMap}
-          <div class="overlay-artist-map"  on:click={closeOverlayArtistMap} in:fade={{ duration: 200 }} out:fade={{ duration: 200 }} >
-            <button class="close-button-artist-map" on:click={closeOverlayArtistMap}>✕</button>
-            <img src="images/AD artist alley map.png" on:click|stopPropagation class="image-artist-map" alt="Fullscreen Artist Alley Map" />
-          </div>
-        {/if} -->                                    <!-- Restore once an artist alley map is completed -->
-        <!-- <h2 style="font-family: 'Roboto', sans-serif; font-size: 2rem; color: #485077; margin-bottom: 1rem;">AD 2023 Artist Alley Showcase</h2>
-        <div class="embed-wrapper"> -->
+      {/if}
+    </div>
+    
+                        <!-- Restore once an artist alley map is completed -->
+        <center>
+        <h2 style="font-family: 'Roboto', sans-serif; font-size: 2rem; color: #485077; margin-bottom: 1rem;">AD 2023 Artist Alley Showcase</h2>
+        </center>
+        <div class="embed-wrapper"> 
           <!-- YouTube Embed -->
-          <!-- <div id="embed youtube-embed">
+          <div id="embed youtube-embed">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/06DdqfWonN4?feature=shared" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-          </div> -->
-        <!-- </div>
+          </div>
+        </div>
+        <center>
          <a href="/artists" class="section-link">View the list of artists in AD 2026 here!</a>
-      </div> -->
+        </center>
     </section>
     <hr />
 
@@ -339,7 +360,6 @@
     </section> -->
 
     <!-- TODO FAQ section? -->
-  </div>
 
 </main>
 
@@ -634,6 +654,35 @@
   .thick-divider {
     border-top-width: 4px;
   }
+
+  .map-row {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
+  flex-wrap: wrap;          /* stacks on narrow screens */
+}
+
+.map-button {
+  flex: 1 1 300px;
+  max-width: 48%;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.map-button .ADMap {
+  width: 100%;
+  height: auto;
+  max-height: 40rem;
+  object-fit: contain;
+}
+
+@media (max-width: 768px) {
+  .map-button { max-width: 100%; }
+}
+
 </style>
 
 <Footer/>

@@ -3,7 +3,8 @@
   let isOpen = false;
   let isHomeOpen = false;
   let isProgrammingOpen = false;
-  let ticketLink = 'https://buy.stripe.com/8x28wQ9Qcb1ccWl5ebbAs01';
+  let isDay0Open = false;
+  let ticketLink = 'https://buy.stripe.com/8x2fZi8M81qC5tT363bAs05';
   let discord = 'https://discord.com/invite/Xp4MUjG';
   let instagram = 'https://www.instagram.com/calanimagealpha/';
 
@@ -30,6 +31,14 @@
 
   function closeProgrammingDropdown() {
     isProgrammingOpen = false;
+  }
+
+  function openDay0Dropdown() { 
+    isDay0Open = true; 
+  }
+
+  function closeDay0Dropdown() { 
+    isDay0Open = false; 
   }
 </script>
 
@@ -88,55 +97,79 @@
     {#if isProgrammingOpen}
   <div class="dropdown-menu" in:fade={{ duration: 200 }} out:fade={{ duration: 300 }}>
     <!--keep this here for now, remove once the schedule part of the navbar is completed-->
+    <div class="category"> Cosplay Contest Info </div>
     <a href="/cosplay-contest">Cosplay Contest</a>
     <!--<div class="sub-links">To Be Announced - Stay Tuned!</div>-->
 
     <!-- Category: 3rd Floor - Stephens Hall -->
-    <!--
-    <div class="category">Pauley Ballroom (3rd Floor)</div>
+    <div class="category"> Pauley Ballroom (3rd Floor)</div>
     <div class="sub-links">
       <a href="/artists">Artist Alley</a>
       <a href="/special-guests">Special Guests</a>
     </div>
-    -->
 
-    <!--
     <div class="category">Stephens Hall (3rd Floor)</div>
-    -->
     <div class="sub-links">
       <!-- Events (Chronological)-->
       <!-- Perhaps add start and end time for artist alley?-->
-      <!--
-      <a href="/programming#panel-guess-song">Guess The Song: Anime Edition</a>
-      <a href="/programming#event-nene-qna">Q&A with Nene Amano</a>
-      <a href="/programming#event-shipgirls">Shipgirls and Jetgirl VTubers? : Welcome to VFleet Project</a>
-      <a href="/programming#event-jpop-kpop">J-Pop/K-Pop Random Play Dance</a>
-      <a href="/programming#event-himeko-firefly">All Aboard the Astral Express with Himeko and Firefly!</a>
-      <a href="/programming#event-nikkei-choral-performance">Nikkei Choral Ensemble</a>
-      <a href="/programming#event-genshin-club">Genshin at Berkeley Event</a>
-      -->
+      <a href="/programming#voice-acting-contest">CAA Event: Voice Acting Contest</a>
+      <a href="/programming#manga-licensing">How Is Manga Delivered To You?</a>
+      <a href="/programming#fansubbing">Fansubbing for Dummies</a>
+      <a href="/programming#vtubing-irl">Where VTubing Is Going IRL</a>
+      <a href="/programming#nikkei-choral">Nikkei Choral Ensemble</a>
+      <a href="/programming#touhou">All Roads Lead to Touhou</a>
+      <a href="/programming#genshin-club">Genshin at Berkeley Commission Event</a>
     </div>
 
     <!-- Category: 5th Floor - Tilden Room -->
-    <!--
     <div class="category">Tilden Room (5th Floor)</div>
-    -->
     <div class="sub-links">
       <!-- Events (Chronological)-->
-      <!--
-      <a href="/programming#panel-issei-band">Issei Band: Student Anime Band & Opening Ceremony</a>
-      <a href="/programming#panel-cosplay-competition-101">Cosplay Contest 101 Panel & Contest Pre-Judging</a>
-      <a href="/programming#event-cosplay-comp">Cosplay Contest</a>
-      <a href="/programming#event-otaku-ongaku">Otaku Ongaku: Nerd Music LIVE!</a>
-      <a href="/programming#event-wotagei">Introduction to Wotagei 101</a>
-      <a href="/programming#event-intermission">The Intermission Orchestra</a>
-      <a href="/programming#event-virtual-bears">Virtual Bears: VTuber Mini Concert</a>
-      -->
+      <a href="/programming#cosplay-101">Cosplay Contest 101 & Pre-Judging</a>
+      <a href="/programming#cosplay-contest-event">Cosplay Contest</a>
+      <a href="/programming#curtain-call">Curtain Call with Furina and Neuvillette</a>
+      <a href="/programming#intermission-orchestra">The Intermission Orchestra</a>
+      <a href="/programming#sixth-station">Sixth Station Trio</a>
+      <a href="/programming#virtual-bears">Virtual Bears: VTuber Mini Concert</a>
     </div>
   </div>
 {/if}
 
   </div>
+
+      <!-- Day 0 Dropdown -->
+  <div class="dropdown"
+       role="button"
+       aria-haspopup="true"
+       aria-expanded={isDay0Open}
+       tabindex="0"
+       on:mouseover={openDay0Dropdown}
+       on:mouseleave={closeDay0Dropdown}
+       on:focus={openDay0Dropdown}
+       on:blur={closeDay0Dropdown}>
+
+    <!-- Programming link with dropdown indicator -->
+    <a href="#" class="dropdown-toggle" aria-label="Day 0 menu">Day 0 Programming ▾</a>
+
+    <!-- Dropdown Menu -->
+  {#if isDay0Open}
+    <div class="dropdown-menu" in:fade={{ duration: 200 }} out:fade={{ duration: 300 }}>
+
+      <div class="category">Day 0 Events</div>
+      <div class="sub-links">
+        <!-- Events (Chronological)-->
+        <a href="/day-0#opening-ceremony">Opening Ceremony, Presented by Issei Bando</a>
+        <a href="/day-0#luxx">LUXX</a>
+        <a href="/day-0#hfc">Steel on Steel Historical Fencing Club</a>
+        <a href="/day-0#ncnf">Northern California Naginata Federation</a>
+        <a href="/day-0#nikkei-choral-ensemble">Nikkei Choral Ensemble</a>
+        <a href="/day-0#intermission-orchestra">The Intermission Orchestra</a>
+
+      </div>
+    </div>
+  {/if}
+  </div>
+  
   <a href="/cosplay">Cosplay</a>
   <a href="/exhibition">Exhibitions</a>
   <a href="/rules">Rules</a>
@@ -188,7 +221,8 @@
       <a href="/cosplay-contest" on:click={closeMenu} in:fade={{ duration: 500 }}>Cosplay Contest</a>
       <a href="/rules">Rules</a>
       <a href="/sponsors">Sponsors</a>
-      
+      <a href="/day-0" on:click={closeMenu} in:fade={{ duration: 500 }}>Day 0</a>
+
       <!-- Discord and Instagram Icons 
       <a href={discord} target="_blank" rel="noopener noreferrer" in:fade={{ duration: 500 }}>
          Join our Discord!
@@ -202,7 +236,7 @@
     </div>
           <a
       href={ticketLink}
-      class="block w-full bg-[#3F6CC9] py-7 -my-[6rem] text-center text-4xl font-bold uppercase tracking-wide text-white font-['Montserrat'] hover:bg-[#2F4898] transition-colors duration-200"
+      class="block w-full shrink-0 bg-[#3F6CC9] py-7 text-center text-4xl font-bold uppercase tracking-wide text-white font-['Montserrat'] hover:bg-[#2F4898] transition-colors duration-200"
     >
       Buy Tickets
     </a>
@@ -299,7 +333,10 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
     background-color: #101030;
     opacity: 0;
     visibility: hidden;
@@ -330,13 +367,15 @@
   .menu-content {
     display: flex;
     flex-direction: column;
+    flex: 1;
+    min-height: 0;
     /*justify-content: center;*/
     /*align-items: center;*/
     padding-left: 2rem;
     padding-top: 3.5rem;
-    height: 100%;
     font-family: 'Segoe UI', sans-serif;
     font-weight:200;
+    overflow-y: auto;
   }
 
   .menu-content a {

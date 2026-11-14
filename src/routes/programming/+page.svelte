@@ -54,7 +54,7 @@
       <div class="panel-category">
         <!--<h3>Panels</h3>-->
 
-         <section id="panel-template" class="program-card" class:glow={currentHash === "#panel-template"}>
+         <section id="voice-acting-contest" class="program-card" class:glow={currentHash === "#panel-template"}>
           <div class="name-bar"><h4>CAA Event: Voice Acting Contest</h4></div>
            <p><strong>Location:</strong> Stephens Room</p>
           <p><strong>Time:</strong> 10:00 AM - 10:45 AM</p>
@@ -67,7 +67,7 @@
           </div>
         </section>
 
-        <section id="panel-template" class="program-card" class:glow={currentHash === "#panel-template"}>
+        <section id="manga-licensing" class="program-card" class:glow={currentHash === "#panel-template"}>
           <div class="name-bar"><h4>How is Manga Delivered To You? Licensing and Digital Publication</h4></div>
            <p><strong>Location:</strong> Stephens Room</p>
           <p><strong>Time:</strong> 11:00 AM - 12:00 PM</p>
@@ -78,7 +78,7 @@
           </div>
         </section>
 
-        <section id="panel-template" class="program-card" class:glow={currentHash === "#panel-template"}>
+        <section id="fansubbing" class="program-card" class:glow={currentHash === "#panel-template"}>
           <div class="name-bar"><h4>Fansubbing for Dummies</h4></div>
            <p><strong>Location:</strong> Stephens Room</p>
           <p><strong>Time:</strong> 12:15 PM - 1:00 PM</p>
@@ -89,7 +89,7 @@
           </div>
         </section>
 
-        <section id="panel-template" class="program-card" class:glow={currentHash === "#panel-template"}>
+        <section id="vtubing-irl" class="program-card" class:glow={currentHash === "#panel-template"}>
           <div class="name-bar"><h4>Where VTubing Is Going IRL</h4></div>
            <p><strong>Location:</strong> Stephens Room</p>
           <p><strong>Time:</strong> 1:15 PM - 2:00 PM</p>
@@ -100,7 +100,7 @@
           </div>
         </section>
 
-        <section id="panel-template" class="program-card" class:glow={currentHash === "#panel-template"}>
+        <section id="nikkei-choral" class="program-card" class:glow={currentHash === "#panel-template"}>
           <div class="name-bar"><h4>Nikkei Choral Ensemble</h4></div>
            <p><strong>Location:</strong> Stephens Room</p>
           <p><strong>Time:</strong> 2:30 PM - 3:00 PM</p>
@@ -111,7 +111,7 @@
           </div>
         </section>
 
-        <section id="panel-template" class="program-card" class:glow={currentHash === "#panel-template"}>
+        <section id="touhou" class="program-card" class:glow={currentHash === "#panel-template"}>
           <div class="name-bar"><h4>All Roads Lead to Touhou: Past, Present, and Future</h4></div>
            <p><strong>Location:</strong> Stephens Room</p>
           <p><strong>Time:</strong> 3:30 PM - 4:30 PM</p>
@@ -122,7 +122,7 @@
           </div>
         </section>
 
-        <section id="panel-template" class="program-card" class:glow={currentHash === "#panel-template"}>
+        <section id="genshin-club" class="program-card" class:glow={currentHash === "#panel-template"}>
           <div class="name-bar"><h4>Genshin at Berkeley Commission Event</h4></div>
            <p><strong>Location:</strong> Stephens Room</p>
           <p><strong>Time:</strong> 5:00 PM - 7:00 PM</p>
@@ -133,7 +133,7 @@
           </div>
         </section>
 
-        <section id="panel-template" class="program-card" class:glow={currentHash === "#panel-template"}>
+        <section id="cosplay-101" class="program-card" class:glow={currentHash === "#panel-template"}>
           <div class="name-bar"><h4>Cosplay Contest 101 & Costume Pre-Judging</h4></div>
            <p><strong>Location:</strong> Tilden Room</p>
           <p><strong>Time:</strong> 10:00 AM - 11:30 AM</p>
@@ -144,7 +144,7 @@
           </div>
         </section>
 
-        <section id="panel-template" class="program-card" class:glow={currentHash === "#panel-template"}>
+        <section id="cosplay-contest-event" class="program-card" class:glow={currentHash === "#panel-template"}>
           <div class="name-bar"><h4>Cosplay Contest</h4></div>
            <p><strong>Location:</strong> Tilden Room</p>
           <p><strong>Time:</strong> 11:30 AM - 12:30 PM</p>
@@ -155,7 +155,7 @@
           </div>
         </section>
 
-        <section id="panel-template" class="program-card" class:glow={currentHash === "#panel-template"}>
+        <section id="curtain-call" class="program-card" class:glow={currentHash === "#panel-template"}>
           <div class="name-bar"><h4>Curtain Call with Furina and Neuvillette</h4></div>
            <p><strong>Location:</strong> Tilden Room</p>
           <p><strong>Time:</strong> 1:00 PM - 2:00 PM</p>
@@ -166,7 +166,7 @@
           </div>
         </section>
 
-        <section id="panel-template" class="program-card" class:glow={currentHash === "#panel-template"}>
+        <section id="intermission-orchestra" class="program-card" class:glow={currentHash === "#panel-template"}>
           <div class="name-bar"><h4>The Intermission Orchestra</h4></div>
            <p><strong>Location:</strong> Tilden Room</p>
           <p><strong>Time:</strong> 2:30 PM - 3:30 PM</p>
@@ -177,7 +177,7 @@
           </div>
         </section>
 
-        <section id="panel-template" class="program-card" class:glow={currentHash === "#panel-template"}>
+        <section id="sixth-station" class="program-card" class:glow={currentHash === "#panel-template"}>
           <div class="name-bar"><h4>Sixth Station Trio Performs Anime OST and VGM</h4></div>
            <p><strong>Location:</strong> Tilden Room</p>
           <p><strong>Time:</strong> 3:45 PM - 4:45 PM</p>
@@ -188,14 +188,16 @@
           </div>
         </section>
 
-        <section id="panel-template" class="program-card" class:glow={currentHash === "#panel-template"}>
+        <section id="virtual-bears" class="program-card" class:glow={currentHash === "#panel-template"}>
           <div class="name-bar"><h4>Virtual Bears: VTuber Mini Concert</h4></div>
            <p><strong>Location:</strong> Tilden Room</p>
           <p><strong>Time:</strong> 5:30 PM - 7:00 PM</p>
-          <p>Anime Destiny’s live VTuber concert full of energy, good vibes, and a perfect way to close off the night! The full concert line-up will be announced shortly~ please stay tuned!
+          <p> Join us for an incredible close to Anime Destiny 2026, featuring amazing performances from some of your favorite VTubers! Anime Destiny’s live VTuber concert full of energy, good vibes, and a perfect way to close off the night!
+            <br>
+            <br> Featuring: Kori-Oujo, Thor Runefull, Apollo Ryze, SnailMeru, FAye-18, StellarGoth, Yoro Yoyo, and Hiiragi Yuu!
           </p>
           <div class="std-event-image">
-            <img src="images\" alt="Work in Progress" />
+            <img src="images\Virtual Bears_ VTuber Mini Concert.png" alt="Work in Progress" />
           </div>
         </section>
 

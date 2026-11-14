@@ -4,18 +4,25 @@ import Navbar from '$lib/components/Navbar.svelte';
 import { artists } from './artists.js';
 import { fade } from 'svelte/transition';
 
-  // Utility function to determine if the socials field is a URL
-  function isUrl(socials) {
-    if (Array.isArray(socials)) return false;
-    return socials.startsWith('http://') || socials.startsWith('https://') || socials.includes('.co');
+  // Utility function to check for an http:// or https:// prefix, in any letter case
+  function hasProtocol(s) {
+    return /^https?:\/\//i.test(s);
   }
 
-  // Helper function to add protocol if missing
+  // Utility function to determine if the socials field is a URL
+  function isUrl(socials) {
+    if (typeof socials !== 'string') return false;
+    const s = socials.trim();
+    return hasProtocol(s) || s.includes('.co');
+  }
+
+  // Helper function to add protocol if missing (an existing one is lowercased)
   function formatUrl(socials) {
-    if (socials.startsWith('http://') || socials.startsWith('https://')) {
-      return socials;
+    const s = socials.trim();
+    if (hasProtocol(s)) {
+      return s.replace(/^https?:\/\//i, (protocol) => protocol.toLowerCase());
     }
-    return `https://${socials}`;
+    return `https://${s}`;
   }
 
   let showOverlayArtistMap = false;
@@ -37,7 +44,11 @@ import { fade } from 'svelte/transition';
     Artist Alley
   </div>
   <div class="artists-info">
-    <p style="font-family: 'Montserrat', sans-serif; font-size: 1.5rem; color: #485077; margin-bottom: 1rem;">To Be Announced - Stay Tuned!</p>
+  <!--The Artist Alley Map for AD 2026-->
+  <center>
+  <p style="font-family: 'Montserrat', sans-serif; font-size: 2.5rem; color: #485077; margin-bottom: 1rem; font-weight: bold;"> Artist Alley Map </p>
+   <p style="font-family: 'Montserrat', sans-serif; font-size: 1.0rem; color: #a0bb44; margin-bottom: 1rem; font-weight: bold;"> Check out the cool artists and activities in the Artist Alley!</p>
+  </center>
     <!--
     <p>Please be mindful of artists' original works and refrain from explicit photography/recording of artists' creations unless you have permission.</p>
     <p>Anime Destiny and Cal Animage Alpha do not support the distribution or showcasing of AI art.</p>
@@ -45,23 +56,22 @@ import { fade } from 'svelte/transition';
   </div>
 
   <!-- Remove this comment once the final artist alley map is complete-->
-  <!--
+
   <div class="content-container">
-  <img src="images/AD 2025 Detailed Map.png" class="ADMap" alt="Artist Alley Map" on:click={openOverlayArtistMap} />
+  <img src="/images/Detailed Map (Artist Alley).png" class="ADMap" alt="Artist Alley Map" on:click={openOverlayArtistMap} />
     <div style="padding:1rem 0;">
     <a on:click={openOverlayArtistMap}>Click for larger image!</a>
     </div>
     {#if showOverlayArtistMap}
       <div class="overlay-artist-map"  on:click={closeOverlayArtistMap} in:fade={{ duration: 200 }} out:fade={{ duration: 200 }} >
         <button class="close-button-artist-map" on:click={closeOverlayArtistMap}>✕</button>
-        <img src="images/AD 2025 Detailed Map.png" on:click|stopPropagation class="image-artist-map" alt="Fullscreen Artist Alley Map" />
+        <img src="/images/Detailed Map (Artist Alley).png"  on:click|stopPropagation class="image-artist-map" alt="Fullscreen Artist Alley Map" />
       </div>
     {/if}
 
   </div>
-  -->
 
-  <!--
+ 
   <div class="artists-grid">
     {#each artists as { name, socials, description, location }}
       <div class="artist-card">
@@ -70,8 +80,8 @@ import { fade } from 'svelte/transition';
         </div>
         
         {#if socials && isUrl(socials)}
-          <a href="{formatUrl(socials)}" target="_blank" rel="noopener noreferrer">{socials}</a>
-        {:else if socials !== ""}
+          <a href="{formatUrl(socials)}" target="_blank" rel="noopener noreferrer">{socials.trim()}</a>
+        {:else if socials && String(socials).trim() !== ""}
           <p>Social Media: {socials}</p>
         {/if}
   
@@ -83,7 +93,7 @@ import { fade } from 'svelte/transition';
       </div>
     {/each}
   </div>
-  -->
+  
 </main>
 
 <style>
